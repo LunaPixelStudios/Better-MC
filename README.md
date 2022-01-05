@@ -1,1 +1,1 @@
-# Better-Minecraft-FORGE-1.18
+https://www.curseforge.com/minecraft/modpacks/better-minecraft-modpack-new
