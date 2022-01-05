@@ -22,7 +22,7 @@ body:
     -   type: textarea
         attributes:
             label: Expected Result
-            description: A clear and concise description of what you expected to happen
+            description: A clear and concise description of what you expected to happen - example: crash
         validations:
             required: true
     -   type: textarea
@@ -69,7 +69,7 @@ body:
     -   type: dropdown
         attributes:
             label: Modloader
-            description: The version of Minecraft you were using when the bug occured
+            description: The version of Modloader you were using when the bug occured
             options:
                 - "Forge"
                 - "Fabric"
