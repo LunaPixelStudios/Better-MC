@@ -18,13 +18,7 @@ body:
                 3.
                 ...
         validations:
-            required: true
-    -   type: textarea
-        attributes:
-            label: Expected Result
-            description: A clear and concise description of what you expected to happen
-        validations:
-            required: true
+            required: false
     -   type: textarea
         attributes:
             label: Screenshots and Videos
@@ -81,12 +75,6 @@ body:
         attributes:
             label: Other Mods
             description: Any other mods you added to our packs? if yes please list any other mods.
-        validations:
-            required: false
-    -   type: textarea
-        attributes:
-            label: Additional Context
-            description: Add any extra context about the bug here
         validations:
             required: false
     -   type: markdown
