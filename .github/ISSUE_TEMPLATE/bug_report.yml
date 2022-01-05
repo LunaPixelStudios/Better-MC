@@ -75,11 +75,19 @@ body:
                 - "Fabric"
         validations:
             required: true
-
+    -   type: dropdown
+        attributes:
+            label: Optifine
+            description: Did you used Optifine in our packs?
+            options:
+                - "I used Optifine"
+                - "No"
+        validations:
+            required: true
     -   type: textarea
         attributes:
             label: Other Mods
-            description: Please list any other mods that were running when the crash happened
+            description: Any other mods you added to our packs? if yes please list any other mods.
         validations:
             required: false
     -   type: textarea
