@@ -62,6 +62,12 @@ body:
                 - "Fabric"
         validations:
             required: true
+    -   type: textarea
+        attributes:
+            label: Modpack Version
+            description: The Modpack version you where using example bmc v52
+        validations:
+            required: false
     -   type: dropdown
         attributes:
             label: Optifine
