@@ -43,6 +43,7 @@ body:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
             options:
+                - "1.12"
                 - "1.16"
                 - "1.18"
         validations:
