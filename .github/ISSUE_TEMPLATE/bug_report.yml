@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a bug report to help us improve The Abyss II
+description: Create a bug report to help us improve Better Minecraft
 labels: [ "bug" ]
 body:
     -   type: textarea
@@ -62,8 +62,8 @@ body:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
             options:
-                - "1.16.5"
-                - "1.16.4"
+                - "1.16"
+                - "1.18"
         validations:
             required: true
     -   type: dropdown
@@ -71,17 +71,11 @@ body:
             label: Modloader
             description: The version of Minecraft you were using when the bug occured
             options:
-                - "Forge" 
+                - "Forge"
                 - "Fabric"
         validations:
             required: true
-    -   type: input
-        attributes:
-            label: Forge Version
-            description: The version of Forge you were using when the bug occured
-            placeholder: 36.2.20
-        validations:
-            required: true
+
     -   type: textarea
         attributes:
             label: Other Mods
@@ -96,4 +90,4 @@ body:
             required: false
     -   type: markdown
         attributes:
-            value: "Thank you for taking the time to make this bug report and to help improve The Abyss II"
+            value: "Thank you for taking the time to make this bug report and to help improve Better Minecraft"
