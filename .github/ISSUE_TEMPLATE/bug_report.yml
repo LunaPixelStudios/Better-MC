@@ -66,15 +66,7 @@ body:
                 - "1.16.4"
         validations:
             required: true
-    -   type: dropdown
-        attributes:
-            label: Minecraft Version
-            description: The version of Minecraft you were using when the bug occured
-            options:
-                - "1.16.5"
-                - "1.16.4"
-        validations:
-            required: true
+
     -   type: input
         attributes:
             label: Forge Version
