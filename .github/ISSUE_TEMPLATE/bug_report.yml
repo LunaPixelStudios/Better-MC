@@ -46,19 +46,6 @@ body:
             required: true
     -   type: dropdown
         attributes:
-            label: Mod Version
-            description: The version of the mod you were using when the bug occured
-            options:
-                - "1.9.X or older"
-                - "2.0.0"
-                - "2.0.0-1"
-                - "2.0.0-2"
-                - "2.0.0-3"
-                - "2.0.0-4"
-        validations:
-            required: true
-    -   type: dropdown
-        attributes:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
             options:
@@ -73,6 +60,13 @@ body:
             options:
                 - "Forge"
                 - "Fabric"
+        validations:
+            required: true
+    -   type: input
+        attributes:
+            label: Modpack Version
+            description: The version of the pack you where using - example v52.5
+            placeholder: enter the modpack version
         validations:
             required: true
     -   type: dropdown
