@@ -62,13 +62,6 @@ body:
                 - "Fabric"
         validations:
             required: true
-    -   type: input
-        attributes:
-            label: Modpack Version
-            description: The version of the pack you where using - example v52.5
-            placeholder: enter the modpack version
-        validations:
-            required: true
     -   type: dropdown
         attributes:
             label: Optifine
