@@ -62,7 +62,7 @@ body:
                 - "Fabric"
         validations:
             required: true
-    -   type: textarea
+    -   type: input
         attributes:
             label: Modpack Version
             description: The Modpack version you where using example bmc v52
