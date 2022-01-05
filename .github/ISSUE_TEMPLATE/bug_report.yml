@@ -71,8 +71,8 @@ body:
             label: Modloader
             description: The version of Minecraft you were using when the bug occured
             options:
-                - "Forge"
-                - "Fabric"
+                - "Forge" labels: [ "bug" ]
+                - "Fabric" labels: [ "bug" ]
         validations:
             required: true
     -   type: input
