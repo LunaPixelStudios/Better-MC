@@ -46,6 +46,7 @@ body:
                 - "1.12"
                 - "1.16"
                 - "1.18"
+                - "1.19"
         validations:
             required: true
     -   type: dropdown
