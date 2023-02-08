@@ -6,3 +6,6 @@ Better MC [FORGE] - BMC2 = FORGE 1.18.2 - https://www.curseforge.com/minecraft/m
 
 Better MC [FORGE] - BMC1 = FORGE 1.16.5 - https://www.curseforge.com/minecraft/modpacks/better-mc-modpack
 
+Better MC [PLUS] - BMP1 = FORGE 1.16.5 - https://www.curseforge.com/minecraft/modpacks/better-mc-plus
+
+Better MC [PLUS] - BMP2 = FORGE 1.18.2 - https://www.curseforge.com/minecraft/modpacks/better-mc-plus
