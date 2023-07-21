@@ -64,15 +64,6 @@ body:
             description: The Modpack version you where using example bmc v52
         validations:
             required: true
-    -   type: dropdown
-        attributes:
-            label: Optifine
-            description: Did you used Optifine in our packs?
-            options:
-                - "I used Optifine"
-                - "No"
-        validations:
-            required: true
     -   type: textarea
         attributes:
             label: Other Mods
