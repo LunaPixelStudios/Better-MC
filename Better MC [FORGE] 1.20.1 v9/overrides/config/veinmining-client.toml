@@ -1,7 +1,0 @@
-#If maxBlocksBase is 0, determines how to activate vein mining.
-#Allowed Values: STANDING, CROUCHING, HOLD_KEY_DOWN
-activationState = "HOLD_KEY_DOWN"
-#If maxBlocksBase is greater than 0, determines how to activate vein mining.
-#Allowed Values: STANDING, CROUCHING, HOLD_KEY_DOWN
-activationStateWithoutEnchantment = "HOLD_KEY_DOWN"
-

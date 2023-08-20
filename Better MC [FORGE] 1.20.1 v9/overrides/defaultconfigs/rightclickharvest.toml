@@ -1,5 +1,0 @@
-requireHoe = true
-harvestInRadius = true
-#Allowed Values: NONE, LOW, NORMAL, HIGH
-hungerLevel = "NORMAL"
-
