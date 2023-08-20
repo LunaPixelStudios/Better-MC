@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "seasonal"
+	group: "5EC606153AA8CA77"
+	icon: "sereneseasons:calendar"
+	id: "712EEC29E9F58AEC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "44FA4ABE94EAD177"
+			rewards: [{
+				id: "673492CDB04D587C"
+				item: "snowyspirit:winter_disc"
+				type: "item"
+			}]
+			subtitle: "Can be placed on the ground like a boat. Lets you slide down hills and other surfaces."
+			tasks: [{
+				id: "00D3FA019EA1A948"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "snowyspirit:sleds"
+					}
+				}
+				title: "Any #snowyspirit:sleds"
+				type: "item"
+			}]
+			title: "Craft a &bSled"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0EF8EA8214FEEAB7"
+			rewards: [{
+				count: 20
+				id: "627BF9300FFA13DE"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			subtitle: "May your holidays be sweet!"
+			tasks: [{
+				id: "0CFA7B64A6A626F5"
+				item: "snowyspirit:candy_cane_block"
+				type: "item"
+			}]
+			title: "Craft a &cC&fa&cn&fd&cy &fC&ca&fn&ce &fB&cl&fo&cc&fk"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "6F24276D322F6549"
+			rewards: [{
+				id: "10CF92B2D27066E2"
+				item: "supplementaries:present_blue"
+				type: "item"
+			}]
+			subtitle: "Used to craft a variety of &eGingerbread&r-related decoration blocks."
+			tasks: [{
+				id: "5C961FE3126D06E9"
+				item: "snowyspirit:gingerbread"
+				type: "item"
+			}]
+			title: "Craft &eGingerbread"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "7BBCCB63DFCBB79E"
+			rewards: [{
+				id: "0FEC804014762B78"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			subtitle: "A cute &fSnow Golem &rdecoration!"
+			tasks: [{
+				id: "5C037697AFAC57B9"
+				item: "plushies:snow_golem"
+				type: "item"
+			}]
+			title: "Craft a &fSnow Golem Plushie"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "40BA61DBF53991AA"
+			rewards: [{
+				id: "617CA145B2B21A1E"
+				item: "snowyspirit:snow_globe"
+				type: "item"
+			}]
+			subtitle: "A great way to give gifts to friends (or yourself)"
+			tasks: [{
+				id: "108C9F26C2870B30"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:presents"
+					}
+				}
+				title: "Any #supplementaries:presents"
+				type: "item"
+			}]
+			title: "Craft a &dPresent"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "6E062250A11D197E"
+			rewards: [
+				{
+					id: "352AC99055A00865"
+					item: {
+						Count: 1b
+						id: "frosted_friends:ice_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48AD5B101A43F208"
+					item: {
+						Count: 1b
+						id: "frosted_friends:ice_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35B3BE7A145F7B9F"
+					item: {
+						Count: 1b
+						id: "frosted_friends:ice_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Santa lost his hat"
+			tasks: [{
+				id: "02B25A7336FFBD77"
+				item: {
+					Count: 1b
+					id: "frosted_friends:christmas_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &cSanta Hat&c"
+			x: -1.0d
+			y: -0.5d
+		}
+	]
+	title: " &fSeasonal"
+}

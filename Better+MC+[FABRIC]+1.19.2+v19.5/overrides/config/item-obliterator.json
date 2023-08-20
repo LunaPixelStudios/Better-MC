@@ -1,0 +1,9 @@
+{
+  "blacklisted_items": [
+    "bygonenether:gilded_netherite_leggings",
+    "bygonenether:gilded_netherite_helmet",
+    "bygonenether:gilded_netherite_chestplate",
+    "bygonenether:gilded_netherite_boots",
+    "supplementaries:slingshot"
+  ]
+}

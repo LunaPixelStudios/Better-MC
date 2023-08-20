@@ -1,0 +1,6 @@
+#If enabled, hides the config button from the backpack screen
+hideConfigButton = false
+#The alignment of the buttons in the backpack inventory screen
+#Allowed Values: LEFT, RIGHT
+buttonAlignment = "LEFT"
+

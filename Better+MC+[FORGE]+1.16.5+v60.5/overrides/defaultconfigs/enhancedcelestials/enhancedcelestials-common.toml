@@ -1,0 +1,36 @@
+
+#Blood Moon Settings
+[Blood_Moon_Settings]
+	#Multiply the monster spawn cap (70 monsters) by this value.
+	#Remember, more mobs = more server lag, so set this number responsibly!
+	#Default is 5.0. aka 70 * 5.0 = 350 total mobs
+	#Range: 1.5 ~ 30.0
+	MonsterSpawnCapMultiplier = 2.0
+	#The chance of Blood Moon occurring each night. Chance is rolled at the daytime 12000.
+	#Default 0.05
+	#Range: 0.01 ~ 1.0
+	BloodMoonChance = 0.05
+	#Are Blood Moon clouds red?
+	#Default true
+	BloodMoonRedClouds = true
+	#Show notifications of Blood Moon?
+	#Default true
+	BloodMoonNotification = true
+
+[Harvest_Moon_Settings]
+	#The chance of a Harvest Moon occurring each night. Chance is rolled at the daytime 12000.
+	#Default 0.025
+	#Range: 0.0 ~ 1.0
+	HarvestMoonChance = 0.025
+	#Multiplies the rate at which crops grow during Harvest Moon.
+	#Default 15.0
+	#Range: 1.0 ~ 10000.0
+	CropGrowthMultiplier = 15.0
+	#Multiplies the rate at which crop items drop during Harvest Moon.
+	#Default 2.0
+	#Range: 1.0 ~ 1000.0
+	CropItemDropMultiplier = 2.5
+	#Show notifications of Harvest Moon?
+	#Default true
+	HarvestMoonNotification = true
+

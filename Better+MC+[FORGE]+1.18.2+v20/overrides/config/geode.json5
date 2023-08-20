@@ -1,0 +1,67 @@
+{
+	"Prismarine Geodes": {
+		"Enable Prismarine Geode": true,
+	},
+	"Stone Ores Geodes": {
+		"Enable Emerald Geode": true,
+		"Enable Diamond Geode": false,
+		"Enable Lapis Geode": true,
+		"Enable Redstone Geode": true,
+	},
+	"Deepslate Ores Geodes": {
+		"Enable Deepslate Emerald Geode": true,
+		"Enable Deepslate Diamond Geode": false,
+	},
+	"Deep Dark Geodes": {
+		"Enable Echo Geode": true,
+		"Enable Sculk Emerald Geode": true,
+		"Enable Sculk Diamond Geode": false,
+	},
+	"Nether Geodes": {
+		"Enable Nether Quartz Geode": true,
+		"Enable Nether Gold Nugget Geode": true,
+		"Enable Nether Ancient Debris Geode": false,
+		"Enable Nether Glowstone Geode": true,
+	},
+	"Basalt Geodes": {
+		"Enable Basalt Glowstone Geode": true,
+		"Enable Basalt Ancient Debris Geode": false,
+		"Enable Basalt Ancient Quartz Geode": true,
+		"Enable Basalt Gold Nugget Geode": true,
+	},
+	"Blackstone Geodes": {
+		"Enable Blackstone Ancient Debris Geode": false,
+		"Enable Blackstone Gold Nugget Geode": true,
+		"Enable Blackstone Glowstone Geode": true,
+		"Enable Blackstone Quartz Geode": true,
+	},
+	"End Wrappist Geodes": {
+		"Enable Wrappist Geode": false,
+	},
+	"Large Crystals": {
+		"Enable Large Nether Quartz Crystal": true,
+		"Enable Large Nether Glowstone Crystal": true,
+		"Enable Large Prismarine Crystal": true,
+		"Enable Large Echo Crystal": true,
+		"Enable Large End Wrappist Crystal": true,
+	},
+	"Rarity of Geodes": {
+		"Rarity of Ores Geode": 100,
+		"Rarity of Blackstone Glowstone Geode": 100,
+		"Rarity of Nether Quartz Geode": 100,
+		"Rarity of End Wrappist Geode": 100,
+		"Rarity of Echo Geode": 100,
+		"Rarity of Basalt Ancient Debris Geode": 100,
+		"Rarity of Blackstone Nugget Geode": 100,
+		"Rarity of Nether Ancient Debris Geode": 100,
+		"Rarity of Basalt Glowstone Geode": 100,
+		"Rarity of Basalt Gold Nugget Geode": 100,
+		"Rarity of Basalt Quartz Geode": 100,
+		"Rarity of Blackstone Quartz Geode": 100,
+		"Rarity of Nether Glowstone Geode": 100,
+		"Rarity of Blackstone Ancient Debris Geode": 100,
+		"Rarity of Rare Ores Geode": 100,
+		"Rarity of Nether Gold Nugget Geode": 100,
+		"Rarity of Prismarine Geode": 100,
+	},
+}

@@ -1,0 +1,8 @@
+type = panorama
+
+panorama-meta {
+  name = betterminecraftpanorama
+  speed = 1
+  fov = 85.0
+  angle = 25.0
+}

@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=34636%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=45036%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=55436%
+  action = hidebutton
+}
+

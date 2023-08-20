@@ -1,0 +1,5 @@
+Github Repo URL (MUST END URL WITH A SLASH):
+https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/bmc1-fabric/
+BCC ENABLED
+Expand Button (y/n) (doesn't reposition the button!):
+y

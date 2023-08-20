@@ -1,0 +1,7 @@
+
+["Config category"]
+	#Prints the added loot to the log if enabled: default:false
+	debugOutput = false
+	#Set to true to print containers loottable on first open: default:false
+	showcontainerloottable = false
+

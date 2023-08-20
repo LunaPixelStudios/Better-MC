@@ -1,0 +1,6 @@
+
+#General settings
+[general]
+	#Enables giving everyone a book the first time they join
+	giveFirstJoin = false
+

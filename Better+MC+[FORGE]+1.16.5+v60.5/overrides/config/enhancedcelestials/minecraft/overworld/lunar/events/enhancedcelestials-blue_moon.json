@@ -1,0 +1,48 @@
+{
+  "validMoonPhases": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "textComponents": {
+    "name": {
+      "key": "enhancedcelestials.name.blue_moon"
+    },
+    "startNotification": {
+      "component": {
+        "key": "enhancedcelestials.notification.blue_moon.rise",
+        "style": {
+          "color": "55ffff"
+        }
+      },
+      "type": "CHAT"
+    },
+    "endNotification": {
+      "component": {
+        "key": "enhancedcelestials.notification.blue_moon.set"
+      },
+      "type": "CHAT"
+    }
+  },
+  "blockSleeping": false,
+  "luckStrength": 1,
+  "clientSettings": {
+    "colorSettings": {
+      "skyLightColor": "ffff",
+      "skyLightBlendStrength": 0.6,
+      "moonTextureColor": "ffff",
+      "moonTextureBlendStrength": 0.6
+    },
+    "moonSize": 20.0,
+    "moonTextureLocation": "minecraft:textures/environment/moon_phases.png",
+    "soundTrack": "enhancedcelestials:blue_moon",
+    "type": "enhancedcelestials:default"
+  },
+  "minNumberOfNightsBetween": 4,
+  "chance": 0.02,
+  "type": "enhancedcelestials:blue_moon"
+}

@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "interval": 20,
+  "entries": [
+    {
+      "armor": [
+        "minecraft:golden_helmet",
+        "minecraft:golden_chestplate",
+        "minecraft:golden_leggings",
+        "minecraft:golden_boots"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.99607843,
+          1.0,
+          0.7411765
+        ]
+      }
+    },
+    {
+      "armor": [
+        "minecraft:diamond_helmet",
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.7058824,
+          0.99215686,
+          0.93333334
+        ]
+      }
+    }
+  ]
+}

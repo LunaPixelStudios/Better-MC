@@ -1,0 +1,97 @@
+
+["World Generation"]
+
+	["World Generation"."Ore Generation"]
+
+		["World Generation"."Ore Generation"."Copper Settings"]
+			#Determines if Copper should generate so it doesn't interfere with other modded copper.
+			GenerateCopperOre = true
+			#Determines if Large Copper Blobs should generate in Dripstone Caves.
+			DripstoneCaveLargeCopperBlobs = true
+
+		["World Generation"."Ore Generation"."Tuff Settings"]
+			#Determines if Tuff Blobs should generate underground.
+			GenerateTuff = false
+			#Determines the weight of spawning for Tuff.
+			TuffSpawnWeight = 1
+
+		["World Generation"."Ore Generation"."Deepslate Settings"]
+			#Determines if Deepslate Blobs should generate underground.
+			GenerateDeepslate = true
+			#Determines the weight of spawning for Deepslate.
+			DeepslateSpawnWeight = 2
+			#Determines if Deepslate Ores should generate underground.
+			GenerateDeepslateOres = true
+
+	["World Generation"."Feature Generation"]
+		#Determines if Glow Lichen should generate underground.
+		GenerateGlowLichen = true
+
+		["World Generation"."Feature Generation"."Amethyst Geodes Settings"]
+			#Determines if Amethyst Geodes should generate underground.
+			GenerateAmethystGeodes = true
+			#Determines what block should generate as the casing for Amethyst Geodes
+			AmethystGeodeCasingBlock = "cavesandcliffs:smooth_basalt"
+			#Determines the rarity of spawning for Amethyst Geodes.
+			AmethystGeodesSpawnRarity = 24
+			#Determines the max height of spawning for Amethyst Geodes.
+			AmethystGeodesMaxHeight = 30
+
+		["World Generation"."Feature Generation"."Azalea Tree Settings"]
+			#Determines if Azalea Trees should generate in the surface.
+			GenerateAzaleaTrees = true
+			#Determines the rarity of spawning for Azalea Trees.
+			AzaleaTreeGenerationRarity = 2
+
+	["World Generation"."Biome Generation"]
+		#Determines if Dripstone Caves should generate underground. 
+		#NOTE: using TERRAFORGED worldtype will prevent this biome to spawn.
+		GenerateDripstoneCaves = true
+		#Determines if Lush Caves should generate underground. 
+		#NOTE: using TERRAFORGED worldtype will prevent this biome to spawn.
+		GenerateLushCaves = true
+
+	["World Generation"."Entity Generation"]
+
+		["World Generation"."Entity Generation"."Glow Squid Settings"]
+			#Determines if Glow Squids should generate.
+			GenerateGlowSquids = true
+			#Determines the weight of spawning for Glow Squids.
+			GlowSquidSpawnWeight = 10
+			#Determines if Glow Squids should generate as in 1.17.
+			LegacyGlowSquidGeneration = false
+
+		["World Generation"."Entity Generation"."Axolotl Settings"]
+			#Determines if Axolotls should generate.
+			GenerateAxolotls = true
+			#Determines the weight of spawning for Axolotls
+			AxolotlSpawnWeight = 10
+			#Determines if Axolotls should generate as in 1.17. 
+			#In 1.18 they can generate in clay pools inside of LUSH CAVES.
+			LegacyAxolotlGeneration = false
+
+		["World Generation"."Entity Generation"."Goat Settings"]
+			#Determines if Goats should generate.
+			GenerateGoats = true
+			#Determines the weight of spawning for Goats.
+			GoatSpawnWeight = 10
+
+["Gameplay Settings"]
+	#Determines if monsters should only spawn where the light value equals zero.
+	MonstersSpawnInTotalDarkness = true
+
+	["Gameplay Settings"."Raw Ore Settings"]
+		#Determines if Iron, Gold and Copper should drop Raw Ores.
+		RawOreDrops = true
+		#Determines if Copper from other mods should also drop Raw Copper.
+		RawOreDropsForExternalCopper = false
+
+["Client Settings"]
+	#Determines the Value for the Panorama to display. 
+	#This option can alternate the panorama in the main menu by using numbers. 
+	#0 = default panoramic view. 
+	#1 = part I panoramic view. 
+	#2 = part II panoramic view.
+	#Range: 0 ~ 2
+	PanoramaValue = 1
+

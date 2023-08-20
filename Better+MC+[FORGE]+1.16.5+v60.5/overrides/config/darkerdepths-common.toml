@@ -1,0 +1,7 @@
+
+[gameplay]
+	"silver drops raw ore" = true
+
+[worldgen]
+	"generates darker depths's speleothems naturally" = false
+

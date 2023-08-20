@@ -1,0 +1,45 @@
+
+#General options for defining sound effects
+["Sound Options"]
+	#Enable sound reverb and filtering
+	"Enable Enhanced Sounds" = true
+	#Enable HRTF processing in OpenAL
+	"Enable HRTF Processing" = false
+	#Enable conversion of stereo sounds to mono format for spacial play
+	"Enable Stereo to Mono Conversion" = false
+	#Enable sound occlusion calculations (sound muffling when positioned behind blocks)
+	"Enable Sound Occlusion Calculations" = true
+	#Number of streaming sound channels to configure
+	#Range: 8 ~ 16
+	"Streaming Sound Count" = 10
+	#Occlude WEATHER sounds
+	"Occlude WEATHER Sounds" = false
+	#Occlude RECORDS sounds
+	"Occlude RECORDS Sounds" = false
+	#Options to configure sounds on an individual basis
+	"Individual Sound Config" = ["minecraft:entity.sheep.ambient cull", "minecraft:entity.chicken.ambient cull", "minecraft:entity.cow.ambient cull", "minecraft:entity.pig.ambient cull", "minecraft:entity.llama.ambient cull", "minecraft:entity.wither.spawn cull 10", "minecraft:entity.wither.death cull 10", "minecraft:entity.ender_dragon.death cull 10"]
+	#Possible sounds to play when client reaches main game menu
+	"Startup Sound List" = ["minecraft:entity.experience_orb.pickup", "minecraft:entity.chicken.egg", "minecraft:ambient.underwater.exit"]
+	#Ticks between culled sound events (0 to disable culling)
+	#Range: 0 ~ 6000
+	"Sound Culling Interval" = 20
+	#Number of background threads to handle sound effect calculations (0 is default)
+	#Range: 0 ~ 8
+	"Background Workers" = 0
+
+#Defines parameters for special effects
+["Effect Options"]
+	#Replace client side Randomizers with faster versions
+	"Replace Randoms" = true
+	#Block range of entity special effect handling
+	#Range: 16 ~ 64
+	"Block Range" = 24
+
+#Defines how Sound Control logging will behave
+["Logging Options"]
+	#Enables/disables debug logging of the mod
+	"Debug Logging" = false
+	#Bitmask for toggling various debug traces
+	#Range: > 0
+	"Debug Flag Mask" = 0
+

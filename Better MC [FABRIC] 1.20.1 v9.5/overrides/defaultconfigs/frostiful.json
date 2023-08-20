@@ -1,0 +1,69 @@
+{
+  "clientConfig": {
+    "frostOverlayStart": 0.5,
+    "doColdHeartOverlay": true,
+    "shakingStartPercent": 0.75,
+    "renderDripParticles": true,
+    "disableFrostOverlayWhenWearingFrostologyCloak": true
+  },
+  "updateConfig": {
+    "currentConfigVersion": 2,
+    "enableConfigUpdates": true
+  },
+  "combatConfig": {
+    "doChillagerPatrols": true,
+    "straysCarryFrostArrows": true,
+    "heatDrainPerLevel": 210,
+    "heatDrainEfficiency": 0.5,
+    "iceBreakerDamagePerLevel": 1.0,
+    "iceBreakerBaseDamage": 3.0,
+    "maxFrostSpellDistance": 25.0,
+    "frostWandCooldown": 120,
+    "frostWandRootTime": 100,
+    "frostologerHeatDrainPerTick": 30,
+    "packedSnowballFreezeAmount": 500,
+    "packedSnowballDamage": 2.0,
+    "packedSnowballVulnerableTypesDamage": 5.0,
+    "polarBearShearingDamage": 1.0,
+    "frostologerPassiveFreezingPerTick": 2,
+    "frostologerMaxPassiveFreezing": 0.5,
+    "biterFrostBiteMaxAmplifier": 2,
+    "chillagerFireDamageMultiplier": 1.5,
+    "furUpgradeTemplateGenerateChance": 0.5,
+    "skateUpgradeTemplateGenerateChance": 0.33
+  },
+  "freezingConfig": {
+    "doPassiveFreezing": false,
+    "doWindSpawning": true,
+    "spawnWindInAir": true,
+    "windDestroysTorches": false,
+    "windSpawnCapPerSecond": 15,
+    "windSpawnRarity": 750,
+    "windSpawnRarityThunder": 500,
+    "maxPassiveFreezingPercent": 1.0,
+    "passiveFreezingWetnessScaleMultiplier": 2.1,
+    "soakPercentFromWaterPotion": 0.5,
+    "sunLichenHeatPerLevel": 500,
+    "sunLichenBurnTime": 60,
+    "campfireWarmthSearchRadius": 10.0,
+    "campfireWarmthTime": 1200,
+    "freezingWindFrost": 160,
+    "conduitPowerWarmthPerTick": 12,
+    "heatFromHotFloor": 12
+  },
+  "icicleConfig": {
+    "iciclesFormInWeather": true,
+    "becomeUnstableChance": 0.05,
+    "growChance": 0.02,
+    "growChanceDuringRain": 0.09,
+    "growChanceDuringThunder": 0.15,
+    "frostArrowFreezeAmount": 1000,
+    "thrownIcicleFreezeAmount": 1500,
+    "icicleCollisionFreezeAmount": 3000,
+    "maxLightLevelToForm": 8,
+    "minSkylightLevelToForm": 11,
+    "thrownIcicleDamage": 1.0,
+    "thrownIcicleExtraDamage": 3.0,
+    "thrownIcicleCooldown": 10
+  }
+}

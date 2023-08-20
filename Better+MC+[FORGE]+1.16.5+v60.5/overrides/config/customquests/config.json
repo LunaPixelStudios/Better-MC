@@ -1,0 +1,7 @@
+{
+  "can_reward_only_be_claimed_once": false,
+  "give_device_on_first_login": false,
+  "debug_mode": false,
+  "backups": false,
+  "edit_mode": false
+}

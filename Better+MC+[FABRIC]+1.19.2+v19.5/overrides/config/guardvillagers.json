@@ -1,0 +1,29 @@
+{
+  "general": {
+    "useSteveModel": false,
+    "GuardsRunFromPolarBears": true,
+    "GuardFormation": true,
+    "ClericHealing": true,
+    "armorerRepairGuardArmor": true,
+    "GuardsOpenDoors": true,
+    "AttackAllMobs": false,
+    "guardAttackMobBlacklist": [
+      "minecraft:creeper",
+      "minecraft:ravager"
+    ],
+    "giveGuardStuffHOTV": true,
+    "setGuardPatrolHotv": true,
+    "GuardAlwaysShield": true,
+    "FriendlyFire": false,
+    "guardArrowsHurtVillagers": false,
+    "RaidAnimals": true,
+    "WitchesVillager": true,
+    "BlackSmithHealing": true,
+    "GuardVillagerHelpRange": 75.0,
+    "ConvertVillagerIfHaveHOTV": false,
+    "amountOfHealthRegenerated": 1
+  },
+  "permission": {
+    "AmountOfConversions": 5
+  }
+}

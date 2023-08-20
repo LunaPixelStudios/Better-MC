@@ -1,0 +1,29 @@
+placeSnowInBlock = true
+snowGravity = true
+snowAlwaysReplaceable = true
+#Unavailable if TerraForged mod installed
+snowAccumulationDuringSnowstorm = true
+#Unavailable if TerraForged mod installed
+snowAccumulationDuringSnowfall = false
+#9 = Unlimited
+#Range: 1 ~ 9
+snowAccumulationMaxLayers = 8
+#Unavailable if TerraForged mod installed
+thinnerBoundingBox = true
+snowMakingIce = true
+snowOnIce = false
+snowNeverMelt = false
+snowMeltsInWarmBiomes = true
+#Should snow melt if layers are more than 1
+snowNaturalMelt = true
+snowReduceFallDamage = true
+#block like grass will be generated with snow
+replaceWorldFeature = true
+sustainGrassIfLayerMoreThanOne = true
+#If you want to uninstall this mod, you probably want to make snow-covered blocks back to normal via random tick.
+retainOriginalBlocks = true
+#Simulate some right clicking behaviors like harvesting sweetberry. may have some glitches
+advancedBlockInteraction = true
+#Sneak+rightclicking to make snowball
+sneakSnowball = true
+

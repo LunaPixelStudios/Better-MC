@@ -1,0 +1,14 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
+com.swdteam.panorama.ui.GuiPanoramaSelector {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.minecraft.client.gui.screen.ShareToLanScreen {
+}
+

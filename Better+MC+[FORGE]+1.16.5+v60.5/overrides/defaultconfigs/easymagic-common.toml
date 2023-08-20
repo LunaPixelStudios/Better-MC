@@ -1,0 +1,32 @@
+
+[general]
+	#Some convenient tweaks for working with anvils.
+	"Anvil Tweaks" = true
+	#Small improvements to make working an enchantment table more convenient.
+	"Easy Enchanting" = true
+
+[anvil_tweaks]
+	#Using an iron block on a chipped or damaged anvil repairs it fully.
+	"Iron Block Repairs Anvil" = true
+	#Using an iron ingot on a chipped or damaged anvil has a chance to repair it by one stage.
+	"Iron Ingot Repairs Anvil" = true
+	#Chance one out of set value an attempt at repairing an anvil will be successful.
+	#Range: > 1
+	"Anvil Repair Chance" = 5
+
+[easy_enchanting]
+	#Inventory contents stay in their slot after closing the enchanting screen. Also makes hoppers able to input and output items.
+	"Inventory Contents Stay" = true
+	#Re-roll possible enchantments in an enchanting table every time an item is placed into the enchanting slot.
+	"Re-Roll Enchantments" = false
+	#Amount of bookshelves required to perform enchantments at the highest level.
+	#Range: > 0
+	"Enchanting Power" = 15
+	#Blocks without a collision shape do not block bookshelves placed behind from counting towards current enchanting power.
+	"Lenient Bookshelves" = true
+	#Choose how many enchantments are shown on the enchanting tooltip, if any at all.
+	#Allowed Values: NONE, SINGLE, ALL
+	"Show Enchantments" = "SINGLE"
+	#Only allow items that can be enchanted to be placed into the enchanting slot of an enchanting table. Useful when inserting items automatically with a hopper.
+	"Filter Enchanting Input" = false
+

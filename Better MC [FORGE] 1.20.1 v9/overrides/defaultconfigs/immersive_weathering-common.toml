@@ -1,0 +1,115 @@
+
+[general]
+	block_growths = true
+	#put here the name of a block growth json you want to disable i.e: [weeds, weeds_spread].Note that this is not the preferred way to do this as block growths are all data driven so it would be best to disable or tweak them by creating a datapack that overrides themCheck the mod data folder for the required names. Requires resource reload (/data reload)
+	block_growth_blacklist = []
+	creative_tab = false
+	#Drop stuff when in creative
+	drop_in_creative = false
+	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
+	debug_save_dynamic_pack = false
+
+[mossy_blocks]
+	#Range: 0.0 ~ 1.0
+	interest_for_face = 0.3
+	#Range: 0.0 ~ 1.0
+	patchiness = 0.5
+	#Range: 0.0 ~ 1.0
+	immune_chance = 0.4
+	needs_air = true
+
+[cracked_blocks]
+	#Range: 0.0 ~ 1.0
+	interest_for_face = 0.6
+	#Range: 0.0 ~ 1.0
+	patchiness = 0.4
+	#Range: 0.0 ~ 1.0
+	immune_chance = 0.4
+	needs_air = false
+
+[icicle]
+	react_to_vibrations = true
+	#Range: 1 ~ 1001
+	spawn_rarity = 0
+
+[freezing]
+	#same as powder snow. If below 2 it will match natural unfreezing so will stay constant
+	#Range: 0 ~ 5
+	water_increment = 3
+	#Range: 0 ~ 1000
+	icicle = 300
+	#Range: 0 ~ 5
+	permafrost_increment = 2
+
+[charring]
+	#Range: 0.0 ~ 1.0
+	fire_chars_wood = 0.3
+	#Range: 0.0 ~ 1.0
+	ash_spawn = 0.3
+	soot_spawn = true
+	flammable_cobweb = true
+
+[item_interaction]
+	pickaxe_cracking = true
+	pickaxe_cracking_shift = false
+	brick_breaking = true
+	piston_sliming = true
+	soil_shearing = true
+	grass_flinting = true
+	azalea_shearing = true
+	moss_shearing = true
+	moss_burning = true
+	charred_block_igniting = true
+	shovel_extinguish = true
+	sponge_rusting = true
+	sponge_rust_drying = false
+	axe_stripping = true
+	axe_rusting = true
+	#allows ash to spawn when extinguishing campfires
+	ash_item_spawn = true
+
+[food]
+	icicle_food = true
+	icicle_fire_resistance = true
+	muddy_water_enabled = true
+
+[misc]
+	mulch_grows_crops = true
+	composter_dirt = true
+	desire_paths = false
+	#Range: 0.0 ~ 1.0
+	desire_path_rate = 0.05
+	grass_over_mycelium = true
+	mycelium_over_grass = true
+	generic_bark = ""
+	feather_falling_farmers = true
+	leggings_prevents_thorn_damage = true
+
+[leaf_piles]
+	leaf_piles_slow = false
+	#Range: 0.0 ~ 1.0
+	spawn_entity_from_decay = 0.0
+	#Range: 1 ~ 256
+	reach = 12
+	#Range: 1 ~ 8
+	max_pile_height = 3
+	#leaves that wont spawn leaf piles
+	leaf_piles_blacklist = []
+
+[thin_ice]
+	natural_melting = false
+
+[lightning_growths]
+	vitrified_lightning = true
+	#chance that a lightning strike on sand creates fulgurite
+	#Range: 0.0 ~ 1.0
+	fulgurite_chance = 0.4
+
+[rusting]
+	rusting = true
+	#Range: 1 ~ 8
+	rusting_influence_radius = 4
+	#Range: 0.0 ~ 1.0
+	rusting_rate = 0.06
+	rust_streaking = true
+

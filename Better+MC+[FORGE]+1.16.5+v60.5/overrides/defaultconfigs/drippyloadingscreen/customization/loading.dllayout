@@ -1,0 +1,69 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = resourcepacks/Graphics/loading.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  x = 3
+  textcolor = #22c7d1
+  action = editforgestatustext
+  y = -1
+}
+
+customization {
+  x = 3
+  textcolor = #22c7d1
+  action = editforgememoryinfo
+  y = 3
+}
+
+customization {
+  action = editprogressbar
+  y = -58
+  barcolor = #22c7d1
+}
+
+customization {
+  path = resourcepacks/Graphics/studio.png
+  orientation = top-right
+  x = -19
+  width = 177
+  action = addtexture
+  actionid = 872927e2-13cf-4e97-94d6-c4e4094716cc1631663398177
+  y = -2
+  height = 100
+}
+
+customization {
+  path = resourcepacks/Graphics/mojang.png
+  orientation = mid-centered
+  x = 1
+  width = 426
+  action = addtexture
+  actionid = 98dfeea8-bbd4-4372-97e6-f4b334934c4b1661115972183
+  y = -8
+  height = 100
+}
+
+customization {
+  path = resourcepacks/Graphics/lps.png
+  orientation = bottom-right
+  x = -6
+  width = 97
+  action = addtexture
+  actionid = 5f755dd5-4f4c-4b95-bb47-c6899e91b23c1661115977856
+  y = -4
+  height = 18
+}
+

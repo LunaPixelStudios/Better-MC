@@ -1,0 +1,18 @@
+{
+  "blurExclusions": [
+    "net.minecraft.class_408",
+    "com.replaymod.lib.de.johni0702.minecraft.gui.container.AbstractGuiOverlay$UserInputGuiScreen",
+    "ai.arcblroth.projectInception.client.InceptionInterfaceScreen",
+    "net.optifine.gui.GuiChatOF",
+    "io.github.darkkronicle.advancedchatcore.chat.AdvancedChatScreen",
+    "net.coderbot.iris.gui.screen.ShaderPackScreen"
+  ],
+  "fadeTimeMillis": 200,
+  "ease": true,
+  "radius": 8,
+  "gradientStart": "#000000",
+  "gradientStartAlpha": 75,
+  "gradientEnd": "#000000",
+  "gradientEndAlpha": 75,
+  "showScreenTitle": false
+}

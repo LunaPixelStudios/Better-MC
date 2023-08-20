@@ -1,0 +1,9 @@
+{
+  "printModelCreationInfoToLog": false,
+  "printAllMaths": false,
+  "renderCustomModelsGreen": false,
+  "vanillaModelRenderMode": "Off",
+  "mathFunctionChoice": "JavaMath",
+  "reloadMode": "ORIGINAL",
+  "attemptToCopyVanillaModelIntoMissingModelPart": false
+}

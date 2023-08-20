@@ -1,0 +1,289 @@
+{
+  "_comment": "Before changing anything, see https://github.com/Patbox/UniversalGraves#configuration",
+  "config_version": 3,
+  "protection": {
+    "non_owner_protection_time": 900,
+    "self_destruction_time": 1800,
+    "drop_items_on_expiration": true,
+    "attackers_bypass_protection": false,
+    "use_real_time": false
+  },
+  "interactions": {
+    "unlocking_cost": {
+      "type": "free",
+      "count": 0
+    },
+    "give_death_compass": false,
+    "enable_click_to_open_gui": true,
+    "shift_and_use_quick_pickup": true,
+    "allow_remote_protection_removal": true,
+    "allow_remote_breaking": true,
+    "allow_remote_unlocking": false
+  },
+  "storage": {
+    "experience_type": "percent_points",
+    "experience_percent:setting_value": 100.0,
+    "alternative_experience_entity": false,
+    "blocked_enchantments": []
+  },
+  "placement": {
+    "player_grave_limit": -1,
+    "replace_any_block": false,
+    "max_distance_from_source_location": 8,
+    "shift_location_on_failure": true,
+    "max_shift_tries": 5,
+    "max_shift_distance": 40,
+    "restore_replaced_block": false,
+    "restore_replaced_block_after_player_breaking": true,
+    "cancel_creation_for_damage_types": {},
+    "cancel_creation_for_ignored_attacker_types": {},
+    "blocking_predicates": [],
+    "block_in_protected_area": {},
+    "blacklisted_worlds": [],
+    "blacklisted_areas": {},
+    "creation_default_failure_text": "<red><lang:'text.graves.creation_failed':'<gold>${position}':'<yellow>${world}'>",
+    "creation_claim_failure_text": "<red><lang:'text.graves.creation_failed_claim':'<gold>${position}':'<yellow>${world}'>"
+  },
+  "teleportation": {
+    "cost": {
+      "type": "creative",
+      "count": 1
+    },
+    "required_time": 5,
+    "y_offset": 1.0,
+    "invincibility_time": 2,
+    "allow_movement_while_waiting": false,
+    "text": {
+      "timer": "<lang:'text.graves.teleport.teleport_timer':'${time}'>",
+      "timer_allow_moving": "<lang:'text.graves.teleport.teleport_timer_moving':'${time}'>",
+      "location": "<lang:'text.graves.teleport.teleport_location':'${position}'>",
+      "canceled": "<red><lang:'text.graves.teleport.teleport_cancelled'>"
+    }
+  },
+  "model": {
+    "default": "default",
+    "alternative": []
+  },
+  "ui": {
+    "title": "<lang:'text.graves.players_grave':'${player}'>",
+    "list_grave_icon": {
+      "base": {
+        "icon": "minecraft:chest",
+        "text": [
+          "${position} <gray>(${world})",
+          "<yellow>${death_cause}",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<blue><lang:'text.graves.protected_time':'<white>${protection_time}'>",
+          "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+        ]
+      },
+      "alt": {
+        "icon": "minecraft:trapped_chest",
+        "text": [
+          "${position} <gray>(${world})",
+          "<yellow>${death_cause}",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<blue><lang:'text.graves.not_protected'>",
+          "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+        ]
+      }
+    },
+    "grave_info": {
+      "base": {
+        "icon": "minecraft:oak_sign",
+        "text": [
+          "${position} <gray>(${world})",
+          "<yellow>${death_cause}",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<blue><lang:'text.graves.protected_time':'<white>${protection_time}'>",
+          "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+        ]
+      },
+      "alt": {
+        "icon": "minecraft:oak_sign",
+        "text": [
+          "${position} <gray>(${world})",
+          "<yellow>${death_cause}",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<blue><lang:'text.graves.not_protected'>",
+          "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+        ]
+      }
+    },
+    "unlock_grave": {
+      "base": {
+        "icon": "minecraft:gold_ingot",
+        "text": [
+          "<#ffd257><lang:'text.graves.gui.unlock_grave'>",
+          "<white><lang:'text.graves.gui.cost'> <#cfcfcf>${cost}"
+        ]
+      },
+      "alt": {
+        "icon": "minecraft:gold_ingot",
+        "text": [
+          "<dark_gray><lang:'text.graves.gui.unlock_grave'>",
+          "<white><lang:'text.graves.gui.cost'> <#cfcfcf>${cost} <gray>(<red><lang:'text.graves.gui.cost.not_enough'></red>)"
+        ]
+      }
+    },
+    "previous_button": {
+      "base": {
+        "icon": {
+          "id": "universal_graves:icon",
+          "Count": 1,
+          "tag": {
+            "Texture": "previous_page"
+          }
+        },
+        "text": "<lang:'text.graves.gui.previous_page'>"
+      },
+      "alt": {
+        "icon": {
+          "id": "universal_graves:icon",
+          "Count": 1,
+          "tag": {
+            "Texture": "previous_page_blocked"
+          }
+        },
+        "text": "<dark_gray><lang:'text.graves.gui.previous_page'>"
+      }
+    },
+    "next_button": {
+      "base": {
+        "icon": {
+          "id": "universal_graves:icon",
+          "Count": 1,
+          "tag": {
+            "Texture": "next_page"
+          }
+        },
+        "text": "<lang:'text.graves.gui.next_page'>"
+      },
+      "alt": {
+        "icon": {
+          "id": "universal_graves:icon",
+          "Count": 1,
+          "tag": {
+            "Texture": "next_page_blocked"
+          }
+        },
+        "text": "<dark_gray><lang:'text.graves.gui.next_page'>"
+      }
+    },
+    "remove_protection_button": {
+      "base": {
+        "icon": {
+          "id": "universal_graves:icon",
+          "Count": 1,
+          "tag": {
+            "Texture": "remove_protection"
+          }
+        },
+        "text": "<red><lang:'text.graves.gui.remove_protection'>"
+      },
+      "alt": {
+        "icon": {
+          "id": "universal_graves:icon",
+          "Count": 1,
+          "tag": {
+            "Texture": "remove_protection"
+          }
+        },
+        "text": [
+          "<red><lang:'text.graves.gui.remove_protection'>",
+          "<dark_red><bold><lang:'text.graves.gui.cant_reverse'>",
+          "",
+          "<white><lang:'text.graves.gui.click_to_confirm'>"
+        ]
+      }
+    },
+    "break_grave_button": {
+      "base": {
+        "icon": {
+          "id": "universal_graves:icon",
+          "Count": 1,
+          "tag": {
+            "Texture": "break_grave"
+          }
+        },
+        "text": "<red><lang:'text.graves.gui.break_grave'>"
+      },
+      "alt": {
+        "icon": {
+          "id": "universal_graves:icon",
+          "Count": 1,
+          "tag": {
+            "Texture": "break_grave"
+          }
+        },
+        "text": [
+          "<red><lang:'text.graves.gui.break_grave'>",
+          "<dark_red><bold><lang:'text.graves.gui.cant_reverse'>",
+          "",
+          "<white><lang:'text.graves.gui.click_to_confirm'>"
+        ]
+      }
+    },
+    "quick_pickup_button": {
+      "icon": {
+        "id": "universal_graves:icon",
+        "Count": 1,
+        "tag": {
+          "Texture": "quick_pickup"
+        }
+      },
+      "text": "<red><lang:'text.graves.gui.quick_pickup'>"
+    },
+    "fetch_button": {
+      "base": {
+        "icon": "minecraft:lead",
+        "text": "<yellow><lang:'text.graves.gui.fetch'>"
+      },
+      "alt": {
+        "icon": "minecraft:lead",
+        "text": "<yellow><lang:'text.graves.gui.fetch'>"
+      }
+    },
+    "teleport_button": {
+      "base": {
+        "icon": "minecraft:ender_pearl",
+        "text": [
+          "<#a52dfa><lang:'text.graves.gui.teleport'>",
+          "<white><lang:'text.graves.gui.cost'> <#cfcfcf>${cost}"
+        ]
+      },
+      "alt": {
+        "icon": "minecraft:ender_pearl",
+        "text": [
+          "<dark_gray><lang:'text.graves.gui.teleport'>",
+          "<white><lang:'text.graves.gui.cost'> <#cfcfcf>${cost} <gray>(<red><lang:'text.graves.gui.cost.not_enough'></red>)"
+        ]
+      }
+    },
+    "back_button": {
+      "icon": "minecraft:structure_void",
+      "text": "<red><lang:'text.graves.gui.quick_pickup'>"
+    },
+    "bar": {
+      "icon": "minecraft:white_stained_glass_pane",
+      "text": ""
+    }
+  },
+  "text": {
+    "grave_created": "<white><lang:'text.graves.created_at_expire':'<yellow>${position}':'<gray>${world}':'<red>${break_time}'>",
+    "protection_ended": "<red><lang:'text.graves.no_longer_protected':'<gold>${position}':'<white>${world}':'<yellow>${item_count}'>",
+    "grave_expired": "<red><lang:'text.graves.expired':'<gold>${position}':'<white>${world}':'<yellow>${item_count}'>",
+    "grave_broken": "<gray><lang:'text.graves.somebody_broke':'<white>${position}':'<white>${world}':'<white>${item_count}'>",
+    "grave_access_payment_no_access": "<red><lang:'text.graves.grave_unlock_payment.no_access'>",
+    "grave_payment_accepted": "<white><lang:'text.graves.grave_unlock_payment.accepted'>",
+    "grave_payment_failed": "<red><lang:'text.graves.grave_unlock_payment.failed':'<yellow>${cost}'>",
+    "years_suffix": "y",
+    "days_suffix": "d",
+    "hours_suffix": "h",
+    "minutes_suffix": "m",
+    "seconds_suffix": "s",
+    "infinity": "∞",
+    "date_format": "dd.MM.yyyy, HH:mm",
+    "world_names": {}
+  }
+}

@@ -1,0 +1,222 @@
+version:3465
+toggleCrawl:false
+autoJump:false
+operatorItemsTab:false
+autoSuggestions:true
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+enableVsync:false
+entityShadows:true
+forceUnicodeFont:false
+discrete_mouse_scroll:false
+invertYMouse:false
+realmsNotifications:false
+reducedDebugInfo:false
+showSubtitles:false
+directionalAudio:false
+touchscreen:false
+fullscreen:false
+bobView:true
+toggleCrouch:false
+toggleSprint:false
+darkMojangStudiosBackground:false
+hideLightningFlashes:false
+mouseSensitivity:0.5
+fov:0.0
+screenEffectScale:1.0
+fovEffectScale:1.0
+darknessEffectScale:1.0
+glintSpeed:0.5
+glintStrength:0.75
+damageTiltStrength:1.0
+highContrast:false
+gamma:0.5
+renderDistance:10
+simulationDistance:10
+entityDistanceScaling:1.0
+guiScale:3
+particles:0
+maxFps:260
+graphicsMode:1
+ao:true
+prioritizeChunkUpdates:0
+biomeBlendRadius:2
+renderClouds:"true"
+resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","file/Stay_True_1.20.zip","file/MandalasGUI+Modded_Dakmode_v4.2.zip","file/Mandalas_Legacy_Gui_Background.zip","file/Icons.zip","file/NoBushyLeaves.zip"]
+incompatibleResourcePacks:[]
+lastServer:
+lang:en_us
+soundDevice:""
+chatVisibility:0
+chatOpacity:1.0
+chatLineSpacing:0.0
+textBackgroundOpacity:0.5
+backgroundForChatOnly:true
+hideServerAddress:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
+overrideWidth:0
+overrideHeight:0
+chatHeightFocused:1.0
+chatDelay:0.0
+chatHeightUnfocused:0.4375
+chatScale:1.0
+chatWidth:1.0
+notificationDisplayTime:1.0
+mipmapLevels:4
+useNativeTransport:true
+mainHand:"right"
+attackIndicator:1
+narrator:0
+tutorialStep:none
+mouseWheelSensitivity:1.0
+rawMouseInput:true
+glDebugVerbosity:1
+skipMultiplayerWarning:true
+skipRealms32bitWarning:false
+hideMatchedNames:true
+joinedFirstServer:true
+hideBundleTutorial:false
+syncChunkWrites:true
+showAutosaveIndicator:true
+allowServerListing:true
+onlyShowSecureChat:false
+panoramaScrollSpeed:1.0
+debugifyTelemetry:0
+telemetryOptInExtra:false
+onboardAccessibility:false
+key_key.attack:key.mouse.left
+key_key.use:key.mouse.right
+key_key.forward:key.keyboard.w
+key_key.left:key.keyboard.a
+key_key.back:key.keyboard.s
+key_key.right:key.keyboard.d
+key_key.jump:key.keyboard.space
+key_key.sneak:key.keyboard.left.shift
+key_key.sprint:key.keyboard.left.control
+key_key.drop:key.keyboard.q
+key_key.inventory:key.keyboard.e
+key_key.chat:key.keyboard.t
+key_key.playerlist:key.keyboard.tab
+key_key.pickItem:key.mouse.middle
+key_key.command:key.keyboard.slash
+key_key.socialInteractions:key.keyboard.unknown
+key_key.screenshot:key.keyboard.f2
+key_key.togglePerspective:key.keyboard.f5
+key_key.smoothCamera:key.keyboard.unknown
+key_key.fullscreen:key.keyboard.f11
+key_key.spectatorOutlines:key.keyboard.unknown
+key_key.swapOffhand:key.keyboard.f
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.advancements:key.keyboard.l
+key_key.hotbar.1:key.keyboard.1
+key_key.hotbar.2:key.keyboard.2
+key_key.hotbar.3:key.keyboard.3
+key_key.hotbar.4:key.keyboard.4
+key_key.hotbar.5:key.keyboard.5
+key_key.hotbar.6:key.keyboard.6
+key_key.hotbar.7:key.keyboard.7
+key_key.hotbar.8:key.keyboard.8
+key_key.hotbar.9:key.keyboard.9
+key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
+key_key.adventurez.dragonflydown:key.keyboard.left.alt
+key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
+key_key.carry.desc:key.keyboard.left.shift
+key_key.crawl:key.keyboard.left.alt
+key_key.entityculling.toggle:key.keyboard.unknown
+key_key.inventoryhud.toggle:key.keyboard.unknown
+key_key.inventoryhud.openconfig:key.keyboard.unknown
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
+key_key.jade.config:key.keyboard.unknown
+key_key.jade.show_overlay:key.keyboard.unknown
+key_key.jade.toggle_liquid:key.keyboard.unknown
+key_key.jade.narrate:key.keyboard.keypad.5
+key_key.jade.show_details_alternative:key.keyboard.unknown
+key_key.modmenu.open_menu:key.keyboard.unknown
+key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe
+key_ping-wheel.key.mark-location:key.keyboard.r
+key_ping-wheel.key.open-settings:key.keyboard.unknown
+key_key.toggleVisualItemContents:key.keyboard.unknown
+key_key.toggleSelectedItemTooltips:key.keyboard.unknown
+key_key.toggleCarriedItemTooltips:key.keyboard.unknown
+key_key.cycleLeft:key.keyboard.g
+key_key.cycleRight:key.keyboard.h
+key_options.narrator:key.keyboard.b
+key_key.toms_storage.open_terminal:key.keyboard.b
+key_key.veinmining.activate.desc:key.keyboard.grave.accent
+key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
+key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
+key_gui.xaero_toggle_slime:key.keyboard.unknown
+key_gui.xaero_toggle_grid:key.keyboard.unknown
+key_gui.xaero_toggle_waypoints:key.keyboard.unknown
+key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
+key_gui.xaero_toggle_map:key.keyboard.unknown
+key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_waypoints_key:key.keyboard.u
+key_gui.xaero_zoom_in:key.keyboard.unknown
+key_gui.xaero_zoom_out:key.keyboard.unknown
+key_gui.xaero_new_waypoint:key.keyboard.unknown
+key_gui.xaero_display_all_sets:key.keyboard.unknown
+key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
+key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
+key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
+key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
+key_gui.xaero_alternative_list_players:key.keyboard.unknown
+key_gui.xaero_toggle_tracked_players:key.keyboard.unknown
+key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
+key_gui.xaero_minimap_settings:key.keyboard.y
+key_Fast Mapping:key.keyboard.unknown
+key_Baritone Goal Waypoint:key.keyboard.unknown
+key_Waystones Sync:key.keyboard.unknown
+key_Persist WM Dim Switch:key.keyboard.unknown
+key_Transparent Obsidian Roof:key.keyboard.unknown
+key_Skip Background Render:key.keyboard.unknown
+key_NewChunks Highlighting:key.keyboard.unknown
+key_PortalSkip Detection:key.keyboard.unknown
+key_Prefer Overworld Waypoints:key.keyboard.unknown
+key_Show Waypoint Distances:key.keyboard.unknown
+key_null OW Dim Dir:key.keyboard.unknown
+key_Nether Cave Fix:key.keyboard.unknown
+key_Cross Dimension Teleport:key.keyboard.unknown
+key_Show Render Distance:key.keyboard.unknown
+key_Show Render Distance WorldMap:key.keyboard.unknown
+key_Always Render Player Name:key.keyboard.unknown
+key_Always Render Player Icon:key.keyboard.unknown
+key_Fix Main Entity Dot:key.keyboard.unknown
+key_Transparent Background:key.keyboard.unknown
+key_Switch to Nether:key.keyboard.unknown
+key_Switch to Overworld:key.keyboard.unknown
+key_Switch to End:key.keyboard.unknown
+key_Waypoint Beacons:key.keyboard.unknown
+key_gui.xaero_open_map:key.keyboard.m
+key_gui.xaero_open_settings:key.keyboard.right.bracket
+key_gui.xaero_map_zoom_in:key.keyboard.unknown
+key_gui.xaero_map_zoom_out:key.keyboard.unknown
+key_gui.xaero_quick_confirm:key.keyboard.right.shift
+key_zoomify.key.zoom:key.keyboard.c
+key_zoomify.key.zoom.secondary:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+soundCategory_master:0.5088369205298013
+soundCategory_music:0.20825264084507025
+soundCategory_record:0.5051386443661973
+soundCategory_weather:0.5019091109154928
+soundCategory_block:0.5051386443661973
+soundCategory_hostile:0.5019091109154928
+soundCategory_neutral:0.5051386443661973
+soundCategory_player:0.5019091109154928
+soundCategory_ambient:0.5004401408450704
+soundCategory_voice:0.5066076144366196
+modelPart_cape:true
+modelPart_jacket:true
+modelPart_left_sleeve:true
+modelPart_right_sleeve:true
+modelPart_left_pants_leg:true
+modelPart_right_pants_leg:true
+modelPart_hat:true

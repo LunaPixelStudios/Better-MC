@@ -1,0 +1,10 @@
+# Use Cloth Config mod for the descriptions.
+---
+contributorCosmetic: ''
+globalTooltip: false
+noMicrosoftTelemetry: true
+debug:
+  tagsTooltip: true
+  debugTooltipMsg: false
+  NBTTooltip: true
+suppressExperimentalSettingsWarning: false

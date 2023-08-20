@@ -1,0 +1,6 @@
+
+["Config category"]
+	#Max distance at which chunk data is kept on the client. default = 32
+	#Range: 8 ~ 512
+	maxchunkdist = 32
+

@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:grass_block"
+	id: "1D4E5CDD59FFB7A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "268A05DFD4D5427A"
+			rewards: [
+				{
+					count: 12
+					id: "14F327BA69B975BD"
+					item: "blue_skies:turquoise_stonebrick"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2D05266B3F98B211"
+					item: "blue_skies:lunar_stonebrick"
+					type: "item"
+				}
+			]
+			subtitle: "Gatekeeper Houses can be found in most biomes"
+			tasks: [{
+				id: "08CA723FD16E3030"
+				item: "blue_skies:blue_journal"
+				title: "Obtain a Blue Journal from the Gatekeeper"
+				type: "item"
+			}]
+			title: "Obtain a &9Blue Journal &rfrom a Gatekeeper"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "6A12B1FE7B703F9D"
+			rewards: [{
+				id: "1C1C43B99CC8E4E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "When equipped, press &bB&r for easy access"
+			tasks: [{
+				id: "44740305C2A8DC52"
+				item: "backpacked:backpack"
+				title: "Craft a Backpack"
+				type: "item"
+			}]
+			title: "Craft a &2Backpack"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "3DAB175493B08089"
+			rewards: [{
+				id: "29B13597289089F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in Dark Oak Forests"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1b
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "10911C878598A90F"
+				title: "Kill the Conjurer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Conjurer"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "26EA75D177BC496B"
+			rewards: [
+				{
+					id: "2F1EFCBC72F69624"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6DA1A2B30558A913"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Raids are started by killing Illager Captains, the same way as normal"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "7362BF4629FAD929"
+				title: "Defend a Village"
+				type: "advancement"
+			}]
+			title: "Defend a Village from a &4Raid"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "6CCC207D1B1A29FF"
+			rewards: [{
+				id: "656F412439474F84"
+				item: "upgradednetherite_items:netherite_apple"
+				type: "item"
+			}]
+			subtitle: "Found very rarely on beaches"
+			tasks: [{
+				entity: "rottencreatures:dead_beard"
+				icon: "rottencreatures:treasure_chest"
+				id: "3CF050DB14D4A6D8"
+				title: "Kill Dead Beard"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &6Dead Beard"
+			x: 3.5d
+			y: -2.5d
+		}
+	]
+	title: " &aOverworld"
+}

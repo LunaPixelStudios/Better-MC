@@ -1,0 +1,451 @@
+#Aerial Affinity is a boots enchantment that increases mining rate when not on the ground.
+"AerialAffinityEnchantment Enabled" = true
+#Allows anvil repair of items with repair cost 39 or more.
+"AllowTooExpensive Enabled" = true
+#Place a block of amethyst under a note block to play its placement sound.
+"AmethystNoteBlock Enabled" = true
+#Storage for maps that automatically updates the displayed map as you explore.
+"Atlases Enabled" = true
+#Refills your hotbar from your inventory.
+"AutoRestock Enabled" = true
+#Unlocks all vanilla recipes.
+"AutomaticRecipeUnlock Enabled" = false
+#Azalea wood is obtainable from naturally occurring azalea trees or by growing azalea saplings.
+"AzaleaWood Enabled" = true
+#Right-click a bat with a bucket to capture it. Right-click again to release it and locate entities around you.
+"BatBuckets Enabled" = true
+#Passive and friendly mobs will heal themselves within range of a beacon with the regeneration effect.
+"BeaconsHealMobs Enabled" = true
+#Beekeepers are villagers that trade beekeeping items. Their job site is the beehive.
+"Beekeepers Enabled" = true
+#Ender pearl storage. A silverfish will be converted to an endermite upon touching an ender pearl block.
+#Eating a chorus fruit will teleport you to the nearest ender pearl block.
+"BlockOfEnderPearls Enabled" = true
+#A storage block for gunpowder. It obeys gravity and dissolves in lava.
+"BlockOfGunpowder Enabled" = true
+#A storage block for sugar. It obeys gravity and dissolves in water.
+"BlockOfSugar Enabled" = true
+#Bookcases hold up to 9 stacks of books, paper and maps.
+"Bookcases Enabled" = true
+#Integration with Bumblezone.
+"BumblezoneIntegration Enabled" = true
+#Cave spiders have a chance to drop cobwebs when killed.
+"CaveSpidersDropCobwebs Enabled" = true
+#Experimental! Right-click (with empty hand) on any stairs block to sit down. 
+"Chairs Enabled" = true
+#Chickens randomly drop feathers.
+"ChickensDropFeathers Enabled" = true
+#Add amethyst shards to item frames to make them invisible.
+"ClearItemFrames Enabled" = true
+#Tools with the Collection enchantment automatically pick up drops.
+"CollectionEnchantment Enabled" = true
+#Allows bundles to be dyed.
+"ColoredBundles Enabled" = true
+#Throw dye into a nether portal to change its color.
+"ColoredNetherPortals Enabled" = true
+#Shows cardinal points and XYZ coordinates when holding a compass.
+"CompassOverlay Enabled" = true
+#Coral can be combined with sea lanterns to make colored variants.
+"CoralSeaLanterns Enabled" = true
+#Coral Squids spawn near coral in warm oceans.
+"CoralSquids Enabled" = true
+#Playing a music disc in a jukebox prevents background music from playing at the same time.
+"DiscsStopBackgroundMusic Enabled" = true
+#Ebony is a very dark grey wood. Saplings can be found in Ancient City and Woodland Mansion chests.
+"EbonyWood Enabled" = true
+#Right-click on a sign with an empty hand to edit its text.
+"EditableSigns Enabled" = true
+#Endermites drop endermite powder that can be used to locate an End City.
+"EndermitePowder Enabled" = true
+#Adds custom recipes.
+"ExtraRecipes Enabled" = true
+#Adds more villager trades.
+"ExtraTrades Enabled" = true
+#Extract enchantments from any enchanted item into an empty book using the grindstone.
+#The player must pay a cost (in xp levels) to extract enchantments from the item.
+"ExtractEnchantments Enabled" = true
+#Potion effect particles are much less obtrusive by default and can optionally be entirely hidden.
+"GentlePotionParticles Enabled" = true
+#Goats have a chance to drop mutton when killed.
+"GoatsDropMutton Enabled" = true
+#Armor returns a single ingot, leather or diamond when used on the grindstone.
+"GrindableArmor Enabled" = false
+#Scroll the mouse while hovering over a bundle or shulker box to change the order of its contents.
+"HoverSorting Enabled" = true
+#A husk has a chance to drop sand when killed.
+"HusksDropSand Enabled" = true
+#Husks spawn anywhere within their biome rather than just the surface.
+"HusksSpawnUnderground Enabled" = true
+#Nether fortress loot chests can contain enchanted armor and weapons, more diamonds, treasure enchanted books, blaze powder, and (rarely) wither skeleton skulls.
+"ImprovedFortressLoot Enabled" = true
+#Mansion loot chests can contain totems, enchanted armor and axes, and treasure enchanted books.
+"ImprovedMansionLoot Enabled" = true
+#Adds decoration and more ores to mineshafts.
+"ImprovedMineshafts Enabled" = true
+#Button to automatically tidy inventories.
+"InventoryTidying Enabled" = true
+#A functional block that speeds up cooking of clay, glass, bricks and terracotta.
+"Kilns Enabled" = true
+#Drop an item onto a lava bucket item to destroy it.
+"LavaBucketDestroysItems Enabled" = true
+#Use a noteblock while sneaking to lower its pitch by one semitone.
+"LowerNoteblockPitch Enabled" = true
+#Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
+"Lumberjacks Enabled" = true
+#A map's image is shown in the item tooltip when hovering over.
+"MapTooltip Enabled" = true
+#Mooblooms are cow-like mobs that come in a variety of flower types.
+#They spawn flowers where they walk and can be milked for suspicious stew.
+"Mooblooms Enabled" = true
+#Crying obsidian can be used in the construction of nether portal frames.
+"MorePortalFrames Enabled" = true
+#Disables the 'Chat messages can't be verified' nag when the server does not enforce secure profile.
+#This is a controversial module and so is disabled by default.
+"NoChatVerifiedNag Enabled" = false
+#Removes trampling of farmland and crops.
+"NoCropTrampling Enabled" = true
+#Removes the trade discount applied when a villager is cured from zombification.
+#This is an opinionated feature that changes core gameplay and so is disabled by default.
+#This feature is disabled if villagerfix is present because it's better.
+"NoCuredVillagerDiscount Enabled" = false
+#When any action would cause a villager to become a nitwit, it becomes an unemployed villager instead.
+#This is an opinionated feature that removes a gameplay element and so is disabled by default.
+"NoNitwits Enabled" = false
+#Tamed animals do not take direct damage from players.
+"NoPetDamage Enabled" = true
+#Removes the potion enchantment glint so you can see what the potion color is.
+"NoPotionGlint Enabled" = true
+#Removes the dark outer overlay when zooming in with the spyglass, giving you the full view.
+"NoSpyglassScope Enabled" = true
+#Treasure enchantments such as Mending and Soul Speed are no longer tradeable with villagers.
+#This is an opinionated feature designed to force the player to explore and so is disabled by default.
+"NoTreasureEnchantmentTrading Enabled" = false
+#Automatically opens double doors.
+"OpenBothDoors Enabled" = true
+#Parrots stay on your shoulder when jumping and falling. Crouch to make them dismount.
+"ParrotsStayOnShoulder Enabled" = true
+#Right-clicking on a grass path block with a hoe turns it back into dirt.
+"PathToDirt Enabled" = true
+#Player-only pressure plates crafted using gilded blackstone.
+"PlayerPressurePlates Enabled" = true
+#Allows crafting from inventory if the player has a crafting table in their inventory.
+"PortableCrafting Enabled" = true
+#Right-click with a hoe to quickly harvest and replant a fully-grown crop.
+"QuickReplant Enabled" = false
+#Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.
+"RaidHorns Enabled" = true
+#A lantern that emits light when a redstone signal is received.
+"RedstoneLanterns Enabled" = true
+#A block that acts like sand but is powered like a block of redstone.
+"RedstoneSand Enabled" = true
+#Leather can be used to repair elytra when insomnia is disabled.
+"RepairElytraFromLeather Enabled" = true
+#Use netherite scrap to repair a small amount of netherite item damage.
+"RepairNetheriteFromScrap Enabled" = true
+#Use prismarine shards to repair a small amount of trident damage.
+"RepairTridentsFromShards Enabled" = true
+#The repsawn anchor can be used in the End.
+#This is an opinionated feature that changes core gameplay and so is disabled by default.
+"RespawnAnchorInTheEnd Enabled" = false
+#An item's repair cost is shown in their tooltip when looking at the anvil screen.
+"ShowRepairCost Enabled" = true
+#Drag and drop items into a shulkerbox from within your inventory.
+"ShulkerBoxDragDrop Enabled" = true
+#A shulker box's contents is shown in the item tooltip when hovering over.
+"ShulkerBoxTooltip Enabled" = true
+#Increases snow layers when snowing in cold biomes
+"SnowAccumulation Enabled" = true
+#Allows enchanted books to stack.
+"StackableEnchantedBooks Enabled" = false
+#Allows potions to stack.
+"StackablePotions Enabled" = true
+#Allows stews to stack.
+"StackableStews Enabled" = true
+#A stray has a chance to drop blue ice when killed.
+"StraysDropBlueIce Enabled" = true
+#Strays spawn anywhere within their biome rather than just the surface.
+"StraysSpawnUnderground Enabled" = true
+#Anvils are 50% less likely to take damage when used.
+"StrongerAnvils Enabled" = true
+#The player's inventory items will be preserved in the Totem of Preserving upon death.
+#By default, a new totem will always be spawned to preserve items upon dying ('Grave mode').
+#If Grave mode is not enabled, you must be holding a totem in order for it to preserve your items.
+"TotemOfPreserving Enabled" = false
+#A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
+"TotemWorksFromInventory Enabled" = true
+#Barrels available in all types of vanilla wood.
+"VariantBarrels Enabled" = true
+#Variant bars crafted from vanilla metal ingots.
+"VariantBars Enabled" = true
+#Bookshelves available in all types of vanilla wood.
+"VariantBookshelves Enabled" = true
+#Variant chains crafted from vanilla metal ingots and nuggets.
+"VariantChains Enabled" = true
+#Chests available in all types of vanilla wood.
+"VariantChests Enabled" = true
+#Ladders available in all types of vanilla wood.
+"VariantLadders Enabled" = true
+#Variants lanterns crafted from vanilla metal nuggets and torches.
+"VariantLanterns Enabled" = true
+#Mobs may spawn with different textures.
+"VariantMobTextures Enabled" = true
+#Villagers are attracted when the player holds a block of emeralds.
+"VillagersFollowEmeraldBlocks Enabled" = true
+#Wandering traders have a chance to sell maps to distant structures.
+"WanderingTraderMaps Enabled" = true
+#Iron rusts when in contact with water.
+"WeatheringIron Enabled" = true
+#A witch has a chance to drop a Potion of Luck when killed by a player.
+"WitchesDropLuck Enabled" = true
+#A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
+"Woodcutters Enabled" = true
+
+[Atlases]
+	#Allow opening the atlas while it is in the off hand.
+	"Open in off hand" = false
+	#Map scale used in atlases by default.
+	"Map scale" = 0
+	#If true, sets a keybind for swapping the item in your main hand with the first available atlas in your inventory (defaults to 'r').
+	"Enable keybind" = true
+
+[BatBuckets]
+	#Number of seconds that entities will receive the glowing effect.
+	"Glowing time" = 10
+	#Range (in blocks) in which entities will glow.
+	"Viewing range" = 24
+	#If true, the bat will take half a heart of damage when released from the bucket.
+	"Damage bat" = true
+
+[BlockOfEnderPearls]
+	#A chorus fruit will teleport you to an ender pearl block within this range (in blocks).
+	"Chorus teleport range" = 16
+	#If true, eating a chorus fruit while in range of an ender pearl block will teleport you to it.
+	"Chorus fruit teleport" = true
+	#If true, a silverfish has a chance to be converted into an endermite when it is next to an ender pearl block.
+	"Convert silverfish to endermite" = true
+
+[Bookcases]
+	#Items that may be placed in bookcases.
+	"Valid items" = ["minecraft:book", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:writable_book", "minecraft:knowledge_book", "minecraft:paper", "minecraft:map", "minecraft:filled_map"]
+
+[CaveSpidersDropCobwebs]
+	#Maximum cobwebs dropped when cave spider is killed.
+	"Maximum drops" = 2
+
+[CompassOverlay]
+	#If true, shows the cardinal direction that the player is facing.
+	Facing = true
+	#If true, shows the player's XYZ coordinates.
+	Co-ordinates = true
+	#If true, only show the player's X and Z coordinates (not their height/depth).
+	"Only show X and Z" = false
+	#If true, only show the compass overlay if the player is sneaking.
+	"Show when sneaking" = false
+
+[CoralSquids]
+	#Chance (out of 1.0) of a coral squid dropping coral when killed by the player.
+	"Drop chance" = 0.2
+	#Chance of coral squids spawning in warm ocean biomes.
+	"Spawn weight" = 50
+
+[Core]
+	#If true, routes additional debug messages into the standard game log.
+	"Debug mode" = false
+	#If true, Charm will add its own advancement tree.
+	Advancements = true
+	#If true, allows anvil recipes that do not require any XP cost.
+	"Allow zero cost anvil recipes" = true
+
+[EndermitePowder]
+	#Maximum endermite powder dropped when endermite is killed.
+	"Maximum drops" = 2
+
+[ExtraRecipes]
+	#If true, adds a blast furnace recipe for smelting raw ore blocks into ore blocks.
+	"Ore block from raw ore block" = true
+	#If true, adds a recipe for Gilded Blackstone using gold nuggets and blackstone.
+	"Gilded Blackstone" = true
+	#If true, adds a recipe for the Trident using a heart of the sea, prismarine shards and crystals.
+	Trident = true
+	#If true, adds a recipe for Cyan Dye using warped roots.
+	"Cyan Dye from warped roots" = true
+	#If true, adds a recipe for Green Dye using yellow and blue dyes.
+	"Green Dye from yellow and blue" = true
+	#If true, adds a recipe for turning snow blocks back into snowballs.
+	"Snowballs from snow blocks" = true
+	#If true, adds a recipe for turning quartz blocks back into quartz.
+	"Quartz from quartz blocks" = true
+	#If true, adds a recipe for turning clay blocks back into clay balls.
+	"Clay balls from clay blocks" = true
+	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
+	"Simpler Soul Torch" = true
+	#If true, adds a shapeless recipe for bread.
+	"Shapeless bread" = true
+	#If true, adds a shapeless recipe for paper.
+	"Shapeless paper" = true
+	#If true, adds a recipe for crafting bundles from leather.
+	"Bundle from leather" = true
+
+[ExtraTrades]
+	#If true, librarians will buy any enchanted book in return for emeralds.
+	"Enchanted books" = true
+	#If true, armorers, weaponsmiths and toolsmiths will buy chipped or damaged anvils along with iron ingots in return for repaired anvils.
+	"Repaired anvils" = true
+	#If true, leatherworkers will sell leather in return for rotten flesh.
+	"Leather for rotten flesh" = true
+	#If true, butchers will sell beef in return for rotten flesh.
+	"Beef for rotten flesh" = true
+	#If true, leatherworkers will sell bundles in return for emeralds.
+	Bundles = true
+
+[ExtractEnchantments]
+	#Initial cost (in xp levels) of extraction before adding on the cost of the enchantment(s).
+	"Initial cost" = 5
+	#Adds extra cost (in xp levels) if the enchantment is a 'treasure' enchantment such as Mending.
+	"Treasure cost" = 5
+	#If true, the item's repair cost will be added to the cost of extraction.
+	"Add item repair cost" = true
+
+[GentlePotionParticles]
+	#If true, translucent particles will be rendered.  If false, no particles will be rendered.
+	"Translucent particles" = true
+
+[GoatsDropMutton]
+	#Maximum pieces of mutton dropped when goat is killed.
+	"Maximum drops" = 2
+
+[HusksDropSand]
+	#Maximum sand dropped when husk is killed.
+	"Maximum drops" = 2
+
+[ImprovedMineshafts]
+	#Chance (out of 1.0) of blocks such as candles and ores spawning on the floor of corridors.
+	"Corridor floor blocks" = 0.03
+	#Chance (out of 1.0) of blocks such as lanterns spawning on the ceiling of corridors.
+	"Corridor ceiling blocks" = 0.02
+	#Chance (out of 1.0) of stone, gravel and ore spawning at the entrance of corridors.
+	"Corridor block piles" = 0.2
+	#Chance (out of 1.0) for a moss or precious ore block to spawn on a single block of the central mineshaft room.
+	"Room blocks" = 0.25
+	#Chance (out of 1.0) for a minecart to spawn in a corridor. Minecart loot is chosen from the 'Minecart loot tables'.
+	"Extra minecarts" = 0.2
+	#If 'Add minecarts' is enabled, minecarts have a chance to be filled with loot from these loot tables.
+	"Minecart loot tables" = ["chests/simple_dungeon", "chests/abandoned_mineshaft", "chests/village/village_temple", "chests/village/village_cartographer", "chests/village/village_mason", "chests/village/village_toolsmith", "chests/village/village_weaponsmith"]
+
+[NoCropTrampling]
+	#If true, a player or mob will trample crops unless wearing boots with feather falling enchantment.
+	"Require feather falling" = false
+
+[PortableCrafting]
+	#If true, sets a keybind for opening the portable crafting table (defaults to 'v').
+	"Enable keybind" = true
+
+[QuickReplant]
+	#List of blockstate definitions for replantable crops.
+	"Replantable blockstates" = ["minecraft:beetroots[age=3]", "minecraft:carrots[age=7]", "minecraft:nether_wart[age=3]", "minecraft:potatoes[age=7]", "minecraft:wheat[age=7]"]
+
+[RaidHorns]
+	#Chance (out of 1.0) of a patrol captain dropping a raid horn when killed by the player.
+	"Drop chance" = 0.05
+	#Volume of the raid horn sound effect when used.  1.0 is maximum volume.
+	Volume = 0.75
+
+[RepairElytraFromLeather]
+	#If true, leather can be used to repair elytra even when insomnia is disasbled.
+	"Allow when insomnia enabled" = false
+
+[RepairNetheriteFromScrap]
+	#Number of levels required to restore durability.
+	"XP cost" = 1
+	#List of items repairable using netherite scrap.
+	"Repairable items" = ["netherite_hoe", "netherite_shovel", "netherite_axe", "netherite_pickaxe", "netherite_sword", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots"]
+
+[SnowAccumulation]
+	#If true, placing a block on a non-full snow block will replace the snow block.
+	#If false, use vanilla behavior (only a snow block with a single layer will allow block replacement).
+	"Allow block replace" = true
+	#Chance (out of 1.0) of a fully accumulated snow block being converted to powder snow.
+	"Powder snow chance" = 0.01
+
+[StackableEnchantedBooks]
+	#Maximum enchanted book stack size.
+	"Stack size" = 16
+
+[StackablePotions]
+	#Maximum potion stack size.
+	"Stack size" = 16
+
+[StackableStews]
+	#Maximum stew stack size.
+	"Stack size" = 16
+	#Also apply to suspicious stew.
+	"Enable suspicious stew" = false
+
+[StraysDropBlueIce]
+	#Maximum blue ice dropped when stray is killed.
+	"Maximum drops" = 2
+
+[TotemOfPreserving]
+	#If true, a new totem will be spawned to preserve items upon dying.
+	#Players do NOT need to be holding a Totem of Preserving.
+	"Grave mode" = true
+	#If true, only the owner of the totem may pick it up.
+	"Owner only" = false
+	#Mobs that have a chance to drop a totem of preserving.
+	#This does not apply if Grave mode is true.
+	"Mobs drop totems" = ["entities/witch", "entities/pillager"]
+	#Chest loot tables that will always contain a totem of preserving.
+	#This does not apply if Grave mode is true.
+	"Chests contain totems" = ["chests/pillager_outpost", "chests/woodland_mansion"]
+	#If true, the totem will preserve the player's experience and restore when broken.
+	"Preserve XP" = false
+	#If true, the coordinates where you died will be added to the player's chat screen.
+	"Show death position" = false
+
+[VariantMobTextures]
+	#If true, cows may spawn with different textures.
+	"Variant cows" = true
+	#If true, chickens may spawn with different textures.
+	"Variant chickens" = true
+	#If true, dolphins may spawn with different textures.
+	"Variant dolphins" = true
+	#If true, pigs may spawn with different textures.
+	"Variant pigs" = true
+	#If true, sheep face and 'shorn' textures match their wool color.
+	"Variant sheep" = true
+	#If true, snow golems may spawn with different derp faces.
+	"Variant snow golems" = true
+	#If true, squids may spawn with different textures.
+	"Variant squids" = true
+	#If true, turtles may spawn with different textures.
+	"Variant turtles" = true
+	#If true, wolves may spawn with different textures.
+	"Variant wolves" = true
+	#If true, wandering traders may spawn with different textures.
+	"Variant wandering traders" = true
+	#If true, all animals have a chance to spawn as a rare variant.
+	"Rare variants" = true
+	#Approximately 1 in X chance of a mob spawning as a rare variant.
+	"Rarity of rare variants" = 1000
+
+[WanderingTraderMaps]
+	#List of structure tags.
+	"Maps to structures" = ["minecraft:village", "minecraft:mineshaft", "charm:swamp_hut", "charm:igloo"]
+	#List of rarer structure tags.
+	#These are more expensive and less likely to be sold.
+	"Maps to rare structures" = ["charm:desert_pyramid", "charm:jungle_temple", "minecraft:ocean_ruin"]
+
+[WeatheringIron]
+	#The chance of weathering increases according to the number of block faces touching water.
+	"Faces increase weathering" = true
+	#When more than one block face is touching water, weathering chance increases by this amount per face.
+	"Face multiplier" = 0.008
+	#Chance (out of 1.0) of a block being considered for weathering.
+	"Weathering chance" = 0.006
+	#When a block is above a bubble column, weathering chance is multiplied by this value.
+	"Bubble column chance multiplier" = 4.0
+
+[WitchesDropLuck]
+	#Chance (out of 1.0) of a witch dropping a Potion of Luck when killed by the player.
+	"Drop chance" = 0.05
+

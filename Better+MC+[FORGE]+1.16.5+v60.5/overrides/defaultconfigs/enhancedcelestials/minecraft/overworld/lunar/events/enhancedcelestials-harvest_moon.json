@@ -1,0 +1,51 @@
+{
+  "textComponents": {
+    "name": {
+      "key": "enhancedcelestials.name.harvest_moon"
+    },
+    "startNotification": {
+      "component": {
+        "key": "enhancedcelestials.notification.harvest_moon.rise",
+        "style": {
+          "color": "ffff55"
+        }
+      },
+      "type": "CHAT"
+    },
+    "endNotification": {
+      "component": {
+        "key": "enhancedcelestials.notification.harvest_moon.set"
+      },
+      "type": "CHAT"
+    }
+  },
+  "blockSleeping": false,
+  "enhancedCrops": [
+    "forge:item_tag_crops"
+  ],
+  "cropDropMultiplier": 2.0,
+  "clientSettings": {
+    "colorSettings": {
+      "skyLightColor": "ffdb63",
+      "skyLightBlendStrength": 0.6,
+      "moonTextureColor": "ffdb63",
+      "moonTextureBlendStrength": 0.6
+    },
+    "moonSize": 20.0,
+    "moonTextureLocation": "minecraft:textures/environment/moon_phases.png",
+    "soundTrack": "enhancedcelestials:harvest_moon",
+    "type": "enhancedcelestials:default"
+  },
+  "minNumberOfNightsBetween": 4,
+  "chance": 0.035,
+  "validMoonPhases": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "type": "enhancedcelestials:harvest_moon"
+}

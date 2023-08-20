@@ -1,0 +1,22 @@
+{
+  "biomes": [
+    {
+      "biome": "default",
+      "spawn_info": {
+        "spawn_rate": 5,
+        "min_count": 1,
+        "max_count": 1
+      }
+    },
+    {
+      "biome": "minecraft:warped_forest",
+      "spawn_info": {
+        "spawn_rate": 5,
+        "min_count": 1,
+        "max_count": 3,
+        "spawn_cost_per_entity": 2.6,
+        "max_spawn_cost": 0.1
+      }
+    }
+  ]
+}

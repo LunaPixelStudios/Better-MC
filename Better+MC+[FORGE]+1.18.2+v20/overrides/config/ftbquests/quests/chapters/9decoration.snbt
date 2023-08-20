@@ -1,0 +1,186 @@
+{
+	id: "29E5D52A35796881"
+	group: "0EE474D2787144F8"
+	order_index: 0
+	filename: "9decoration"
+	title: " &9Decoration"
+	icon: "decoration_delight:oak_stool"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Craft an &5Unobtanium Ingot"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Obtained by throwing a &8Netherite Ingot &rthrough a &4Nether &rPortal. Used to make an Unobtanium Block, one of the many decoration blocks from the Architect's Palette mod."
+			id: "0016B9E59468244D"
+			tasks: [{
+				id: "2ADDC57CDCEC4471"
+				type: "item"
+				item: "architects_palette:unobtanium"
+			}]
+			rewards: [{
+				id: "5F59A2FAA1ADE10F"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham_block"
+				count: 3
+			}]
+		}
+		{
+			title: "Obtain a &9Pillager Plushie"
+			x: -1.5d
+			y: 0.5d
+			subtitle: "One of the many available &9Plushies&r, obtained as a rare drop by killing their respective mobs. In this case, pillagers have a rare chance of dropping the &9Pillager Plushie&r."
+			id: "3A11905918DD5452"
+			tasks: [{
+				id: "690FFB83519A984B"
+				type: "item"
+				item: "illager_plushies:pillager_plushie_spawn_egg"
+			}]
+			rewards: [{
+				id: "737B8E17AB280FB8"
+				type: "item"
+				item: "illager_plushies:nameless_sorcerer_plushie_spawn_egg"
+			}]
+		}
+		{
+			title: "Craft a &aBotanist Workbench"
+			x: -3.0d
+			y: 2.0d
+			subtitle: "Used to turn natural blocks such as snow, ice, glass, and plants into their Chipped variants."
+			id: "7A6D189ACB1F61C2"
+			tasks: [{
+				id: "6D2A99070B26256F"
+				type: "item"
+				item: "chipped:botanist_workbench"
+			}]
+			rewards: [{
+				id: "2F655CF69426B4AB"
+				type: "item"
+				item: "minecraft:snow_block"
+				count: 16
+			}]
+		}
+		{
+			title: "Craft a &3Glassblower's Workbench"
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Used to turn glass into their Chipped variants."
+			id: "4979F8C036A7110F"
+			tasks: [{
+				id: "498CC308CAA95A3A"
+				type: "item"
+				item: "chipped:glassblower"
+			}]
+			rewards: [{
+				id: "07C89D48CBA86A7D"
+				type: "item"
+				item: "minecraft:glass"
+				count: 32
+			}]
+		}
+		{
+			title: "Craft a &eCarpenters Table"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Used to turn wooden blocks into their Chipped variants."
+			id: "073E1A8B19478795"
+			tasks: [{
+				id: "040C16031134ED0F"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+			rewards: [{
+				id: "698D1BEE375BE79D"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 32
+			}]
+		}
+		{
+			title: "Craft a &9Shepherd's Workbench"
+			x: -3.0d
+			y: 3.5d
+			subtitle: "Used to turn wools into their Chipped variants."
+			id: "292199EC884AA0C0"
+			tasks: [{
+				id: "44D320D9F7152ED7"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+			rewards: [{
+				id: "17CB6FBB73150D5F"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 8
+			}]
+		}
+		{
+			title: "Craft a &7Mason's Workbench"
+			x: -1.5d
+			y: 3.5d
+			subtitle: "Used to turn stones and condensed ingot blocks into their Chipped variants."
+			id: "1E369C4CB7B8368D"
+			tasks: [{
+				id: "4B350BC6965B1A90"
+				type: "item"
+				item: "chipped:mason_table"
+			}]
+			rewards: [{
+				id: "30EC7E8C2E5F71B1"
+				type: "item"
+				item: "minecraft:stone"
+				count: 32
+			}]
+		}
+		{
+			title: "Craft a &cTinkerer's Workbench"
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Used to turn redstone related items into their Chipped variants."
+			id: "6668C5B66E284B7D"
+			tasks: [{
+				id: "221432AE570B2D28"
+				type: "item"
+				item: "chipped:mechanist_workbench"
+			}]
+			rewards: [{
+				id: "67F08BE80784289B"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 4
+			}]
+		}
+		{
+			title: "Craft a &aChair"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "One of the many pieces of furniture from the Another Furniture mod."
+			id: "12AA49E9237E42AA"
+			tasks: [{
+				id: "7485A3CD0CBF1C72"
+				type: "item"
+				title: "Any #another_furniture:chairs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "another_furniture:chairs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1A15A5932A8ABFB3"
+				type: "item"
+				item: {
+					id: "another_furniture:furniture_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

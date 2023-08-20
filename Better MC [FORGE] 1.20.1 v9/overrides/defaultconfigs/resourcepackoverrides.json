@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "file/NoBushyLeaves.zip",
+    "file/Icons.zip",
+    "file/file/Created Simple Storage 1.3.zip",
+    "file/Mandalas_Legacy_Gui_Background.zip",
+    "file/MandalasGUI+Modded_Dakmode_v4.2.zip",
+    "file/Stay_True_1.20.zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.19.zip": {
+      "hidden": true
+    },
+    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Friends_And_Foes_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bountiful_v2.zip": {
+      "hidden": true
+    },
+    "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-VillagersPlus_v1.zip": {
+      "hidden": true
+    },
+    "file/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
+      "hidden": true
+    }
+  }
+}

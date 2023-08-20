@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decoration"
+	group: "799D8360B26E9792"
+	icon: "handcrafted:spruce_fancy_bed"
+	id: "3B95E66C126DBBEF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "12D4044932EEF253"
+			rewards: [{
+				id: "34035722E2E7AC32"
+				item: "plushies:dolphin_plushie"
+				type: "item"
+			}]
+			subtitle: "One of the many mob plushies from the Plushies mod."
+			tasks: [{
+				id: "1E4769170074A8BD"
+				item: "plushies:dragon_plushie"
+				type: "item"
+			}]
+			title: "Craft a &8&lDragon Plushie"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "7CC366DDC723B30F"
+			rewards: [{
+				count: 3
+				id: "1F06C65F85B412D6"
+				item: "farmersdelight:honey_glazed_ham"
+				type: "item"
+			}]
+			subtitle: "Obtained by throwing a &8Netherite Ingot &rthrough a &4Nether &rPortal. Used to make an Unobtanium Block, one of the many decoration blocks from the Architect's Palette mod."
+			tasks: [{
+				id: "5B104DD2F88EC5B8"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
+			title: "Craft an &5Unobtanium Ingot"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "4BBAB429C5402A23"
+			rewards: [{
+				id: "2794EE43FCF95403"
+				item: "handcrafted:hammer"
+				type: "item"
+			}]
+			subtitle: "Can be used on furniture from the Handcrafted mod to change the furniture color."
+			tasks: [{
+				id: "61EF88FC45DE94F5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:cushions"
+					}
+				}
+				title: "Any #handcrafted:cushions"
+				type: "item"
+			}]
+			title: "Craft a &cCushion"
+			x: -3.5d
+			y: -0.5d
+		}
+	]
+	title: " &9Decoration"
+}

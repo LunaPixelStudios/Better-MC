@@ -1,0 +1,13 @@
+{
+  "clientSettings": {
+    "showShadersWarning": false
+  },
+  "mobSettings": {
+    "firefliesSpawnNaturally": true,
+    "firefliesLandOnMobs": true,
+    "woodpeckersDrum": true,
+    "woodpeckerDrumChance": 600,
+    "woodpeckersInteractWithBlocks": true,
+    "woodpeckersBuildNests": true
+  }
+}

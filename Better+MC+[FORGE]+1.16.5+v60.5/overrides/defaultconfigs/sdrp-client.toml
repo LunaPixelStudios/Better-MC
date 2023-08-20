@@ -1,0 +1,9 @@
+
+#Simple Discord Rich Presence config
+[common]
+	#Enable Discord Rich Presence
+	discordRP = true
+	#Client ID
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	clientID = 1010395903468769290
+

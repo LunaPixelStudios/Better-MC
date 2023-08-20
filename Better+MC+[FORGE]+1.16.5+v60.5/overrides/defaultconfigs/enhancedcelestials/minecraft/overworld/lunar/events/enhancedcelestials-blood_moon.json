@@ -1,0 +1,68 @@
+{
+  "textComponents": {
+    "name": {
+      "key": "enhancedcelestials.name.blood_moon"
+    },
+    "startNotification": {
+      "component": {
+        "key": "enhancedcelestials.notification.blood_moon.rise",
+        "style": {
+          "color": "ff5555"
+        }
+      },
+      "type": "CHAT"
+    },
+    "endNotification": {
+      "component": {
+        "key": "enhancedcelestials.notification.blood_moon.set"
+      },
+      "type": "CHAT"
+    }
+  },
+  "blockSleeping": true,
+  "spawnCategoryMultiplier": {
+    "monster": 1.5
+  },
+  "lunarSpawnSettings": {
+    "useBiomeSpawnSettings": true,
+    "forceSurfaceSpawning": true,
+    "spawners": {
+      "monster": [],
+      "creature": [],
+      "ambient": [],
+      "water_creature": [],
+      "water_ambient": [],
+      "misc": [],
+      "IECREATURE": [],
+      "axolotls": [],
+      "underground_water_creature": [],
+      "end_creature": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": false
+  },
+  "clientSettings": {
+    "colorSettings": {
+      "skyLightColor": "ff0000",
+      "skyLightBlendStrength": 0.6,
+      "moonTextureColor": "ff0000",
+      "moonTextureBlendStrength": 0.6
+    },
+    "moonSize": 20.0,
+    "moonTextureLocation": "minecraft:textures/environment/moon_phases.png",
+    "soundTrack": "enhancedcelestials:blood_moon",
+    "type": "enhancedcelestials:default"
+  },
+  "minNumberOfNightsBetween": 4,
+  "chance": 0.07,
+  "validMoonPhases": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "type": "enhancedcelestials:blood_moon"
+}

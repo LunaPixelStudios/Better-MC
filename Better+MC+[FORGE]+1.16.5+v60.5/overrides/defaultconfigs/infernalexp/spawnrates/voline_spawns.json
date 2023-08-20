@@ -1,0 +1,34 @@
+{
+  "biomes": [
+    {
+      "biome": "default",
+      "spawn_info": {
+        "spawn_rate": 50,
+        "min_count": 1,
+        "max_count": 3,
+        "spawn_cost_per_entity": 1.2,
+        "max_spawn_cost": 0.1
+      }
+    },
+    {
+      "biome": "minecraft:nether_wastes",
+      "spawn_info": {
+        "spawn_rate": 50,
+        "min_count": 1,
+        "max_count": 3,
+        "spawn_cost_per_entity": 1.2,
+        "max_spawn_cost": 0.1
+      }
+    },
+    {
+      "biome": "minecraft:crimson_forest",
+      "spawn_info": {
+        "spawn_rate": 1,
+        "min_count": 1,
+        "max_count": 5,
+        "spawn_cost_per_entity": 8.2,
+        "max_spawn_cost": 0.1
+      }
+    }
+  ]
+}

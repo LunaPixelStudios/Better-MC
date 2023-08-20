@@ -1,0 +1,22 @@
+{
+  "biomes": [
+    {
+      "biome": "default",
+      "spawn_info": {
+        "spawn_rate": 30,
+        "min_count": 1,
+        "max_count": 1
+      }
+    },
+    {
+      "biome": "infernalexp:glowstone_canyon",
+      "spawn_info": {
+        "spawn_rate": 30,
+        "min_count": 1,
+        "max_count": 1,
+        "spawn_cost_per_entity": 7.2,
+        "max_spawn_cost": 0.9
+      }
+    }
+  ]
+}

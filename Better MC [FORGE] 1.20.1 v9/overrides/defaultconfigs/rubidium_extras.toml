@@ -1,0 +1,55 @@
+
+#Dynamic Lights Settings
+[Settings]
+
+	[Settings.Misc]
+		"Cloud Height [Raw, Default 256]" = 256
+		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
+		"Render Fog" = true
+		"Hide JEI Until Searching" = false
+		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
+		"Use Borderless Fullscreen" = "FULLSCREEN"
+
+	[Settings."FPS Counter"]
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
+		"FPS Counter Distance" = 12
+
+	[Settings."Entity Distance"]
+		"Enable Max Distance Checks" = true
+		"(TileEntity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096
+		"(TileEntity) Max Vertical Render Distance [Raw, Default 32]" = 32
+		"(Entity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096
+		"(Entity) Max Vertical Render Distance [Raw, Default 32]" = 32
+
+	[Settings.Zoom]
+		"Lower Zoom Sensitivity" = true
+		"Zoom Scrolling Enabled" = true
+		"Zoom Transition Mode (OFF, LINEAR, SMOOTH)" = "SMOOTH"
+		"Zoom Transition Mode (TOGGLE, HOLD, PERSISTENT)" = "HOLD"
+		"Cinematic Camera Mode (OFF, VANILLA, MULTIPLIED)" = "OFF"
+		"Zoom Overlay?" = true
+
+	[Settings."True Darkness"]
+		"Use True Darkness" = false
+		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
+		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "DIM"
+
+		[Settings."True Darkness".Advanced]
+			"Only Effect Block Lighting" = false
+			"Ignore Moon Light" = false
+			#Range: 0.0 ~ 1.0
+			"Minimum Moon Brightness (0->1)" = 0.0
+			#Range: 0.0 ~ 1.0
+			"Maximum Moon Brightness (0->1)" = 0.25
+
+		[Settings."True Darkness"."Dimension Settings"]
+			"Dark Overworld?" = true
+			"Dark By Default?" = false
+			"Dark Nether?" = false
+			#Range: 0.0 ~ 1.0
+			"Dark Nether Fog Brightness (0->1)" = 0.5
+			"Dark End?" = false
+			#Range: 0.0 ~ 1.0
+			"Dark End Fog Brightness (0->1)" = 0.0
+			"Dark If No Skylight?" = false
+

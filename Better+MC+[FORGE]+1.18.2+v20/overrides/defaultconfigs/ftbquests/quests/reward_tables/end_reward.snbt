@@ -1,0 +1,11 @@
+{
+	id: "4AC30027703E3BA7"
+	order_index: 0
+	title: "End Reward"
+	icon: "minecraft:end_stone"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:spectral_arrow", count: 16 }
+		{ item: "minecraft:red_bed", count: 2 }
+	]
+}

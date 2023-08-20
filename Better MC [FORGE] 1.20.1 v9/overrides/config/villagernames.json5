@@ -1,0 +1,10 @@
+{
+	// Use the custom name list, editable in ./mods/villagernames/customnames.txt, seperated by a comma.
+	"_useCustomNames": true,
+	// Use the list of pre-defined female names when naming villagers.
+	"_useFemaleNames": true,
+	// Use the list of pre-defined male names when naming villagers.
+	"_useMaleNames": true,
+	// If enabled, also gives modded villagers a name. If you've found a 'villager'-entity that isn't named let me know by opening an issue so I can add it in.
+	"nameModdedVillagers": true
+}

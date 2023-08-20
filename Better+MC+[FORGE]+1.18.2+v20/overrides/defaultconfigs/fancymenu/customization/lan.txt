@@ -1,0 +1,34 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.ShareToLanScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Do not use LAN for server hosting!%n%To make a server with other players, click the Bisect option in the Multiplayer tab.%n%To host a server on your own PC for free, use the serverpack on the modpack's Curseforge page (Read the Readme).%n%Using LAN longterm will result in a multitude of issues, such as world corruption, low TPS, and mods breaking.%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -318
+  width = 637
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 180c6ad8-7bda-40c1-85db-a07dcfdff0d51679405633384
+  y = -20
+  alignment = centered
+  height = 40
+}
+

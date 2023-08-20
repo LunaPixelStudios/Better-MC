@@ -1,0 +1,16 @@
+{
+  "REGULAR_INFO": "----- Regular config values below -----",
+  "font_atlas_resizing": true,
+  "map_atlas_generation": true,
+  "hud_batching": true,
+  "fast_text_lookup": true,
+  "fast_buffer_upload": true,
+  "COSMETIC_INFO": "----- Cosmetic only config values below (Does not optimize anything) -----",
+  "dont_add_info_into_debug_hud": false,
+  "EXPERIMENTAL_INFO": "----- Experimental config values below (Rendering glitches may occur) -----",
+  "experimental_item_hud_batching": false,
+  "experimental_disable_error_checking": true,
+  "DEBUG_INFO": "----- Debug only config values below (Do not touch) -----",
+  "debug_only_and_not_recommended_disable_universal_batching": false,
+  "debug_only_and_not_recommended_disable_mod_conflict_handling": false
+}

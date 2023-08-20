@@ -1,0 +1,34 @@
+{
+  "biomes": [
+    {
+      "biome": "default",
+      "spawn_info": {
+        "spawn_rate": 5,
+        "min_count": 1,
+        "max_count": 1,
+        "spawn_cost_per_entity": 5.2,
+        "max_spawn_cost": 0.1
+      }
+    },
+    {
+      "biome": "minecraft:basalt_deltas",
+      "spawn_info": {
+        "spawn_rate": 30,
+        "min_count": 1,
+        "max_count": 1,
+        "spawn_cost_per_entity": 3.2,
+        "max_spawn_cost": 0.1
+      }
+    },
+    {
+      "biome": "infernalexp:delta_shores",
+      "spawn_info": {
+        "spawn_rate": 4,
+        "min_count": 1,
+        "max_count": 1,
+        "spawn_cost_per_entity": 100.2,
+        "max_spawn_cost": 0.1
+      }
+    }
+  ]
+}
