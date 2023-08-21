@@ -1,0 +1,30 @@
+
+#Common configuration settings
+[common]
+	#The amount of slot columns in the backpack inventory.
+	backpackInventorySizeColumns = 9
+	#If enabled, hides the config button from the backpack screen
+	keepBackpackOnDeath = false
+	#The amount of slot rows in the backpack inventory.
+	backpackInventorySize = 4
+
+	[common.wandering_trader]
+		#If true, allows players who are disliked by Wandering Traders to continue to trade normally with them. A player is considered disliked if they are caught when trying to pickpocket a Wandering Trader's backpack.
+		dislikedPlayersCanTrade = false
+		#The chance a Wandering Trader will spawn with a backpack. The chance is interpreted as one out of x, with x being the number given from this config option.
+		wanderingTraderBackpackChance = 2
+		#If enabled, hides the config button from the backpack screen
+		spawnBackpackOnWanderingTraders = true
+		#The maximum distance a Wandering Trader can detect a player. The longer the distance, the more difficult the challenge to pickpocket their backpack.
+		wanderingTraderMaxDetectionDistance = 10.0
+		#Instead of generating trades as loot in the Wandering Traders backpacks, only generate emeralds.
+		generateEmeraldsOnly = false
+		#The time (in ticks) a Wandering Trader will wait before it decides to forget about a detected player. The Wandering Trader will wait indefinitely if the detected player is within the maximum detection distance.
+		wanderingTraderForgetTime = 200
+		#The maximum size of an emerald stack that can generate in the Wandering Trader backpack
+		maxEmeraldStack = 32
+		#The amount of time (in ticks) a player has to wait before a Wandering Trader will like them again. If a player gets caught pickpocketing a Wandering Trader, the cooldown will be reset
+		dislikeCooldown = 6000
+		#The maximum multiplier to apply when generating loot in the Wandering Trader backpack
+		maxLootMultiplier = 12
+
