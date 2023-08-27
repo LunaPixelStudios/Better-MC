@@ -12,3 +12,6 @@ net.minecraft.client.gui.screen.MainMenuScreen {
 net.minecraft.client.gui.screen.ShareToLanScreen {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+

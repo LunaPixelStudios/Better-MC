@@ -52,7 +52,7 @@
 			title: "Defeat the &eTwilight Lich"
 			x: 2.0d
 			y: 0.5d
-			subtitle: "Found in forests. Unlocks Labyrinths and Yeti Lairs."
+			subtitle: "Found in forests. Unlocks the Labyrinth, Goblin Knight Stronghold, and Yeti Lair."
 			dependencies: ["7630C21661FED121"]
 			id: "7149FE98D0E105CE"
 			tasks: [{
@@ -63,17 +63,24 @@
 				entity: "twilightforest:lich"
 				value: 1L
 			}]
-			rewards: [{
-				id: "0867FBF1BFB37A20"
-				type: "item"
-				item: {
-					id: "twilightforest:shield_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "4C88EEB19B5675C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5D003B1207B7681C"
+					type: "item"
+					item: {
+						id: "twilightforest:ore_magnet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 3.5d
@@ -132,10 +139,10 @@
 		}
 		{
 			title: "Defeat the &fUr-Ghast"
-			x: 6.5d
-			y: 0.5d
+			x: 5.0d
+			y: -1.0d
 			subtitle: "Found in Dark Towers in The Dark Forest."
-			dependencies: ["37E4C4EFA9E20B79"]
+			dependencies: ["7010A015A47F13F6"]
 			id: "57FD6DFF7B7647D0"
 			tasks: [{
 				id: "45767EA415670C8F"
@@ -152,31 +159,11 @@
 			}]
 		}
 		{
-			title: "Defeat the &f&lAlpha Yeti"
-			x: 8.0d
-			y: 0.5d
-			subtitle: "Found in &fYeti Lairs &rin the &fSnowy Forest&r. Unlocks the &f&lSnow Queen&r."
-			dependencies: ["57FD6DFF7B7647D0"]
-			id: "3D1F53C06B660F96"
-			tasks: [{
-				id: "7E315A6334347695"
-				type: "kill"
-				icon: "twilightforest:yeti_trophy"
-				entity: "twilightforest:yeti_alpha"
-				value: 1L
-			}]
-			rewards: [{
-				id: "65ED4735EF4E9AB5"
-				type: "item"
-				item: "twilightforest:charm_of_keeping_3"
-			}]
-		}
-		{
 			title: "Defeat the &f&lSnow Queen"
-			x: 9.5d
-			y: 0.5d
+			x: 5.0d
+			y: 2.0d
 			subtitle: "Found in Glaciers."
-			dependencies: ["3D1F53C06B660F96"]
+			dependencies: ["60CB4012699A03E3"]
 			id: "7B6005A9F6F5C7FE"
 			tasks: [{
 				id: "191F4CCB0B22AB0A"
@@ -191,6 +178,113 @@
 				type: "item"
 				item: "minecraft:netherite_ingot"
 			}]
+		}
+		{
+			title: "Slay the &8Knight Phantoms"
+			x: 3.5d
+			y: -1.0d
+			subtitle: "Found by opening underground Strongholds in the Dark Forest with a trophy. Unlocks the Ur-Ghast Tower."
+			dependencies: ["7149FE98D0E105CE"]
+			id: "7010A015A47F13F6"
+			tasks: [{
+				id: "1BE984B12B8CA4E6"
+				type: "advancement"
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "294B682AD5C99C63"
+				type: "item"
+				item: {
+					id: "twilightforest:shield_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Defeat the &f&lAlpha Yeti"
+			x: 3.5d
+			y: 2.0d
+			subtitle: "Found in &fYeti Lairs &rin the &fSnowy Forest&r. Unlocks the &f&lSnow Queen&r."
+			dependencies: ["7149FE98D0E105CE"]
+			id: "60CB4012699A03E3"
+			tasks: [{
+				id: "7389265CA734940B"
+				type: "kill"
+				icon: "twilightforest:yeti_trophy"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [{
+				id: "14CF9F88762B4B72"
+				type: "item"
+				item: "twilightforest:charm_of_life_2"
+			}]
+		}
+		{
+			title: "Find and use the &6Lamp of Cinders"
+			x: 6.5d
+			y: 0.5d
+			subtitle: "Use something found up in the sky to break into a vault deep underground. Can burn through the spiny foliage of the Thornlands."
+			dependencies: [
+				"57FD6DFF7B7647D0"
+				"37E4C4EFA9E20B79"
+				"7B6005A9F6F5C7FE"
+			]
+			id: "77E19BF5D37D2592"
+			tasks: [{
+				id: "7C6A72B70E4E7B27"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "01D47607433B38F0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2209CDCE31F1D85C"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+		}
+		{
+			title: "Make your way to the &f&lFinal Castle"
+			x: 8.0d
+			y: 0.5d
+			subtitle: "There doesn't seem to be anyone here yet. At least you can use these cool doors."
+			dependencies: ["77E19BF5D37D2592"]
+			id: "7A514AABDD60E23B"
+			tasks: [{
+				id: "5A02F7BBAEBECC41"
+				type: "advancement"
+				advancement: "twilightforest:progress_castle"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "00696491834DE1E4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "692D5DCAA327293C"
+					type: "item"
+					item: "twilightforest:castle_door_blue"
+					count: 32
+				}
+			]
 		}
 	]
 }

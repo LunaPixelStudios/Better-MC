@@ -95,11 +95,6 @@
 			}]
 			rewards: [
 				{
-					id: "21CA872064E12987"
-					type: "xp"
-					xp: 100
-				}
-				{
 					id: "5B52151F729952EB"
 					type: "item"
 					item: {
@@ -109,6 +104,11 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "12E7B3DA35555A79"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 		}
@@ -168,11 +168,6 @@
 			}]
 			rewards: [
 				{
-					id: "173A196019C5CE63"
-					type: "xp"
-					xp: 100
-				}
-				{
 					id: "7E52CFE5D4D338C2"
 					type: "item"
 					item: {
@@ -182,6 +177,11 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "0B2C5FB967B02EB7"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 		}

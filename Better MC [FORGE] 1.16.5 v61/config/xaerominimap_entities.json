@@ -1,25 +1,26 @@
 {
   "hardInclude": "anything",
   "includeList": [],
-  "includeListInSuperCategory": false,
+  "includeListInSuperCategory": true,
   "excludeMode": "ONLY",
   "excludeList": [
+    "minecraft:glow_item_frame",
     "minecraft:item_frame"
   ],
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
     "displayed": true,
+    "displayHeight": 0.0,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
     "displayNameWhenIconFails": false,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
-    "dotSize": 2.0,
     "startFadingAt": 0.0,
+    "dotSize": 2.0,
     "renderOverMinimapFrame": 1.0,
-    "displayY": false,
     "icons": 2.0,
     "names": 0.0,
     "heightLimit": 20.0,
@@ -29,7 +30,7 @@
     {
       "hardInclude": "living",
       "includeList": [],
-      "includeListInSuperCategory": false,
+      "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [
         "minecraft:armor_stand"
@@ -44,20 +45,21 @@
         {
           "hardInclude": "players",
           "includeList": [],
-          "includeListInSuperCategory": false,
+          "includeListInSuperCategory": true,
           "excludeMode": "ONLY",
           "excludeList": [],
           "name": "gui.xaero_entity_category_players",
           "protection": true,
           "settingOverrides": {
             "renderOrder": 6.0,
+            "heightLimit": 2050.0,
             "color": 15.0
           },
           "subCategories": [
             {
               "hardInclude": "same-team",
               "includeList": [],
-              "includeListInSuperCategory": false,
+              "includeListInSuperCategory": true,
               "excludeMode": "ONLY",
               "excludeList": [],
               "name": "gui.xaero_entity_category_same_team",
@@ -68,7 +70,7 @@
             {
               "hardInclude": "anything",
               "includeList": [],
-              "includeListInSuperCategory": false,
+              "includeListInSuperCategory": true,
               "excludeMode": "ONLY",
               "excludeList": [],
               "name": "gui.xaero_entity_category_other_teams",
@@ -83,7 +85,7 @@
         {
           "hardInclude": "hostile",
           "includeList": [],
-          "includeListInSuperCategory": false,
+          "includeListInSuperCategory": true,
           "excludeMode": "ONLY",
           "excludeList": [],
           "name": "gui.xaero_entity_category_hostile",
@@ -95,7 +97,7 @@
             {
               "hardInclude": "tamed",
               "includeList": [],
-              "includeListInSuperCategory": false,
+              "includeListInSuperCategory": true,
               "excludeMode": "ONLY",
               "excludeList": [],
               "name": "gui.xaero_entity_category_hostile_tamed",
@@ -110,7 +112,7 @@
         {
           "hardInclude": "anything",
           "includeList": [],
-          "includeListInSuperCategory": false,
+          "includeListInSuperCategory": true,
           "excludeMode": "ONLY",
           "excludeList": [],
           "name": "gui.xaero_entity_category_friendly",
@@ -120,7 +122,7 @@
             {
               "hardInclude": "tamed",
               "includeList": [],
-              "includeListInSuperCategory": false,
+              "includeListInSuperCategory": true,
               "excludeMode": "ONLY",
               "excludeList": [],
               "name": "gui.xaero_entity_category_friendly_tamed",
@@ -137,7 +139,7 @@
     {
       "hardInclude": "items",
       "includeList": [],
-      "includeListInSuperCategory": false,
+      "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [],
       "name": "gui.xaero_entity_category_items",
@@ -151,7 +153,7 @@
     {
       "hardInclude": "anything",
       "includeList": [],
-      "includeListInSuperCategory": false,
+      "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [],
       "name": "gui.xaero_entity_category_other_entities",

@@ -499,9 +499,9 @@ drippyloadingscreen.helper.editor.fadeout.on = Fade-Out Screen: §aOn
 drippyloadingscreen.helper.editor.fadeout.off = Fade-Out Screen: §cOff
 drippyloadingscreen.helper.editor.fadeout.btn.desc = If the loading screen should fade%n%to the next screen.%n%%n%§cThis is always disabled when%n%FancyMenu is installed.
 
-drippyloadingscreen.helper.editor.properties.autoscale.on = Layout Auto-Scaling: §aOn
-drippyloadingscreen.helper.editor.properties.autoscale.off = Layout Auto-Scaling: §cOff
-drippyloadingscreen.helper.editor.properties.autoscale.btn.desc = Let Drippy handle the scale of%n%the loading screen, so your layout works%n%for every scale and resolution.%n%%n%§cThis will make text elements look%n%§cblurry at some scales.%n%§cThis can't be fixed and the best%n%§cworkaround is to use images%n%§cwith background as text elements.
+drippyloadingscreen.helper.editor.properties.autoscale.on = Auto-Scaling: §aOn
+drippyloadingscreen.helper.editor.properties.autoscale.off = Auto-Scaling: §cOff
+drippyloadingscreen.helper.editor.properties.autoscale.btn.desc = Let Drippy handle the scale of%n%the loading screen, so your layout%n%works for every scale and%n%resolution.%n%%n%To do this, resize the window%n%so everything looks good and%n%elements are not too far apart%n%from each other and click on%n%this button.%n%%n%§cThis will make text elements look%n%§cblurry at some scales.%n%§cThis can't be fixed and the best%n%§cworkaround is to use images%n%§cwith background as text elements.
 drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line1 = Here you can set the base window size of your layout.
 drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line2 = This should be the size your layout was designed for.
 drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line3 = If you made it in the current window size, just leave the values like they are.
@@ -578,4 +578,6 @@ drippyloadingscreen.config.categories.loading_behaviour = Loading Behaviour
 drippyloadingscreen.config.custom_sound_engine_reloading = Custom Sound Reloading
 drippyloadingscreen.config.custom_sound_engine_reloading.desc = If the reloading behaviour of%n%the sound engine should be%n%changed, so sounds can play in%n%the loading screen.
 
+drippyloadingscreen.editor.extension.dummy.audio.btn.desc = §6You need to install %n%§6§lAuudio §r§6to use this%n%§6element.%n%%n%§cClick on the button to%n%§copen the download page.
 
+drippyloadingscreen.helper.editor.properties.autoscale.forced_scale_needed = You need to set a §lforced GUI scale%n%before you can use auto-scaling!%n%%n%It's recommended to use 2 as%n%forced GUI scale.%n%%n%§cTo set a forced GUI scale,%n%§cright-click the editor background%n%§cand click on §lForce GUI Scale§r§c.

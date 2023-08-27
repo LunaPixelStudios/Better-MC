@@ -131,19 +131,12 @@
 					item: "minecraft:bread"
 				}
 			]
-			rewards: [
-				{
-					id: "34B145F40A6C1F3B"
-					type: "item"
-					item: "minecraft:torch"
-					count: 3
-				}
-				{
-					id: "72E908DD226CC9EA"
-					type: "item"
-					item: "alexsmobs:animal_dictionary"
-				}
-			]
+			rewards: [{
+				id: "34B145F40A6C1F3B"
+				type: "item"
+				item: "minecraft:torch"
+				count: 3
+			}]
 		}
 		{
 			title: "&9Important Controls"

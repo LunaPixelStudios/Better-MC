@@ -122,11 +122,11 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 625
+  x = 411
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 0578361e-eb2b-411e-8f1a-7d8bee54ef3e1656875117328
-  y = 437
+  y = 319
   height = 9
 }
 
@@ -167,17 +167,16 @@ customization {
 
 customization {
   orientation = mid-centered
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  label = Bisect Server Hosting
   loopbackgroundanimations = true
   hoverlabel = Get 25% OFF with CODE: LunaPixel
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.bisecthosting.com/LunaPixel%btnaction_splitter_fm%
   x = -100
   width = 200
-  actionid = efcdf291-4267-4012-bade-9c60c3e28fc71640665065017
   action = addbutton
+  actionid = efcdf291-4267-4012-bade-9c60c3e28fc71640665065017
   y = 30
-  value = https://www.bisecthosting.com/LunaPixel
+  label = Bisect Server Hosting
   height = 20
 }
 
@@ -196,14 +195,13 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://lunapixel.studio/discord%btnaction_splitter_fm%
   x = -124
   width = 20
-  actionid = 43131b3f-0a4e-4775-b99c-7c4dad0bbecb1640665722332
   action = addbutton
+  actionid = 43131b3f-0a4e-4775-b99c-7c4dad0bbecb1640665722332
   y = 30
   label = 
-  value = https://lunapixel.studio/discord
   height = 20
 }
 
@@ -233,14 +231,14 @@ customization {
   orientation = bottom-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://github.com/LunaPixelStudios/Better-MC/wiki/Performance-Guide%btnaction_splitter_fm%
   x = 3
   width = 107
-  actionid = 5eaa99f9-41cb-4287-82a9-7234c6a068e51677572516967
   action = addbutton
+  actionid = 5eaa99f9-41cb-4287-82a9-7234c6a068e51677572516967
   y = -24
-  label = Performance Guide!
-  value = https://github.com/LunaPixelStudios/Better-MC/wiki/Performance-Guide
+  description = A guide on improving your FPS!
+  label = Performance Guide
   height = 20
 }
 

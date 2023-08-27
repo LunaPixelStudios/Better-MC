@@ -1,0 +1,99 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resourcepacks/Graphics/loading.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 151
+  width = 338
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = d829e348-94b2-4e18-88d6-2c35781110bb1693127139270
+  y = 127
+  height = 84
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 10
+  width = 300
+  action = deep_customization_element:drippy_overlay_forge_memory
+  actionid = 48380c19-3064-4e61-afd0-8715747b7dc11693127139278
+  y = 10
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 10
+  width = 300
+  action = deep_customization_element:drippy_overlay_forge_log
+  actionid = 2ec3ccc2-0a5a-4351-9593-f663d0b5472d1693127139278
+  y = 289
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 67afbb5f-fe3e-48ac-bfe8-7d3f7d6e49411693127139278
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 151
+  width = 338
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = b6a8091a-3369-40f7-9d37-d81c4b6beecb1693127139279
+  y = 277
+  height = 10
+}
+
+customization {
+  path = resourcepacks/Graphics/mojang.png
+  orientation = mid-centered
+  x = -213
+  width = 426
+  action = addtexture
+  actionid = 868d3804-cd31-41ab-8659-d3a6a0bd095d1693127195598
+  y = -50
+  height = 100
+}
+
+customization {
+  path = resourcepacks/Graphics/lunapixel.png
+  orientation = bottom-centered
+  x = -99
+  width = 199
+  action = addtexture
+  actionid = 61533c4e-2db8-4a8b-97f6-0ea8f8c578f51693127663405
+  y = -37
+  height = 37
+}
+
