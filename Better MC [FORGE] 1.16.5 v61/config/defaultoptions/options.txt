@@ -33,7 +33,7 @@ graphicsMode:1
 ao:1
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","file/Stay_True_1.16.zip","file/Created Storage Network 1.1.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Xaero\u0027s Minimap - Mod Icons.zip","quark:emote_resources","file/ST_NoBushyLeaves.zip"]
+resourcePacks:["vanilla","mod_resources","file/Stay_True_1.16.zip","file/Created Storage Network 1.1.zip","file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip","file/Xaero\u0027s Minimap - Mod Icons.zip","quark:emote_resources","file/ST_NoBushyLeaves.zip","file/Blue_Skies_v1.16.5_FIX.zip","file/Quark_v1.16.5_FIX.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

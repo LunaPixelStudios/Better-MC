@@ -44,7 +44,7 @@ key_key.ftbchunks.map:key.keyboard.unknown:NONE
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal:NONE
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus:NONE
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown:NONE
-key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown:NONE
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c:NONE
 key_key.dead_guys_untitled_deep_dark_.help:key.keyboard.unknown:NONE
 key_key.theabyss.ghost_attack:key.keyboard.x:NONE
 key_key.theabyss.ghost_fire_attack:key.keyboard.c:NONE
@@ -53,18 +53,17 @@ key_key.theabyss.friendley_fire_a:key.keyboard.unknown:NONE
 key_key.theabyss.friendley_fire_b:key.keyboard.unknown:NONE
 key_key.entityculling.toggle:key.keyboard.unknown:NONE
 key_key.modernfix.config:key.keyboard.unknown:NONE
+key_key.corpse.death_history:key.keyboard.u:NONE
 key_key.curios.open.desc:key.keyboard.g:NONE
 key_iris.keybind.reload:key.keyboard.unknown:NONE
 key_iris.keybind.toggleShaders:key.keyboard.unknown:NONE
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown:NONE
-key_key.corpse.death_history:key.keyboard.u:NONE
 key_key.veinmining.activate.desc:key.keyboard.grave.accent:NONE
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.unknown:NONE
 key_sndctrl.text.soundconfig.open:key.keyboard.unknown:NONE
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown:NONE
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown:NONE
 key_key.backpack:key.keyboard.b:NONE
-key_key.carry.desc:key.keyboard.left.shift:NONE
 key_equipmentcompare.key.showTooltips:key.keyboard.left.shift:NONE
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
 key_gui.xaero_instant_waypoint:key.keyboard.h:NONE
@@ -86,6 +85,7 @@ key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown:NONE
 key_gui.xaero_alternative_list_players:key.keyboard.unknown:NONE
 key_gui.xaero_toggle_tracked_players:key.keyboard.unknown:NONE
 key_gui.xaero_minimap_settings:key.keyboard.unknown:NONE
+key_key.carry.desc:key.keyboard.left.shift:NONE
 key_key.ftbquests.quests:key.keyboard.unknown:NONE
 key_gui.xaero_open_map:key.keyboard.m:NONE
 key_gui.xaero_open_settings:key.keyboard.right.bracket:NONE
@@ -97,6 +97,17 @@ key_key.endergetic.booflo_slam:key.keyboard.x:NONE
 key_key.waila.config:key.keyboard.unknown:NONE
 key_key.waila.show_overlay:key.keyboard.unknown:NONE
 key_key.waila.toggle_liquid:key.keyboard.unknown:NONE
+key_key.storagenetwork.remote:key.keyboard.i:NONE
+key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
+key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
+key_quark.keybind.lock_rotation:key.keyboard.unknown:NONE
+key_quark.keybind.autorun:key.keyboard.caps.lock:NONE
+key_quark.keybind.camera_mode:key.keyboard.f12:NONE
+key_key.inventoryhud.toggle:key.keyboard.unknown:NONE
+key_key.inventoryhud.openconfig:key.keyboard.unknown:NONE
+key_key.inventoryhud.togglepot:key.keyboard.unknown:NONE
+key_key.inventoryhud.togglearm:key.keyboard.unknown:NONE
+key_key.inventoryhud.toggleall:key.keyboard.unknown:NONE
 key_quark.emote.no:key.keyboard.unknown:NONE
 key_quark.emote.yes:key.keyboard.unknown:NONE
 key_quark.emote.wave:key.keyboard.unknown:NONE
@@ -115,21 +126,10 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
-key_key.storagenetwork.remote:key.keyboard.i:NONE
-key_quark.keybind.back:key.mouse.4:NONE
-key_key.inventoryhud.toggle:key.keyboard.unknown:NONE
-key_key.inventoryhud.openconfig:key.keyboard.unknown:NONE
-key_key.inventoryhud.togglepot:key.keyboard.unknown:NONE
-key_key.inventoryhud.togglearm:key.keyboard.unknown:NONE
-key_key.inventoryhud.toggleall:key.keyboard.unknown:NONE
 key_quark.keybind.change_hotbar:key.keyboard.unknown:NONE
-key_quark.keybind.camera_mode:key.keyboard.f12:NONE
-key_quark.keybind.autorun:key.keyboard.caps.lock:NONE
-key_quark.keybind.lock_rotation:key.keyboard.unknown:NONE
 key_quark.keybind.sort_player:key.keyboard.unknown:NONE
 key_quark.keybind.sort_container:key.keyboard.unknown:NONE
+key_quark.keybind.back:key.mouse.4:NONE
 key_key.personality.crawl:key.keyboard.left.alt:NONE
 key_key.personality.sit:key.keyboard.unknown:NONE
 key_extras.key.zoom:key.keyboard.c:NONE
