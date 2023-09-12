@@ -42,7 +42,11 @@ displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:1
 biomeBlending:true
-pacPlayers:true
+trackedPlayers:true
+multipleImagesExport:false
+nightExport:false
+highlightsExport:false
+exportScaleDownSquare:20
 displayClaims:true
 claimsFillOpacity:46
 claimsBorderOpacity:80
@@ -51,6 +55,7 @@ globalVersion:1
 [XP] Fast Mapping Delay:250.0
 [XP] Fast Mapping Rate Limit:50.0
 [XP] Baritone Goal Waypoint:true
+[XP] Waystones Sync:true
 [XP] Persist WM Dim Switch:false
 [XP] Transparent Obsidian Roof:true
 [XP] Roof Y Level:250.0
@@ -58,8 +63,17 @@ globalVersion:1
 [XP] Min WorldMap Zoom:0.1
 [XP] Skip Background Render:false
 [XP] NewChunks Highlighting:false
+[XP] Save/Load NewChunks to Disk:true
 [XP] New Chunks Opacity:100.0
 [XP] New Chunks Color:0
+[XP] OldChunks Highlighting:false
+[XP] OldChunks Inverse:false
+[XP] Save/Load OldChunks to Disk:true
+[XP] Old Chunks Opacity:100.0
+[XP] Old Chunks Color:3
+[XP] Portal Highlights:false
+[XP] Portal Highlights Opacity:100.0
+[XP] Portal Highlights Color:5
 [XP] PortalSkip Detection:false
 [XP] PortalSkip Opacity:100.0
 [XP] PortalSkip Color:6
@@ -69,3 +83,4 @@ globalVersion:1
 [XP] null OW Dim Dir:true
 [XP] Data Dir Mode:0
 [XP] Nether Cave Fix:true
+[XP] Cross Dimension Teleport:true

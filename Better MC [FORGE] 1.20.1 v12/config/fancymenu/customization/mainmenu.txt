@@ -160,11 +160,11 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 411
+  x = 625
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 88066af7-ec58-4ab1-bf56-632683f0ba541687081668453
-  y = 319
+  y = 437
   height = 9
 }
 
@@ -243,5 +243,21 @@ customization {
   actionid = 2f45333d-0619-4f69-9696-9e81eea325721687081751021
   y = 21
   height = 15
+}
+
+customization {
+  identifier = %id=604334%
+  orientation = bottom-centered
+  x = -28
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=604310%
+  orientation = top-left
+  x = 5
+  action = movebutton
+  y = 5
 }
 

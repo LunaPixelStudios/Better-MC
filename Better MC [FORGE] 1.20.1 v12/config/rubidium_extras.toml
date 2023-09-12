@@ -8,7 +8,8 @@
 		"Render Fog" = true
 		"Hide JEI Until Searching" = false
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
-		"Use Borderless Fullscreen" = "FULLSCREEN"
+		"Use Borderless Fullscreen" = "WINDOWED"
+		"Enable Extended Server View Distance" = true
 
 	[Settings."FPS Counter"]
 		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"

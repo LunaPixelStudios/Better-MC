@@ -1,0 +1,36 @@
+type = menu
+
+customization-meta {
+  identifier = com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=660946%
+  orientation = top-right
+  x = -123
+  action = movebutton
+  y = 3
+}
+
+customization {
+  identifier = %id=660946%
+  width = 120
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=660946%
+  action = setbuttonlabel
+  value = Bisect Public Servers
+}
+

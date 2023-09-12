@@ -1,0 +1,120 @@
+
+[general]
+	#will print clients that connect with vivecraft, and what version they are using, to the log.
+	debug = false
+	#will check for a newer version and alert any OP when they login to the server.
+	checkForUpdate = false
+	#Set to true to only allow VR players to play.
+	# If enabled, VR hotswitching will be automatically disabled.
+	vr_only = false
+	#Set to true to only allow vivecraft players to play.
+	vive_only = false
+	#If true, will allow server ops to be in any mode. No effect if vive-only/vr-only is false.
+	allow_op = true
+	#Seconds to wait before kicking a player or sending welcome messages. The player's client must send a Vivecraft VERSION info in that time.
+	# default: 10.00, min: 0.00, max: 100.00
+	messageAndKickDelay = 10.0
+	#Gives VR Players fun cakes and drinks at random, when they respawn.
+	vrFun = true
+
+[messages]
+	#Enable or disable all messages.
+	enabled = false
+	#set message to nothing to not send. ex: leaveMessage = ""
+	welcomeVR = "%s has joined with standing VR!"
+	welcomeNonVR = "%s has joined with Non-VR companion!"
+	welcomeSeated = "%s has joined with seated VR!"
+	welcomeVanilla = "%s has joined as a Muggle!"
+	leaveMessage = "%s has disconnected from the server!"
+	#The message to show kicked non vivecraft players.
+	KickViveOnly = "This server is configured for Vivecraft players only."
+	#The message to show kicked non VR players.
+	KickVROnly = "This server is configured for VR players only."
+
+#Vanilla modifications for VR players
+[vrChanges]
+	#Distance at which creepers swell and explode for VR players. Vanilla: 3
+	# default: 1.75, min: 0.10, max: 10.00
+	creeperSwellDistance = 1.75
+
+	#Bow damage adjustments
+	[vrChanges.bow]
+		#Archery damage multiplier for Vivecraft (standing) users. Set to 1.0 to disable
+		# default: 2.00, min: 1.00, max: 10.00
+		standingMultiplier = 2.0
+		#Archery damage multiplier for Vivecraft (seated) users. Set to 1.0 to disable
+		# default: 1.00, min: 1.00, max: 10.00
+		seatedMultiplier = 1.0
+		#Headshot damage multiplier for Vivecraft (standing) users. Set to 1.0 to disable
+		# default: 3.00, min: 1.00, max: 10.00
+		standingHeadshotMultiplier = 3.0
+		#Headshot damage multiplier for Vivecraft (seated) users. Set to 1.0 to disable
+		# default: 2.00, min: 1.00, max: 10.00
+		seatedHeadshotMultiplier = 2.0
+		#Headshot damage multiplier for Vanilla/NonVR users. Set to 1.0 to disable
+		# default: 1.00, min: 1.00, max: 10.00
+		vanillaHeadshotMultiplier = 1.0
+
+#VR vs. non-VR vs. seated player PVP settings
+[pvp]
+	#Allows Standing VR players to damage each other.
+	VRvsVR = true
+	#Allows Seated VR players to damage each other.
+	SEATEDVRvsSEATEDVR = true
+	#Allows Standing VR players and Non VR players to damage each other.
+	VRvsNONVR = true
+	#Allows Seated VR players and Non VR players to damage each other.
+	SEATEDVRvsNONVR = true
+	#Allows Standing VR players and Seated VR Players to damage each other.
+	VRvsSEATEDVR = true
+
+#Climbey motion settings
+[climbey]
+	#Allows use of jump_boots and climb_claws.
+	enabled = true
+	#Sets which blocks are climb-able. Options are:
+	# "DISABLED" = List ignored. All blocks are climbable.
+	# "WHITELIST" = Only blocks on the list are climbable.
+	# "BLACKLIST" = All blocks are climbable except those on the list
+	blockmode = "DISABLED"
+	#The list of block names for use with include/exclude block mode.
+	blocklist = ["white_wool", "dirt", "grass_block"]
+
+#Roomscale crawling settings
+[crawling]
+	#Allows use of roomscale crawling. Disabling does not prevent vanilla crawling.
+	enabled = true
+
+#Teleport settings
+[teleport]
+	#Whether direct teleport is enabled. It is recommended to leave this enabled for players prone to VR sickness.
+	enabled = true
+	#Enforce limited teleport range and frequency in survival.
+	limitedSurvival = false
+	#Maximum blocks players can teleport up. Set to 0 to disable.
+	# default: 4, min: 1, max: 16
+	upLimit = 4
+	#Maximum blocks players can teleport down. Set to 0 to disable.
+	# default: 4, min: 1, max: 16
+	downLimit = 4
+	#Maximum blocks players can teleport horizontally. Set to 0 to disable.
+	# default: 16, min: 1, max: 32
+	horizontalLimit = 16
+
+#World scale settings
+[worldScale]
+	#Limit the range of world scale players can use
+	limitRange = false
+	#Lower limit of range
+	# default: 0.50, min: 0.10, max: 100.00
+	min = 0.5
+	#Upper limit of range
+	# default: 2.00, min: 0.10, max: 100.00
+	max = 2.0
+
+#VR hotswitch settings
+[vrSwitching]
+	#Allows players to switch between VR and NONVR on the fly.
+	# If disabled, they will be locked to the mode they joined with.
+	enabled = true
+
