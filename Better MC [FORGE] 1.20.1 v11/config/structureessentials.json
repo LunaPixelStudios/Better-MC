@@ -1,0 +1,22 @@
+{
+  "structurePlacementLogging": {
+    "desc:": "Enables debug logging of structure placement, does spam logs, only recommenced for debugging. Default: false",
+    "structurePlacementLogging": false
+  },
+  "structureSearchTimeout": {
+    "desc:": "Maximum time in seconds a structure search is allowed to take: default 50",
+    "structureSearchTimeout": 50
+  },
+  "useFastStructureLookup": {
+    "desc:": "Whether the fast structure search is used, default: true",
+    "useFastStructureLookup": true
+  },
+  "warnMissingRegistryEntry": {
+    "desc:": "Prevents crashes for missing registry entries(e.g. a mod update structure ids) and turns them into a log error message instead, default: true",
+    "warnMissingRegistryEntry": true
+  },
+  "disableLegacyRandomCrashes": {
+    "desc:": "Prevents crashes for multithreaded access of thread specific randoms, default: true",
+    "disableLegacyRandomCrashes": true
+  }
+}
