@@ -5,7 +5,7 @@
     "file/NoBushyLeaves.zip",
     "file/Icons.zip",
     "file/Mandalas_Legacy_Gui_Background.zip",
-    "file/MandalasGUI+Modded_Dakmode_v4.5.zip",
+    "file/MandalasGUI+Modded_Dakmode_v4.6.zip",
     "file/Stay_True_1.20.zip",
     "seasons:seasonal_lush_caves"
   ],
@@ -25,7 +25,7 @@
     "file/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
       "hidden": true
     },
-    "file/Trinkets_GloveFix_1.1+1.20.1.zip": {
+    "file/Trinkets_OffhandFix_1.2+1.20.1.zip": {
       "hidden": true
     },
     "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {
@@ -50,6 +50,33 @@
       "hidden": true
     },
     "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Dungeons_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Monuments_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Strongholds_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Witch_Huts_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bygone_Nether_v1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Chef's_Delight_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Farmers_Delight_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Friends_And_Foes_v5.zip": {
+      "hidden": true
+    },
+    "Moonlight Mods Dynamic Assets": {
       "hidden": true
     }
   }
