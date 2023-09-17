@@ -1,0 +1,209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:grass_block"
+	id: "1D4E5CDD59FFB7A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "268A05DFD4D5427A"
+			rewards: [
+				{
+					count: 12
+					id: "14F327BA69B975BD"
+					item: "blue_skies:turquoise_stonebrick"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2D05266B3F98B211"
+					item: "blue_skies:lunar_stonebrick"
+					type: "item"
+				}
+			]
+			subtitle: "Gatekeeper Houses can be found in most biomes"
+			tasks: [{
+				id: "08CA723FD16E3030"
+				item: "blue_skies:blue_journal"
+				title: "Obtain a Blue Journal from the Gatekeeper"
+				type: "item"
+			}]
+			title: "Obtain a &9Blue Journal &rfrom a Gatekeeper"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "6A12B1FE7B703F9D"
+			rewards: [{
+				id: "1C1C43B99CC8E4E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "When equipped, press &bB&r for easy access"
+			tasks: [{
+				id: "44740305C2A8DC52"
+				item: "backpacked:backpack"
+				title: "Craft a Backpack"
+				type: "item"
+			}]
+			title: "Craft a &2Backpack"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "3DAB175493B08089"
+			rewards: [{
+				id: "29B13597289089F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in Dark Oak Forests"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1b
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "10911C878598A90F"
+				title: "Kill the Conjurer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Conjurer"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "26EA75D177BC496B"
+			rewards: [
+				{
+					id: "2F1EFCBC72F69624"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6DA1A2B30558A913"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Raids are started by killing Illager Captains, the same way as normal"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "7362BF4629FAD929"
+				title: "Defend a Village"
+				type: "advancement"
+			}]
+			title: "Defend a Village from a &4Raid"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "7CCAA3A7BC9D0208"
+			rewards: [{
+				id: "1EC587841A6725A9"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Over time, you will slowly collect a mix of seafood and junk. Putting fish in the trap will lure different creatures."
+			tasks: [{
+				id: "3AC626B22AD475A5"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			title: "Craft a &3Crab Trap"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "3EA4CB4D9C90B767"
+			rewards: [{
+				id: "0EF5197E4E7ED8F3"
+				item: "conjurer_illager:throwable_ball"
+				type: "item"
+			}]
+			subtitle: "Found in &eIllusioner Towers&r"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "illagerinvasion:illusionary_dust"
+				id: "39A27C60C2775BD5"
+				title: "Defeat the &cIllusioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "1A878EB6FEC31A26"
+			rewards: [{
+				count: 3
+				id: "4794A29BDF3A8992"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &bOceanographer"
+			tasks: [{
+				id: "76FC0860F717FB35"
+				item: "villagersplus:oceanographer_table"
+				type: "item"
+			}]
+			title: "Craft an &bAquarium"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "6280E25813EA2805"
+			rewards: [{
+				count: 3
+				id: "020B040C4D079A06"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &dOccultist"
+			tasks: [{
+				id: "3594A94ECDBC14FB"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			title: "Craft an &dEnchanted Basin"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "32C4134E67E71063"
+			rewards: [{
+				count: 3
+				id: "7DD343C14E49B4ED"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into a &5Alchemist"
+			tasks: [{
+				id: "72527896BB77CECD"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "Craft an &5Alchemist Table"
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+	title: " &aOverworld"
+}

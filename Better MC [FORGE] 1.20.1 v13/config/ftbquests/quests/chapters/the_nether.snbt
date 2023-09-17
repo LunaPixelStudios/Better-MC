@@ -1,0 +1,202 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:obsidian"
+	id: "0D7FF8F037EFF568"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46D0AAEEB69E28B3"
+			rewards: [{
+				id: "75D2953DAEB9AFC1"
+				item: {
+					Count: 1b
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "7FC5892104C0744C"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter &cThe Nether"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "13247698A9E98C61"
+			rewards: [
+				{
+					id: "77F83375B1CF985C"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "2F5630715A08C7ED"
+					item: "alexsmobs:spawn_egg_warped_mosco"
+					type: "item"
+				}
+				{
+					id: "13562F3ADFB2E120"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in &8Keeping Castles &rin &cNether Waste &rand &4Crimson Forest &rbiomes. Right click the altar with a &fNether Star &rto summon."
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				icon: "stalwart_dungeons:keeping_castle_spawner"
+				id: "3702E4C32FE0F698"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the &4Nether Keeper"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "68D7F63EAA0FE3E4"
+			rewards: [
+				{
+					id: "25D03449F1A59CF6"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "609A198F30A2E7EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in Awful Dungeons, which spawn in Soul Sand Valleys and Warped Forests. Right click the altar with a &fNether Star &rto summon."
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				icon: "stalwart_dungeons:awful_dungeon_spawner"
+				id: "320E04AD2AD28E79"
+				title: "Kill an Awful Ghast"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &9Awful Ghast"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "1DEBE563E5673B95"
+			rewards: [{
+				id: "4865893101B5F37C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1b
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4DBC642134268AE7"
+				title: "Kill the Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Netherite Monstrosity"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "0BFD8ED8A0E3AE60"
+			rewards: [{
+				id: "1FB79B0A8B0FBE90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "575C8BC94DAC2B05"
+				title: "Kill The Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8&lThe Wither"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "6CD3F5FFA15ACC81"
+			rewards: [
+				{
+					id: "26B4EDC38A0A6C90"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					id: "0B04FF68D27BB79B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in the Burning Arena"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:burning_ashes"
+				id: "4CE4CD701A07CA04"
+				title: "Kill a Ignited Revenant"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &6Ignited Revenant"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "4D2923365DB9C4C0"
+			rewards: [
+				{
+					id: "27FC4D5F422A3B57"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+				{
+					id: "03F88F2EAA259C7F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found at the Top of the Burning Arena. Place Burning Ashes in the Altar to Summon &2Ignis"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:altar_of_fire"
+				id: "3363067332FD6A6A"
+				title: "Kill Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Ignis"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: " &cNether"
+}

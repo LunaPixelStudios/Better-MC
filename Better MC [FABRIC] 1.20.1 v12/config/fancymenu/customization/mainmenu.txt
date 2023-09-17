@@ -1,0 +1,238 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = betterminecraftpanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 105
+  action = movebutton
+  y = 19
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 105
+  action = movebutton
+  y = 47
+}
+
+customization {
+  identifier = %id=376358%
+  orientation = top-right
+  x = -25
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=2980%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -125
+  action = movebutton
+  y = 47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -5
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 47
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 157
+  action = deep_customization_element:title_screen_branding
+  actionid = cd4d0ff7-8921-426f-aaab-dcfd35f2f9c01686808471727
+  y = 445
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 530
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 746944d3-62e6-4d9c-9ed9-e1b974f28e201686808471727
+  y = 214
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 7b095722-0489-404a-96d8-fb01d659d1941686808471727
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-centered
+  splash_color = #ffff00
+  hidden = false
+  x = -90
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 1448d3ba-b3f4-46c7-80b7-7eb153fd79f51686808471727
+  y = -125
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  hoverlabel = Use CODE: LunaPixel for 25% OFF!
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://bisecthosting.com/LunaPixel%btnaction_splitter_fm%
+  x = -100
+  width = 200
+  action = addbutton
+  actionid = 23545ded-3613-4fce-8855-819ac62455821686808542625
+  y = 19
+  label = Bisect Server Hosting
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/betterm.png
+  orientation = mid-centered
+  x = -152
+  width = 304
+  action = addtexture
+  actionid = ba1bf56a-052b-47f9-bc1d-1563eee671ac1686808638513
+  y = -129
+  height = 100
+}
+
+customization {
+  path = resourcepacks/Graphics/fabricapi.png
+  orientation = mid-centered
+  x = 107
+  width = 16
+  action = addtexture
+  actionid = c03be17b-5a17-4467-aeb2-9cfffe181c941686808672411
+  y = 21
+  height = 16
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://lunapixel.studio/discord%btnaction_splitter_fm%
+  x = -125
+  width = 20
+  action = addbutton
+  actionid = c2b90152-00d5-468b-933b-b628e8f9bf831686808689660
+  y = 19
+  label = 
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = mid-centered
+  x = -121
+  width = 13
+  action = addtexture
+  actionid = 9f378eaa-0367-4c65-8f8a-4f83677009741686808713128
+  y = 22
+  height = 13
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/LunaPixelStudios/Better-MC/wiki/Performance-Guide%btnaction_splitter_fm%
+  x = 3
+  width = 114
+  action = addbutton
+  actionid = cb4f914f-fb88-4d53-adb5-b7199c08b7c81686808766368
+  y = -24
+  description = A guide on improving your FPS!
+  label = Performance Guide
+  height = 20
+}
+
+customization {
+  identifier = %id=604310%
+  orientation = top-left
+  x = 4
+  action = movebutton
+  y = 4
+}
+

@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decoration"
+	group: "5EC606153AA8CA77"
+	icon: "everycomp:tw/blue_skies/crystallized_table"
+	id: "4A6944EF3E0DB874"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "76968FA917BBA6E0"
+			rewards: [{
+				id: "7946FF8572D283A5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "49D1A6062EEF6F0D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:drawers"
+					}
+				}
+				title: "Any #handcrafted:drawers"
+				type: "item"
+			}]
+			title: "Craft a &dDrawer"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "13B914EA3AE61CFA"
+			rewards: [{
+				id: "1E3B777119262428"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "675D7F042E9B0A84"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:shelves"
+					}
+				}
+				title: "Any #handcrafted:shelves"
+				type: "item"
+			}]
+			title: "Craft a &dShelf"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "2802A4603874C24B"
+			rewards: [{
+				id: "2F8A653EF9FCCD8D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "50E3B3E85E9137E5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:desks"
+					}
+				}
+				title: "Any #handcrafted:desks"
+				type: "item"
+			}]
+			title: "Craft a &dDesk"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "77BC75BC0328D7A5"
+			rewards: [{
+				id: "6DC5C7C7CE6B7A80"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "201DD07D39474176"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:nightstands"
+					}
+				}
+				title: "Any #handcrafted:nightstands"
+				type: "item"
+			}]
+			title: "Craft a &dNightstand"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "57F291A269AA620E"
+			rewards: [{
+				id: "48A9522F753389E6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5261259E75937F0B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:counters"
+					}
+				}
+				title: "Any #handcrafted:counters"
+				type: "item"
+			}]
+			title: "Craft a &dCounter"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "01D0C8DB2646FFC9"
+			rewards: [{
+				id: "0222EAEEC6069C70"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "30BB758D22EF6D2C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:cupboards"
+					}
+				}
+				title: "Any #handcrafted:cupboards"
+				type: "item"
+			}]
+			title: "Craft a &dCupboard"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "0172BB881A7259C8"
+			rewards: [{
+				id: "724C875326CA9B86"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "438CC4ACF9CF6211"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:wooden_benches"
+					}
+				}
+				title: "Any #handcrafted:wooden_benches"
+				type: "item"
+			}]
+			title: "Craft a &dWooden Bench"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "534A26E3F639437B"
+			rewards: [{
+				id: "52883F2EC060A10D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "017E8C046DE719A2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:chairs"
+					}
+				}
+				title: "Any #handcrafted:chairs"
+				type: "item"
+			}]
+			title: "Craft a &dChair"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "30F40E4353F528FB"
+			rewards: [{
+				id: "013F647C56A44677"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1E01A7977AF558D5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:fancy_beds"
+					}
+				}
+				title: "Any #handcrafted:fancy_beds"
+				type: "item"
+			}]
+			title: "Craft a &dFancy Bed"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "7F00DE181AA0C9C0"
+			rewards: [{
+				id: "3DFBD28B1BB16B22"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1166EA9804E2BE65"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:couches"
+					}
+				}
+				title: "Any #handcrafted:couches"
+				type: "item"
+			}]
+			title: "Craft a &dCouch"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "36171301E4641F91"
+			rewards: [{
+				id: "31E9C7505579AE8F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0D0CBEB2CF829F84"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:tables"
+					}
+				}
+				title: "Any #handcrafted:tables"
+				type: "item"
+			}]
+			title: "Craft a &dTable"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "5835B89CD2B85989"
+			rewards: [{
+				id: "21BC4F5AB27A3D50"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "792F6F6675CECA54"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:side_tables"
+					}
+				}
+				title: "Any #handcrafted:side_tables"
+				type: "item"
+			}]
+			title: "Craft a &dSide Table"
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: " Decoration"
+}

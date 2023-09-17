@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everbright"
+	group: "5BBB507BE497896B"
+	icon: "blue_skies:turquoise_stonebrick"
+	id: "548F6C8C65E929D9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual."]
+			id: "27CD46C8E6EC2E3B"
+			rewards: [{
+				id: "5FE21EAAD0130B18"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Portal Blocks can be found in or outside the Gatekeeper's Home."
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:turquoise_stonebrick"
+				id: "34BEAE9F7B3C7641"
+				title: "Enter Everbright"
+				type: "dimension"
+			}]
+			title: "Enter the &9Everbright"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37B01786D1F519C6"]
+			description: ["The Summoner fights with lightning, energy attacks, and his golem guards. Be sure to watch your back as these golems can quickly overwhelm you if not properly tended to. Defeating him will allow you to access the Nature Dungeon."]
+			id: "084BFF7D3DD9BB24"
+			rewards: [
+				{
+					id: "49D4292EB66AD8EE"
+					item: {
+						Count: 1b
+						id: "blue_skies:summoning_tome"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "390C520929991C07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Use the Keys to Teleport to the &5Summoner's Dungeon&r. Found at the top of the Blinding Dungeon."
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: "blue_skies:bright_blinding_keystone"
+				id: "0A272A4C6A0D1869"
+				title: "Kill The Summoner"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &5Summoner"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["207769EC3251F70E"]
+			description: ["Starlit Crusher may not move much, but makes up for it by rooting into the ground to produce wide area attacks from below and enough brutal strength to cause the ground itself to shake. Seeing as it’s still a tree, axes deal far more damage against it and are required to bypass its defenses. Look out for opportunities to stun it with a spear for an opening to attack."]
+			id: "17EE59DC9B0C44B7"
+			rewards: [{
+				id: "65263F95C8C47B56"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Use the Keys to open the Gate to the &cStarlit Crusher&r. Found at the top of the &aNature's Dungeon"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1b
+					id: "blue_skies:starlit_crusher_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "78C390F75DC274B9"
+				title: "Kill The Starlit Crusher"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &cStarlit Crusher"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27CD46C8E6EC2E3B"]
+			icon: "blue_skies:blinding_key"
+			id: "37B01786D1F519C6"
+			rewards: [{
+				id: "34A7933B004D13DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hidden the Blinding Dungeon"
+			tasks: [{
+				count: 4L
+				id: "7A42676AA2769350"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			title: "Collect 4 &2Dungeon Keys"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["084BFF7D3DD9BB24"]
+			id: "207769EC3251F70E"
+			rewards: [{
+				id: "489FB4872DF884C0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found Hidden in the Nature's Dungeon."
+			tasks: [{
+				count: 4L
+				id: "7FB4F19B7B7F9932"
+				item: "blue_skies:nature_key"
+				type: "item"
+			}]
+			title: "Collect 4 &aDungeon Keys"
+			x: 4.0d
+			y: -0.5d
+		}
+	]
+	title: " &9Everbright"
+}

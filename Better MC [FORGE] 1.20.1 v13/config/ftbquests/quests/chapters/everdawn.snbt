@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everdawn"
+	group: "5BBB507BE497896B"
+	icon: "blue_skies:lunar_stonebrick"
+	id: "7A7E777C67E216AC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The &8Everdawn &rhas its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you."]
+			id: "23B2A759FBB4DBFF"
+			rewards: [{
+				id: "66888954F9EB63AD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Portal blocks can be found in or outside the Gatekeeper's Home."
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:lunar_stonebrick"
+				id: "2F88DFAD11A0FFA5"
+				title: "Enter Everdawn"
+				type: "dimension"
+			}]
+			title: "Enter the &8Everdawn"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["375FB9826C8942B8"]
+			description: ["The Arachnarch lunges at targets and sprays poison from the ceiling above. Being the queen of this nest, expect reinforcements to come crawling from the walls. With such an aggressive method of attacking, you may be able to stun her when she lunges by blocking with your shield."]
+			id: "4F3FD11CA8C37BFA"
+			rewards: [{
+				id: "006A55D1ACC697B7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Use the Keys to open the Gate to the Arachnarch Dungeon. Found deeper underground in the Poison Dungeon."
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1b
+					id: "blue_skies:arachnarch_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "0FA50CFE06683C83"
+				title: "Kill The Arachnarch"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &4Arachnarch"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23B2A759FBB4DBFF"]
+			id: "69871007BC2BB95E"
+			rewards: [{
+				id: "43FB7126F9DBF4C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hidden in the Blinding Dungeon"
+			tasks: [{
+				count: 4L
+				id: "055CA19EEE17EC85"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			title: "Collect 4 &2Dungeon Keys"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69871007BC2BB95E"]
+			description: ["The Alchemist uses potions and physical constructs to fight. Many of his attacks can be predicted by looking out for visual queues, but missing those queues may result in heavy damage. Once defeated, you’ll gain access to the Poison Dungeon."]
+			id: "433FD23CAA2F4CEA"
+			rewards: [
+				{
+					id: "794BE8A8DF703552"
+					item: {
+						Count: 1b
+						id: "blue_skies:alchemy_scroll"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48CC572D02C958B4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Use the Keys to teleport to the &5Alchemist Dungeon&r. Found at the top of the &8Blinding Dungeon&r."
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: "blue_skies:dawn_blinding_keystone"
+				id: "2AF8CE4F7464FE5C"
+				title: "Kill The Alchemist"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &5Alchemist"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["433FD23CAA2F4CEA"]
+			id: "375FB9826C8942B8"
+			rewards: [{
+				id: "24EA96D3D62BA46B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hidden in the &2Poison Dungeon&r."
+			tasks: [{
+				count: 4L
+				id: "2E53AC6DA2C9B3B0"
+				item: "blue_skies:poison_key"
+				type: "item"
+			}]
+			title: "Collect 4 &2Poison Dungeon &rKeys"
+			x: 4.0d
+			y: -0.5d
+		}
+	]
+	title: " &8Everdawn"
+}

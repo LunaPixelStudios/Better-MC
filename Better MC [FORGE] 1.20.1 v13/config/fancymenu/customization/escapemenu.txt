@@ -1,0 +1,117 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -64
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 32
+}
+
+customization {
+  identifier = %id=398324%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -64
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -88
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 8
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504348%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = 8
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://lunapixel.studio/discord%btnaction_splitter_fm%
+  x = -102
+  width = 98
+  action = addbutton
+  actionid = c5f7727a-0bef-4349-995c-4f7836eff82c1688731574703
+  y = -40
+  label = Discord Community
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/LunaPixelStudios/Better-MC%btnaction_splitter_fm%
+  x = 4
+  width = 98
+  action = addbutton
+  actionid = 4fa6a1f8-12cc-4d56-be5a-85f2a009fec81688731887322
+  y = -40
+  label = Report Bugs
+  height = 20
+}
+
+customization {
+  identifier = %id=374324%
+  orientation = top-right
+  x = -25
+  action = movebutton
+  y = 5
+}
+
