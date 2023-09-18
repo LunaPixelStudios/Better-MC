@@ -187,7 +187,8 @@
       "minecraft:villager",
       "endgoblintraders:end_goblin_trader", 
       "goblintraders:vein_goblin_trader", 
-      "goblintraders:goblin_trader"
+      "goblintraders:goblin_trader",
+      "universal_graves:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
