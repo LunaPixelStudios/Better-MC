@@ -1,0 +1,273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_bmc_fabric_1192"
+	group: ""
+	icon: "minecraft:book"
+	id: "3E34934F09B08365"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				""
+				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				""
+				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:book"
+				tag: {
+					Enchantments: [{
+						id: "aqua_affinity"
+						lvl: 1
+					}]
+				}
+			}
+			id: "6A52090D6BC064D7"
+			rewards: [{
+				count: 3
+				id: "78B2C19A7C655588"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "To start the tutorial, click on this quest and read the description."
+			tasks: [{
+				id: "1B0800437C68C43A"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&eWelcome to Better MC!"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				""
+				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				""
+				"When you hover over your armor slots, your &8Trinket &rslots will become visible. Some items, such as Elytras and Totems can be equipped here. Slots with an eye icon at the top are cosmetic slots, which are purely visual."
+				""
+				"Try equipping the &cQuiver &rfrom the quest reward in your Quiver slot!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "2958CA7FA6FD3E4F"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "07BC9C25214D6AFB"
+				item: {
+					Count: 1b
+					id: "supplementaries:quiver"
+					tag: {
+						SelectedSlot: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [
+				{
+					id: "0DD3C1416FC34FA1"
+					title: "Click me!"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "380A99374727D6D8"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&2Inventory"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
+				""
+				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
+				""
+				"The pin icon at the top right will pin a quest to your screen."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "175099CF5696829E"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				count: 3
+				id: "34B145F40A6C1F3B"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [
+				{
+					id: "21428FE253D34D4E"
+					title: "Click me!"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "08EDA62F0B406C49"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&6Quests"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"Press &bR&r while hovering over an item to view its Recipe"
+				""
+				"Press &bU&r while hovering over an item to view its Uses"
+				""
+				"Press &bLeft Alt&r to Crawl"
+				""
+				"Press &bB&r while a Backpack is on your Back Slot to open it"
+				""
+				"Press &bC &rto Zoom"
+				""
+				"Press &bM &rto open the World Map"
+				""
+				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
+				""
+				"Hold &b~&r while using a tool with the Vein Mining enchant to activate Vein Mining"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			id: "2165E80C52C79992"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "4127900982A91789"
+				item: "natures_spirit:aspen_sapling"
+				type: "item"
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [
+				{
+					id: "6A64112F92690241"
+					title: "Click me!"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "2B23CADA52D45FA0"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&9Important Controls"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			description: [
+				"At the bottom of the inventory, you may have noticed a search bar."
+				"This is the &dRoughly Enough Items&r, or &dREI&r, search bar. "
+				"If you type \"Wood\", for example, the &dREI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				""
+				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @handcrafted or @hand"
+				""
+				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #log"
+				""
+				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen."
+				""
+				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
+				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "owo:textures/gui/config_search.png"
+				}
+			}
+			id: "139DAA6E8CF4267A"
+			rewards: [{
+				id: "0094E694BCFF6481"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [{
+				id: "74C85348A8B837EB"
+				title: "Roughly Enough Items"
+				type: "checkmark"
+			}]
+			title: "&bRoughly Enough Items (REI)"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["139DAA6E8CF4267A"]
+			description: [
+				"The tutorial is now &afinished&r!"
+				""
+				"&l&aMORE QUESTS!&a&l &f&rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page where the arrow is."
+				""
+				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			id: "580EC3AF4A150A98"
+			rewards: [
+				{
+					id: "6E2AA09930D67535"
+					item: "adventurez:handbook"
+					type: "item"
+				}
+				{
+					id: "5A9388634495AC44"
+					item: "seasonsextras:seasonal_compendium"
+					type: "item"
+				}
+			]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "5372E5D8527E4994"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&aTutorial Complete!"
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: " &dTutorial"
+}

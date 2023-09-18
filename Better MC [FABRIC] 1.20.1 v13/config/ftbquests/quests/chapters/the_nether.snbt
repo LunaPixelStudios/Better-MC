@@ -1,0 +1,207 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "59C90AA1B128306B"
+	icon: "minecraft:obsidian"
+	id: "0D7FF8F037EFF568"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46D0AAEEB69E28B3"
+			rewards: [{
+				id: "75D2953DAEB9AFC1"
+				item: {
+					Count: 1b
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "7FC5892104C0744C"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter &cThe Nether"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "5B11DB2289D4F66C"
+			rewards: [
+				{
+					id: "10BF4D22339FEF9E"
+					item: "bosses_of_mass_destruction:brimstone_nectar"
+					type: "item"
+				}
+				{
+					id: "6D56B899607114F7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Found near &6blaze &rspawners."
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				icon: "minecraft:blaze_rod"
+				id: "4DBABAE3AE00C903"
+				title: "Kill a Blaze Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &6Blaze Guardian"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "69872C1F1CCBDEBD"
+			rewards: [{
+				id: "280091B4948F14F4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Found in &4Nether Fortresses&r."
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "745C505DC4DF253C"
+				title: "Kill a Necromancer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &8Necromancer"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "4E14675B45B7DD15"
+			rewards: [
+				{
+					id: "70D68C0AB105C4B9"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "6D4212F74805D47A"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			subtitle: "Spawns when &6Nether Gold Ore &ris mined."
+			tasks: [{
+				entity: "adventurez:piglin_beast"
+				icon: "adventurez:piglin_flag_block"
+				id: "6F13475E767FB83F"
+				title: "Kill a Piglin Beast"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &cPiglin Beast"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "6FE3E409F3305431"
+			rewards: [{
+				id: "469FB07DC0CB9CAE"
+				item: "fwaystones:void_totem"
+				type: "item"
+			}]
+			subtitle: "Found in &cNether &rstructures."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "746282A3B3D28D48"
+				title: "Kill the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &cNether &6Gauntlet"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "3963B69A10D95565"
+			rewards: [
+				{
+					count: 6
+					id: "516AD08EEACEE00B"
+					item: "adventurez:gilded_netherite_fragment"
+					type: "item"
+				}
+				{
+					id: "4D0709A5A9E38D45"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Summoned at a Golem Altar. Find more information in the (craftable) AdventureZ Handbook."
+			tasks: [{
+				entity: "adventurez:stone_golem"
+				icon: "adventurez:stone_golem_heart"
+				id: "3CCB99D30F004CC1"
+				title: "Kill the Blackstone Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Blackstone Golem"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "0DFA02E6F9FF12EF"
+			rewards: [{
+				count: 3
+				id: "02BDEEEFAE2C0C8F"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Summoned using Soul Stone from the Bygone Nether mod, instead of Soul Sand."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "208565526736BA1A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &k&4I&r&8&lThe Wither&k&4I"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "596B36F12DA2F168"
+			rewards: [{
+				count: 3
+				id: "42B9D690D88F44DE"
+				item: "betternether:nether_ruby"
+				type: "item"
+			}]
+			subtitle: "Found in &4Nether&r structures."
+			tasks: [{
+				entity: "bygonenether:corpor"
+				id: "66157356FE15AD06"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &8Corpor"
+			x: 7.5d
+			y: 2.0d
+		}
+	]
+	title: " &cNether"
+}
