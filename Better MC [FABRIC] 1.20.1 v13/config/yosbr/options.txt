@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","file/Stay_True_1.20.zip","file/MandalasGUI+Modded_Dakmode_v4.5.zip","file/Mandalas_Legacy_Gui_Background.zip","file/Icons.zip","file/NoBushyLeaves.zip","autoslabs:distinct_slabs","Moonlight Mods Dynamic Assets"]
+resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","file/Stay_True_1.20.zip","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandalas_Legacy_Gui_Background.zip","file/Icons.zip","file/NoBushyLeaves.zip","autoslabs:distinct_slabs","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -134,13 +134,16 @@ key_vivecraft.key.toggleHandheldCam:key.keyboard.unknown
 key_vivecraft.key.quickHandheldCam:key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
-key_key.adventurez.dragonflydown:key.keyboard.left.alt
+key_key.ftbquests.quests:key.keyboard.unknown
+key_key.ftbteams.open_gui:key.keyboard.unknown
+key_key.adventurez.dragonflydown:key.keyboard.z
 key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
 key_autothirdperson.toggle:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
 key_key.crawl:key.keyboard.left.alt
 key_key.entityculling.toggle:key.keyboard.unknown
 key_hiddenrecipebook.key.togglebook:key.keyboard.tab
+key_key.inmis.open_backpack:key.keyboard.b
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.inventoryhud.togglepot:key.keyboard.unknown
@@ -177,6 +180,8 @@ key_OldChunks Inverse:key.keyboard.unknown
 key_Save/Load OldChunks to Disk:key.keyboard.unknown
 key_Portal Highlights:key.keyboard.unknown
 key_PortalSkip Detection:key.keyboard.unknown
+key_PortalSkip NewChunks:key.keyboard.unknown
+key_PortalSkip OldChunks Inverse:key.keyboard.unknown
 key_Prefer Overworld Waypoints:key.keyboard.unknown
 key_Show Waypoint Distances:key.keyboard.unknown
 key_null OW Dim Dir:key.keyboard.unknown
@@ -199,7 +204,7 @@ key_gui.xaero_toggle_grid:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
-key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_enlarge_map:key.keyboard.unknown
 key_gui.xaero_waypoints_key:key.keyboard.u
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
