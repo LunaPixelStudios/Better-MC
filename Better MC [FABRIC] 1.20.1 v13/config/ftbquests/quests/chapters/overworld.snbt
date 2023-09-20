@@ -2,207 +2,164 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "overworld"
-	group: "5BBB507BE497896B"
+	group: "59C90AA1B128306B"
 	icon: "minecraft:grass_block"
-	id: "1D4E5CDD59FFB7A0"
+	id: "51FE38DFB14D1D53"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "268A05DFD4D5427A"
-			rewards: [
-				{
-					count: 12
-					id: "14F327BA69B975BD"
-					item: "blue_skies:turquoise_stonebrick"
-					type: "item"
-				}
-				{
-					count: 12
-					id: "2D05266B3F98B211"
-					item: "blue_skies:lunar_stonebrick"
-					type: "item"
-				}
-			]
-			subtitle: "Gatekeeper Houses can be found in most biomes"
-			tasks: [{
-				id: "08CA723FD16E3030"
-				item: "blue_skies:blue_journal"
-				title: "Obtain a Blue Journal from the Gatekeeper"
-				type: "item"
-			}]
-			title: "Obtain a &9Blue Journal &rfrom a Gatekeeper"
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			id: "6A12B1FE7B703F9D"
+			id: "1C7E9580565509D2"
 			rewards: [{
-				id: "1C1C43B99CC8E4E3"
+				id: "2277B0E27893A120"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 10
 			}]
-			subtitle: "When equipped, press &bB&r for easy access"
+			subtitle: "Found in &bcold &rbiomes."
 			tasks: [{
-				id: "44740305C2A8DC52"
-				item: "backpacked:backpack"
-				title: "Craft a Backpack"
-				type: "item"
-			}]
-			title: "Craft a &2Backpack"
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			id: "3DAB175493B08089"
-			rewards: [{
-				id: "29B13597289089F3"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "Found in Dark Oak Forests"
-			tasks: [{
-				entity: "conjurer_illager:conjurer"
-				icon: {
-					Count: 1b
-					id: "conjurer_illager:conjurer_hat"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "10911C878598A90F"
-				title: "Kill the Conjurer"
+				entity: "adventurez:mammoth"
+				icon: "adventurez:mammoth_tusk"
+				id: "01C2EFC344021C4C"
+				title: "Kill a Mammoth"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the &8Conjurer"
-			x: 3.0d
-			y: 0.5d
+			title: "Kill a &6Mammoth"
+			x: -0.5d
+			y: 0.0d
 		}
 		{
-			id: "26EA75D177BC496B"
+			id: "2D3BD496319AD33C"
+			rewards: [{
+				id: "64A97D9F4C655275"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found underground in &damethyst geodes&r."
+			tasks: [{
+				entity: "adventurez:amethyst_golem"
+				icon: "minecraft:amethyst_cluster"
+				id: "64CB4ECC614E2DC9"
+				title: "Kill a Amethyst Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &dAmethyst Golem"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "128D2885B2B4AE7E"
+			rewards: [{
+				id: "24ED0226D837A7F2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Found in &edeserts&r."
+			tasks: [{
+				entity: "adventurez:desert_rhino"
+				icon: "adventurez:rhino_leather"
+				id: "1841F40D9B6D5AD6"
+				title: "Kill a Desert Rhino"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &eDesert Rhino"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "7D6D7B7DD55F344D"
 			rewards: [
 				{
-					id: "2F1EFCBC72F69624"
-					item: "minecraft:netherite_ingot"
+					count: 2
+					id: "50D523F0F7D40E96"
+					item: "bosses_of_mass_destruction:soul_star"
 					type: "item"
 				}
 				{
-					id: "6DA1A2B30558A913"
+					id: "3B788C347294148B"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 			]
-			subtitle: "Raids are started by killing Illager Captains, the same way as normal"
+			subtitle: "Found during &9thunderstorms&r."
 			tasks: [{
-				advancement: "minecraft:adventure/hero_of_the_village"
-				criterion: ""
-				id: "7362BF4629FAD929"
-				title: "Defend a Village"
-				type: "advancement"
-			}]
-			title: "Defend a Village from a &4Raid"
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			id: "7CCAA3A7BC9D0208"
-			rewards: [{
-				id: "1EC587841A6725A9"
-				item: {
-					Count: 1b
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Over time, you will slowly collect a mix of seafood and junk. Putting fish in the trap will lure different creatures."
-			tasks: [{
-				id: "3AC626B22AD475A5"
-				item: "crabbersdelight:crab_trap"
-				type: "item"
-			}]
-			title: "Craft a &3Crab Trap"
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			id: "3EA4CB4D9C90B767"
-			rewards: [{
-				id: "0EF5197E4E7ED8F3"
-				item: "conjurer_illager:throwable_ball"
-				type: "item"
-			}]
-			subtitle: "Found in &eIllusioner Towers&r"
-			tasks: [{
-				entity: "minecraft:illusioner"
-				icon: "illagerinvasion:illusionary_dust"
-				id: "39A27C60C2775BD5"
-				title: "Defeat the &cIllusioner"
+				entity: "adventurez:summoner"
+				icon: "minecraft:skeleton_skull"
+				id: "354A89017B6C62D7"
+				title: "Kill a Summoner"
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: 2.0d
+			title: "Kill a &bSummoner"
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			id: "1A878EB6FEC31A26"
-			rewards: [{
-				count: 3
-				id: "4794A29BDF3A8992"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			subtitle: "Used to turn a villager into an &bOceanographer"
+			id: "63D82D9074FC34E3"
+			rewards: [
+				{
+					id: "37B03BE444D6331F"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "7C048ADB6DF63093"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					id: "38AB6CF7DAEEDA5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in &3cold &fbiomes. "
 			tasks: [{
-				id: "76FC0860F717FB35"
-				item: "villagersplus:oceanographer_table"
-				type: "item"
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "727F7A1D307E65A9"
+				title: "Defeat the Night Lich"
+				type: "kill"
+				value: 1L
 			}]
-			title: "Craft an &bAquarium"
-			x: 5.0d
-			y: -1.0d
+			title: "Defeat the &bNight Lich"
+			x: 5.5d
+			y: 0.0d
 		}
 		{
-			id: "6280E25813EA2805"
-			rewards: [{
-				count: 3
-				id: "020B040C4D079A06"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			subtitle: "Used to turn a villager into an &dOccultist"
+			id: "24969D5FC76CDBB3"
+			rewards: [
+				{
+					id: "68DFBB0E19E00038"
+					item: {
+						Count: 1b
+						id: "bosses_of_mass_destruction:earthdive_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44DAA5EA5C3071D0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in rare caves at the bottom of the &aOverworld&r. &dVoid Lillies&r will point towards the &5Void Blossom&r."
 			tasks: [{
-				id: "3594A94ECDBC14FB"
-				item: "villagersplus:occultist_table"
-				type: "item"
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "3DB51E789F4F929F"
+				title: "Defeat the Void Blossom"
+				type: "kill"
+				value: 1L
 			}]
-			title: "Craft an &dEnchanted Basin"
-			x: 5.0d
-			y: 0.5d
-		}
-		{
-			id: "32C4134E67E71063"
-			rewards: [{
-				count: 3
-				id: "7DD343C14E49B4ED"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			subtitle: "Used to turn a villager into a &5Alchemist"
-			tasks: [{
-				id: "72527896BB77CECD"
-				item: "villagersplus:alchemist_table"
-				type: "item"
-			}]
-			title: "Craft an &5Alchemist Table"
-			x: 5.0d
-			y: 2.0d
+			title: "Defeat the &5Void Blossom"
+			x: 7.0d
+			y: 0.0d
 		}
 	]
 	title: " &aOverworld"

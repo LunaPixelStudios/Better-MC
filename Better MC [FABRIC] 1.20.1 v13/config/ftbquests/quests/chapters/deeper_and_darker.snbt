@@ -2,14 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "deeper_and_darker"
-	group: "5BBB507BE497896B"
+	group: "59C90AA1B128306B"
 	icon: "deeperdarker:heart_of_the_deep"
-	id: "43F9E85332B37439"
-	order_index: 7
+	id: "4B6E4A0215F45FC0"
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "minecraft:sculk_sensor"
 			id: "731C3214BB61FDAE"
 			rewards: [{
 				id: "1A22694A70BE865A"
@@ -21,6 +20,7 @@
 			subtitle: "Found underground in the &aOverworld&r."
 			tasks: [{
 				entity: "minecraft:warden"
+				icon: "minecraft:sculk_sensor"
 				id: "37E411F497C9CD71"
 				title: "Kill a Warden"
 				type: "kill"
@@ -34,7 +34,7 @@
 			dependencies: ["731C3214BB61FDAE"]
 			id: "44937B2D2EB38094"
 			rewards: [{
-				id: "2EF0FAB1AE9BC43E"
+				id: "2B6B4A1DB2165CC7"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
@@ -55,10 +55,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["44937B2D2EB38094"]
+			dependencies: ["731C3214BB61FDAE"]
 			id: "704CCA2CEAB23B4D"
 			rewards: [{
-				id: "1860E3DCA6E8E6FB"
+				id: "336DFFDBA2B4F736"
 				item: "deeperdarker:ancient_vase"
 				type: "item"
 			}]
@@ -78,7 +78,7 @@
 			dependencies: ["704CCA2CEAB23B4D"]
 			id: "6E7D3242496F4501"
 			rewards: [{
-				id: "1910360C472DE886"
+				id: "72D2DF3718C327BD"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
@@ -90,7 +90,6 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Shattered"
 			x: 8.0d
 			y: 5.5d
 		}
@@ -98,7 +97,7 @@
 			dependencies: ["704CCA2CEAB23B4D"]
 			id: "192EE909C57F390A"
 			rewards: [{
-				id: "77B0B7D61481A552"
+				id: "2530F4B88B3A7492"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
@@ -111,7 +110,6 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Stalker"
 			x: 9.0d
 			y: 5.5d
 		}
@@ -119,11 +117,11 @@
 			dependencies: ["704CCA2CEAB23B4D"]
 			id: "3CBDB45D65737212"
 			rewards: [{
-				id: "2FE936F92AA38681"
+				id: "1186E0C01704A6F4"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "found by stepping on &1Infested Sculk"
+			subtitle: "Found by stepping on Infested Sculk"
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
 				icon: "deeperdarker:sculk_bone"
@@ -132,9 +130,35 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &7Shriek Worm"
 			x: 10.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			icon: {
+				Count: 1b
+				id: "adventurez:stone_golem_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2DBD53ED18C97BE8"
+			rewards: [{
+				id: "6887FFF9A990A3C1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "
+			tasks: [{
+				id: "6C293345A79D9606"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdark:sculk_snapper"
+				type: "observation"
+			}]
+			title: "Find a &2Sculk Snapper"
+			x: 11.0d
+			y: 4.0d
 		}
 	]
 	title: " &1&lThe Otherside"

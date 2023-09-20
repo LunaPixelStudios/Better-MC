@@ -1,6 +1,6 @@
 {
 	chapter_groups: [
-		{ id: "5BBB507BE497896B", title: "&5Dimensions" }
-		{ id: "5EC606153AA8CA77", title: "&bOddities" }
+		{ id: "59C90AA1B128306B", title: "Dimensions" }
+		{ id: "799D8360B26E9792", title: "Oddities" }
 	]
 }
