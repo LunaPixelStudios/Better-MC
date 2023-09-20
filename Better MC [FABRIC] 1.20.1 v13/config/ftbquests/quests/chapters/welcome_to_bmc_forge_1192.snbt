@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "welcome_to_bmc_fabric_1192"
+	filename: "welcome_to_bmc_forge_1192"
 	group: ""
 	icon: "minecraft:book"
 	id: "3E34934F09B08365"
@@ -29,7 +29,7 @@
 			id: "6A52090D6BC064D7"
 			rewards: [{
 				count: 3
-				id: "78B2C19A7C655588"
+				id: "26B707F49F695DEA"
 				item: "minecraft:bread"
 				type: "item"
 			}]
@@ -46,15 +46,17 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
+			dependency_requirement: "one_completed"
 			description: [
 				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
 				""
 				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
 				""
-				"When you hover over your armor slots, your &8Trinket &rslots will become visible. Some items, such as Elytras and Totems can be equipped here. Slots with an eye icon at the top are cosmetic slots, which are purely visual."
+				"When you click the square at the top left of your player display, your &8Curios &rslots will become visible. Some items, such as Elytras and Totems can be equipped here."
 				""
-				"Try equipping the &cQuiver &rfrom the quest reward in your Quiver slot!"
+				"Try equipping the &cCharm of Life &rfrom the quest reward in your Necklace slot!"
 			]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -63,17 +65,10 @@
 				}
 			}
 			id: "2958CA7FA6FD3E4F"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "07BC9C25214D6AFB"
-				item: {
-					Count: 1b
-					id: "supplementaries:quiver"
-					tag: {
-						SelectedSlot: 0
-					}
-				}
+				id: "649C9C6CB3EB241E"
+				item: "twilightforest:charm_of_life_1"
 				type: "item"
 			}]
 			subtitle: "Read my description!"
@@ -84,8 +79,7 @@
 					type: "checkmark"
 				}
 				{
-					disable_toast: true
-					id: "380A99374727D6D8"
+					id: "1D486C4B0E66490C"
 					item: "minecraft:bread"
 					type: "item"
 				}
@@ -103,6 +97,7 @@
 				""
 				"The pin icon at the top right will pin a quest to your screen."
 			]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -111,7 +106,6 @@
 				}
 			}
 			id: "175099CF5696829E"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
 				count: 3
@@ -123,7 +117,7 @@
 			tasks: [
 				{
 					id: "21428FE253D34D4E"
-					title: "Click me!"
+					title: "Quests"
 					type: "checkmark"
 				}
 				{
@@ -140,22 +134,26 @@
 		{
 			dependencies: ["6A52090D6BC064D7"]
 			description: [
-				"Press &bR&r while hovering over an item to view its Recipe"
+				"Press &bR &rwhile hovering over an item to view its Recipe"
 				""
-				"Press &bU&r while hovering over an item to view its Uses"
+				"Press &bU &rwhile hovering over an item to view its Uses"
 				""
-				"Press &bLeft Alt&r to Crawl"
+				"Press &bZ &rto Crawl"
 				""
-				"Press &bB&r while a Backpack is on your Back Slot to open it"
+				"Press &bRight Click &rwhile crouching to hold a block. (Useful for chests, doesn't work on all blocks)"
+				""
+				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
 				""
 				"Press &bC &rto Zoom"
 				""
 				"Press &bM &rto open the World Map"
 				""
-				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
+				"Press &bU&r to see Player Death History"
 				""
-				"Hold &b~&r while using a tool with the Vein Mining enchant to activate Vein Mining"
+				"Press &bO&r to view the Claiming Screen"
+				"{@pagebreak}"
 			]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -164,11 +162,10 @@
 				}
 			}
 			id: "2165E80C52C79992"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "4127900982A91789"
-				item: "natures_spirit:aspen_sapling"
+				id: "51B0A356F9FE087C"
+				item: "biomesoplenty:rainbow_birch_sapling"
 				type: "item"
 			}]
 			subtitle: "Read my description! Make sure to scroll down."
@@ -193,51 +190,49 @@
 			dependencies: ["2958CA7FA6FD3E4F"]
 			description: [
 				"At the bottom of the inventory, you may have noticed a search bar."
-				"This is the &dRoughly Enough Items&r, or &dREI&r, search bar. "
-				"If you type \"Wood\", for example, the &dREI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
 				""
-				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @handcrafted or @hand"
+				"This is the &dJust Enough Items&r, or &dJEI&r, search bar. "
 				""
-				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #log"
+				"If you type \"Wood\", for example, the &dJEI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
 				""
-				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen."
+				"Adding a @ at the start of the search query will show the items from a specific mod, for example @Adorn"
 				""
-				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
-				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
+				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
 			]
 			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "owo:textures/gui/config_search.png"
+					Icon: "jei:textures/gui/icons/config_button_cheat.png"
 				}
 			}
 			id: "139DAA6E8CF4267A"
 			rewards: [{
-				id: "0094E694BCFF6481"
+				id: "1AE5746200C26691"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Read my description! Make sure to scroll down."
+			subtitle: "Read my description!"
 			tasks: [{
 				id: "74C85348A8B837EB"
-				title: "Roughly Enough Items"
+				title: "Click me!"
 				type: "checkmark"
 			}]
-			title: "&bRoughly Enough Items (REI)"
+			title: "&bJust Enough Items (JEI)"
 			x: 0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["139DAA6E8CF4267A"]
 			description: [
-				"The tutorial is now &afinished&r!"
+				"The tutorial is now &afinished&r! "
 				""
-				"&l&aMORE QUESTS!&a&l &f&rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page where the arrow is."
+				"To view the rest of the quests, put your cursor to the left of the screen and expand the &6Quest Groups&r. "
 				""
 				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
 			]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -245,26 +240,42 @@
 					Icon: "ftblibrary:textures/icons/check.png"
 				}
 			}
-			id: "580EC3AF4A150A98"
+			id: "6A4CB4700F0082C6"
 			rewards: [
 				{
-					id: "6E2AA09930D67535"
-					item: "adventurez:handbook"
+					id: "53680199E84036F9"
+					item: "alexsmobs:animal_dictionary"
 					type: "item"
 				}
 				{
-					id: "5A9388634495AC44"
-					item: "seasonsextras:seasonal_compendium"
+					id: "7002DB7B6A466469"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "storagenetwork:network_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37F357ABF35CF44C"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "twilightdelight:twilight_guide"
+						}
+					}
 					type: "item"
 				}
 			]
 			subtitle: "Read my description!"
 			tasks: [{
-				id: "5372E5D8527E4994"
-				title: "Click me!"
+				id: "3B2CC7DEE30E3AB8"
+				title: "&aTutorial Complete!"
 				type: "checkmark"
 			}]
-			title: "&aTutorial Complete!"
 			x: 1.5d
 			y: -1.5d
 		}
