@@ -14,28 +14,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = -94
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = 2
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
   action = hidebutton
 }
 
@@ -44,23 +23,25 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -70
+  y = -53
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = 26
+  identifier = %id=374282%
+  action = hidebutton
 }
 
 customization {
-  identifier = %id=398318%
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -22
+  y = -77
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
 }
 
 customization {
@@ -68,15 +49,7 @@ customization {
   orientation = mid-centered
   x = 4
   action = movebutton
-  y = -70
-}
-
-customization {
-  identifier = %id=374318%
-  orientation = top-right
-  x = -24
-  action = movebutton
-  y = 4
+  y = -53
 }
 
 customization {
@@ -88,7 +61,7 @@ customization {
   width = 98
   action = addbutton
   actionid = 18a9828f-02c7-4709-95bf-63a4943d92111638451009180
-  y = -46
+  y = -29
   label = Report Bugs
   height = 20
 }
@@ -102,16 +75,16 @@ customization {
   width = 98
   action = addbutton
   actionid = c783c6d2-2f54-498a-87dd-eced0f53c92c1638451110609
-  y = -46
+  y = -29
   label = Discord Community
   height = 20
 }
 
 customization {
-  identifier = %id=504342%
-  orientation = mid-centered
-  x = 4
+  identifier = %id=374330%
+  orientation = top-right
+  x = -20
   action = movebutton
-  y = 2
+  y = 0
 }
 

@@ -18,3 +18,24 @@ customization {
   action = hidebutton
 }
 
+customization {
+  identifier = %id=660948%
+  orientation = top-right
+  x = -116
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=660948%
+  width = 115
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=660948%
+  action = setbuttonlabel
+  value = Bisect Public Servers
+}
+

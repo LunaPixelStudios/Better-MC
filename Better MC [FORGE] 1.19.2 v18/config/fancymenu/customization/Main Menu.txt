@@ -19,14 +19,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -2
-}
-
-customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
   x = 104
@@ -64,16 +56,45 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -25
+  identifier = %id=604334%
+  action = hidebutton
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -99
+  action = movebutton
+  y = 56
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 56
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -25
 }
 
 customization {
@@ -92,14 +113,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-centered
-  x = -99
-  action = movebutton
-  y = 56
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 2
@@ -108,11 +121,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-centered
-  x = -124
+  identifier = %id=604310%
+  orientation = top-left
+  x = 2
   action = movebutton
-  y = 56
+  y = 5
 }
 
 customization {

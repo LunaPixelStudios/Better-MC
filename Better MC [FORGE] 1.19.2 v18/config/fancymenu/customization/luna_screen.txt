@@ -1,0 +1,87 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.ShareToLanScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345972%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = 40
+}
+
+customization {
+  identifier = %id=345972%
+  action = setbuttonlabel
+  value = Share World
+}
+
+customization {
+  identifier = %id=505972%
+  orientation = mid-centered
+  x = -151
+  action = movebutton
+  y = 40
+}
+
+customization {
+  identifier = %id=345100%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = -70
+}
+
+customization {
+  identifier = %id=505100%
+  orientation = mid-centered
+  x = -151
+  action = movebutton
+  y = -70
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Keep in mind that sharing your world will have more latency and %n%potential performance issues than using a server.%n%LAN hosted worlds are also very unreliable and %n%inconsitent with mods as they are not meant to be used for LAN.%n%%n%So we still recommend to use Server Hosted Worlds.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -165
+  width = 332
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 47fd05ed-32e9-4d60-8c32-e2af7c2102551692901379583
+  y = -48
+  alignment = centered
+  base_color = f08181
+  height = 63
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://bisecthosting.com/LUNAPIXEL%btnaction_splitter_fm%
+  x = -84
+  width = 170
+  action = addbutton
+  actionid = 6b9620e1-3a16-449d-93ab-e44940d57dc41692901824606
+  y = 17
+  label = Get 25% OFF with Bisect Hosting
+  height = 19
+}
+
