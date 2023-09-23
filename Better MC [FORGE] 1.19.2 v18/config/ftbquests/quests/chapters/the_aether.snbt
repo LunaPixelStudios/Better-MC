@@ -1,0 +1,380 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "5BBB507BE497896B"
+	icon: "aether:aether_portal_frame"
+	id: "566DC2763E60ED8A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "32226ED25E813908"
+			rewards: [{
+				id: "4EB0E106FB3399CA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 2.0d
+			subtitle: "To enter &eThe Aether&r, simply build a portal frame of &6Glowstone&r and place a &9bucket of water&r in the middle to ignite. You can also find &dRuined Aether Portals&r throughout the world, giving easy access to the dimension."
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "1A6561D8DE5A63CE"
+				title: "Enter &eThe Aether"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			description: [
+				"Entrances to &eBronze Dungeons&r can be found on the side of islands. The number of rooms in each dungeon varies. "
+				""
+				"Non-boss rooms contain &c&lsentries&r&r which attack the player, and sometimes have chests on 4x4 tables. Some of these chests are &cMimics&r, however. "
+				""
+				"The only way to defeat &8The Slider&r is by using tools such as pickaxes or shovels. You can not destroy the floor or walls of the boss room until the boss has been defeated."
+			]
+			id: "0A99C7852725BFC2"
+			rewards: [{
+				count: 3
+				id: "6CCEC2ECD7F0923B"
+				item: "aether_redux:quickroot"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			subtitle: "Read my description!"
+			tasks: [{
+				icon: "aether:carved_stone"
+				id: "3865A3E4D4A9A5F3"
+				structure: "aether:bronze_dungeon"
+				title: "Visit &eBronze Dungeon"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["100082345FA03A9B"]
+			id: "0E349CAEF1D249B6"
+			rewards: [{
+				count: 16
+				id: "68837096AC3873E0"
+				item: "aether_redux:spectral_dart"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.2d
+			subtitle: "Found in &eBronze Dungeons&r"
+			tasks: [{
+				entity: "aether:slider"
+				icon: "aether:slider_spawn_egg"
+				id: "69F7F61602435663"
+				title: "Defeat &bSlider"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &bSlider"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			description: [
+				"&8Silver Dungeons&r are located at high Y levels within &eThe Aether&r."
+				""
+				"These dungeons have multiple floors, typically three, and each floor has multiple rooms. Most rooms will have chests, but be careful of &cMimics&r!"
+				""
+				"Silver Dungeons are also inhabited by &9Valkyries&r, which only attack when the player attacks them. Killing a &9Valkyrie&r yields a single &aVictory Medal&r. "
+				""
+				"The &8Silver Dungeon&r's boss fight will start after right clicking the boss with 10 &aVictory Medals&r."
+			]
+			id: "79A852D2B339DF57"
+			rewards: [{
+				count: 3
+				id: "2280B178A33BA304"
+				item: "aether:zanite_gemstone"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			subtitle: "Read my description!"
+			tasks: [{
+				icon: "aether:locked_angelic_stone"
+				id: "760227D918F26D13"
+				structure: "aether:silver_dungeon"
+				title: "Visit &7Silver Dungeon"
+				type: "structure"
+			}]
+			title: "Visit the &3Silver Dungeon"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			description: [
+				"&6Gold Dungeons&r are located within spherical islands, distinguished by the &eGolden Oak&r trees growing on top of them. "
+				""
+				"This dungeon normally will only have the &c&lboss room&r&r in it, with no treasure/mob rooms beforehand. "
+				""
+				"The &eSun Spirit&r cannot be damaged with direct attacks, and instead is damaged by deflecting its projectiles. When the &eSun Spirit&r is hit by one of its own projectiles, it sends out a smaller version of itself to attack the player. "
+				""
+				"Once the player defeats the &eSun Spirit&r, the sun will set for the first time."
+			]
+			id: "7149B8FB49671630"
+			rewards: [{
+				id: "492459927BC2F706"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "square"
+			size: 1.3d
+			subtitle: "Read my description!"
+			tasks: [{
+				icon: "aether:hellfire_stone"
+				id: "1D066EC48DFC09CD"
+				structure: "aether:gold_dungeon"
+				title: "Visit &6Gold Dungeon"
+				type: "structure"
+			}]
+			title: "Visit the &6Gold Dungeon"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79A852D2B339DF57"]
+			id: "038B71E71E3C8213"
+			rewards: [{
+				id: "3E7CC6894913FB04"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&eValkyries&r are &eneutral mobs&r, meaning they will not attack unless provoked. Found only in &3Silver Dungeons&r"
+			tasks: [{
+				entity: "aether:valkyrie"
+				icon: "aether:valkyrie_spawn_egg"
+				id: "121640BF259D479C"
+				title: "Defeat &eValkyrie"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["038B71E71E3C8213"]
+			id: "68BF5A98532CD5C3"
+			rewards: [{
+				id: "5DE05B3933EAB617"
+				item: {
+					Count: 1b
+					id: "aether:iron_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.2d
+			subtitle: "&6The Valkyrie Queen&r is a boss found in the &8Silver Dungeon&r. "
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "aether:valkyrie_queen_spawn_egg"
+				id: "0E561AF5890B4422"
+				title: "Defeat &6Valkyrie Queen"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &6Valkyrie Queen"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			id: "100082345FA03A9B"
+			rewards: [{
+				id: "00ECAD3293A302DF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in &eBronze Dungeons&r"
+			tasks: [{
+				entity: "aether:sentry"
+				icon: "aether:sentry_spawn_egg"
+				id: "4937B6F09587F4C9"
+				title: "Defeat &cSentry"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &cSentry"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			id: "221923EEDAEE1BEE"
+			rewards: [{
+				count: 3
+				id: "7E539D6D0C93E94A"
+				item: "aether_redux:blueberry_pie"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.2d
+			subtitle: "&eThe Sun Spirit&r is a boss found in &6Gold Dungeons&r"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "aether:sun_spirit_spawn_egg"
+				id: "49A00D8BAA0923BD"
+				title: "Defeat &eSun Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &eSun Spirit"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "66FEF20B76DE28D2"
+			rewards: [{
+				id: "19D9FB9EDF2E7460"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "When worn: Grants the wearer the ability to &2Double Jump&r. Wearing two increases the jump height."
+			tasks: [{
+				id: "76A8055BAE34F632"
+				item: "aether_redux:sentry_ring"
+				type: "item"
+			}]
+			title: "Obtain &bSentry Ring"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			hide_dependency_lines: true
+			id: "65BB6034DC60AE63"
+			rewards: [{
+				id: "756DDE9B1452CED8"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "When worn: Grants ability to &cShoot Fireballs"
+			tasks: [{
+				id: "09867AEECB8A463F"
+				item: "aether_redux:phoenix_ring"
+				type: "item"
+			}]
+			title: "Obtain &6Phoenix Ring"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			hide_dependency_lines: true
+			id: "4DE6C85C587D34F9"
+			rewards: [{
+				id: "3A0B660FB9726898"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "When worn: will grant &c+20 to 30%&r mob &2Experience Drops"
+			tasks: [{
+				id: "0D0493D8188AF030"
+				item: "aether_redux:enchanted_ring"
+				type: "item"
+			}]
+			title: "Obtain &dEnchanted Ring"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			hide_dependency_lines: true
+			id: "1E3E4E8C453C2103"
+			rewards: [{
+				id: "5D90BD7C2120D81D"
+				item: "aether:music_disc_ascending_dawn"
+				type: "item"
+			}]
+			subtitle: "When worn: will grant &6+1.5 Entity Reach and &6+1.5 Block Reach"
+			tasks: [{
+				id: "526B6F7AF98BFABF"
+				item: "aether_redux:valkyrie_ring"
+				type: "item"
+			}]
+			title: "Obtain &eValkyrie Ring"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "4719337CE9B23663"
+			rewards: [{
+				id: "52CA64FB8DD312B0"
+				item: "aether:skyroot_axolotl_bucket"
+				type: "item"
+			}]
+			subtitle: "When worn: will grant &b+5% Speed&r and a 10% chance to &2poison&r targets of melee attacks"
+			tasks: [{
+				id: "057CB4771D0C527F"
+				item: "aether_redux:bittersweet_charm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "1970032066C8E81C"
+			rewards: [{
+				id: "45611917FC63E5E1"
+				item: "aether_redux:raw_veridium"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Used to craft armor and tools"
+			tasks: [{
+				id: "190C746EF134EADA"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			title: "Obtain &bVeridium"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			hide_dependency_lines: true
+			id: "0E9304259AF3B886"
+			rewards: [{
+				id: "5E41B9B01684138A"
+				item: "aether_redux:blueberry_pie"
+				type: "item"
+			}]
+			subtitle: "Used to craft armor and tools"
+			tasks: [{
+				id: "3285B14924EDF872"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			title: "Obtain &dZanite Gemstone"
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: " &eThe Aether"
+}
