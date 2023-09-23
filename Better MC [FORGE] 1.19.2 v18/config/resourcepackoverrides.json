@@ -3,11 +3,12 @@
   "failed_reloads_per_session": 5,
   "default_packs": [
     "file/NoBushyLeaves.zip",
-    "Glass pane culling fix",
+    "builtin/glass_pane_fix_resources",
     "file/Xaero's Minimap Mod Icons.zip",
     "file/Mandalas_Legacy_Gui_Background.zip",
-    "file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip",
-    "Default CTM",
+    "file/MandalasGUI_Legacy+Modded_Dakmode_v4.6.zip",
+    "file/Aether Regenerated v1.1.2.zip",
+    "builtin/default_ctm_resources",
     "file/Stay_True_1.19.zip"
   ],
   "default_overrides": {
@@ -41,6 +42,9 @@
     "file/Repurposed_Structures-Farmers_Delight_v5.zip": {
       "hidden": true
     },
+    "file/RuinedAetherPortals_1.0.zip": {
+      "hidden": true
+    },
     "file/Repurposed_Structures-Friends_And_Foes_v3.zip": {
       "hidden": true
     },
@@ -50,10 +54,13 @@
     "file/Repurposed_Structures-Oh_The_Biomes_Youll_Go_v2.zip": {
       "hidden": true
     },
-    "file/Repurposed_Structures-Savage_And_Ravage_v5.zip": {
+    "file/Repurposed_Structures-Savage_And_Ravage_v6.zip": {
       "hidden": true
     },
     "file/Repurposed_Structures-VillagersPlus_v1.zip": {
+      "hidden": true
+    },
+    "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
       "hidden": true
     },
     "Snowyspirit Generated Pack": {
