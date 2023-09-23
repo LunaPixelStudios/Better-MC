@@ -47,4 +47,7 @@ pack_edit_mode = true
 				#Set to 0 to default.
 				#Range: 0 ~ 400
 				width = 0
+				#Turn the Public Server List button into a vanilla styled one.
+				#Causes default vanilla graphics and might help with compatibility with other mods.
+				vanillaButton = true
 
