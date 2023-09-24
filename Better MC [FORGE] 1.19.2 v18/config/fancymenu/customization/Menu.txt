@@ -23,7 +23,15 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -53
+  y = -70
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 26
 }
 
 customization {
@@ -36,7 +44,15 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = -77
+  y = -94
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 2
 }
 
 customization {
@@ -45,11 +61,27 @@ customization {
 }
 
 customization {
+  identifier = %id=398330%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -22
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
   orientation = mid-centered
   x = 4
   action = movebutton
-  y = -53
+  y = -70
+}
+
+customization {
+  identifier = %id=374330%
+  orientation = top-right
+  x = -20
+  action = movebutton
+  y = 0
 }
 
 customization {
@@ -61,7 +93,7 @@ customization {
   width = 98
   action = addbutton
   actionid = 18a9828f-02c7-4709-95bf-63a4943d92111638451009180
-  y = -29
+  y = -46
   label = Report Bugs
   height = 20
 }
@@ -75,16 +107,16 @@ customization {
   width = 98
   action = addbutton
   actionid = c783c6d2-2f54-498a-87dd-eced0f53c92c1638451110609
-  y = -29
+  y = -46
   label = Discord Community
   height = 20
 }
 
 customization {
-  identifier = %id=374330%
-  orientation = top-right
-  x = -20
+  identifier = %id=504354%
+  orientation = mid-centered
+  x = 4
   action = movebutton
-  y = 0
+  y = 2
 }
 
