@@ -66,6 +66,11 @@ customization {
 }
 
 customization {
+  identifier = %id=97641%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -99
@@ -87,6 +92,11 @@ customization {
   x = -100
   action = movebutton
   y = -2
+}
+
+customization {
+  identifier = %id=976411%
+  action = hidebutton
 }
 
 customization {
@@ -206,7 +216,7 @@ customization {
   width = 200
   action = addbutton
   actionid = 3aeed4a8-8f64-46c4-80b7-9fbc75b866e51638450449400
-  y = 21
+  y = 23
   label = Bisect Server Hosting
   height = 20
 }
@@ -271,5 +281,10 @@ customization {
   description = Improve your FPS!
   label = Performance Guide
   height = 20
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
 }
 
