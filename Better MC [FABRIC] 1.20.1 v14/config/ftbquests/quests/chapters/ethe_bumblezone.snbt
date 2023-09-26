@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ethe_bumblezone"
+	group: "59C90AA1B128306B"
+	icon: "the_bumblezone:glistering_honey_crystal"
+	id: "5E108F66F3EF0B77"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["If you have trypophobia, go into the Resourcepacks menu and enable the Anti-trypophobia resourcepack."]
+			icon: "minecraft:bee_nest"
+			id: "5669A0DAB45F2C62"
+			rewards: [
+				{
+					id: "7ECF17AEC78DD991"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_compass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1D68FF4FDBD89955"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "To enter &6The Bumblezone&r, simply throw an &5Ender Pearl&r into a &eBee Nest&r or a Bee Hive. To leave, dig to &lY = 0 &ror tower up to &lY = 256&r. Player-ridden animals can be brought into &6The Bumblezone&r by pushing yourself into a &eBee Hive &rwith a piston, while riding the mob."
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:bee_nest"
+				id: "23EB799CA31143EC"
+				title: "Enter &6The Bumblezone"
+				type: "dimension"
+			}]
+			title: "Enter &6The Bumblezone"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "6A5111F402D746D5"
+			rewards: [
+				{
+					count: 3
+					id: "54ACEBDEB5E79867"
+					item: "expandeddelight:peanut_butter_honey_sandwich"
+					type: "item"
+				}
+				{
+					id: "4D15605B0B96D3FC"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Throne Pillar structures. Trades for a variety of resources. Try giving her &eHoney Bottles&r, &4Spider Eyes&r, &fString&r, or &dDyes&r."
+			tasks: [{
+				icon: "the_bumblezone:bee_queen_spawn_egg"
+				id: "3BB5DC62B7B44E05"
+				observe_type: 5
+				timer: 0L
+				to_observe: "the_bumblezone:bee_queen"
+				type: "observation"
+			}]
+			title: "Find the &e&lBee Queen"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			description: [
+				"When thrown at flowers, the flowers will reproduce."
+				""
+				"When thrown at a block, it will create a Pile of Pollen."
+				""
+				"Makes pandas sneeze."
+				""
+				"Pollinates unpollinated bees."
+				""
+				"Spawns mushrooms when thrown at a Mooshroom."
+				""
+				"Spawn pumpkin stems when thrown at a Snow Golem."
+			]
+			id: "1085588F956F6781"
+			rewards: [{
+				id: "115EF1BAA295611D"
+				item: "expandeddelight:peanut_honey_soup"
+				type: "item"
+			}]
+			subtitle: "Obtained by mining a &fPile of Pollen&r. Read quest description for interactions."
+			tasks: [{
+				id: "076801A54434CD21"
+				item: "the_bumblezone:pollen_puff"
+				type: "item"
+			}]
+			title: "Obtain &6Pollen Puff"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "619FF16C8CF1058C"
+			rewards: [
+				{
+					id: "23C4971E31F57C74"
+					item: "farmersdelight:honey_glazed_ham"
+					type: "item"
+				}
+				{
+					id: "058741F80A9B44E6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "A great place to find flowers of all kinds."
+			tasks: [{
+				icon: "minecraft:flower_pot"
+				id: "2E69A5082DE69808"
+				structure: "the_bumblezone:hanging_garden"
+				title: "Locate the Hanging Garden"
+				type: "structure"
+			}]
+			title: "Find a &dHanging Garden"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "3423FA7B4F92768B"
+			rewards: [{
+				id: "3063799A7759FB4C"
+				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+				type: "item"
+			}]
+			subtitle: "Found in &6The Bumblezone&r on &6Glistering Honey&r and &dAmethyst&r. Opened by right clicking. By feeding it items or &aExperience Points&r, it will give you enchanted books."
+			tasks: [{
+				id: "5FF37AEBE070441D"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			title: "Find a &6Crystalline Flower"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "688EE585D0671881"
+			rewards: [{
+				count: 2
+				id: "04EE69477A88D52E"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			subtitle: "Upgradeable by repairing it in an anvil, using &6Honey Crystal Shards&r. Has double the durability of a normal shield at max level. Slows attackers."
+			tasks: [{
+				id: "28BE9C19B9F68C1F"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:honey_crystal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &6Honey Crystal Shield"
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	title: " &6The Bumblezone "
+}

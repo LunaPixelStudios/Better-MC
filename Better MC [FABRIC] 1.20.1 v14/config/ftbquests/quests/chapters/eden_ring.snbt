@@ -5,7 +5,7 @@
 	group: "59C90AA1B128306B"
 	icon: "minecraft:copper_block"
 	id: "511C42C80D9427E6"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [{
 		description: [

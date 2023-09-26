@@ -1,0 +1,253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "seasonal"
+	group: "799D8360B26E9792"
+	icon: "seasonsextras:season_calendar"
+	id: "712EEC29E9F58AEC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "44FA4ABE94EAD177"
+			rewards: [{
+				id: "673492CDB04D587C"
+				item: "snowyspirit:winter_disc"
+				type: "item"
+			}]
+			subtitle: "Can be placed on the ground like a boat. Lets you slide down hills and other surfaces."
+			tasks: [{
+				id: "00D3FA019EA1A948"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "snowyspirit:sleds"
+					}
+				}
+				title: "Any #snowyspirit:sleds"
+				type: "item"
+			}]
+			title: "Craft a &bSled"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "0EF8EA8214FEEAB7"
+			rewards: [{
+				count: 20
+				id: "627BF9300FFA13DE"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			subtitle: "&6The Bumblezone &ris a great place to find Honeycomb!"
+			tasks: [{
+				id: "0CFA7B64A6A626F5"
+				item: "snowyspirit:candy_cane_block"
+				type: "item"
+			}]
+			title: "Craft a &cC&fa&cn&fd&cy &fC&ca&fn&ce &fB&cl&fo&cc&fk"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "6F24276D322F6549"
+			rewards: [{
+				count: 3
+				id: "33FE6A421A977652"
+				item: "paradise_lost:gingerbread_man"
+				type: "item"
+			}]
+			subtitle: "Used to craft a variety of &eGingerbread&r-related decoration blocks."
+			tasks: [{
+				id: "5C961FE3126D06E9"
+				item: "snowyspirit:gingerbread"
+				type: "item"
+			}]
+			title: "Craft &eGingerbread"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "40131BFC98F5E03C"
+			rewards: [{
+				id: "44B6638AEE1CF105"
+				item: "winterly:snowguy"
+				type: "item"
+			}]
+			size: 1.2d
+			subtitle: "A great way to get into the Holiday spirit!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/block/carved_pumpkin.png"
+					}
+				}
+				id: "3927319239703553"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:snow_golem"
+				type: "observation"
+			}]
+			title: "Build a &bSnowman"
+			x: -1.2d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "40BA61DBF53991AA"
+			rewards: [{
+				id: "617CA145B2B21A1E"
+				item: "snowyspirit:snow_globe"
+				type: "item"
+			}]
+			subtitle: "A great way to give gifts to friends (or yourself)"
+			tasks: [{
+				id: "108C9F26C2870B30"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:presents"
+					}
+				}
+				title: "Any #supplementaries:presents"
+				type: "item"
+			}]
+			title: "Craft a &dPresent"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "0494292B1B0CDB8A"
+			rewards: [{
+				id: "138EFC3792A1B914"
+				item: "snowyspirit:wreath"
+				type: "item"
+			}]
+			subtitle: "Perfect way to decorate your home and christmas tree"
+			tasks: [{
+				id: "02D8BBC7B856EF78"
+				item: "winterly:garland_lights"
+				type: "item"
+			}]
+			title: "Craft &9G&aa&cr&9l&aa&cn&9d &9L&ai&cg&9h&at&cs"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "4FC737F4968F33F1"
+			rewards: [
+				{
+					id: "47C873A4EDD66095"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "167586ECB353CFB9"
+					item: "handcrafted:berry_jam_jar"
+					type: "item"
+				}
+			]
+			subtitle: "Stay nice and warm this christmas"
+			tasks: [{
+				icon: "winterly:rainbow_scarf"
+				id: "49ABA23F0B16165D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "winterly:scarfs"
+					}
+				}
+				title: "Any &9S&cc&aa&9r&cf&as"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "351B97A1E0BA9814"
+			rewards: [
+				{
+					id: "384D1F21A85D6119"
+					item: {
+						Count: 1b
+						id: "winterly:cryomarble_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E24ABFF9734F138"
+					item: {
+						Count: 1b
+						id: "winterly:cryomarble_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18E25F3BCFBD6FEE"
+					item: {
+						Count: 1b
+						id: "winterly:cryomarble_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&cSanta&c &7needs his hat&7"
+			tasks: [{
+				id: "2F0FAE74220A8A22"
+				item: "winterly:red_santa_hat"
+				type: "item"
+			}]
+			title: "Craft a &cSanta Hat&c"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "7AE0B5BE527DAB5B"
+			rewards: [
+				{
+					count: 16
+					id: "7F61BCC65FF6CC6D"
+					item: "winterly:snowball_wall"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "49ACEBC58D217C09"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+			]
+			subtitle: "Fill it with snowballs and fight your friends! (or mobs)"
+			tasks: [{
+				id: "5B120D0888335417"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			title: "Craft a Bundle"
+			x: -2.5d
+			y: 3.5d
+		}
+	]
+	title: " &fSeasonal"
+}
