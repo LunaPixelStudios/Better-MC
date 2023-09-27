@@ -19,14 +19,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -5
-}
-
-customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
   x = 105
@@ -64,11 +56,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
+  identifier = %id=604334%
+  orientation = bottom-centered
+  x = -28
   action = movebutton
-  y = -29
+  y = -23
 }
 
 customization {
@@ -85,6 +77,30 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -125
+  action = movebutton
+  y = 47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -5
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -29
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 2
@@ -93,11 +109,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-centered
-  x = -125
+  identifier = %id=604310%
+  orientation = top-left
+  x = 5
   action = movebutton
-  y = 47
+  y = 5
 }
 
 customization {
@@ -246,18 +262,17 @@ customization {
 }
 
 customization {
-  identifier = %id=604334%
-  orientation = bottom-centered
-  x = -28
-  action = movebutton
-  y = -23
+  identifier = %id=9764%
+  action = hidebutton
 }
 
 customization {
-  identifier = %id=604310%
-  orientation = top-left
-  x = 5
-  action = movebutton
-  y = 5
+  identifier = %id=97641%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=976411%
+  action = hidebutton
 }
 
