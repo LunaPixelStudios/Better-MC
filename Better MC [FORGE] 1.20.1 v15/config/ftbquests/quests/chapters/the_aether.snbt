@@ -5,7 +5,7 @@
 	group: "5BBB507BE497896B"
 	icon: "aether:aether_portal_frame"
 	id: "566DC2763E60ED8A"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -206,8 +206,8 @@
 			dependencies: ["7149B8FB49671630"]
 			id: "221923EEDAEE1BEE"
 			rewards: [{
-				id: "4E67A88FDED41AB4"
-				item: "aethersteel:aethersteel_scrap"
+				id: "3B81BFF8DC4358B9"
+				item: "aether:golden_ring"
 				type: "item"
 			}]
 			shape: "circle"
