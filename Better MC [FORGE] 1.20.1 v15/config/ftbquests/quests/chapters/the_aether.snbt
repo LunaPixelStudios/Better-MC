@@ -5,15 +5,15 @@
 	group: "5BBB507BE497896B"
 	icon: "aether:aether_portal_frame"
 	id: "566DC2763E60ED8A"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			id: "32226ED25E813908"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6C9A869D6EFAEC86"
-				type: "random"
+				id: "02D9D1189217B456"
+				type: "xp"
+				xp: 100
 			}]
 			size: 2.0d
 			tasks: [{
@@ -30,9 +30,9 @@
 			dependencies: ["32226ED25E813908"]
 			id: "0A99C7852725BFC2"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1A8C9B83824853AB"
-				type: "random"
+				id: "64AD47648DAFE566"
+				type: "xp"
+				xp: 100
 			}]
 			shape: "square"
 			size: 1.3d
@@ -54,9 +54,9 @@
 			]
 			id: "0E349CAEF1D249B6"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "08FB96CEA2DBAA0E"
-				type: "random"
+				id: "00CF504850C054AD"
+				item: "deep_aether:skyjade"
+				type: "item"
 			}]
 			shape: "circle"
 			size: 1.2d
@@ -76,9 +76,9 @@
 			dependencies: ["32226ED25E813908"]
 			id: "79A852D2B339DF57"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "06CE92C0C8DF3D21"
-				type: "random"
+				id: "1E66C579D6665940"
+				type: "xp"
+				xp: 100
 			}]
 			shape: "square"
 			size: 1.3d
@@ -97,9 +97,9 @@
 			dependencies: ["32226ED25E813908"]
 			id: "7149B8FB49671630"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1CAC445081C84379"
-				type: "random"
+				id: "63860753FE5CA52C"
+				type: "xp"
+				xp: 100
 			}]
 			shape: "square"
 			size: 1.3d
@@ -117,6 +117,11 @@
 		{
 			dependencies: ["79A852D2B339DF57"]
 			id: "038B71E71E3C8213"
+			rewards: [{
+				id: "47BC5ABBCB492B64"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "&eValkyries&r are &eneutral mobs&r who prove themselves through battle. They will not attack unless provoked, and are found only in &8Silver Dungeons&r"
 			tasks: [{
 				entity: "aether:valkyrie"
@@ -133,9 +138,15 @@
 			dependencies: ["038B71E71E3C8213"]
 			id: "68BF5A98532CD5C3"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D63F24ED3C758A7"
-				type: "random"
+				id: "5DE05B3933EAB617"
+				item: {
+					Count: 1b
+					id: "aether:iron_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			shape: "circle"
 			size: 1.2d
@@ -154,6 +165,11 @@
 		{
 			dependencies: ["0A99C7852725BFC2"]
 			id: "100082345FA03A9B"
+			rewards: [{
+				id: "540E0FBBA897B75D"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "&cSentry&r are &4hostile mobs&r in &eBronze Dungeons&r"
 			tasks: [{
 				entity: "aether:sentry"
@@ -169,6 +185,11 @@
 		{
 			dependencies: ["0A99C7852725BFC2"]
 			id: "3BE6E50AA8E0170D"
+			rewards: [{
+				id: "53F694B72BCE2324"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "&bMimics&r are &4hostile mobs&r in &eBronze Dungeons&r"
 			tasks: [{
 				entity: "aether:mimic"
@@ -185,9 +206,9 @@
 			dependencies: ["7149B8FB49671630"]
 			id: "221923EEDAEE1BEE"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1F53696C46F3DCA5"
-				type: "random"
+				id: "4E67A88FDED41AB4"
+				item: "aethersteel:aethersteel_scrap"
+				type: "item"
 			}]
 			shape: "circle"
 			size: 1.2d
@@ -206,18 +227,11 @@
 		{
 			dependencies: ["32226ED25E813908"]
 			id: "702202BCA0E47E11"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "45A875BD01EE4A2C"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3F984B64AF1C3974"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "63778F25C36D5FE9"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
 			subtitle: "A &6Book of Lore&r could be read by right-clicking with the book in hand, and then players would view an open book stating the volume and the world the volume refers to. Underneath the title, there would be a slot where players can place any item native to that world. Once placed in the slot, the book would display information about the item. Each &6Book of Lore&r would only display information about their native items"
 			tasks: [{
 				id: "3CE843A4A8A981E7"
