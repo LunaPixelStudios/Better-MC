@@ -1,6 +1,8 @@
 {
   "modPriorities": [
     "minecraft",
+    "neapolitan",
+    "frosted_friends",
     "kubejs",
     "crafttweaker",
     "create",
@@ -17,6 +19,7 @@
     "andesite"
   ],
   "tags": [
+    "forge:ice_cubes",
     "forge:nuggets/{material}",
     "forge:dusts/{material}",
     "forge:gears/{material}",
@@ -80,21 +83,19 @@
     "zinc"
   ],
   "priorityOverrides": {},
+  "customTags": {},
   "tagOwnerships": {},
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},
   "blockTagInheritanceMode": "ALLOW",
   "blockTagInheritance": {},
   "ignoredTags": [],
-  "ignoredItems": [
-    "betterend:thallasium_ingot",
-    "betternether:cincinnasite_ingot",
-    "minecraft:cut_copper",
-    "minecraft:copper_ingot"
-  ],
+  "ignoredItems": [],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
-  "ignoredRecipes": [],
+  "ignoredRecipes": [
+    "frosted_friends:ice_ore_block_recipe"
+  ],
   "itemsHidingJeiRei": true
 }
