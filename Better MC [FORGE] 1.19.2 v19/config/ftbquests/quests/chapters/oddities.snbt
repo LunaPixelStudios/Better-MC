@@ -380,6 +380,23 @@
 			x: -0.5d
 			y: 2.5d
 		}
+		{
+			id: "54ED51875EC78E2A"
+			rewards: [{
+				id: "03FFE573114CA3CF"
+				item: "neapolitan:neapolitan_ice_cream"
+				type: "item"
+			}]
+			subtitle: "Used to craft a variety of food and seasonal items. &3Ice Cubes&r are obtained by mining ice blocks using a tool enchanted with the &5Silk Touch&r enchant."
+			tasks: [{
+				id: "4379668B37112A89"
+				item: "neapolitan:ice_cubes"
+				type: "item"
+			}]
+			title: "Obtain &3Ice Cubes"
+			x: -3.5d
+			y: 4.0d
+		}
 	]
 	title: " &7Miscellaneous"
 }
