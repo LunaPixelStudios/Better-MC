@@ -1,11 +1,10 @@
 {
-  "schemaVersion": 2,
-  "currentVersion": "v19",
-  "modpackName": "Better MC [1.19.2] BMC3",
+  "schemaVersion": 3,
   "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/bmc3forge/",
   "advanced": {
     "bccEnabled": true,
     "expandButton": true,
-    "updateCheckerType": 2
+    "updateCheckerType": 2,
+    "showAllChangelogsIfUpToDate": false
   }
 }
