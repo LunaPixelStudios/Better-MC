@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","file/Stay_True_1.20.zip","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandalas_Legacy_Gui_Background.zip","file/Icons.zip","file/NoBushyLeaves.zip","autoslabs:distinct_slabs","Moonlight Mods Dynamic Assets"]
+resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","file/Stay_True_1.20.zip","file/MandalasGUI+Modded_Dakmode_v4.6.zip","file/Mandalas_Legacy_Gui_Background.zip","file/Icons.zip","file/NoBushyLeaves.zip","autoslabs:distinct_slabs","Moonlight Mods Dynamic Assets","lambdabettergrass:default"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -165,10 +165,15 @@ key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.cycleLeft:key.keyboard.g
 key_key.cycleRight:key.keyboard.h
 key_options.narrator:key.keyboard.b
+key_key.the_bumblezone.beehemoth_up:key.keyboard.space
+key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.toms_storage.open_terminal:key.keyboard.b
 key_key.veinmining.activate.desc:key.keyboard.grave.accent
 key_Fast Mapping:key.keyboard.unknown
 key_Baritone Goal Waypoint:key.keyboard.unknown
+key_Disable Waypoint Sharing:key.keyboard.unknown
+key_Disable Receiving Waypoints:key.keyboard.unknown
+key_Waypoint Receive No Chat Reports Fix:key.keyboard.unknown
 key_Waystones Sync:key.keyboard.unknown
 key_Persist WM Dim Switch:key.keyboard.unknown
 key_Transparent Obsidian Roof:key.keyboard.unknown
