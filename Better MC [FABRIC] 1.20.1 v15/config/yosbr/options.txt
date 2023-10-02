@@ -138,7 +138,6 @@ key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.adventurez.dragonflydown:key.keyboard.z
 key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
-key_autothirdperson.toggle:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
 key_key.crawl:key.keyboard.left.alt
 key_key.entityculling.toggle:key.keyboard.unknown
