@@ -76,6 +76,27 @@
     },
     "builtin/aether_125_art": {
       "hidden": true
+    },
+    "builtin/DAGoldenSwetBallFixClient": {
+      "hidden": true
+    },
+    "builtin/aether_b173_art": {
+      "hidden": true
+    },
+    "builtin/deep_aether_additional_assets": {
+      "hidden": true
+    },
+    "lost_aether_content:classic_pack": {
+      "hidden": true
+    },
+    "high_contrast": {
+      "hidden": true
+    }, 
+    "builtin/aether_colorblind": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
     }
   }
 }
