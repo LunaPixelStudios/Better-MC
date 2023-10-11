@@ -60,3 +60,6 @@ net.minecraft.client.gui.screens.ShareToLanScreen {
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
+com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen {
+}
+
