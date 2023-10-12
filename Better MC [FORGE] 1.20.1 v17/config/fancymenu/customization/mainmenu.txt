@@ -56,6 +56,16 @@ customization {
 }
 
 customization {
+  identifier = %id=9764%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604334%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=604334%
   orientation = bottom-centered
   x = -28
@@ -65,6 +75,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=97641%
   action = hidebutton
 }
 
@@ -90,6 +105,11 @@ customization {
   x = -100
   action = movebutton
   y = -5
+}
+
+customization {
+  identifier = %id=976411%
+  action = hidebutton
 }
 
 customization {
@@ -259,20 +279,5 @@ customization {
   actionid = 2f45333d-0619-4f69-9696-9e81eea325721687081751021
   y = 21
   height = 15
-}
-
-customization {
-  identifier = %id=9764%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=97641%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=976411%
-  action = hidebutton
 }
 
