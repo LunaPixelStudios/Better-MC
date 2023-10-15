@@ -63,3 +63,6 @@ net.minecraft.class_436 {
 net.minecraft.class_500 {
 }
 
+com.jab125.mpuc.client.gui.screen.changelog.ChangelogScreen {
+}
+
