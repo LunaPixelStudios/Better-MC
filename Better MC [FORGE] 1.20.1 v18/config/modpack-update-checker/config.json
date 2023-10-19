@@ -3,7 +3,7 @@
   "currentVersion": "v18",
   "modpackName": "BMC4 Forge",
   "modpackAuthor": "Luna Pixel Studios",
-  "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/mmc4forge/",
+  "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/bmc4forge/",
   "advanced": {
     "bccEnabled": true,
     "expandButton": true,
