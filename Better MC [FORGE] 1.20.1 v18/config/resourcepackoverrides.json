@@ -14,7 +14,7 @@
     "force_compatible": true
   },
   "pack_overrides": {
-    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.19.zip": {
+    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.20.1.zip": {
       "hidden": true
     },
     "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
