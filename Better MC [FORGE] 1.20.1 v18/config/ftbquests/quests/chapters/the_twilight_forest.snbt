@@ -114,12 +114,10 @@
 			}]
 			subtitle: "Found in Dark Towers in The Dark Forest."
 			tasks: [{
-				entity: "twilightforest:ur_ghast"
-				icon: "twilightforest:ur_ghast_trophy"
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
 				id: "45767EA415670C8F"
-				title: "Defeat the Ur-Ghast"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			title: "Defeat the &fUr-Ghast"
 			x: 5.0d
@@ -204,7 +202,7 @@
 			]
 			subtitle: "There doesn't seem to be anyone here yet. At least you can use these cool doors."
 			tasks: [{
-				advancement: "twilightforest:progress_castle"
+				advancement: "twilightforest:progression_end"
 				criterion: ""
 				id: "3FB649297849E864"
 				type: "advancement"
