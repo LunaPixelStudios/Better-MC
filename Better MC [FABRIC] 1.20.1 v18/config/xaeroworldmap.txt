@@ -1,5 +1,6 @@
 ignoreUpdate:141
 updateNotification:false
+allowInternetAccess:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
 debug:false
@@ -47,6 +48,7 @@ multipleImagesExport:false
 nightExport:false
 highlightsExport:false
 exportScaleDownSquare:20
+mapWritingDistance:-1
 displayClaims:true
 claimsFillOpacity:46
 claimsBorderOpacity:80
@@ -55,7 +57,11 @@ globalVersion:1
 [XP] Fast Mapping Delay:250.0
 [XP] Fast Mapping Rate Limit:50.0
 [XP] Baritone Goal Waypoint:true
+[XP] Disable Waypoint Sharing:false
+[XP] Disable Receiving Waypoints:false
 [XP] Waystones Sync:true
+[XP] Waystone Color:16
+[XP] Waystone Waypoint Set:true
 [XP] Persist WM Dim Switch:false
 [XP] Transparent Obsidian Roof:true
 [XP] Roof Y Level:250.0
@@ -77,7 +83,10 @@ globalVersion:1
 [XP] PortalSkip Detection:false
 [XP] PortalSkip Opacity:100.0
 [XP] PortalSkip Color:6
+[XP] PortalSkip Portal Radius:15.0
 [XP] PortalSkip Search Delay:10.0
+[XP] PortalSkip NewChunks:true
+[XP] PortalSkip OldChunks Inverse:true
 [XP] Prefer Overworld Waypoints:true
 [XP] Show Waypoint Distances:true
 [XP] null OW Dim Dir:true
