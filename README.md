@@ -6,6 +6,6 @@ Better MC [FORGE] - BMC2 = FORGE 1.18.2 - https://www.curseforge.com/minecraft/m
 
 Better MC [FORGE] - BMC1 = FORGE 1.16.5 - https://www.curseforge.com/minecraft/modpacks/better-mc-modpack
 
-BETTER MC [FORGE] - BMC4 = FORGE 1.20.1 - https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4
+Better MC [FORGE] - BMC4 = FORGE 1.20.1 - https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4
 
-BETTER MC [FABRIC] - BMC2 = FABRIC 1.20.1 - https://legacy.curseforge.com/minecraft/modpacks/better-mc-fabric-bmc2
+Better MC [FABRIC] - BMC2 = FABRIC 1.20.1 - https://legacy.curseforge.com/minecraft/modpacks/better-mc-fabric-bmc2
