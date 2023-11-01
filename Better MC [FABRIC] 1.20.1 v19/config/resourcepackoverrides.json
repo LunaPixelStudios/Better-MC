@@ -90,6 +90,9 @@
     },
     "the_bumblezone:ancient_luminescent_contrast_increase": {
       "hidden": true
+    },
+    "natures_spirit:better_leaves_compatibility": {
+      "hidden": true
     }
   }
 }
