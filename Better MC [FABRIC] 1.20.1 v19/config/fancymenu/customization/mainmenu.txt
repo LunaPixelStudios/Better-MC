@@ -98,16 +98,26 @@ customization {
 }
 
 customization {
-  identifier = %id=604346%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = -100
   action = movebutton
   y = -29
+}
+
+customization {
+  identifier = %id=376286%
+  orientation = bottom-right
+  x = -119
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=376286%
+  width = 114
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -250,17 +260,7 @@ customization {
 }
 
 customization {
-  identifier = %id=376286%
-  orientation = bottom-right
-  x = -119
-  action = movebutton
-  y = -25
-}
-
-customization {
-  identifier = %id=376286%
-  width = 114
-  action = resizebutton
-  height = 20
+  identifier = %id=604334%
+  action = hidebutton
 }
 
