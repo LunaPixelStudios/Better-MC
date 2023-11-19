@@ -3,9 +3,9 @@
   "failed_reloads_per_session": 5,
   "default_packs": [
     "file/NoBushyLeaves.zip",
-    "file/Xaero\u0027s Minimap - Mod Icons.zip",
+    "file/Icon Xaero's 1.1 .zip",
     "file/Mandalas_Legacy_Gui_Background.zip",
-    "file/MandalasGUI_Legacy+Modded_Dakmode_v4.2.zip",
+    "file/MandalasGUI_Legacy+Modded_Dakmode_v4.6.zip",
     "file/xali\u0027s Enchanted Books v0.12.0.zip",
     "file/Stay_True_1.19.zip"
   ],
@@ -88,7 +88,7 @@
     "meadow/green_stove": {
       "hidden": true
     },
-    "file/FarmersDelight_ToolFix_1.0+1.19.2.zip": {
+    "file/FarmersDelight_ToolFix_1.1+1.19.2.zip": {
       "hidden": true
     },
     "file/RarerStructures-SpacingTweaks-1.19.2-2.1.54.zip": {
@@ -103,7 +103,7 @@
     "file/TwilightForest_MeltFix.zip": {
       "hidden": true
     },
-    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.19.zip": {
+    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.20.1.zip": {
       "hidden": true
     },
     "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {
@@ -116,6 +116,33 @@
       "hidden": true
     },
     "continuity/glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "Darker Ropes": {
+      "hidden": true
+    },
+    "immersive_weathering/better_brick_blocks": {
+      "hidden": true
+    },
+    "immersive_weathering/better_brick_items": {
+      "hidden": true
+    },
+    "immersive_weathering/biome_tinted_mossy_blocks": {
+      "hidden": true
+    },
+    "immersive_weathering/visual_waxed_iron_items": {
+      "hidden": true
+    },
+    "meadow/optifine_support": {
+      "hidden": true
+    },
+    "programer_art": {
+      "hidden": true
+    },
+    "vinery/bushy_leaves": {
+      "hidden": true
+    },
+    "Immersive Weathering Generated Pack": {
       "hidden": true
     }
   }
