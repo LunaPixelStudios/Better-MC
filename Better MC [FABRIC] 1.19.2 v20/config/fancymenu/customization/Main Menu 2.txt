@@ -78,10 +78,10 @@ customization {
 
 customization {
   identifier = %id=376286%
-  orientation = bottom-left
-  x = 3
+  orientation = bottom-right
+  x = -109
   action = movebutton
-  y = -47
+  y = -24
 }
 
 customization {
@@ -236,5 +236,13 @@ customization {
   description = A guide on improving your FPS!
   label = Performance Guide
   height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
 }
 
