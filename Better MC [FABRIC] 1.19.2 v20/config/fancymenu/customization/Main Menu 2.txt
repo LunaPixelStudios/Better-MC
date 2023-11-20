@@ -256,7 +256,7 @@ customization {
   action = addbutton
   actionid = 9322a384-0efd-4279-8070-90ca4c8483dc1700437175080
   y = 3
-  label = 1.20.1 is out!
+  label = 1.20+ is out!
   height = 20
 }
 
