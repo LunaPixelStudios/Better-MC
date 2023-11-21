@@ -56,7 +56,7 @@ customization {
 }
 
 customization {
-  identifier = %id=604334%
+  identifier = %id=9764%
   action = hidebutton
 }
 
@@ -109,10 +109,10 @@ customization {
 
 customization {
   identifier = %id=376286%
-  orientation = bottom-left
-  x = 3
+  orientation = bottom-right
+  x = -110
   action = movebutton
-  y = -45
+  y = -23
 }
 
 customization {
@@ -128,14 +128,6 @@ customization {
   x = 2
   action = movebutton
   y = 56
-}
-
-customization {
-  identifier = %id=604310%
-  orientation = top-left
-  x = 2
-  action = movebutton
-  y = 5
 }
 
 customization {
@@ -162,12 +154,12 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
-  x = 411
+  hidden = true
+  x = 625
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 03e5d89d-1d14-4c27-aa9a-1cb694a609591657850300562
-  y = 319
+  y = 437
   height = 9
 }
 
@@ -284,7 +276,24 @@ customization {
 }
 
 customization {
-  identifier = %id=9764%
-  action = hidebutton
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://legacy.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4%btnaction_splitter_fm%
+  x = 3
+  width = 75
+  action = addbutton
+  actionid = 9596f3f7-d66a-461b-8855-9b2bcd49d0871700532040333
+  y = 3
+  label = 1.20+ is out!
+  height = 20
 }
 
