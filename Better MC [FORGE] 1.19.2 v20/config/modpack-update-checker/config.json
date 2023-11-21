@@ -1,5 +1,8 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
+  "currentVersion": "v20",
+  "modpackName": "Better MC [FORGE] 1.19.2",
+  "modpackAuthor": "Luna Pixel Studios",
   "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/bmc3forge/",
   "advanced": {
     "bccEnabled": true,
