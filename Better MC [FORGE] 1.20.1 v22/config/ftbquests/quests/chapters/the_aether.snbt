@@ -11,9 +11,9 @@
 		{
 			id: "32226ED25E813908"
 			rewards: [{
-				id: "02D9D1189217B456"
-				type: "xp"
-				xp: 100
+				id: "4D4DA7A91ACF3F08"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			size: 2.0d
 			tasks: [{
@@ -30,9 +30,10 @@
 			dependencies: ["32226ED25E813908"]
 			id: "0A99C7852725BFC2"
 			rewards: [{
-				id: "64AD47648DAFE566"
-				type: "xp"
-				xp: 100
+				count: 5
+				id: "4A832C71E2196827"
+				item: "deep_aether:chromatic_aercloud"
+				type: "item"
 			}]
 			shape: "square"
 			size: 1.3d
@@ -76,9 +77,9 @@
 			dependencies: ["32226ED25E813908"]
 			id: "79A852D2B339DF57"
 			rewards: [{
-				id: "1E66C579D6665940"
-				type: "xp"
-				xp: 100
+				id: "194D6096FB82DFBA"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			shape: "square"
 			size: 1.3d
@@ -87,7 +88,7 @@
 				icon: "aether:locked_angelic_stone"
 				id: "760227D918F26D13"
 				structure: "aether:silver_dungeon"
-				title: "Visit &7Silver Dungeon"
+				title: "Visit the &7Silver Dungeon"
 				type: "structure"
 			}]
 			x: 2.0d
@@ -112,22 +113,24 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 4.550000000000001d
 		}
 		{
 			dependencies: ["79A852D2B339DF57"]
+			icon: "aether:valkyrie_spawn_egg"
 			id: "038B71E71E3C8213"
 			rewards: [{
-				id: "47BC5ABBCB492B64"
-				type: "xp"
-				xp: 100
+				count: 3
+				id: "07B08A876561A9BA"
+				item: "deep_aether:purple_squash_slice"
+				type: "item"
 			}]
 			subtitle: "&eValkyries&r are &eneutral mobs&r who prove themselves through battle. They will not attack unless provoked, and are found only in &8Silver Dungeons&r"
 			tasks: [{
 				entity: "aether:valkyrie"
 				icon: "aether:valkyrie_spawn_egg"
 				id: "121640BF259D479C"
-				title: "Defeat &eValkyrie"
+				title: "Defeat a &eValkyrie"
 				type: "kill"
 				value: 1L
 			}]
@@ -155,7 +158,7 @@
 				entity: "aether:valkyrie_queen"
 				icon: "aether:valkyrie_queen_spawn_egg"
 				id: "0E561AF5890B4422"
-				title: "Defeat &6Valkyrie Queen"
+				title: "Defeat the &6Valkyrie Queen"
 				type: "kill"
 				value: 1L
 			}]
@@ -222,7 +225,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 6.6d
 		}
 		{
 			dependencies: ["32226ED25E813908"]
@@ -238,7 +241,7 @@
 				item: "aether:book_of_lore"
 				type: "item"
 			}]
-			title: "Craft &3Book of Lore"
+			title: "Craft a &3Book of Lore"
 			x: 0.0d
 			y: 0.0d
 		}

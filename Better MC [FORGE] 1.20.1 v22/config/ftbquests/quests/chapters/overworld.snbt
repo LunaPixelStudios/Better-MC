@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2574E7CF699D5B45"]
 			id: "268A05DFD4D5427A"
 			rewards: [
 				{
@@ -32,10 +33,11 @@
 				type: "item"
 			}]
 			title: "Obtain a &9Blue Journal &rfrom a Gatekeeper"
-			x: 1.0d
-			y: -1.0d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["2574E7CF699D5B45"]
 			id: "6A12B1FE7B703F9D"
 			rewards: [{
 				id: "1C1C43B99CC8E4E3"
@@ -50,10 +52,11 @@
 				type: "item"
 			}]
 			title: "Craft a &2Backpack"
-			x: 1.0d
-			y: 0.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["2574E7CF699D5B45"]
 			id: "3DAB175493B08089"
 			rewards: [{
 				id: "29B13597289089F3"
@@ -76,10 +79,11 @@
 				value: 1L
 			}]
 			title: "Defeat the &8Conjurer"
-			x: 3.0d
-			y: 0.5d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["2574E7CF699D5B45"]
 			id: "26EA75D177BC496B"
 			rewards: [
 				{
@@ -102,33 +106,11 @@
 				type: "advancement"
 			}]
 			title: "Defend a Village from a &4Raid"
-			x: 3.0d
-			y: -1.0d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
-			id: "7CCAA3A7BC9D0208"
-			rewards: [{
-				id: "1EC587841A6725A9"
-				item: {
-					Count: 1b
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Over time, you will slowly collect a mix of seafood and junk. Putting fish in the trap will lure different creatures."
-			tasks: [{
-				id: "3AC626B22AD475A5"
-				item: "crabbersdelight:crab_trap"
-				type: "item"
-			}]
-			title: "Craft a &3Crab Trap"
-			x: 1.0d
-			y: 2.0d
-		}
-		{
+			dependencies: ["2574E7CF699D5B45"]
 			id: "3EA4CB4D9C90B767"
 			rewards: [{
 				id: "0EF5197E4E7ED8F3"
@@ -144,10 +126,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 15.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["2574E7CF699D5B45"]
 			id: "1A878EB6FEC31A26"
 			rewards: [{
 				count: 3
@@ -163,10 +146,11 @@
 				type: "item"
 			}]
 			title: "Craft an &bAquarium"
-			x: 5.0d
-			y: -1.0d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["2574E7CF699D5B45"]
 			id: "6280E25813EA2805"
 			rewards: [{
 				count: 3
@@ -182,10 +166,11 @@
 				type: "item"
 			}]
 			title: "Craft an &dEnchanted Basin"
-			x: 5.0d
-			y: 0.5d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["2574E7CF699D5B45"]
 			id: "32C4134E67E71063"
 			rewards: [{
 				count: 3
@@ -201,8 +186,80 @@
 				type: "item"
 			}]
 			title: "Craft an &5Alchemist Table"
-			x: 5.0d
-			y: 2.0d
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			icon: "cataclysm:mech_eye"
+			id: "1A118FBA223B14F9"
+			rewards: [{
+				id: "67D6BA05D7B17542"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Found in the &6Ancient Factories&r, in the Overworld Caves."
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:mech_eye"
+				id: "3DE6A08A05898F8E"
+				title: "Defeat &dThe Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &4Harbringer"
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			id: "2574E7CF699D5B45"
+			rewards: [{
+				count: 2
+				id: "0B64280DCDE3B078"
+				item: "minecraft:oak_log"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0470194500CBE26C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Obtain a &2Wooden Log"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			icon: "cataclysm:abyss_eye"
+			id: "0353FDDEA821D925"
+			rewards: [{
+				id: "3118E1F5F18B73C8"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Found in the &9Sunken City&r, at the seas."
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_baby_leviathan_bucket"
+				id: "0A7A8D8140025392"
+				title: "Defeat &dThe Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &dLeviathan"
+			x: 11.5d
+			y: -2.0d
 		}
 	]
 	title: " &aOverworld"
