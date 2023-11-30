@@ -167,8 +167,8 @@
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "4127900982A91789"
-				item: "natures_spirit:aspen_sapling"
+				id: "17FC7B29F1402606"
+				item: "minecraft:cherry_sapling"
 				type: "item"
 			}]
 			subtitle: "Read my description! Make sure to scroll down."
