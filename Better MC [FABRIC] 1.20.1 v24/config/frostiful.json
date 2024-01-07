@@ -2,13 +2,29 @@
   "clientConfig": {
     "frostOverlayStart": 0.5,
     "doColdHeartOverlay": true,
-    "shakingStartPercent": 0.75,
     "renderDripParticles": true,
-    "disableFrostOverlayWhenWearingFrostologyCloak": true
+    "disableFrostOverlayWhenWearingFrostologyCloak": true,
+    "shakeHandWhenShivering": true,
+    "handShakeIntensity": 1.0
   },
   "updateConfig": {
     "currentConfigVersion": 2,
     "enableConfigUpdates": true
+  },
+  "environmentConfig": {
+    "doDryBiomeNightFreezing": true,
+    "nightTemperatureShift": -1,
+    "coldBiomeTemperatureChange": -1,
+    "freezingBiomeTemperatureChange": -3,
+    "rainWetnessIncrease": 1,
+    "touchingWaterWetnessIncrease": 5,
+    "dryRate": 1,
+    "onFireDryDate": 50,
+    "onFireWarmRate": 50,
+    "powderSnowFreezeRate": 30,
+    "warmthPerLightLevel": 2,
+    "minLightForWarmth": 5,
+    "ultrawarmWarmRate": 15
   },
   "combatConfig": {
     "doChillagerPatrols": true,
@@ -35,8 +51,10 @@
   "freezingConfig": {
     "doPassiveFreezing": false,
     "doWindSpawning": true,
+    "windSpawnStrategy": "POINT",
     "spawnWindInAir": true,
     "windDestroysTorches": false,
+    "doSnowPacking": true,
     "windSpawnCapPerSecond": 15,
     "windSpawnRarity": 750,
     "windSpawnRarityThunder": 500,
@@ -49,7 +67,10 @@
     "campfireWarmthTime": 1200,
     "freezingWindFrost": 160,
     "conduitPowerWarmthPerTick": 12,
-    "heatFromHotFloor": 12
+    "heatFromHotFloor": 12,
+    "shiverBelow": -0.51,
+    "shiverWarmth": 1,
+    "stopShiverWarmingBelowFoodLevel": 10
   },
   "icicleConfig": {
     "iciclesFormInWeather": true,
