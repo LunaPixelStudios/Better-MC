@@ -2,8 +2,10 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
+    "file/lambdabettergrass:default",
     "file/NoBushyLeaves.zip",
     "file/Icon Xaero's 1.13.zip",
+    "autoslabs:distinct_slabs",
     "file/Better_Modded_GUI.zip",
     "file/Mandalas_Legacy_Gui_Background.zip",
     "file/MandalasGUI+Modded_Dakmode_v4.6.zip",
