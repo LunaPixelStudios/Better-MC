@@ -560,15 +560,8 @@
 			}]
 			subtitle: "Same utility as a &eStone Cutter&r, but for wood."
 			tasks: [{
-				id: "3936D9220140F8D0"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "corail_woodcutter:woodcutters"
-					}
-				}
-				title: "Any #corail_woodcutter:woodcutters"
+				id: "028E4A4E71034034"
+				item: "sawmill:sawmill"
 				type: "item"
 			}]
 			title: "Craft a&1 Sawmill"

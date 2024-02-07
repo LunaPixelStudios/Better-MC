@@ -200,13 +200,7 @@
 				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
 			]
 			hide: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "jei:textures/gui/icons/config_button_cheat.png"
-				}
-			}
+			icon: "minecraft:spyglass"
 			id: "139DAA6E8CF4267A"
 			rewards: [{
 				id: "1AE5746200C26691"
