@@ -8,5 +8,5 @@
 	#Range: 0.0 ~ 100000.0
 	chunkGenSpawnModifier = 1.0
 	#True to if april fools content can display on april fools.
-	"April Fools Content" = true
+	"April Fools Content" = false
 
