@@ -1,0 +1,13 @@
+{
+  "force_include": {
+    "NETHER": [],
+    "END_LAND": [],
+    "END_VOID": [],
+    "END_CENTER": [],
+    "END_BARRENS": []
+  },
+  "force_exclude": {
+    "NETHER": [],
+    "END": []
+  }
+}
