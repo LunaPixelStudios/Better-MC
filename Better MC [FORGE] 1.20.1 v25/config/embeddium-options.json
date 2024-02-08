@@ -7,6 +7,7 @@
   "advanced": {
     "enable_memory_tracing": false,
     "use_advanced_staging_buffers": true,
+    "disable_incompatible_mod_warnings": false,
     "cpu_render_ahead_limit": 3
   },
   "performance": {
@@ -16,9 +17,13 @@
     "use_entity_culling": true,
     "use_fog_occlusion": true,
     "use_block_face_culling": true,
+    "use_compact_vertex_format": true,
+    "use_translucent_face_sorting": false,
     "use_no_error_g_l_context": true
   },
   "notifications": {
-    "hide_donation_button": true
+    "force_disable_donation_prompts": false,
+    "has_cleared_donation_button": true,
+    "has_seen_donation_prompt": false
   }
 }
