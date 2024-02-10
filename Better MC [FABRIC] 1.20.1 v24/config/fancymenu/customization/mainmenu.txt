@@ -241,7 +241,7 @@ customization {
   action = addtexture
   actionid = 9f378eaa-0367-4c65-8f8a-4f83677009741686808713128
   y = 22
-  height = 13
+  height = 14
 }
 
 customization {
