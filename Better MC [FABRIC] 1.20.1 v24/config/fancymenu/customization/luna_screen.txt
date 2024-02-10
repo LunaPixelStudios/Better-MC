@@ -61,7 +61,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Keep in mind that sharing your world will have more latency %n%and potential performance issues than using a server.%n%LAN hosted worlds are also very unreliable and inconsitent %n%with mods as they are not meant to be used for LAN.%n%%n%So we still recommend to use Server Hosted Worlds.
+  source = Keep in mind that sharing your world will have more latency %n%and potential performance issues than using a server.%n%LAN hosted worlds are also very unreliable and inconsistent %n%with mods as they are not meant to be used for LAN.%n%%n%So we still recommend to use Server Hosted Worlds.
   text_border = 0
   case_mode = normal
   source_mode = direct
