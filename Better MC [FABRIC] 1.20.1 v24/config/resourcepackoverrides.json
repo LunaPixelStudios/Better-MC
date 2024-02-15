@@ -2,15 +2,15 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
-    "file/lambdabettergrass:default",
-    "file/NoBushyLeaves.zip",
-    "file/Icon Xaero's 1.13.zip",
-    "autoslabs:distinct_slabs",
-    "file/Better_Modded_GUI.zip",
-    "file/Mandalas_Legacy_Gui_Background.zip",
-    "file/MandalasGUI+Modded_Dakmode_v4.6.zip",
+    "seasons:seasonal_lush_caves",
     "file/Stay_True_1.20.zip",
-    "seasons:seasonal_lush_caves"
+    "file/MandalasGUI+Modded_Dakmode_v4.6.zip",
+    "file/Mandalas_Legacy_Gui_Background.zip",
+    "file/Better_Modded_GUI.zip",
+    "autoslabs:distinct_slabs",
+    "file/Icon Xaero's 1.13.zip",
+    "file/NoBushyLeaves.zip",
+    "file/lambdabettergrass:default"
   ],
   "default_overrides": {
     "force_compatible": true
