@@ -499,7 +499,7 @@
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
 	"Snow Golem Player Heads" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Shulker Packing" = true
 	"Replace Scaffolding" = true
 	"Reacharound Placing" = true
@@ -509,7 +509,7 @@
 	"More Note Block Sounds" = true
 	"More Banner Layers" = true
 	"Lock Rotation" = true
-	"Hoe Harvesting" = true
+	"Hoe Harvesting" = false
 	"Grab Chickens" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
