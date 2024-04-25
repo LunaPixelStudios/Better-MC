@@ -4,13 +4,16 @@
   "default_packs": [
     "seasons:seasonal_lush_caves",
     "file/Stay_True_1.20.zip",
-    "file/MandalasGUI_Dakmode_Vanilla1.20.4.zipw",
+    "file/MandalasGUI_Dakmode_Vanilla1.20.4.zip",
     "file/Mandalas_Legacy_Gui_Background.zip",
     "file/Better_Modded_GUI.zip",
     "autoslabs:distinct_slabs",
     "file/Icon Xaero's 1.14 HF.zip",
     "file/NoBushyLeaves.zip",
-    "file/lambdabettergrass:default"
+    "file/bettergrass:default",
+    "file/HTP-Deep_aether-TranslationPack-v1.0.0.zip",
+    "file/HTP-Aether_redux-TranslationPack-v1.0.0.zip"
+
   ],
   "default_overrides": {
     "force_compatible": true
@@ -64,6 +67,9 @@
     "file/Repurposed_Structures-Better_Strongholds_v5.zip": {
       "hidden": true
     },
+    "file/Scarecrow_Obliterator.zip": {
+      "hidden": true
+    },
     "file/Repurposed_Structures-Better_Witch_Huts_v4.zip": {
       "hidden": true
     },
@@ -92,6 +98,9 @@
       "hidden": true
     },
     "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
+      "hidden": true
+    },
+    "file/AutoslabsCompat.zip": {
       "hidden": true
     },
     "the_bumblezone:ancient_luminescent_contrast_increase": {
