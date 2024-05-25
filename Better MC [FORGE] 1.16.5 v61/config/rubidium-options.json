@@ -17,7 +17,12 @@
     "use_compact_vertex_format": true,
     "use_block_face_culling": true,
     "allow_direct_memory_access": true,
-    "ignore_driver_blacklist": false
+    "ignore_driver_blacklist": false,
+    "translucency_sorting": false
+  },
+  "performance": {
+    "chunk_builder_threads": 0,
+    "always_defer_chunk_updates": false
   },
   "notifications": {
     "hide_donation_button": false

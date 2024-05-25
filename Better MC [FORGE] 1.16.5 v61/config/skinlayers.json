@@ -1,0 +1,12 @@
+{
+  "enableHat": true,
+  "enableJacket": true,
+  "enableLeftSleeve": true,
+  "enableRightSleeve": true,
+  "enableLeftPants": true,
+  "enableRightPants": true,
+  "baseVoxelSize": 1.16,
+  "bodyVoxelHeightSize": 1.1,
+  "headVoxelSize": 1.18,
+  "renderDistanceLOD": 14
+}

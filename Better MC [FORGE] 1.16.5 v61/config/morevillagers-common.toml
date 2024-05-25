@@ -1,0 +1,14 @@
+
+#House generation settings
+[houses]
+	#Should More Villagers houses generate in plains biome villages?
+	generatePlainsHouses = true
+	#Should More Villagers houses generate in taiga biome villages?
+	generateTaigaHouses = true
+	#Should More Villagers houses generate in savanna biome villages?
+	generateSavannaHouses = true
+	#Should More Villagers houses generate in snowy biome villages?
+	generateSnowyHouses = true
+	#Should More Villagers houses generate in desert biome villages?
+	generateDesertHouses = true
+

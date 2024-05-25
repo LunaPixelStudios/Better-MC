@@ -1,0 +1,65 @@
+
+[cnb]
+
+	#Creatures And Beasts common config
+	[cnb.cnb_entity]
+		#This defines whether or not the grebes should exist (default: true, when changing this to false EVERY entity of this type will be deleted!)
+		"grebe active" = true
+		#This defines the spawn rate of the grebes (default: 30)
+		"grebe spawn weight" = 30
+		#This defines which biomes the grebes will spawn in
+		"grebe biomes" = ["minecraft:frozen_river", "minecraft:river"]
+		#This defines whether or not the lizards should exist (default: true, when changing this to false EVERY entity of this type will be deleted!)
+		"lizard active" = true
+		#This defines the spawn rate of the lizards (default: 50)
+		"lizard spawn weight" = 50
+		#This defines which biomes the lizards will spawn in
+		"lizard biomes" = ["minecraft:badlands", "minecraft:wooded_badlands_plateau", "minecraft:badlands_plateau", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes"]
+		#This defines whether or not the cindershells should exist (default: true, when changing this to false EVERY entity of this type will be deleted!)
+		"cindershell active" = true
+		#This defines the spawn rate of the cindershells (default: 10)
+		"cindershell spawn weight" = 10
+		#This defines which biomes the cindershells will spawn in
+		"cindershell biomes" = ["minecraft:soul_sand_valley", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:basalt_deltas", "minecraft:nether_wastes"]
+		#This defines whether or not the friendly_sporelings should exist (default: true, when changing this to false EVERY entity of this type will be deleted!)
+		"friendly_sporeling active" = true
+		#This defines the spawn rate of the friendly_sporelings (default: 40)
+		"friendly_sporeling spawn weight" = 40
+		#This defines which biomes the friendly_sporelings will spawn in
+		"friendly_sporeling biomes" = ["minecraft:mushroom_fields", "minecraft:mushroom_field_shore", "minecraft:dark_forest", "minecraft:swamp", "minecraft:swamp_hills"]
+		#This defines whether or not the hostile_sporelings should exist (default: true, when changing this to false EVERY entity of this type will be deleted!)
+		"hostile_sporeling active" = true
+		#This defines the spawn rate of the hostile_sporelings (default: 10)
+		"hostile_sporeling spawn weight" = 10
+		#This defines which biomes the hostile_sporelings will spawn in
+		"hostile_sporeling biomes" = ["minecraft:soul_sand_valley", "minecraft:basalt_deltas", "minecraft:nether_wastes"]
+		#This defines whether or not the neutral_sporelings should exist (default: true, when changing this to false EVERY entity of this type will be deleted!)
+		"neutral_sporeling active" = true
+		#This defines the spawn rate of the neutral_sporelings (default: 5)
+		"neutral_sporeling spawn weight" = 5
+		#This defines which biomes the neutral_sporelings will spawn in
+		"neutral_sporeling biomes" = ["minecraft:crimson_forest", "minecraft:warped_forest"]
+		#This defines whether or not the lilytads should exist (default: true, when changing this to false EVERY entity of this type will be deleted!)
+		"lilytad active" = true
+		#This defines the spawn rate of the lilytads (default: 35)
+		"lilytad spawn weight" = 35
+		#This defines which biomes the lilytads will spawn in
+		"lilytad biomes" = ["minecraft:swamp", "minecraft:swamp_hills"]
+		#This defines whether or not the yetis should exist (default: true, when changing this to false EVERY entity of this type will be deleted!)
+		"yeti active" = true
+		#This defines the spawn rate of the yetis (default: 1)
+		"yeti spawn weight" = 1
+		#This defines which biomes the yetis will spawn in
+		"yeti biomes" = ["minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:ice_spikes", "minecraft:snowy_taiga_mountains"]
+		#Define extra chance to spawn yeti. Each time a yeti should spawn it checks random.nextFloat() >= value. Increase this value up to 1.0 to make yetis more rare (default: 0.5)
+		#Range: 0.0 ~ 1.0
+		"yeti chance" = 0.5
+
+	[cnb.cnb_other]
+		#Define how often items can be reinforced with the yeti hide (default: 5)
+		"hide amount" = 5
+		#Define the yeti hide reinforcement multiplier. The armor attribute value will be multiplied with this value each time (default: 1.01)
+		"hide multiplier" = 1.01
+		#Define amount of xp needed to upgrade armor with yeti hide (default: 1)
+		"hide cost" = 1
+

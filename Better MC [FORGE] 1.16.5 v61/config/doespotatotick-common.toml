@@ -23,6 +23,8 @@
 	"ticking illagers" = true
 	#similar with entity whitelist, but only take effect in raid
 	"raid entity whitelist" = ["minecraft:witch", "minecraft:vex"]
+	#similar with entity modID whitelist, but only take effect in raid
+	"raid entity modID whitelist" = []
 
 ["Item Entity Settings"]
 	#Optimize Item Movement (items move at 1/4 speed). Value Type: true / false.

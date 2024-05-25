@@ -1,0 +1,15 @@
+
+#Common configurations for Bayou Blues
+[common]
+
+	#Lily flower configuration
+	[common.lily_flowers]
+		#Lily bonemeal behavior. 0=none. 1=bonemealing lily pad grows lily flowers. 2=bonemealing lily flower gives you more of it.
+		"Lily bonemeal behavior" = 1
+		"Lily flower spawns in the world" = true
+
+	#Values for biome frequencies; lower = more rare. (Requires restart)
+	[common.biome_weights]
+		"Bayou weight" = 1
+		"Bayou Hills weight" = 0
+

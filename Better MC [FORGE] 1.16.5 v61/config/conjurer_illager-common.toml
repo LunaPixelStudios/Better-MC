@@ -1,0 +1,16 @@
+
+[theater]
+	#Percent chance of generating in an allowed chunk.
+	#Range: 0.0 ~ 1.0
+	probability = 0.5
+	#The average distance between structures of this type, measured in chunks.
+	#Range: > 1
+	spacing = 40
+	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
+	#Range: > 0
+	offset = 10
+	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "dark_forest, dark_forest_hills"
+	#How the biomes list should be used. true = whitelist, false = blacklist.
+	is_whitelist = true
+

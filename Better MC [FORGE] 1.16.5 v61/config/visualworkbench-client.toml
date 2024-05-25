@@ -1,0 +1,5 @@
+
+[visual_workbench]
+	#Makes crafting table contents lay flat on the table instead of floating above.
+	"Flat Rendering" = false
+

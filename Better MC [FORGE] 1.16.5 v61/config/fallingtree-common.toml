@@ -1,0 +1,98 @@
+#When set to true, a tree will, only be chopped down if the player is sneaking.
+reverse_sneaking = false
+#When set to true, the mod will, cut down trees in creative too.
+break_in_creative = false
+
+#Falling Tree configuration
+[trees]
+	#How to break the tree.
+	#INSTANTANEOUS will break it in one go.
+	#SHIFT_DOWN will make the tree fall down as you cut it, so you still have to break x blocks but don't have to climb the tree for them.
+	#Allowed Values: INSTANTANEOUS, SHIFT_DOWN
+	break_mode = "INSTANTANEOUS"
+	#What part of the tree should be cut.
+	#WHOLE_TREE tree will break the whole tree.
+	#ABOVE_CUT will break only blocks that are connected from above the cut point.
+	#ABOVE_Y will break only blocks that are above the y value of the cut point.
+	#Allowed Values: WHOLE_TREE, ABOVE_CUT, ABOVE_Y
+	detection_mode = "WHOLE_TREE"
+	#Additional list of blocks considered as logs and that will be destroyed by the mod.
+	#INFO: Blocks marked with the log tag will already be whitelisted.
+	logs_whitelisted = []
+	#List of blocks that should not be considered as logs.
+	#INFO: This wins over the whitelist.
+	logs_blacklisted = []
+	#Additional list of blocks considered as leaves (decay naturally).
+	#INFO: Blocks marked with the leaves tag will already be whitelisted.
+	leaves_whitelisted = []
+	#Additional list of blocks considered as leaves but that doesn't decay (need to be broken by tool).
+	leaves_non_decay_whitelisted = []
+	#List of blocks that should not be considered as leaves.
+	#INFO: This wins over the whitelist.
+	leaves_blacklisted = []
+	#The maximum size of a tree. If there's more logs than this value the tree won't be cut.
+	#Range: > 1
+	logs_max_count = 100
+	#When set to true, the mod will cut trees with one cut.
+	tree_breaking = true
+	#When set to true, leaves that should naturally break will be broken instantly.
+	leaves_breaking = true
+	#Radius to force break leaves. If another tree is still holding the leaves they'll still be broken.
+	#If the leaves are persistent (placed by player) they'll also be destroyed.
+	#The radius is applied from one of the top most log blocks.
+	#INFO: break_leaves must be activated for this to take effect.
+	#INFO: Only in INSTANTANEOUS mode.
+	#Range: 0 ~ 10
+	leaves_breaking_force_radius = 0
+	#The minimum amount of leaves that needs to be around the top most log in order for the mod to consider it a tree.
+	#INFO: Only in INSTANTANEOUS mode.
+	#Range: 0 ~ 5
+	minimum_leaves_around_required = 1
+	#When set to true this allow to have any kind of log in a tree trunk.
+	#Otherwise (false) the trunk will be considered as being only one kind of log.
+	allow_mixed_logs = false
+	#When set to true nether tree warts (leaves) will be broken along with the trunk.
+	break_nether_tree_warts = true
+	#This defines the area in which the tree is searched. If any branch is going out of this area it won't be cut.
+	#This value is the radius of the area.
+	#i.e. Setting a value of 2 will result on an area of 3x3 centered on the log broken.
+	#If this value is set to a negative number then no area restriction will be applied.
+	#Range: > -2147483648
+	search_around_radius = -1
+	#List the blocks that can be against the tree. If something else is adjacent then the tree won't be cut.
+	#INFO: Use adjacentStopMode to define how we stop the search for the tree.
+	adjacent_blocks_whitelisted = []
+	#What to do when an non whitelisted adjacent block is found.
+	#STOP_ALL will stop the search and nothing will be cut.
+	#STOP_BRANCH will stop the current branch only. The rest of the tree will be cut.
+	#Allowed Values: STOP_ALL, STOP_BRANCH
+	adjacent_stop_mode = "STOP_ALL"
+
+[tools]
+	#When set to true, the mod will be activated no matter what you have in your hand (or empty hand).
+	#INFO: Blacklist still can be use to restrict some tools.
+	ignore_tools = false
+	#Additional list of tools that can be used to chop down a tree.
+	#INFO: Items marked with the axe tag will already be whitelisted.
+	whitelisted = []
+	#List of tools that should not be considered as tools.
+	#INFO: This wins over the whitelist.
+	blacklisted = []
+	#Defines the number of times the damage is applied to the tool.
+	#ie: if set to 1 then breaking 5 logs will give 5 damage.
+	#ie: if set to 2 then breaking 5 logs will give 10 damage.
+	#If set to 0, it'll still apply 1 damage for every cut.
+	#INFO: This only applies when the tree is cut when using the mod.
+	#Range: > 0
+	damage_multiplicand = 1
+	#Applies a speed modifier when breaking the tree.
+	#0 will disable this, so the speed will be the default one of breaking a block.
+	#If set to 1 each log block will be counted once, so if the tree is 5 blocks tall it'll require the time of breaking 5 logs.
+	#If set to 2 each log block will be counted twice, so if the tree is 5 blocks tall, it'll require the time of breaking 10 logs
+	#INFO: Only in INSTANTANEOUS mode.
+	#WARNING: If you are on a server, this either has to be set to 0 or every player should have the mod. Else they'll have a weird effect of breaking the block but the block is still there.
+	#Range: 0.0 ~ 50.0
+	speed_multiplicand = 0.0
+	#When set to true, when a tree is broken and the tool is about to break we will just break enough blocks so that the tool is left at 1 of durability.
+	preserve = false
+

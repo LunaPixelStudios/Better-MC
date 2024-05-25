@@ -1,0 +1,13 @@
+#A list of dimensions in which mooncakes apply adverse effects to the player when consumed, usually due to the lack of a moon.
+mooncakeBadReactDims = ["minecraft:the_nether", "minecraft:the_end"]
+#A list of effects which will be extended upon consumption of autumnal agar.
+autumnalExtensionFx = ["effect.minecraft.resistance", "effect.farmersdelight.nourished", "effect.minecraft.absorption", "effect.atmospheric.persistence"]
+#A list of effects which will be extended upon consumption of aestival agar.
+aestivalExtensionFx = ["effect.minecraft.night_vision", "effect.atmospheric.relief", "effect.minecraft.water_breathing", "effect.minecraft.strength"]
+#A list of effects which will be extended upon consumption of brumal agar.
+brumalExtensionFx = ["effect.farmersdelight.comfort", "effect.minecraft.invisibility", "effect.minecraft.fire_resistance", "effect.minecraft.slow_falling"]
+#A list of effects which will be extended upon consumption of vernal agar.
+vernalExtensionFx = ["effect.minecraft.regeneration", "effect.minecraft.jump_boost", "effect.minecraft.haste", "effect.upgrade_aquatic.vibing"]
+#The horizontal radius for which copper pots will grant effects with no fume inhibitors involved.
+copperFumeRadius = 3.0
+

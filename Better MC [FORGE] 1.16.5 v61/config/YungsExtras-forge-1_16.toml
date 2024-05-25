@@ -1,0 +1,88 @@
+
+["YUNG's Better Strongholds"]
+
+	###########################################################################################################
+	## Desert Decorations
+	###########################################################################################################
+	["YUNG's Better Strongholds"."Desert Decorations"]
+		# List of additional biomes that will have Desert Decorations.
+		# By default, all biomes (including modded biomes) with the Desert category are automatically included, 
+		# and do not need to be added here.
+		# List must be comma-separated values enclosed in square brackets. 
+		# Entries must have the mod namespace included.
+		# For example: "[minecraft:plains, byg:alps]"
+		# Default: "[]"
+		"Additional Whitelisted Biomes" = "[]"
+		# List of biomes that will NOT have Desert Decorations.
+		# By default, all Desert biomes will automatically have Desert Decorations, 
+		# so you only need to blacklist biomes with the Desert category that you don't want to spawn 
+		# Desert Decorations in.
+		# List must be comma-separated values enclosed in square brackets.
+		# Entries must have the mod namespace included.
+		# For example: "[minecraft:desert, byg:dunes]"
+		# Default: "[]"
+		"Blacklisted Biomes" = "[]"
+
+		###########################################################################################################
+		## Settings for the different Desert Well variations.
+		###########################################################################################################
+		["YUNG's Better Strongholds"."Desert Decorations"."Desert Wells"]
+			# The spawn rate (chance per chunk) of a small normal well spawning.
+			# Default: 1200
+			"Normal Well Spawn Rate (Small)" = 1200
+			# The spawn rate (chance per chunk) of a medium-sized normal well spawning.
+			# Default: 1200
+			"Normal Well Spawn Rate (Medium)" = 1200
+			# The spawn rate (chance per chunk) of a large normal well spawning.
+			# Default: 1200
+			"Normal Well Spawn Rate (Large)" = 1200
+			# The spawn rate (chance per chunk) of a small Wishing Well spawning.
+			# Default: 1200
+			"Wishing Well Spawn Rate (Small)" = 1200
+			# The spawn rate (chance per chunk) of a medium-sized Wishing Well spawning.
+			# Default: 1200
+			"Wishing Well Spawn Rate (Medium)" = 1200
+			# The spawn rate (chance per chunk) of a large Wishing Well spawning.
+			# Default: 1200
+			"Wishing Well Spawn Rate (Large)" = 1200
+			# The spawn rate (chance per chunk) of a small dry well spawning.
+			# Default: 1200
+			"Dry Well Spawn Rate (Small)" = 1200
+			# The spawn rate (chance per chunk) of a medium-sized dry well spawning.
+			# Default: 1200
+			"Dry Well Spawn Rate (Medium)" = 1200
+			# The spawn rate (chance per chunk) of a large dry well spawning.
+			# Default: 1200
+			"Dry Well Spawn Rate (Large)" = 1200
+
+		###########################################################################################################
+		## Settings for the different Desert Obelisk variations.
+		###########################################################################################################
+		["YUNG's Better Strongholds"."Desert Decorations"."Desert Obelisks"]
+			# The spawn rate (chance per chunk) of a normal obelisk spawning.
+			# Default: 700
+			"Normal Obelisk Spawn Rate" = 700
+			# The spawn rate (chance per chunk) of a chiseled obelisk spawning.
+			# Default: 700
+			"Chiseled Obelisk Spawn Rate" = 700
+			# The spawn rate (chance per chunk) of a ruined obelisk spawning.
+			# Default: 700
+			"Ruined Obelisk Spawn Rate" = 700
+			# The spawn rate (chance per chunk) of a blackstone obelisk spawning.
+			# Default: 3000
+			"Blackstone Obelisk Spawn Rate" = 3000
+
+		###########################################################################################################
+		## Settings for miscellaneous desert structures.
+		###########################################################################################################
+		["YUNG's Better Strongholds"."Desert Decorations"."Desert Miscellaneous"]
+			# The spawn rate (chance per chunk) of a small ruins spawning.
+			# Default: 1000
+			"Ruins Spawn Rate (Small)" = 1000
+			# The spawn rate (chance per chunk) of a flame outpost spawning.
+			# Default: 700
+			"Flame Outpost Spawn Rate" = 700
+			# The spawn rate (chance per chunk) of an abandoned vacation spot spawning.
+			# Default: 1000
+			"Abandoned Vacation Spot Spawn Rate" = 1000
+

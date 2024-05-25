@@ -1,0 +1,41 @@
+
+[items]
+
+	[items.milk_bottles]
+		#If milk can be inserted into cauldrons
+		"Milk Cauldron" = true
+		#If milkable mobs can be milked with empty glass bottles
+		"Milking with Glass Bottles" = false
+
+[world]
+
+	[world.generation]
+		#The chance Strawberry Bushes have to generate in Plains biomes (larger = more common)
+		"Strawberry Bush chance" = 12
+		#The chance Vanilla Vines have to generate in Savanna biomes (larger = more common)
+		"Vanilla Vine chance" = 10
+		#The chance Adzuki Sprouts have to generate in Forest biomes (larger = more common)
+		"Adzuki Sprouts chance" = 7
+		#The chance ponds with Mint have to generate in Mountain biomes (larger = more common)
+		"Mint pond chance" = 6
+		"Banana Plants generate in Beach biomes" = true
+		"Banana Plants generate in Jungle biomes" = true
+
+[mobs]
+
+	[mobs.plantain_spider]
+		"Plantain Spider spawn in Jungles" = true
+		"Plantain Spider spawn from Banana Bundles" = true
+		"Plantain Spiders give Slipping" = true
+
+	[mobs.chimpanzee]
+		"Chimpanzee spawn in Jungles" = true
+		#The percentage chance for a Banana Plant to generate with a group of Chimpanzees
+		"Chimpanzee group chance" = 0.25
+		#The maximum amount of Chimpanzees that can spawn with a Banana Plant
+		"Chimpanzee maximum group size" = 10
+		#The minimum attempts for Chimpanzees to spawn with a Banana Plant
+		"Chimpanzee minimum spawn attempts" = 12
+		#The maximum attempts for Chimpanzees to spawn with a Banana Plant
+		"Chimpanzee maximum spawn attempts" = 24
+

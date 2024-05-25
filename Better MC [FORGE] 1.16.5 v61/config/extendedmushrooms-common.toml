@@ -1,0 +1,69 @@
+
+#Options that affect mod behavior.
+[behavior]
+	#Whether or not mushroom caps can be harvested with shears.
+	mushroomCapsWithShearsEnabled = true
+	#Whether or not mushroom stems can be harvested without silk touch enchantment.
+	mushroomStemsWithoutSilkTouchEnabled = true
+
+#Enable or disable certain blocks or entities.
+[accessibility]
+	#Whether or not Infested Grass should be generated in mushroom biomes.
+	infestedGrassEnabled = true
+	#Whether or not Infested Flower should be generated in mushroom biomes.
+	infestedFlowerEnabled = true
+	#Whether or not variant bookshelves should be enabled. (0 - disabled, 1 - enabled, 2 - enabled when mod with this feature is installed)
+	#Range: 0 ~ 2
+	variantBookshelvesEnabled = 2
+	#Whether or not variant chests should be enabled. (0 - disabled, 1 - enabled, 2 - enabled when mod with this feature is installed)
+	#Range: 0 ~ 2
+	variantChestsEnabled = 2
+	#Whether or not variant trapped chests should be enabled. (0 - disabled, 1 - enabled, 2 - enabled when mod with this feature is installed)
+	#Range: 0 ~ 2
+	variantTrappedChestsEnabled = 2
+	#Whether or not variant ladders should be enabled. (0 - disabled, 1 - enabled, 2 - enabled when mod with this feature is installed)
+	#Range: 0 ~ 2
+	variantLaddersEnabled = 2
+	#Whether or not Vertical Planks should be enabled. (0 - disabled, 1 - enabled, 2 - enabled when mod with this feature is installed)
+	#Range: 0 ~ 2
+	verticalPlanksEnabled = 2
+	#Whether or not Vertical Slabs should be enabled. (0 - disabled, 1 - enabled, 2 - enabled when mod with this feature is installed)
+	#Range: 0 ~ 2
+	verticalSlabsEnabled = 2
+	#Whether or not Mushroom Sheep entity should spawn in mushroom biomes.
+	mushroomSheepEnabled = true
+	#Whether or not vanilla mega mushrooms should be generated in mushroom biomes.
+	vanillaMegaMushroomGenerationEnabled = true
+	#Whether or not glowshrooms should be generated.
+	glowshroomGenerationEnabled = true
+	#Whether or not big glowshrooms should be generated.
+	bigGlowshroomGenerationEnabled = true
+	#Whether or not mega glowshrooms should be generated.
+	megaGlowshroomGenerationEnabled = true
+	#Whether or not poisonous mushrooms should be generated.
+	poisonousMushroomGenerationEnabled = true
+	#Whether or not big poisonous mushrooms should be generated.
+	bigPoisonousMushroomGenerationEnabled = true
+	#Whether or not mega poisonous mushrooms should be generated.
+	megaPoisonousMushroomGenerationEnabled = true
+
+#Options that affect blocks and entities.
+[balancing]
+	#Spawn weight of Mushroom Sheep. (Example: Mooshroom in mushroom biome has weight of 8)
+	#Range: 1 ~ 100
+	mushroomSheepSpawnWeight = 8
+	#Minimal group size of spawning Mushroom Sheep herds.
+	#Range: 1 ~ 20
+	mushroomSheepSpawnMinGroupCount = 4
+	#Maximal group size of spawning Mushroom Sheep herds.
+	#Range: 1 ~ 20
+	mushroomSheepSpawnMaxGroupCount = 8
+	#Whether or not sheeps and mushroom sheeps can eat mushrooms from ground.
+	sheepEatMushroomFromGroundEnabled = true
+	#Whether or not sheeps and mushroom sheeps change their fleece to the mushroom type when eating a mushroom from ground or while feeding.
+	sheepAbsorbMushroomTypeEnabled = true
+	#Whether or not mushroom cap buttons should play a sound when activated.
+	mushroomButtonPressurePlatePlaySound = false
+	#Whether or not mushroom cap pressure plates should play a sound when stepped on or off.
+	mushroomCapPressurePlatePlaySound = false
+

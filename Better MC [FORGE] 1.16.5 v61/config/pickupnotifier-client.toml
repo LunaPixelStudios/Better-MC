@@ -1,0 +1,47 @@
+
+[general]
+	#Disable specific items or content from whole mods from showing.
+	#Format for every entry is "<namespace>:<path>". Path may use single asterisk as wildcard parameter.
+	Blacklist = []
+	#Show a small sprite next to the name of each entry showing its contents.
+	"Draw Sprites" = true
+	#Color of the entry name text.
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+	"Default Color" = "WHITE"
+	#Ignore rarity of items and always use color specified in "Text Color" instead.
+	"Ignore Rarity" = false
+	#Combine entries of the same type instead of showing each one individually.
+	"Combine Entries" = true
+	#Amount of ticks each entry will be shown for. Set to 0 to only remove entries when space for new ones is needed.
+	#Range: > 0
+	"Display Time" = 80
+	#Make outdated entries slowly move out of the screen instead of disappearing in place.
+	"Move Out Of Screen" = true
+	#Amount of ticks it takes for an entry to move out of the screen. Value cannot be larger than "Display Time".
+	#Range: > 0
+	"Move Time" = 20
+	#Make outdated entry names slowly fade away instead of simply vanishing.
+	"Fade Away" = true
+	#Maximum count number displayed. Setting this to 0 will prevent the count from being displayed at all.
+	#Range: > 0
+	"Maximum Amount" = 9999
+	#Include experience orbs the player has collected as part of the list of entries.
+	"Display Experience" = true
+
+[display]
+	#Screen corner for entry list to be drawn in.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	"Screen Corner" = "BOTTOM_RIGHT"
+	#Offset on x-axis from screen border.
+	#Range: > 0
+	X-Offset = 8
+	#Offset on y-axis from screen border.
+	#Range: > 0
+	Y-Offset = 4
+	#Percentage of relative screen height entries are allowed to fill at max.
+	#Range: 0.0 ~ 1.0
+	"Maximum Height" = 0.5
+	#Scale of entries. A lower scale will make room for more rows to show. Works in tandem with "GUI Scale" option in "Video Settings".
+	#Range: 1 ~ 24
+	"Custom Scale" = 4
+

@@ -2,9 +2,9 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
-    "diagonalfences",
     "file/Quark_v1.16.5_FIX.zip",
     "file/Blue_Skies_v1.16.5_FIX.zip",
+    "diagonalfences",
     "file/ST_NoBushyLeaves.zip",
     "quark:emote_resources",
     "file/Xaero\u0027s Minimap - Mod Icons.zip",

@@ -1,0 +1,5 @@
+
+["Config category"]
+	#Prints the added loot to the log if enabled: default:false
+	debugOutput = false
+

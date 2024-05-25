@@ -1,0 +1,95 @@
+
+[Etc]
+	#Void Rune's Damage
+	#Range: 0 ~ 1000000
+	Voidrunedamage = 7
+	#Lava bomb's Radius
+	#Range: 1 ~ 7
+	Lavabombradius = 2
+	#ScreenShake(on/off)
+	"ScreenShake(on/off)" = true
+	#BossMusic(on/off)
+	"BossMusic(on/off)" = true
+
+["Ender Guardian"]
+	#EnderGuardian's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianHealthMultiplier = 1.0
+	#EnderGuardian's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianDamageMultiplier = 1.0
+	#EnderGuardian's DamageCap
+	#Range: 0 ~ 1000000
+	EnderGuardianDamageCap = 22
+	#Ender guardian's block breaking ignore the MobGriefing
+	EnderguardianBlockBreaking = true
+	#ruined citadel spawn
+	RuinedcitadelSpawn = true
+	#Guardian's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Guardian's prevent attacks from far away Range" = 12.0
+	#EnderGuardianBlockBreaking radius
+	#Range: 0 ~ 20
+	"EnderGuardianBlockBreaking X" = 15
+	#EnderGuardianBlockBreaking radius
+	#Range: 0 ~ 10
+	"EnderGuardianBlockBreaking Y" = 2
+	#EnderGuardianBlockBreaking radius
+	#Range: 0 ~ 20
+	"EnderGuardianBlockBreaking Z" = 15
+
+["Netherite Monstrosity"]
+	#Monstrosity's Lavabomb magazine.
+	#Range: 1 ~ 1000000
+	LavabombMagazine = 3
+	#Monstrosity's Lavabomb amount
+	#Range: 1 ~ 1000000
+	Lavabombamount = 3
+	#Monstrosity's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityHealthMultiplier = 1.0
+	#Monstrosity's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityDamageMultiplier = 1.0
+	#Monstrosity's DamageCap
+	#Range: 0 ~ 1000000
+	MonstrosityDamageCap = 22
+	#soul black smith spawn
+	SoulblacksmithSpawn = true
+	#Monstrosity's bodyBlocking verdict
+	NetheritemonstrosityBodyBloking = true
+	#Monstrosity's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Monstrosity's prevent attacks from far away Range" = 18.0
+
+["Ender Golem"]
+	#Ender Golem's block breaking ignore the MobGriefing
+	EndergolemBlockBreaking = false
+	#Endergolem's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Endergolem's prevent attacks from far away Range" = 6.0
+	#Golem's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	GolemHealthMultiplier = 1.0
+	#Golem's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	GolemDamageMultiplier = 1.0
+
+[Ignis]
+	#Ignis's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisHealthMultiplier = 1.0
+	#Ignis's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisDamageMultiplier = 1.0
+	#Ignis's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Ignis's prevent attacks from far away Range" = 20.0
+	#Burning Arena spawn
+	BurningArenaSpawn = true
+	#Ignis's DamageCap
+	#Range: 0 ~ 1000000
+	IgnisDamageCap = 20
+	#Ignis's cracked block breaking ignore the MobGriefing
+	IgnisBlockBreaking = true
+

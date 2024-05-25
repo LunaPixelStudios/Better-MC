@@ -1,0 +1,7 @@
+
+[BlueSkiesExtraConfig]
+	enableDimensionalNerf = true
+	allowEveryModFeatureGenInTheDims = false
+	#Range: > 1
+	gateKeeperHouseSpacing = 18
+

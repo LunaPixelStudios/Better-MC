@@ -1,0 +1,34 @@
+
+["YUNG's Bridges"]
+	# List of biomes that will NOT have bridges.
+	# Only river biomes are considered for bridge placement, so you need not specify non-river biomes here.
+	# List must be comma-separated values enclosed in square brackets.
+	# Entries must have the mod namespace included.
+	# For example: "[minecraft:river, minecraft:frozen_river]"
+	# Default: "[]"
+	"Blacklisted Biomes" = "[]"
+
+	###########################################################################################################
+	# Spawn Rates.
+	# Note that larger bridges require more space to spawn, and are therefore more rare in vanilla rivers.
+	# Because of this, larger bridges are given higher spawn rates by default.
+	# You may consider changing that if you are using non-vanilla terrain gen.
+	# 
+	# The spawn rate of each bridge is 1/N per chunk, where N is the spawn rate value.
+	# E.g. if you set N = 3 for small bridges, then an ATTEMPT will be made to spawn a small bridge every 3 chunks.
+	# Note that it is ONLY an attempt - the bridge will only spawn if the chunk contains fitting river terrain.
+	###########################################################################################################
+	["YUNG's Bridges"."Spawn Rates"]
+		# The spawn rate for small bridges.
+		# Default: 25
+		#Range: 1 ~ 100
+		"Small Bridge Spawn Rate" = 25
+		# The spawn rate for medium bridges.
+		# Default: 6
+		#Range: 1 ~ 100
+		"Medium Bridge Spawn Rate" = 6
+		# The spawn rate for large bridges.
+		# Default: 2
+		#Range: 1 ~ 100
+		"Large Bridge Spawn Rate" = 2
+

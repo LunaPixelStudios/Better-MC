@@ -1,0 +1,10 @@
+"Have Pillagers render armor?" = true
+"Have Evokers render armor?" = true
+"Have Illusioners render armor?" = true
+"Have Vindicators render armor?" = true
+"Have Enchanters from Enchant with Mob render armor?" = true
+"Have the Hunters from Hunter Illagers render armor?" = true
+#Range: -500.0 ~ 100.0
+"Height of the Enchanters helmet" = -15.0
+"Have Illagers cross their arms when neutral?" = true
+

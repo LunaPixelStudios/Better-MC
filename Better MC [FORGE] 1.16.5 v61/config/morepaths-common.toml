@@ -1,0 +1,27 @@
+
+#Settings
+[general]
+
+	#Path Types
+	[general."Allowed paths"]
+		#Allow turning dirt directly into grass path
+		enableDirtToPath = true
+		#Enable sand path
+		enableSandPath = true
+		#Enable gravel path
+		enableGravelPath = true
+		#Enable snow path
+		enableSnowPath = true
+		#Enable red sand path
+		enableRedSandPath = true
+		#Enable coarse dirt path
+		enableCoarseDirtPath = true
+		#Enable mycelium path
+		enableMyceliumPath = true
+		#Enable podzol path
+		enablePodzolPath = true
+		#Enable crimson nylium path
+		enableCrimsonNyliumPath = true
+		#Enable warped nylium path
+		enableWarpedNyliumPath = true
+

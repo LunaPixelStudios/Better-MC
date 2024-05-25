@@ -40,6 +40,9 @@
     "harvest_tool_new_line": false,
     "trapped_chest": true
   },
+  "amber": {
+    "forge_energy": true
+  },
   "darkpaintings": {
     "show_artist": true,
     "show_title": true,

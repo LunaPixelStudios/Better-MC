@@ -1,0 +1,15 @@
+contributorEffect = ""
+#Show customized tooltips from any item. Mainly for pack devs
+globalTooltip = false
+#Max line width shown in description of tooltips
+#Range: > 50
+tooltipWrapWidth1 = 200
+
+[debug]
+	#Show item tags in advanced tooltips
+	tagsTooltip = true
+	#Show item nbt in advanced tooltips while holding shift
+	nbtTooltip = true
+	#Allowed values: vanilla, kiwi
+	tooltipNBTFormatter = "vanilla"
+
