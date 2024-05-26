@@ -44,7 +44,7 @@ customization {
   orientation = bottom-centered
   x = -98
   action = movebutton
-  y = -10
+  y = 5000
 }
 
 customization {
