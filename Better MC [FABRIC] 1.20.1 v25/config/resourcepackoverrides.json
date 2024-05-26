@@ -12,7 +12,8 @@
     "file/NoBushyLeaves.zip",
     "file/bettergrass:default",
     "file/HTP-Deep_aether-TranslationPack-v1.0.0.zip",
-    "file/HTP-Aether_redux-TranslationPack-v1.0.0.zip"
+    "file/HTP-Aether_redux-TranslationPack-v1.0.0.zip",
+    "file/AutoslabsCompat.zip"
 
   ],
   "default_overrides": {
@@ -34,7 +35,7 @@
     "file/Trinkets_OffhandFix_1.2+1.20.1.zip": {
       "hidden": true
     },
-    "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {
+    "file/BetterEndCities-Vanilla.zip": {
       "hidden": true
     },
     "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
