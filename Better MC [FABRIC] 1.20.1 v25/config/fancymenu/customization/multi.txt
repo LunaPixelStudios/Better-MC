@@ -1,36 +1,61 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.class_500
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = join_multiplayer_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1716722423653
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:fbc6fe66-ec40-4928-a84f-833f08c30902-1716722423653] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=660946%
-  orientation = top-right
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 53aeda02-9855-4c7a-a86b-ee5027b2ca13-1716722423653
+  [executable_block:53aeda02-9855-4c7a-a86b-ee5027b2ca13-1716722423653][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Bisect Public Servers
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 660946
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-right
   x = -123
-  action = movebutton
   y = 3
-}
-
-customization {
-  identifier = %id=660946%
   width = 120
-  action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=660946%
-  action = setbuttonlabel
-  value = Bisect Public Servers
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3e8b2c70-c0c7-45eb-86aa-b937b0868ae3-1716722423653
+  [loading_requirement_container_meta:3e8b2c70-c0c7-45eb-86aa-b937b0868ae3-1716722423653] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 
