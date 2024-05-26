@@ -56,9 +56,6 @@
     "continuity:default": {
       "hidden": true
     },
-    "continuity:glass_pane_culling_fix": {
-      "hidden": true
-    },
     "file/Repurposed_Structures-Better_Dungeons_v5.zip": {
       "hidden": true
     },
@@ -92,23 +89,8 @@
     "Moonlight Mods Dynamic Assets": {
       "hidden": true
     },
-    "supplementaries:darker_ropes": {
-      "hidden": true
-    },
-    "programmer_art": {
-      "hidden": true
-    },
     "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
       "hidden": true
-    },
-    "file/AutoslabsCompat.zip": {
-      "hidden": true
-    },
-    "the_bumblezone:ancient_luminescent_contrast_increase": {
-      "hidden": true
-    },
-    "natures_spirit:better_leaves_compatibility": {
-      "hidden": true
+    }
     }
   }
-}
