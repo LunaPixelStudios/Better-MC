@@ -24,4 +24,3 @@ minEnchantabilityPerLevel = 5
 incompatibleEnchantments = []
 #Items that the enchantment can be applied on.
 itemsList = ["#c:axes", "#c:pickaxes", "#c:shovels", "#c:hoes"]
-

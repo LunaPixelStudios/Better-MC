@@ -27,11 +27,13 @@ addExhaustion = true
 #The multiplier to player exhaustion from blocks that are vein mined.
 #Range: 0.0 ~ 1000.0
 exhaustionMultiplier = 1.0
-#The blocks or block tags for vein mining.
+#The blocks or block tags for vein mining if blocks is set to "CONFIG_LIST".
 blocksList = []
 #Determines if blocksList contains allowed blocks or denied blocks.
 #Allowed Values: ALLOW, DENY
 blocksListType = "DENY"
 #The groups of blocks or block tags that are vein mined together.
 groupsList = ["#c:adamantite_ores", "#c:aetherium_ores", "#c:aluminum_ores", "#c:amethyst_ores", "#c:antimony_ores", "#c:aquarium_ores", "#c:asterite_ores", "#c:banglum_ores", "#c:bauxite_ores", "#c:carmot_ores", "#c:certus_quartz_ores", "#c:cinnabar_ores", "#c:coal_ores", "#c:cobalt_ores", "#c:copper_ores", "#c:diamond_ores", "#c:emerald_ores", "#c:galaxium_ores", "#c:galena_ores", "#c:gold_ores,#minecraft:gold_ores", "#c:iridium_ores", "#c:iron_ores", "#c:kyber_ores", "#c:lapis_ores", "#c:lead_ores", "#c:lunum_ores", "#c:lutetium_ores", "#c:manganese_ores", "#c:metite_ores", "#c:mythril_ores", "#c:nickel_ores", "#c:orichalcum_ores", "#c:osmium_ores", "#c:palladium_ores", "#c:peridot_ores", "#c:platinum_ores", "#c:prometheum_ores", "#c:pyrite_ores", "#c:quadrillum_ores", "#c:quartz_ores", "#c:redstone_ores", "#c:ruby_ores", "#c:runite_ores", "#c:salt_ores", "#c:sapphire_ores", "#c:sheldonite_ores", "#c:silver_ores", "#c:sodalite_ores", "#c:sphalerite_ores", "#c:starrite_ores", "#c:stellum_ores", "#c:stormyx_ores", "#c:sulfur_ores", "#c:tantalite_ores", "#c:tin_ores", "#c:titanium_ores", "#c:topaz_ores", "#c:truesilver_ores", "#c:tungsten_ores", "#c:unobtainium_ores", "#c:ur_ores", "#c:uranium_ores", "#c:vermiculite_ores", "#c:zinc_ores"]
-
+#Determines the vein mineable blocks based on a preset option or a configured list.
+#Allowed Values: CONFIG_LIST, ALL, ORES, ORES_LOGS, ORES_STONE, ORES_STONE_LOGS, NO_BLOCK_ENTITIES
+blocks = "CONFIG_LIST"
