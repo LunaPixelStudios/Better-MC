@@ -42,7 +42,7 @@
 			tasks: [{
 				id: "42CA7AAF304767E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:warden_helmet"
 					tag: {
 						Damage: 0
@@ -82,11 +82,12 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			subtitle: "Found in the Echoing Forest"
 			tasks: [{
 				entity: "deeperdarker:shattered"
 				icon: "deeperdarker:soul_dust"
 				id: "5B9501581479A2EC"
-				title: "Kill a Shattered"
+				title: "Defeat a Shattered"
 				type: "kill"
 				value: 1L
 			}]
@@ -106,7 +107,7 @@
 				entity: "deeperdarker:stalker"
 				icon: "deeperdarker:soul_crystal"
 				id: "1D807C8DC05EF208"
-				title: "Kill a Stalker"
+				title: "Defeat a Stalker"
 				type: "kill"
 				value: 1L
 			}]
@@ -126,7 +127,7 @@
 				entity: "deeperdarker:shriek_worm"
 				icon: "deeperdarker:sculk_bone"
 				id: "3D7BD985875AFF57"
-				title: "Kill a Shriek Worm"
+				title: "Defeat a Shriek Worm"
 				type: "kill"
 				value: 1L
 			}]
@@ -136,8 +137,8 @@
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
 			icon: {
-				Count: 1b
-				id: "adventurez:stone_golem_chestplate"
+				Count: 1
+				id: "minecraft:netherite_chestplate"
 				tag: {
 					Damage: 0
 				}
@@ -159,6 +160,58 @@
 			title: "Find a &2Sculk Snapper"
 			x: 11.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "505973CBB20E92ED"
+			rewards: [{
+				id: "563D0E8ACB1FEAD7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Grants the wearer a permanent &3speed effect"
+			tasks: [{
+				id: "56FDFD3E7BD7EE03"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &3Warden Leggings"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6E7D3242496F4501"
+				"192EE909C57F390A"
+			]
+			dependency_requirement: "one_completed"
+			id: "759A9CF262C2D265"
+			rewards: [{
+				id: "0FBD98AC6DA2B25D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "An armored &6Elytra which allows you to boost without rockets."
+			tasks: [{
+				id: "7B6C04B363259D20"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft the &1Soul Elytra"
+			x: 9.0d
+			y: 7.0d
 		}
 	]
 	title: " &1&lThe Otherside"

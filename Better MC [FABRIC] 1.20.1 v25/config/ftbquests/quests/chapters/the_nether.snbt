@@ -4,16 +4,16 @@
 	filename: "the_nether"
 	group: "59C90AA1B128306B"
 	icon: "minecraft:obsidian"
-	id: "0D7FF8F037EFF568"
+	id: "0A66E12D4EA3FCDB"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "46D0AAEEB69E28B3"
+			id: "50F23C5899469ADB"
 			rewards: [{
-				id: "75D2953DAEB9AFC1"
+				id: "0691D341346BC7D1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:lingering_potion"
 					tag: {
 						Potion: "minecraft:fire_resistance"
@@ -25,7 +25,7 @@
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
-				id: "7FC5892104C0744C"
+				id: "752BA7ABF06D8B61"
 				title: "Enter the Nether"
 				type: "dimension"
 			}]
@@ -34,11 +34,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "5B11DB2289D4F66C"
+			dependencies: ["50F23C5899469ADB"]
+			id: "2B6FB2B31688349C"
 			rewards: [
 				{
-					id: "10BF4D22339FEF9E"
+					id: "31AF8DE4E1E58303"
 					item: "bosses_of_mass_destruction:brimstone_nectar"
 					type: "item"
 				}
@@ -52,18 +52,18 @@
 			tasks: [{
 				entity: "adventurez:blaze_guardian"
 				icon: "minecraft:blaze_rod"
-				id: "4DBABAE3AE00C903"
+				id: "0D87929CAF21FADA"
 				title: "Kill a Blaze Guardian"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Kill a &6Blaze Guardian"
-			x: 6.5d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "69872C1F1CCBDEBD"
+			dependencies: ["50F23C5899469ADB"]
+			id: "3C6AC5C1F553653F"
 			rewards: [{
 				id: "280091B4948F14F4"
 				type: "xp_levels"
@@ -73,7 +73,7 @@
 			tasks: [{
 				entity: "adventurez:necromancer"
 				icon: "minecraft:wither_skeleton_skull"
-				id: "745C505DC4DF253C"
+				id: "239DC09AF0907ECC"
 				title: "Kill a Necromancer"
 				type: "kill"
 				value: 1L
@@ -83,16 +83,16 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "4E14675B45B7DD15"
+			dependencies: ["50F23C5899469ADB"]
+			id: "6228AC7FFB8B4C6A"
 			rewards: [
 				{
-					id: "70D68C0AB105C4B9"
+					id: "22EFFBD6E5B5A3AB"
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
 				{
-					id: "6D4212F74805D47A"
+					id: "37B467D3BC1DB693"
 					item: "minecraft:gold_block"
 					type: "item"
 				}
@@ -100,18 +100,18 @@
 			subtitle: "Spawns when &6Nether Gold Ore &ris mined."
 			tasks: [{
 				entity: "adventurez:piglin_beast"
-				icon: "adventurez:piglin_flag_block"
-				id: "6F13475E767FB83F"
+				icon: "minecraft:piglin_head"
+				id: "60C901C781840EE6"
 				title: "Kill a Piglin Beast"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Defeat a &cPiglin Beast"
-			x: 4.5d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["50F23C5899469ADB"]
 			id: "6FE3E409F3305431"
 			rewards: [{
 				id: "469FB07DC0CB9CAE"
@@ -128,40 +128,40 @@
 				value: 1L
 			}]
 			title: "Defeat the &cNether &6Gauntlet"
-			x: 6.5d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "3963B69A10D95565"
+			dependencies: ["50F23C5899469ADB"]
+			id: "2778DD9736386DA3"
 			rewards: [
 				{
 					count: 6
-					id: "516AD08EEACEE00B"
+					id: "143593718BC9B5EE"
 					item: "adventurez:gilded_netherite_fragment"
 					type: "item"
 				}
 				{
-					id: "4D0709A5A9E38D45"
+					id: "56E2CA7942AF21D5"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 			]
 			subtitle: "Summoned at a Golem Altar. Find more information in the (craftable) AdventureZ Handbook."
 			tasks: [{
-				entity: "adventurez:stone_golem"
-				icon: "adventurez:stone_golem_heart"
-				id: "3CCB99D30F004CC1"
+				entity: "adventurez:blackstone_golem"
+				icon: "adventurez:blackstone_golem_heart"
+				id: "040286EF28AB4F76"
 				title: "Kill the Blackstone Golem"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Defeat the &8Blackstone Golem"
-			x: 4.5d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["50F23C5899469ADB"]
 			id: "0DFA02E6F9FF12EF"
 			rewards: [{
 				count: 3
@@ -170,7 +170,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Summoned using Soul Stone from the Bygone Nether mod, instead of Soul Sand."
+			subtitle: "Summoned using Soul Stone from the Bygone Nether mod, instead of Soul Sand. Soul Stone is craftable using a combination of Soul Soil and Soul Sand."
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
@@ -183,7 +183,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["50F23C5899469ADB"]
 			id: "596B36F12DA2F168"
 			rewards: [{
 				count: 3
@@ -201,6 +201,33 @@
 			title: "Defeat a &8Corpor"
 			x: 7.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["50F23C5899469ADB"]
+			id: "277A0F5BB5027FA5"
+			rewards: [{
+				id: "6197D5559D7F9FB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in &8Citadels"
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: {
+					Count: 1
+					id: "friendsandfoes:wildfire_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3C02A17229E78D78"
+				title: "Kill a &4Wildfire"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &6Wildfire"
+			x: 5.5d
+			y: 4.0d
 		}
 	]
 	title: " &cNether"

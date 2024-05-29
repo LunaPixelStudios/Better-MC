@@ -17,7 +17,7 @@
 				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:book"
 				tag: {
 					Enchantments: [{
@@ -56,7 +56,7 @@
 				"Try equipping the &cQuiver &rfrom the quest reward in your Quiver slot!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/teams.png"
@@ -68,7 +68,7 @@
 			rewards: [{
 				id: "07BC9C25214D6AFB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "supplementaries:quiver"
 					tag: {
 						SelectedSlot: 0
@@ -104,7 +104,7 @@
 				"The pin icon at the top right will pin a quest to your screen."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/item/book.png"
@@ -157,7 +157,7 @@
 				"Hold &b~&r while using a tool with the Vein Mining enchant to activate Vein Mining"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/player.png"
@@ -207,7 +207,7 @@
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "owo:textures/gui/config_search.png"
@@ -239,7 +239,7 @@
 				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/check.png"
@@ -255,6 +255,17 @@
 				{
 					id: "5A9388634495AC44"
 					item: "seasonsextras:seasonal_compendium"
+					type: "item"
+				}
+				{
+					id: "375B1BEB674320CF"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mythic_charms:charmicon"
+						}
+					}
 					type: "item"
 				}
 			]

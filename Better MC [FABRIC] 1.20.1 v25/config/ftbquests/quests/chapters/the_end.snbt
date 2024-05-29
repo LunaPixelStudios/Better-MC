@@ -9,16 +9,17 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "07E305E95A000FAF"
+			id: "2C23A9F30CBE3F4E"
 			rewards: [{
-				id: "1A4F1BAC0EB7387F"
+				id: "517089522452039C"
 				item: "betterend:guidebook"
 				type: "item"
 			}]
+			subtitle: "The end portal can be found and entered the same way as normal Minecraft."
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_stone"
-				id: "42642531FFCE3EBA"
+				id: "0B159B91978F8FC7"
 				title: "Enter The End"
 				type: "dimension"
 			}]
@@ -27,10 +28,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["07E305E95A000FAF"]
-			id: "2CE58DD1AE214711"
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "1FA3F627BCFF93F5"
 			rewards: [{
-				id: "1919D53920738BB2"
+				id: "7F9E0483D11691FD"
 				item: "adventurez:dragon_saddle"
 				type: "item"
 			}]
@@ -38,7 +39,7 @@
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
-				id: "6848B89E38A80BAB"
+				id: "117EB48A874B628D"
 				title: "Kill the Ender Dragon"
 				type: "kill"
 				value: 1L
@@ -48,49 +49,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["2CE58DD1AE214711"]
-			id: "21D51BCBD1818836"
-			rewards: [{
-				id: "288285752789C313"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "Found everywhere in &8The End."
-			tasks: [{
-				entity: "adventurez:enderwarthog"
-				icon: "adventurez:warthog_shell_piece"
-				id: "64FF133673B090FC"
-				title: "Kill a Enderwarthog"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Kill a &8Enderwarthog"
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2CE58DD1AE214711"]
-			id: "523ECDEFE767B5D0"
-			rewards: [{
-				id: "62D410635AA984DE"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "Found flying in the skies of &5The End&r. Can be saddled and led with Chorus Fruit."
-			tasks: [{
-				entity: "adventurez:ender_whale"
-				icon: "adventurez:ender_whale_skin"
-				id: "0903C15F1037FC44"
-				title: "Kill a Ender Whale"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Kill a &3Ender Whale"
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2CE58DD1AE214711"]
+			dependencies: ["2C23A9F30CBE3F4E"]
 			id: "7E5FC5E13FFF2D6C"
 			rewards: [
 				{
@@ -123,8 +82,8 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["2CE58DD1AE214711"]
-			id: "26E01F1822B87C9D"
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "4D6CF923E92972CD"
 			rewards: [
 				{
 					id: "4809C3912BC55A52"
@@ -142,7 +101,7 @@
 			tasks: [{
 				entity: "adventurez:the_eye"
 				icon: "minecraft:ender_eye"
-				id: "0CE2C6F045E057B7"
+				id: "3C29130D1554F7DB"
 				title: "Kill the Eye"
 				type: "kill"
 				value: 1L
@@ -152,7 +111,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7E5FC5E13FFF2D6C"]
+			dependencies: [
+				"7E5FC5E13FFF2D6C"
+				"2C23A9F30CBE3F4E"
+			]
 			icon: "minecraft:dragon_egg"
 			id: "246AB6FA4BDD0908"
 			rewards: [
@@ -162,14 +124,14 @@
 					type: "item"
 				}
 				{
-					id: "0125929161D48076"
-					item: "adventurez:shadow_chest_block"
-					type: "item"
-				}
-				{
 					id: "21D5BF2F52B9C1F1"
 					type: "xp_levels"
 					xp_levels: 20
+				}
+				{
+					id: "15858EBDD4722F57"
+					item: "adventurez:shadow_chest"
+					type: "item"
 				}
 			]
 			subtitle: "Found in The &k&4l&r&0&lVoid&r&k&4l &rdimension, which is entered via the portal that is generated when you kill &6The Eye&r. After killing the &8Void Shadow&r, it will drop a Dragon Egg. Stand near it after defeating the &8Void Shadow &rto hatch the egg. You can ride the dragon using the Dragon Saddle, once it has hatched. Press &bY&r to breathe fire while riding the dragon. The dragon will eat raw meat and Orc Skin."
@@ -183,6 +145,103 @@
 			}]
 			x: 5.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["1FA3F627BCFF93F5"]
+			id: "6381BB849DDEE54A"
+			rewards: [{
+				id: "64C9F6F6921F8A27"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "A powerful, unbreakable anvil that &6caps the experience cost of repairs and enchantment mixing&r. Crafted with &3scales&r from the &5Ender Dragon"
+			tasks: [{
+				id: "311E2F090413B061"
+				item: "dragonloot:dragon_anvil"
+				type: "item"
+			}]
+			title: "Craft a &5Dragon Anvil"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "523ECDEFE767B5D0"
+			rewards: [{
+				id: "62D410635AA984DE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Found flying in the skies of &5The End&r. Can be saddled and led with Chorus Fruit."
+			tasks: [{
+				icon: "adventurez:ender_whale_skin"
+				id: "640CC1970264149D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "adventurez:ender_whale"
+				type: "observation"
+			}]
+			title: "Find an &3Ender Whale"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21D51BCBD1818836"]
+			id: "4ABFB228442D00FB"
+			rewards: [
+				{
+					id: "635FBFFC8004E240"
+					item: "fwaystones:end_stone_brick_waystone"
+					type: "item"
+				}
+				{
+					id: "3EDA1F9BB902B2FD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "618265B423CFCF5B"
+					item: {
+						Count: 1
+						id: "betterend:netherite_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Once opened, this strange portal spawns a matching portal at the same location in &2The Overworld&r. Read &1The End For Dummies&r for details."
+			tasks: [{
+				advancement: "betterend:portal_on"
+				criterion: ""
+				id: "50056AE5531C98C3"
+				type: "advancement"
+			}]
+			title: "Open an &bEternal Portal"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "21D51BCBD1818836"
+			rewards: [{
+				id: "288285752789C313"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "A powerful mob found everywhere in &5The End&r, most commonly in &3Umbra Valleys&r. The shell pieces can be crafted into &8netherite scrap."
+			tasks: [{
+				entity: "adventurez:enderwarthog"
+				icon: "adventurez:warthog_shell_piece"
+				id: "64FF133673B090FC"
+				title: "Kill an Enderwarthog"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat an &8Enderwarthog"
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 	title: " &5The End"

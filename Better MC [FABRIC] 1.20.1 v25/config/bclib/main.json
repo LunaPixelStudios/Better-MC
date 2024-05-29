@@ -1,6 +1,6 @@
 {
   "patches": {
-    "applyPatches [default: true]": true,
+    "applyPatches [default: true]": false,
     "repairBiomesOnLoad [default: false]": false
   },
   "infos": {

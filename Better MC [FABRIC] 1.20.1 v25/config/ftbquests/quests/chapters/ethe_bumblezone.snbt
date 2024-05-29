@@ -16,14 +16,14 @@
 				{
 					id: "7ECF17AEC78DD991"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:honey_compass"
 						tag: { }
 					}
 					type: "item"
 				}
 				{
-					id: "1D68FF4FDBD89955"
+					id: "54CD4E87551BD9A9"
 					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
 					type: "item"
 				}
@@ -52,7 +52,7 @@
 					type: "item"
 				}
 				{
-					id: "4D15605B0B96D3FC"
+					id: "0D0A68DFC87D23B4"
 					item: "the_bumblezone:music_disc_la_bee_da_loca"
 					type: "item"
 				}
@@ -86,11 +86,18 @@
 				"Spawn pumpkin stems when thrown at a Snow Golem."
 			]
 			id: "1085588F956F6781"
-			rewards: [{
-				id: "115EF1BAA295611D"
-				item: "expandeddelight:peanut_honey_soup"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "115EF1BAA295611D"
+					item: "expandeddelight:peanut_honey_soup"
+					type: "item"
+				}
+				{
+					id: "21DFE8344AEBF071"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+			]
 			subtitle: "Obtained by mining a &fPile of Pollen&r. Read quest description for interactions."
 			tasks: [{
 				id: "076801A54434CD21"
@@ -130,17 +137,21 @@
 		}
 		{
 			dependencies: ["5669A0DAB45F2C62"]
-			id: "3423FA7B4F92768B"
+			id: "369D2467D02270EC"
 			rewards: [{
-				id: "3063799A7759FB4C"
+				id: "63D53EA85F1CF09A"
 				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
 				type: "item"
 			}]
 			subtitle: "Found in &6The Bumblezone&r on &6Glistering Honey&r and &dAmethyst&r. Opened by right clicking. By feeding it items or &aExperience Points&r, it will give you enchanted books."
 			tasks: [{
-				id: "5FF37AEBE070441D"
-				item: "the_bumblezone:crystalline_flower"
-				type: "item"
+				icon: "the_bumblezone:crystalline_flower"
+				id: "553AEA9E43960A9D"
+				observe_type: 0
+				timer: 0L
+				title: "Observe a Crystalline Flower"
+				to_observe: "the_bumblezone:crystalline_flower"
+				type: "observation"
 			}]
 			title: "Find a &6Crystalline Flower"
 			x: -1.5d
@@ -148,18 +159,18 @@
 		}
 		{
 			dependencies: ["5669A0DAB45F2C62"]
-			id: "688EE585D0671881"
+			id: "6164202DAC398029"
 			rewards: [{
 				count: 2
-				id: "04EE69477A88D52E"
+				id: "2B885ADD87CCAAE4"
 				item: "the_bumblezone:honey_crystal_shards"
 				type: "item"
 			}]
 			subtitle: "Upgradeable by repairing it in an anvil, using &6Honey Crystal Shards&r. Has double the durability of a normal shield at max level. Slows attackers."
 			tasks: [{
-				id: "28BE9C19B9F68C1F"
+				id: "51A5D0D2C39A836E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:honey_crystal_shield"
 					tag: {
 						Damage: 0
