@@ -205,7 +205,7 @@
 	"Extra minecarts" = 0.2
 [InventoryTidying]
 	#Button to automatically tidy inventories.
-	"InventoryTidying enabled" = true
+	"InventoryTidying enabled" = false
 [Kilns]
 	#A functional block that speeds up cooking of clay, glass, bricks and terracotta.
 	"Kilns enabled" = true
