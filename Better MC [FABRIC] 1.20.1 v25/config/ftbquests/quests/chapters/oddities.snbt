@@ -708,7 +708,25 @@
 				type: "item"
 			}]
 			title: "Craft a &4Cog Block"
-			x: -2.0d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "27860CA52E601BF3"
+			rewards: [{
+				id: "324DF316CFD748B5"
+				item: "minecraft:book"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "By putting an enchanted item alongside a normal book inside of a &8grindstone&r, the enchantments from the item will be added to the book."
+			tasks: [{
+				id: "6BC10EE1F8E85471"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			title: "Obtain a &8Grindstone"
+			x: -0.5d
 			y: 5.5d
 		}
 	]
