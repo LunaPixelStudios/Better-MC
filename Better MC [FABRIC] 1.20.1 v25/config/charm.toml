@@ -83,7 +83,7 @@
 #Adds decoration and more ores to mineshafts.
 "ImprovedMineshafts Enabled" = true
 #Button to automatically tidy inventories.
-"InventoryTidying Enabled" = true
+"InventoryTidying Enabled" = false
 #A functional block that speeds up cooking of clay, glass, bricks and terracotta.
 "Kilns Enabled" = true
 #Drop an item onto a lava bucket item to destroy it.
