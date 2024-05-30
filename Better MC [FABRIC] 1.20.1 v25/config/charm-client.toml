@@ -1,0 +1,68 @@
+[CompassOverlay]
+	#Shows cardinal points and XYZ coordinates when holding a compass.
+	"CompassOverlay enabled" = true
+	#If true, shows the cardinal direction that the player is facing.
+	Facing = true
+	#If true, shows the player's XYZ coordinates.
+	Co-ordinates = true
+	#If true, shows the player's biome.
+	Biome = true
+	#If true, only show the player's X and Z coordinates (not their height/depth).
+	"Only show X and Z" = false
+	#If true, only show the compass overlay if the player is sneaking.
+	"Show when sneaking" = false
+	#If true, the overlay will always be shown even if the player is not holding a compass.
+	"Always show" = false
+	#If true, the overlay will be shown in smaller text and in top left of the screen.
+	"Compact view" = false
+[DiscsStopBackgroundMusic]
+	#Playing a music disc in a jukebox prevents background music from playing at the same time.
+	"DiscsStopBackgroundMusic enabled" = true
+[ExtraTooltips]
+	#Adds hover tooltips for some items that have content.
+	"ExtraTooltips enabled" = true
+	#If true, a map will show its content when hovering over the item.
+	Maps = true
+	#If true, the contents of a shulker box will be shown when hovering over the item.
+	"Shulker boxes" = true
+[GentlePotionParticles]
+	#Potion effect particles are less obtrusive.
+	"GentlePotionParticles enabled" = true
+[NoChatUnverifiedMessage]
+	#Disables the 'Chat messages can't be verified' nag when the server does not enforce secure profile.
+	"NoChatUnverifiedMessage enabled" = true
+[NoExperimentalScreen]
+	#Prevents the 'Experimental World' screen from showing with customized worldgen or tags present.
+	"NoExperimentalScreen enabled" = true
+[NoSpyglassScope]
+	#Removes the dark outer overlay when zooming in with the spyglass, giving you the full view.
+	"NoSpyglassScope enabled" = true
+[ShowRepairCost]
+	#An item's repair cost is shown in their tooltip when looking at the anvil screen.
+	"ShowRepairCost enabled" = true
+[VariantMobTextures]
+	#Mobs may spawn with different textures.
+	"VariantMobTextures enabled" = true
+	#If true, cows may spawn with different textures.
+	Cows = true
+	#If true, chickens may spawn with different textures.
+	Chickens = true
+	#If true, dolphins may spawn with different textures.
+	Dolphins = true
+	#If true, pigs may spawn with different textures.
+	Pigs = true
+	#If true, sheep face and 'shorn' textures match their wool color.
+	Sheep = true
+	#If true, snow golems may spawn with different derp faces.
+	"Snow golems" = true
+	#If true, squids may spawn with different textures.
+	Squids = true
+	#If true, turtles may spawn with different textures.
+	Turtles = true
+	#If true, wolves may spawn with different textures.
+	Wolves = true
+	#If true, wandering traders may spawn with different textures.
+	"Wandering traders" = true
+	#Approximately 1 in X chance of a mob spawning as a rare variant.
+	#Set to zero to disable rare variants.
+	"Chance of rare variants" = 1000
