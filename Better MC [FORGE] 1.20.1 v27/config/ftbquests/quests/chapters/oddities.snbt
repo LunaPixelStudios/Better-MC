@@ -7,11 +7,7 @@
 	id: "537C6DB0026E6B7D"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -19,11 +15,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,11 +23,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,11 +31,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -55,11 +39,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -67,11 +47,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -79,11 +55,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -91,11 +63,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -103,11 +71,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -115,11 +79,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -127,11 +87,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -139,11 +95,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -151,11 +103,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -163,11 +111,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -175,11 +119,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -187,11 +127,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -199,11 +135,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -211,11 +143,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -223,11 +151,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -235,11 +159,7 @@
 			y: 1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -247,11 +167,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -259,11 +175,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -271,11 +183,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -283,11 +191,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -295,11 +199,7 @@
 			y: -2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -307,11 +207,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -319,11 +215,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -331,11 +223,7 @@
 			y: 1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -343,11 +231,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -355,11 +239,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -367,11 +247,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -379,11 +255,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -391,11 +263,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -403,11 +271,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -415,11 +279,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -427,11 +287,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -439,11 +295,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -451,11 +303,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -463,11 +311,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -475,11 +319,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -487,11 +327,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -499,11 +335,7 @@
 			y: 3.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -597,7 +429,7 @@
 			tasks: [{
 				id: "364054A106006ED9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "supplementaries:wrench"
 					tag: {
 						Damage: 0
@@ -673,7 +505,7 @@
 			tasks: [{
 				id: "092337026D40809E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alexsmobs:endolocator"
 					tag: {
 						Damage: 0
@@ -696,7 +528,7 @@
 			tasks: [{
 				id: "51D0F0965E7474D0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alexsmobs:pupfish_locator"
 					tag: {
 						Damage: 0
@@ -719,7 +551,7 @@
 			tasks: [{
 				id: "694519243F2ABB20"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alexsmobs:straddleboard"
 					tag: {
 						Damage: 0
@@ -736,7 +568,7 @@
 			rewards: [{
 				id: "532FC1535ECE9114"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:swiftness"
@@ -748,7 +580,7 @@
 			tasks: [{
 				id: "1AB4700BD15535AC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}

@@ -33,8 +33,8 @@
 				type: "item"
 			}]
 			title: "Obtain a &9Blue Journal &rfrom a Gatekeeper"
-			x: 13.0d
-			y: -3.0d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -52,8 +52,8 @@
 				type: "item"
 			}]
 			title: "Craft a &2Backpack"
-			x: 11.5d
-			y: 2.5d
+			x: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -67,7 +67,7 @@
 			tasks: [{
 				entity: "conjurer_illager:conjurer"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "conjurer_illager:conjurer_hat"
 					tag: {
 						Damage: 0
@@ -80,7 +80,7 @@
 			}]
 			title: "Defeat the &8Conjurer"
 			x: 11.0d
-			y: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -106,8 +106,8 @@
 				type: "advancement"
 			}]
 			title: "Defend a Village from a &4Raid"
-			x: 14.5d
-			y: 2.5d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -126,8 +126,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 15.0d
-			y: -0.5d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -146,8 +146,8 @@
 				type: "item"
 			}]
 			title: "Craft an &bAquarium"
-			x: 13.0d
-			y: 2.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -166,8 +166,8 @@
 				type: "item"
 			}]
 			title: "Craft an &dEnchanted Basin"
-			x: 11.0d
-			y: 1.0d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -186,8 +186,8 @@
 				type: "item"
 			}]
 			title: "Craft an &5Alchemist Table"
-			x: 15.0d
-			y: 1.0d
+			x: 13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -201,16 +201,16 @@
 			size: 1.0d
 			subtitle: "Found in the &6Ancient Factories&r, in the Overworld Caves."
 			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:mech_eye"
-				id: "3DE6A08A05898F8E"
-				title: "Defeat &dThe Leviathan"
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "6C6A449FB595E875"
+				title: "Defeat the &4Harbringer"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Defeat the &4Harbringer"
-			x: 14.5d
-			y: -2.0d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			id: "2574E7CF699D5B45"
@@ -225,7 +225,7 @@
 			tasks: [{
 				id: "0470194500CBE26C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:logs"
@@ -235,8 +235,8 @@
 				type: "item"
 			}]
 			title: "Obtain a &2Wooden Log"
-			x: 13.0d
-			y: 0.0d
+			x: 13.035714285714278d
+			y: 0.3571428571428541d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
@@ -258,8 +258,83 @@
 				value: 1L
 			}]
 			title: "Defeat the &dLeviathan"
-			x: 11.5d
-			y: -2.0d
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "233BA969DA5AA027"
+			rewards: [{
+				id: "4855400530BD87E7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Spawns randomly underground in boss rooms."
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "3333928391216A43"
+				title: "Defeat the &7Ferrous Wroughtnaut"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "5CEF21E35885E955"
+			rewards: [{
+				id: "72B831667F31BD94"
+				item: "friendsandfoes:totem_of_freezing"
+				type: "item"
+			}]
+			subtitle: "Found in &fsnowy&r biomes."
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "648F394BA53947B6"
+				title: "Defeat the &bFrostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "0226F89EEC57C5EC"
+			rewards: [{
+				id: "78658FFD3CABA528"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found upon his throne in &eSavanna &rbiomes"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:grant_suns_blessing"
+				id: "2498701E7715A09B"
+				title: "Defeat &eUmvuthi, the Sunbird"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -1.0d
 		}
 	]
 	title: " &aOverworld"

@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: "aether:aether_portal_frame"
 			id: "32226ED25E813908"
 			rewards: [{
 				id: "4D4DA7A91ACF3F08"
@@ -16,6 +17,7 @@
 				xp_levels: 5
 			}]
 			size: 2.0d
+			subtitle: "&eThe Aether&r portal is built the same way as a Nether Portal, but instead of Obsidian you use Glowstone, and instead of a Flint n' Steel you use a water bucket."
 			tasks: [{
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
@@ -42,7 +44,7 @@
 				icon: "aether:carved_stone"
 				id: "3865A3E4D4A9A5F3"
 				structure: "aether:bronze_dungeon"
-				title: "Visit &eBronze Dungeon"
+				title: "Visit a &eBronze Dungeon"
 				type: "structure"
 			}]
 			x: -2.0d
@@ -61,12 +63,12 @@
 			}]
 			shape: "circle"
 			size: 1.2d
-			subtitle: "&bSliders&r is a boss found in the &eBronze Dungeons&r. "
+			subtitle: "&bSliders&r is a boss found in &eBronze Dungeons&r. "
 			tasks: [{
 				entity: "aether:slider"
 				icon: "aether:slider_spawn_egg"
 				id: "69F7F61602435663"
-				title: "Defeat &bSlider"
+				title: "Defeat a &bSlider"
 				type: "kill"
 				value: 1L
 			}]
@@ -98,9 +100,9 @@
 			dependencies: ["32226ED25E813908"]
 			id: "7149B8FB49671630"
 			rewards: [{
-				id: "63860753FE5CA52C"
-				type: "xp"
-				xp: 100
+				id: "7D50456D7965C694"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			shape: "square"
 			size: 1.3d
@@ -109,7 +111,7 @@
 				icon: "aether:hellfire_stone"
 				id: "1D066EC48DFC09CD"
 				structure: "aether:gold_dungeon"
-				title: "Visit &6Gold Dungeon"
+				title: "Visit a &6Gold Dungeon"
 				type: "structure"
 			}]
 			x: 0.0d
@@ -143,7 +145,7 @@
 			rewards: [{
 				id: "5DE05B3933EAB617"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aether:iron_gloves"
 					tag: {
 						Damage: 0
@@ -167,6 +169,7 @@
 		}
 		{
 			dependencies: ["0A99C7852725BFC2"]
+			icon: "aether:sentry_spawn_egg"
 			id: "100082345FA03A9B"
 			rewards: [{
 				id: "540E0FBBA897B75D"
@@ -178,7 +181,7 @@
 				entity: "aether:sentry"
 				icon: "aether:sentry_spawn_egg"
 				id: "4937B6F09587F4C9"
-				title: "Defeat &cSentry"
+				title: "Defeat a &cSentry"
 				type: "kill"
 				value: 1L
 			}]
@@ -198,7 +201,7 @@
 				entity: "aether:mimic"
 				icon: "aether:mimic_spawn_egg"
 				id: "71C06FD3B2B127B3"
-				title: "Defeat &bMimic"
+				title: "Defeat a &bMimic"
 				type: "kill"
 				value: 1L
 			}]
@@ -220,30 +223,12 @@
 				entity: "aether:sun_spirit"
 				icon: "aether:sun_spirit_spawn_egg"
 				id: "49A00D8BAA0923BD"
-				title: "Defeat &eSun Spirit"
+				title: "Defeat the &eSun Spirit"
 				type: "kill"
 				value: 1L
 			}]
 			x: 0.0d
 			y: 6.6d
-		}
-		{
-			dependencies: ["32226ED25E813908"]
-			id: "702202BCA0E47E11"
-			rewards: [{
-				id: "63778F25C36D5FE9"
-				item: "aether_redux:veridium_ingot"
-				type: "item"
-			}]
-			subtitle: "A &6Book of Lore&r could be read by right-clicking with the book in hand, and then players would view an open book stating the volume and the world the volume refers to. Underneath the title, there would be a slot where players can place any item native to that world. Once placed in the slot, the book would display information about the item. Each &6Book of Lore&r would only display information about their native items"
-			tasks: [{
-				id: "3CE843A4A8A981E7"
-				item: "aether:book_of_lore"
-				type: "item"
-			}]
-			title: "Craft a &3Book of Lore"
-			x: 0.0d
-			y: 0.0d
 		}
 	]
 	title: " &eThe Aether"

@@ -41,7 +41,7 @@
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:arachnarch_trophy"
 					tag: {
 						BlockStateTag: {
@@ -85,7 +85,7 @@
 				{
 					id: "794BE8A8DF703552"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:alchemy_scroll"
 						tag: {
 							Damage: 0

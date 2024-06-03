@@ -36,7 +36,7 @@
 				{
 					id: "49D4292EB66AD8EE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:summoning_tome"
 						tag: {
 							Damage: 0
@@ -76,7 +76,7 @@
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:starlit_crusher_trophy"
 					tag: {
 						BlockStateTag: {

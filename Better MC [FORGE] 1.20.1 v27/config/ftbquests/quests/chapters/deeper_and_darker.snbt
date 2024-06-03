@@ -42,7 +42,7 @@
 			tasks: [{
 				id: "42CA7AAF304767E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:warden_helmet"
 					tag: {
 						Damage: 0

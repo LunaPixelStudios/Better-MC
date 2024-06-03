@@ -26,9 +26,9 @@ B:game_intro_fade_out = 'true';
 
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '';
-S:custom_window_title = '';
-S:custom_window_icon_16 = '';
+S:custom_window_icon_32 = '/config/fancymenu/assets/icon32x32.png';
+S:custom_window_title = 'Better Minecraft [FORGE] 1.20.1';
+S:custom_window_icon_16 = '/config/fancymenu/assets/icon16x16.png';
 
 
 ##[multiplayer_screen]

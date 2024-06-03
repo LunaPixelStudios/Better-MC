@@ -54,7 +54,7 @@
 			rewards: [{
 				id: "3A2EB8FD6C05F748"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "twilightforest:fortification_scepter"
 					tag: {
 						Damage: 0
@@ -248,7 +248,7 @@
 				{
 					id: "0FB5C5C3A7CCD6B7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "twilightforest:zombie_scepter"
 						tag: {
 							Damage: 0
@@ -259,7 +259,7 @@
 				{
 					id: "085E0FEEF75E573F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:fire_resistance"

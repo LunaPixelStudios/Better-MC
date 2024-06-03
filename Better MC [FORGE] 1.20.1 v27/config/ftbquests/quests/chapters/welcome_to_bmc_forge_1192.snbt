@@ -17,7 +17,7 @@
 				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:book"
 				tag: {
 					Enchantments: [{
@@ -54,11 +54,11 @@
 				""
 				"When you click the square at the top left of your player display, your &8Curios &rslots will become visible. Some items, such as Elytras and Totems can be equipped here."
 				""
-				"Try equipping the &cCharm of Life &rfrom the quest reward in your Necklace slot!"
+				"Try equipping the &cCharm of Life &rfrom the quest reward in your Charm slot!"
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/teams.png"
@@ -99,7 +99,7 @@
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/item/book.png"
@@ -155,7 +155,7 @@
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/player.png"
@@ -228,7 +228,7 @@
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/check.png"
@@ -244,7 +244,7 @@
 				{
 					id: "7002DB7B6A466469"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "storagenetwork:network_book"
@@ -255,7 +255,7 @@
 				{
 					id: "37F357ABF35CF44C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "twilightdelight:twilight_guide"

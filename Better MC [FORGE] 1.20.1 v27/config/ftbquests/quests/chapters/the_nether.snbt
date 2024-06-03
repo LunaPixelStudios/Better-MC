@@ -13,7 +13,7 @@
 			rewards: [{
 				id: "75D2953DAEB9AFC1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:lingering_potion"
 					tag: {
 						Potion: "minecraft:fire_resistance"
@@ -61,7 +61,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the &4Nether Keeper"
+			title: "Defeat the &4Nether Keeper"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -105,7 +105,7 @@
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "cataclysm:monstrous_helm"
 					tag: {
 						Damage: 0
@@ -165,7 +165,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &6Ignited Revenant"
+			title: "Defeat a &6Ignited Revenant"
 			x: 5.0d
 			y: 0.5d
 		}
