@@ -573,14 +573,14 @@
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
-		"Empty Hand Harvest" = true
+		"Empty Hand Harvest" = false
 		#Does harvesting crops with a hoe cost durability?
 		"Harvesting Costs Durability" = false
 		#Should Quark look for(nonvanilla) crops, and handle them?
-		"Do Harvesting Search" = true
+		"Do Harvesting Search" = false
 		#Which crops can be harvested?
 		#Format is: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]" or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
-		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
+		"Harvestable Blocks" = [""]
 		#Which blocks should right click harvesting simulate a click on instead of breaking?
 		#This is for blocks like sweet berry bushes, which have right click harvesting built in.
 		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines"]
@@ -1526,7 +1526,7 @@
 	"Auto Walk Keybind" = true
 	"Buckets Show Inhabitants" = true
 	Camera = true
-	"Elytra Indicator" = true
+	"Elytra Indicator" = false
 	"Long Range Pick Block" = true
 
 	[client.variant_animal_textures]
