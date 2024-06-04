@@ -530,7 +530,7 @@ vanilla_button {
   fade_in_speed = 1.0
   anchor_point = bottom-centered
   x = -98
-  y = -10
+  y = 5000
   width = 196
   height = 10
   stretch_x = false
