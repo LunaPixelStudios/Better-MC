@@ -43,16 +43,16 @@ body:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
             options:
-                - "1.16"
-                - "1.18"
-                - "1.19"
-                - "1.20" 
+                - "1.16.5"
+                - "1.18.2"
+                - "1.19.2"
+                - "1.20.1"
         validations:
             required: true
     -   type: dropdown
         attributes:
             label: Modloader
-            description: The version of Minecraft you were using when the bug occured
+            description: The modloader you were using when the bug occured
             options:
                 - "Forge"
                 - "Fabric"
@@ -61,13 +61,13 @@ body:
     -   type: input
         attributes:
             label: Modpack Version
-            description: The Modpack version you where using example bmc v52
+            description: The modpack version you were using when the bug occured (such as v26, v3, etc)
         validations:
             required: true
     -   type: textarea
         attributes:
             label: Other Mods
-            description: Any other mods you added to our packs? if yes please list any other mods.
+            description: Any additional mods you added to the modpack
         validations:
             required: false
     -   type: markdown
