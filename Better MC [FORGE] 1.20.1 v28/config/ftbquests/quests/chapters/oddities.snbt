@@ -415,7 +415,7 @@
 				type: "item"
 			}]
 			title: "Craft &lIron Wolf Armor"
-			x: 1.0d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
@@ -438,7 +438,7 @@
 				type: "item"
 			}]
 			title: "Craft a &6Wrench"
-			x: 1.0d
+			x: 2.5d
 			y: -0.5d
 		}
 		{
@@ -624,6 +624,24 @@
 			title: "Craft a &3Storage Request Table"
 			x: -4.0d
 			y: 1.5d
+		}
+		{
+			id: "3ED8014539A04BF6"
+			rewards: [{
+				count: 3
+				id: "3FEEEB9CB11760DB"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			subtitle: "Tells you the current season. Seasons affect many things - especially crop growth and weather."
+			tasks: [{
+				id: "54B882129C4EB5FF"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "Craft a &dCalendar"
+			x: 1.0d
+			y: 0.5d
 		}
 	]
 	title: " &fCuriosities&f"

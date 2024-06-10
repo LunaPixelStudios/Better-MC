@@ -106,7 +106,7 @@
 			}]
 			shape: "square"
 			size: 1.3d
-			subtitle: "&6Gold Dungeons&r are located within spherical islands with lots of &eGolden Oak&r trees growing on top of them. This dungeon normally will only have the &c&lboss room&r&r in it, with no treasure/mob rooms beforehand. The &eSun Spirit&r cannot be killed by attacking it directly and must be killed by hitting the &fwhite object&r he throws back at it multiple times. Every time it is hit with the white object, it sends out a smaller version of itself to attack the player. Once the player kills the &eSun Spirit&r, the sun will finally set in the Aether. Before the player kills the Sun Spirit, the sun will never go down. If the player fails to kill the &eSun Spirit&r, their spawnpoint will be reset over &clava&r, forcing the player to delete the map."
+			subtitle: "&6Gold Dungeons&r are located within spherical islands with lots of &eGolden Oak&r trees growing on top of them. This dungeon normally will only have the &c&lboss room&r&r in it, with no treasure/mob rooms beforehand. The &eSun Spirit&r cannot be killed by attacking it directly and must be killed by hitting the &fwhite object&r he throws back at it multiple times. Every time it is hit with the white object, it sends out a smaller version of itself to attack the player. Once the player kills the &eSun Spirit&r, the sun will finally set in the Aether. Before the player kills the Sun Spirit, the sun will never go down."
 			tasks: [{
 				icon: "aether:hellfire_stone"
 				id: "1D066EC48DFC09CD"
