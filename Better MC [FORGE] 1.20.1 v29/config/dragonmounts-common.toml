@@ -14,7 +14,7 @@
 	#in, consider using a datapack, since the static nature of configs complicates things.
 	use_loot_tables = true
 	#Should Dragon Eggs adapt to their environments and change breeds?
-	update_habitats = false
+	update_habitats = true
 
 #!!! THESE VALUES DO NOT TAKE EFFECT UNTIL `use_loot_tables` ABOVE IS SET TO `true` !!!
 #These entries define the chance values of which a dragon egg can appear in its respective loot table.
