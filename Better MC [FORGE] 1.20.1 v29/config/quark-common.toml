@@ -27,6 +27,16 @@
 	"Enable Onboarding" = true
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
+	#Set this to false to not generate the Quark Programmer Art resource pack
+	"Generate Programmer Art" = true
+
+	[general.chest_button_offsets]
+		"Player X" = 0
+		"Player Y" = 0
+		"Top X" = 0
+		"Top Y" = 0
+		"Middle X" = 0
+		"Middle Y" = 0
 
 [categories]
 	automation = true
@@ -133,15 +143,9 @@
 	"Rainbow Lamps" = true
 	"Raw Metal Bricks" = true
 
-	[building.vertical_planks]
-		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
-
 	[building.variant_ladders]
 		#This feature disables itself if any of the following mods are loaded:
+		# - woodster
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
@@ -161,6 +165,7 @@
 
 	[building.variant_bookshelves]
 		#This feature disables itself if any of the following mods are loaded:
+		# - woodster
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
@@ -171,8 +176,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - goated
 		# - environmental
+		# - goated
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -182,6 +187,11 @@
 		#Note that ropes will still use the same blacklist.
 		"Force Enable Move Tile Entities" = false
 		"Enable Dispenser Behavior" = true
+		#This feature disables itself if any of the following mods are loaded:
+		# - supplementaries
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[building.more_stone_variants]
 		"Enable Bricks" = true
@@ -204,8 +214,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - immersive_weathering
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -351,6 +361,9 @@
 		"Max Items" = 640
 		"Show All Variants In Creative" = true
 		"Shift Range" = 3
+		#Allow putting bone meal into the Seed Pouch (or anything else in the tag 'quark:seed_pouch_fertilizers')
+		"Allow Fertilizer" = true
+		"Fertilizer Shift Range" = 3
 
 	[tools.pickarang]
 		"Enable Flamerang" = true
@@ -534,6 +547,9 @@
 	"Slabs To Blocks" = true
 	"Slimes To Magma Cubes" = true
 	"Zombie Villagers On Normal" = true
+	"Beach Villagers" = true
+	"Magma Keeps Concrete Powder" = true
+	"Petals On Water" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -580,7 +596,7 @@
 		"Do Harvesting Search" = true
 		#Which crops can be harvested?
 		#Format is: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]" or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
-		"Harvestable Blocks" = [""]
+		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
 		#Which blocks should right click harvesting simulate a click on instead of breaking?
 		#This is for blocks like sweet berry bushes, which have right click harvesting built in.
 		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines"]
@@ -671,6 +687,11 @@
 		"Disable Recipe Book" = false
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
+		#This feature disables itself if any of the following mods are loaded:
+		# - nerb
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[tweaks.diamond_repair]
 		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
@@ -733,6 +754,10 @@
 		"Height Reduction" = 5.0
 		"Enable Slime Fall Damage Removal" = true
 
+	[tweaks.lock_rotation]
+		#When true, lock rotation indicator in the same style as crosshair
+		"Render Like Cross Hair" = true
+
 [world]
 	"Spiral Spires" = true
 	Permafrost = true
@@ -748,6 +773,7 @@
 	"Big Stone Clusters" = true
 	"Azalea Wood" = true
 	"Ancient Wood" = true
+	"Fallen Logs" = true
 
 	[world.spiral_spires]
 		Rarity = 200
@@ -1299,13 +1325,17 @@
 		#Allowed values: [0,)
 		"Sniffing Loot Quality" = 0
 
-	[world.glimmering_weald]
-		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Min Depth Range" = 1.5499999523162842
-		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Max Weirdness Range" = 2.0
+	[world.fallen_logs]
+		#Requires the Hollow Logs module to be enabled too
+		"Use Hollow Logs" = true
+		Rarity = 5
+		"Sparse Biome Rarity" = 12
+		#Tags that define which biomes can have which wood types
+		"Biome Tags" = ["quark:has_fallen_acacia=minecraft:acacia_log", "quark:has_fallen_birch=minecraft:birch_log", "quark:has_fallen_cherry=minecraft:cherry_log", "quark:has_fallen_dark_oak=minecraft:dark_oak_log", "quark:has_fallen_jungle=minecraft:jungle_log", "quark:has_fallen_mangrove=minecraft:mangrove_log", "quark:has_fallen_oak=minecraft:oak_log", "quark:has_fallen_spruce=minecraft:spruce_log"]
+
+		[world.fallen_logs.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
 
 [mobs]
 	Wraith = true
@@ -1734,6 +1764,10 @@
 		"Override Held Item Render" = true
 		"Hud Offset X" = 0
 		"Hud Offset Y" = 0
+		#When true, selector arrow will render in same style as crosshair
+		"Render Like Cross Hair" = true
+		#Uses smaller arrow icon for variant selector overlay
+		"Smaller Arrow" = false
 
 		[experimental.variant_selector.variants]
 			#The list of all variant types available for players to use. Values are treated as suffixes to block IDs for scanning.
@@ -1791,7 +1825,6 @@
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
 		"Allow Anyone To Collect" = true
-		"Enable Soul Compass" = true
 
 	[oddities.tiny_potato]
 		#This feature disables itself if any of the following mods are loaded:
@@ -1872,9 +1905,19 @@
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
 		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
+		#Block/Item IDs to force-allow magnetism on, regardless of their crafting recipe
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
+		#Block/Item IDs to force-disable magnetism on, regardless of their crafting recipe
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
 		"Use Pre End Recipe" = false
+		#Allows magnets to push and pull entities in the 'affected_by_magnets' tag (edit it with datapack). Turning off can reduce lag
+		"Affect Entities" = true
+		#Allows magnets to push and pull entities having magnetic armor. Requires 'magnetic_entities' config ON
+		"Affects Armor" = true
+		#Determines how fast entities are pulled by magnets. Still follows the inverse square law
+		"Entities Pull Force" = 0.18000000715255737
+		#Stonecutters pulled by magnets will silk touch the blocks they cut.
+		"Stone Cutter Silk Touch" = true
 
 	[oddities.crate]
 		"Max Items" = 640

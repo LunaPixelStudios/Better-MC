@@ -372,7 +372,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Allows you to see &eTrades&r with nearby &2Villagers."
+			subtitle: "Allows you to see &etrades&r with nearby &2villagers&r. Keep in mind that villagers will follow you if you have an &2emerald&r in hand, so trading halls are much easier to create!"
 			tasks: [{
 				id: "482F110C2981A7F7"
 				item: "tradingpost:trading_post"
