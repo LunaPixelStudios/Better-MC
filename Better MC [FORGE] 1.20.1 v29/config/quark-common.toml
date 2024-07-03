@@ -499,7 +499,7 @@
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
 	"Snow Golem Player Heads" = true
-	"Simple Harvest" = false
+	"Simple Harvest" = true
 	"Shulker Packing" = true
 	"Replace Scaffolding" = true
 	"Reacharound Placing" = true
@@ -509,7 +509,7 @@
 	"More Note Block Sounds" = true
 	"More Banner Layers" = true
 	"Lock Rotation" = true
-	"Hoe Harvesting" = false
+	"Hoe Harvesting" = true
 	"Grab Chickens" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
@@ -573,11 +573,11 @@
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
-		"Empty Hand Harvest" = false
+		"Empty Hand Harvest" = true
 		#Does harvesting crops with a hoe cost durability?
 		"Harvesting Costs Durability" = false
 		#Should Quark look for(nonvanilla) crops, and handle them?
-		"Do Harvesting Search" = false
+		"Do Harvesting Search" = true
 		#Which crops can be harvested?
 		#Format is: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]" or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
 		"Harvestable Blocks" = [""]
