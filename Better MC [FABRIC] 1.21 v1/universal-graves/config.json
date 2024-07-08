@@ -1,6 +1,6 @@
 {
   "_comment": "Before changing anything, see https://github.com/Patbox/UniversalGraves#configuration",
-  "config_version": 3,
+  "config_version": 4,
   "protection": {
     "non_owner_protection_time": 900,
     "self_destruction_time": 1800,
@@ -14,6 +14,7 @@
       "count": 0
     },
     "give_death_compass": false,
+    "enable_use_death_compass_to_open_gui": true,
     "enable_click_to_open_gui": true,
     "shift_and_use_quick_pickup": true,
     "allow_remote_protection_removal": true,
@@ -23,6 +24,7 @@
   "storage": {
     "experience_type": "percent_points",
     "experience_percent:setting_value": 100.0,
+    "can_store_only_xp": false,
     "alternative_experience_entity": false,
     "blocked_enchantments": []
   },
@@ -33,12 +35,16 @@
     "shift_location_on_failure": true,
     "max_shift_tries": 5,
     "max_shift_distance": 40,
-    "restore_replaced_block": false,
+    "generate_on_top_of_fluids": false,
+    "generate_on_ground": false,
+    "create_gravestone_after_emptying": false,
     "restore_replaced_block_after_player_breaking": true,
     "cancel_creation_for_damage_types": {},
     "cancel_creation_for_ignored_attacker_types": {},
     "blocking_predicates": [],
-    "block_in_protected_area": {},
+    "block_in_protected_area": {
+      "ftbchunks:provider": false
+    },
     "blacklisted_worlds": [],
     "blacklisted_areas": {},
     "creation_default_failure_text": "<red><lang:'text.graves.creation_failed':'<gold>${position}':'<yellow>${world}'>",
@@ -62,10 +68,13 @@
   },
   "model": {
     "default": "default",
-    "alternative": []
+    "alternative": [],
+    "hide_f3_debug_lines": true,
+    "gravestone_item_base": "minecraft:skeleton_skull"
   },
   "ui": {
     "title": "<lang:'text.graves.players_grave':'${player}'>",
+    "admin_title": "<lang:'text.graves.admin_graves'>",
     "list_grave_icon": {
       "base": {
         "icon": "minecraft:chest",
@@ -81,6 +90,28 @@
         "icon": "minecraft:trapped_chest",
         "text": [
           "${position} <gray>(${world})",
+          "<yellow>${death_cause}",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<blue><lang:'text.graves.not_protected'>",
+          "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+        ]
+      }
+    },
+    "admin_list_grave_icon": {
+      "base": {
+        "icon": "minecraft:chest",
+        "text": [
+          "<dark_gray>[<white>${player}</>]</> ${position} <gray>(${world})",
+          "<yellow>${death_cause}",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<blue><lang:'text.graves.protected_time':'<white>${protection_time}'>",
+          "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+        ]
+      },
+      "alt": {
+        "icon": "minecraft:trapped_chest",
+        "text": [
+          "<dark_gray>[<white>${player}</>]</> ${position} <gray>(${world})",
           "<yellow>${death_cause}",
           "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
           "<blue><lang:'text.graves.not_protected'>",
@@ -130,9 +161,9 @@
       "base": {
         "icon": {
           "id": "universal_graves:icon",
-          "Count": 1,
-          "tag": {
-            "Texture": "previous_page"
+          "count": 1,
+          "components": {
+            "universal_graves:texture": "previous_page"
           }
         },
         "text": "<lang:'text.graves.gui.previous_page'>"
@@ -140,9 +171,9 @@
       "alt": {
         "icon": {
           "id": "universal_graves:icon",
-          "Count": 1,
-          "tag": {
-            "Texture": "previous_page_blocked"
+          "count": 1,
+          "components": {
+            "universal_graves:texture": "previous_page_blocked"
           }
         },
         "text": "<dark_gray><lang:'text.graves.gui.previous_page'>"
@@ -152,9 +183,9 @@
       "base": {
         "icon": {
           "id": "universal_graves:icon",
-          "Count": 1,
-          "tag": {
-            "Texture": "next_page"
+          "count": 1,
+          "components": {
+            "universal_graves:texture": "next_page"
           }
         },
         "text": "<lang:'text.graves.gui.next_page'>"
@@ -162,9 +193,9 @@
       "alt": {
         "icon": {
           "id": "universal_graves:icon",
-          "Count": 1,
-          "tag": {
-            "Texture": "next_page_blocked"
+          "count": 1,
+          "components": {
+            "universal_graves:texture": "next_page_blocked"
           }
         },
         "text": "<dark_gray><lang:'text.graves.gui.next_page'>"
@@ -174,9 +205,9 @@
       "base": {
         "icon": {
           "id": "universal_graves:icon",
-          "Count": 1,
-          "tag": {
-            "Texture": "remove_protection"
+          "count": 1,
+          "components": {
+            "universal_graves:texture": "remove_protection"
           }
         },
         "text": "<red><lang:'text.graves.gui.remove_protection'>"
@@ -184,9 +215,9 @@
       "alt": {
         "icon": {
           "id": "universal_graves:icon",
-          "Count": 1,
-          "tag": {
-            "Texture": "remove_protection"
+          "count": 1,
+          "components": {
+            "universal_graves:texture": "remove_protection"
           }
         },
         "text": [
@@ -201,9 +232,9 @@
       "base": {
         "icon": {
           "id": "universal_graves:icon",
-          "Count": 1,
-          "tag": {
-            "Texture": "break_grave"
+          "count": 1,
+          "components": {
+            "universal_graves:texture": "break_grave"
           }
         },
         "text": "<red><lang:'text.graves.gui.break_grave'>"
@@ -211,9 +242,9 @@
       "alt": {
         "icon": {
           "id": "universal_graves:icon",
-          "Count": 1,
-          "tag": {
-            "Texture": "break_grave"
+          "count": 1,
+          "components": {
+            "universal_graves:texture": "break_grave"
           }
         },
         "text": [
@@ -227,9 +258,9 @@
     "quick_pickup_button": {
       "icon": {
         "id": "universal_graves:icon",
-        "Count": 1,
-        "tag": {
-          "Texture": "quick_pickup"
+        "count": 1,
+        "components": {
+          "universal_graves:texture": "quick_pickup"
         }
       },
       "text": "<red><lang:'text.graves.gui.quick_pickup'>"
