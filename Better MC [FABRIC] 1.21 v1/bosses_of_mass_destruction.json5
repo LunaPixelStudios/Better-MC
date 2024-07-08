@@ -1,0 +1,85 @@
+{
+	"lichConfig": {
+		"eternalNighttime": true,
+		"experienceDrop": 1500,
+		"idleHealingPerTick": 0.10000000149011612,
+		"health": 750.0,
+		"missile": {
+			"statusEffectId": "minecraft:slowness",
+			"statusEffectDuration": 100,
+			"statusEffectPotency": 2,
+			"damage": 10.0
+		},
+		"comet": {
+			"explosionStrength": 5.0,
+			"destroysBlocks": false
+		},
+		"summonMechanic": {
+			"isEnabled": true,
+			"entitiesThatCountToSummonCounter": [
+				"minecraft:zombie",
+				"minecraft:skeleton",
+				"minecraft:drowned",
+				"minecraft:giant",
+				"minecraft:husk",
+				"minecraft:phantom",
+				"minecraft:skeleton_horse",
+				"minecraft:stray",
+				"minecraft:wither",
+				"minecraft:wither_skeleton",
+				"minecraft:zoglin",
+				"minecraft:zombie_horse",
+				"minecraft:zombie_villager",
+				"minecraft:zombified_piglin"
+			],
+			"numEntitiesKilledToDropSoulStar": 70
+		},
+		"towerGeneration": {
+			"generateLichTower": true,
+			"lichTowerGenerationSpacing": 100,
+			"lichTowerGenerationSeparation": 50
+		}
+	},
+	"obsidilithConfig": {
+		"health": 750.0,
+		"armor": 20.0,
+		"attack": 20.0,
+		"idleHealingPerTick": 0.25,
+		"experienceDrop": 1000,
+		"spawnPillarOnDeath": true,
+		"anvilAttackExplosionStrength": 5.0,
+		"arenaGeneration": {
+			"generationHeight": 90,
+			"generationSpacing": 64,
+			"generationSeparation": 32,
+			"generationEnabled": true
+		}
+	},
+	"gauntletConfig": {
+		"health": 250.0,
+		"armor": 2.5,
+		"attack": 15.0,
+		"idleHealingPerTick": 0.5,
+		"experienceDrop": 1000,
+		"spawnAncientDebrisOnDeath": true,
+		"energizedPunchExplosionSize": 5.0,
+		"normalPunchExplosionMultiplier": 1.5,
+		"arenaGeneration": {
+			"generationSpacing": 64,
+			"generationSeparation": 32,
+			"generationEnabled": true
+		}
+	},
+	"voidBlossomConfig": {
+		"health": 800.0,
+		"armor": 5.0,
+		"attack": 15.0,
+		"idleHealingPerTick": 0.5,
+		"experienceDrop": 1000,
+		"arenaGeneration": {
+			"generationSpacing": 64,
+			"generationSeparation": 32,
+			"generationEnabled": true
+		}
+	}
+}

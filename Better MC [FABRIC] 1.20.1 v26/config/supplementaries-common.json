@@ -87,7 +87,7 @@
       "simple_safes": false
     },
     "blackboard": {
-      "colored_blackboard": false,
+      "colored_blackboard": true,
       "interaction_mode": "BOTH"
     },
     "timber_frame": {

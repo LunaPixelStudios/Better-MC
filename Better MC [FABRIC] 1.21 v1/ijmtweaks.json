@@ -1,0 +1,12 @@
+{
+	"darkLoadingOverlay": true,
+	"pumpkinOverlayOpacity": 100,
+	"blockBreakParticle": 0,
+	"experienceBarInCreative": true,
+	"autoJumpOnStairs": false,
+	"zoomLevel": 70,
+	"singleItemInventorySwap": false,
+	"screenshotsFolder": true,
+	"debugInvisibleEntities": false,
+	"fireOverlay": "REDUCED"
+}
