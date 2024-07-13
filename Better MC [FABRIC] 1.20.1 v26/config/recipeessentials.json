@@ -17,7 +17,7 @@
   },
   "smallerRecipePacket": {
     "desc:": "Reduces the size of the recipe packet, to prevent errors on too large packets and helps bad connections, requires the mod to be present on both client and server, disable on mod conflicts: default:false",
-    "smallerRecipePacket": false
+    "smallerRecipePacket": true
   },
   "cacheRecipes": {
     "desc:": "Caches recipe lookups to greatly improve lookup speed: default:true",
