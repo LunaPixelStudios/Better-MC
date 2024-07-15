@@ -34,6 +34,7 @@
     "painting": true,
     "piston": true,
     "beacon_beam": true,
+    "limit_beacon_beam_height": false,
     "enchanting_table_book": true,
     "item_frame_name_tag": true,
     "player_name_tag": true
@@ -47,6 +48,7 @@
     "reduce_resolution_on_mac": true,
     "use_adaptive_sync": false,
     "cloud_height": 192,
+    "cloud_distance": 100,
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,
@@ -56,14 +58,5 @@
     "prevent_shaders": false,
     "steady_debug_hud": true,
     "steady_debug_hud_refresh_interval": 1
-  },
-  "notification_settings": {
-    "hide_r_s_o_recommendation": false
-  },
-  "super_secret_settings": {
-    "fetch_sodium_extra_crowdin_translations": false,
-    "sodium_extra_crowdin_project_identifier": "sodium-extra",
-    "fetch_sodium_crowdin_translations": false,
-    "sodium_crowdin_project_identifier": "sodium-fabric"
   }
 }

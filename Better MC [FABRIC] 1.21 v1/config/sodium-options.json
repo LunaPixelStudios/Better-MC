@@ -20,6 +20,6 @@
   },
   "notifications": {
     "has_cleared_donation_button": true,
-    "has_seen_donation_prompt": true
+    "has_seen_donation_prompt": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "create_version": "21.0.6",
   "internal": {
-    "did_present_welcome_screen": false
+    "did_present_welcome_screen": true
   },
   "general": {
     "check_for_new_versions": false,
