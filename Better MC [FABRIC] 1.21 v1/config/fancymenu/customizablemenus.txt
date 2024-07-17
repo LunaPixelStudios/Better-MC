@@ -6,9 +6,6 @@ de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 net.minecraft.class_442 {
 }
 
-net.minecraft.class_526 {
-}
-
 net.minecraft.class_429 {
 }
 
@@ -88,6 +85,9 @@ net.minecraft.class_3928 {
 }
 
 net.minecraft.class_5346 {
+}
+
+net.minecraft.class_526 {
 }
 
 net.minecraft.class_433 {

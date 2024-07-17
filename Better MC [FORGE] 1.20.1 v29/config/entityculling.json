@@ -1,5 +1,5 @@
 {
-  "configVersion": 5,
+  "configVersion": 6,
   "renderNametagsThroughWalls": true,
   "blockEntityWhitelist": [
     "create:rope_pulley",
@@ -11,7 +11,10 @@
     "botania:falling_star"
   ],
   "entityWhitelist": [
-    "botania:mana_burst"
+    "botania:mana_burst",
+    "drg_flares:drg_flares",
+    "minecraft:ender_dragon",
+    "minecraft:end_crystal"
   ],
   "tracingDistance": 128,
   "debugMode": false,
@@ -24,10 +27,14 @@
     "create:stationary_contraption",
     "create:gantry_contraption",
     "minecraft:boat",
+    "mts:builder_seat",
     "minecraft:firework_rocket",
-    "create:carriage_contraption"
+    "create:carriage_contraption",
+    "mts:builder_rendering",
+    "drg_flares:drg_flares",
+    "mts:builder_existing"
   ],
-  "disableF3": false,
+  "disableF3": true,
   "skipEntityCulling": false,
   "skipBlockEntityCulling": false
 }
