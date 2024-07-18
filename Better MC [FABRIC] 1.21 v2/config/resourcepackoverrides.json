@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "vanilla",
+    "mod_resources",
+    "file/Stay_True_1.21.zip",
+    "file/MandalasGUI+Dakmode_1.20.5.zip",
+    "continuity:default",
+    "continuity:glass_pane_culling_fix",
+    "file/NoBushyLeaves.zip",
+    "file/Better_MC.zip"
+
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.20.1.zip": {
+      "hidden": true 
+    },
+    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Friends_And_Foes_v3.zip": {
+      "hidden": true
+    },
+    "builtin/resource/redux_tips": {
+      "hidden": true
+    },
+    "fabric": {
+      "hidden": true
+    },
+    "builtin/DAGoldenSwetBallFixClient": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bountiful_v2.zip": {
+      "hidden": true
+    },
+    "file/backpacked_recipe_fix_datapack.zip": {
+      "hidden": true
+    },
+    "file/Soul_stone_recipe_bygonenether_datapack.zip": {
+      "hidden": true
+    },
+    "file/Quark x FD Bark Cutting Compat.zip": {
+      "hidden": true
+    },
+    "file/BoP x FD Bark Cutting Compat.zip": {
+      "hidden": true
+    },
+    "file/BetterEndCities-Vanilla.zip": {
+      "hidden": true
+    },
+    "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
+      "hidden": true
+    },
+    "file/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bountiful_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-VillagersPlus_v3.zip": {
+      "hidden": true
+    },  
+    "defaultresources": {
+      "hidden": true
+    },
+    "dynamic_asset_generator:dynamic_asset_generator:builtin_assets": {
+      "hidden": true
+    },
+    "dynamic_asset_generator:excavated_variants:assets": {
+      "hidden": true
+    },
+    "Moonlight Mods Dynamic Assets": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Dungeons_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Strongholds_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Witch_Huts_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bygone_Nether_v2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Farmers_Delight_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Friends_And_Foes_v5.zip": {
+      "hidden": true
+    },
+    "Soul_stone_recipe_bygonenether_datapack.zip": {
+      "hidden": true
+    },
+    "builtin/deep_aether_additional_assets": {
+      "hidden": true
+    },
+    "builtin/aether_tips": {
+      "hidden": true
+    }
+  }
+}

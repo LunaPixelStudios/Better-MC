@@ -1,0 +1,10 @@
+{
+  "__comment": "This is an ignore list for the target of Jade. You can add registry ids to the \"values\" list.",
+  "values": [
+    "area_effect_cloud",
+    "firework_rocket",
+    "interaction",
+    "text_display",
+    "lightning_bolt"
+  ]
+}
