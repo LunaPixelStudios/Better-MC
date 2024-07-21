@@ -1,0 +1,137 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = datapack_load_failure_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1721015837932
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  custom_menu_title = 
+  [loading_requirement_container_meta:ba4bb352-129e-4850-af20-5d0d3bcfc876-1721015823098] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+element {
+  interactable = false
+  source = Go back to the main menu, and try loading the world again.%n%%n%If you see this screen again, restart your game.%n%%n%If the issue persists, join our Discord by clicking the Discord button in the Main Menu.
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 9754ebab-d780-4e6f-b1a8-56abe55d6a27-1720876997666
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -240
+  y = -44
+  width = 480
+  height = 89
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = b45405c6-2c9b-4f29-bf4a-b1e5deb18220-1720876997666
+  [loading_requirement_container_meta:b45405c6-2c9b-4f29-bf4a-b1e5deb18220-1720876997666] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = c88d1ec4-5b4f-48ed-bbc3-7fdce55d802b-1720873421516
+  [executable_block:c88d1ec4-5b4f-48ed-bbc3-7fdce55d802b-1720873421516][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 505262
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -76
+  y = 57
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 2cb20c39-23cf-46f1-8464-5165b2634a33-1720873421516
+  [loading_requirement_container_meta:2cb20c39-23cf-46f1-8464-5165b2634a33-1720873421516] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 49285f01-0ab2-44af-8910-a2ec3c4d5254-1720873421547
+  [executable_block:49285f01-0ab2-44af-8910-a2ec3c4d5254-1720873421547][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 345262
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 272
+  y = 171
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 9c07ebaa-6355-4445-a4cd-638102013f9c-1720873421547
+  [loading_requirement_container_meta:9c07ebaa-6355-4445-a4cd-638102013f9c-1720873421547] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

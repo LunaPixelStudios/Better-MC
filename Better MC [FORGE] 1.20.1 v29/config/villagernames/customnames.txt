@@ -1,3 +1,0 @@
-Rick,
-Bob,
-Eve

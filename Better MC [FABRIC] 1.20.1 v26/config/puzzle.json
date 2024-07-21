@@ -1,6 +1,6 @@
 {
   "disabledIntegrations": [],
-  "enablePuzzleButton": true,
+  "enablePuzzleButton": false,
   "debugMessages": false,
   "checkUpdates": false,
   "showPuzzleInfo": true,
