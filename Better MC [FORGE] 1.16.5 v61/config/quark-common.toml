@@ -1882,7 +1882,7 @@
 					"Is Blacklist" = true
 
 [client]
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Variant Animal Textures" = true
 	"Back Button Keybind" = true
 	"Improved Tooltips" = true

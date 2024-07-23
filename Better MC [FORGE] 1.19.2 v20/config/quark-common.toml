@@ -1304,7 +1304,7 @@
 	"Soul Candles" = true
 	"Microcrafting Helper" = true
 	"Improved Tooltips" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Chest Searching" = true
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
