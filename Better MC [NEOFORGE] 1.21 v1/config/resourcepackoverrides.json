@@ -5,8 +5,9 @@
     "vanilla",
     "mod_resources",
     "file/Stay_True_1.21.zip",
-    "file/MandalasGUI+Dakmode_1.20.5.zip"
-
+    "file/MandalasGUI+Dakmode_1.20.5.zip",
+    "file/Mandala's GUI - Dark mode Mod Compat 0.2.4 beta.zip",
+    "file/Better_MC.zip"
   ],
   "default_overrides": {
     "force_compatible": true
@@ -21,7 +22,10 @@
     "file/Repurposed_Structures-Friends_And_Foes_v3.zip": {
       "hidden": true
     },
-    "builtin/resource/redux_tips": {
+    "Scarecrow_Obliterator.zip": {
+      "hidden": true
+    },
+    "BetterEndCities-Vanilla-1.21.zip": {
       "hidden": true
     },
     "fabric": {

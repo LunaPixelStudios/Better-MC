@@ -6,7 +6,7 @@
   "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/bmc3-fabric/",
   "advanced": {
     "bccEnabled": true,
-    "expandButton": true,
+    "expandButton": false,
     "updateCheckerType": 2,
     "showAllChangelogsIfUpToDate": false
   }

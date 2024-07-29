@@ -3,93 +3,42 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.class_426 {
-}
-
-net.minecraft.class_5375 {
-}
-
-net.minecraft.class_8219 {
-}
-
-net.minecraft.class_4189 {
-}
-
-net.minecraft.class_404 {
-}
-
-net.minecraft.class_458 {
-}
-
-net.minecraft.class_4288 {
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
 }
 
 com.blamejared.controlling.client.NewKeyBindsScreen {
 }
 
-com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
+net.minecraft.client.gui.screens.ConfirmLinkScreen {
 }
 
-net.minecraft.class_407 {
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
-net.minecraft.class_445 {
-}
-
-net.minecraft.class_440 {
-}
-
-net.minecraft.class_6777 {
-}
-
-com.terraformersmc.modmenu.gui.ModsScreen {
-}
-
-net.minecraft.class_525 {
-}
-
-net.minecraft.class_5235 {
-}
-
-net.minecraft.class_8134 {
-}
-
-net.irisshaders.iris.gui.screen.ShaderPackScreen {
-}
-
-net.minecraft.class_443 {
+net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen {
 }
 
 com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
 }
 
-net.minecraft.class_420 {
+net.minecraft.client.gui.screens.EditServerScreen {
 }
 
-net.minecraft.class_422 {
+net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
-com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHOrderScreen {
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 }
 
-net.minecraft.class_3928 {
+net.minecraft.client.gui.screens.PauseScreen {
 }
 
-net.minecraft.class_5346 {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
-net.minecraft.class_526 {
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
 }
 
-net.minecraft.class_433 {
-}
-
-net.minecraft.class_442 {
-}
-
-net.minecraft.class_429 {
-}
-
-net.minecraft.class_481 {
+net.minecraft.client.gui.screens.options.OptionsScreen {
 }
 

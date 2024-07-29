@@ -3,9 +3,9 @@
   "failed_reloads_per_session": 5,
   "default_packs": [
     "vanilla",
-    "mod_resources",
     "file/Stay_True_1.21.zip",
     "file/MandalasGUI+Dakmode_1.20.5.zip",
+    "file/Mandala's GUI - Dark mode Mod Compat 0.2.4 beta.zip",
     "continuity:default",
     "continuity:glass_pane_culling_fix",
     "file/NoBushyLeaves.zip",
@@ -44,6 +44,9 @@
       "hidden": true
     },
     "file/Quark x FD Bark Cutting Compat.zip": {
+      "hidden": true
+    },
+    "file/Scarecrow_Obliterator.zip": {
       "hidden": true
     },
     "file/BoP x FD Bark Cutting Compat.zip": {
