@@ -366,15 +366,15 @@
 			id: "3103B2CFCFDB2173"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "36B8752F3E13A8DA"
-					table_id: 327386274853989853L
-					type: "choice"
-				}
-				{
 					id: "41A7430DB03A2ABB"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52CF5725728C0483"
+					table_id: 327386274853989853L
+					type: "random"
 				}
 			]
 			subtitle: "Found at the bottom of the &cCursed Pyramid&r, which spawns in deserts. Awaken the boss with the &eNecklace of the Desert&r. This boss is &lvery&r difficult and you will need to be properly prepared."
@@ -433,6 +433,176 @@
 			}]
 			title: "Craft an &cInactive Spawner"
 			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			description: [
+				"Once you've placed a &ddragon egg&r, you can start hatching it by left clicking the egg."
+				""
+				"The habitat of a &ddragon egg&r will change its type. The dragon egg will change types after about 10 seconds. These habitats are as follows:"
+				""
+				"&bAether Dragon &r- Place the &ddragon egg&r above Y level 200."
+				""
+				"&cEnd Dragon &r- Place the &ddragon egg&r in Dragon's Breath (the purple particles spit out by the &8&lEnder Dragon&r)"
+				""
+				"&lSCROLL DOWN FOR MORE!"
+				""
+				"&aForest Dragon&r - Place the &ddragon egg&r in a Jungle biome while nearby leaves, saplings, flowers, moss blocks, moss carpet, or vines."
+				""
+				"&4Fire Dragon&r - Place the &ddragon egg&r in lava, while nearby more lava, fire, magma blocks, or campfires."
+				""
+				"&lGhost Dragon&r - Place the &ddragon egg&r below Y level 0 in a light level between 0 and 2. "
+				""
+				"&3Ice Dragon&r - Place the &ddragon egg&r near ice and snow."
+				""
+				"&4&lNether Dragon&r - Place the &ddragon egg&r in The Nether, while nearby netherrack, nether quartz ore, or nether gold ore."
+				""
+				"&1Water Dragon&r - Place the &ddragon egg&r in water, while near coral, seagrass, kelp, or sea lanterns."
+			]
+			id: "43434D70D90B74D6"
+			rewards: [{
+				count: 192
+				id: "20DC6A6E83106BEC"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "&dDragon eggs&r can be obtained by killing the &8&lEnder Dragon&r and through &eloot chests&r that spawn inside of structures. The breed of a &ddragon egg&r will change based on its habitat. Check the quest description for more information! "
+			tasks: [
+				{
+					id: "73B4C37CFAF9B2CC"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:forest"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "549DC16C7A183D01"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:end"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E9363337229399B"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:fire"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "662C1A31889BE3F2"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514F3B851D24D065"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:nether"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3017E9E4CCED38B1"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:aether"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16E96E7F9B6E5B7A"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ice"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A19BF04E566CE48"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ghost"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Collect all &dDragon Eggs"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43434D70D90B74D6"]
+			description: [
+				"Press &bK&r to control your dragons flight"
+				""
+				"Hold &bZ&r to descend while flying"
+				""
+				"Hold &bSpace&r to fly upwards"
+				""
+				"These keybinds can be changed in the Controls menu ingame."
+			]
+			id: "0826DFD7A8EB1AB6"
+			rewards: [{
+				id: "76953015C3DE42B5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Once your dragon hatches, it will turn into a lizard. You can tame it using fish, and heal it using meats. Once your dragon is fully grown, you can ride it using a saddle! Check the quest description for the dragon's keybinds!"
+			tasks: [{
+				id: "1D0E33EF18CED81F"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Obtain a &eSaddle"
+			x: 13.0d
 			y: 3.5d
 		}
 	]

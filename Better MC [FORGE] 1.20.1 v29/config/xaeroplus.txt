@@ -1,6 +1,6 @@
-[XP] Fast Mapping:false
+[XP] Fast Mapping:true
 [XP] Fast Mapping Delay:250.0
-[XP] Fast Mapping Rate Limit:25.0
+[XP] Fast Mapping Rate Limit:50.0
 [XP] Fast Zip Writes:true
 [XP] Region Writes While Dim Switched:false
 [XP] Baritone Goal Waypoint:true
@@ -8,17 +8,17 @@
 [XP] Disable Receiving Waypoints:false
 [XP] Waystones Sync:true
 [XP] Waystone Color:16
-[XP] Waystone Waypoint Set:false
+[XP] Waystone Waypoint Set:true
 [XP] Persist Dim Switch:true
 [XP] Radar While Dim Switched:true
-[XP] Transparent Obsidian Roof:false
+[XP] Transparent Obsidian Roof:true
 [XP] Roof Y Level:250.0
 [XP] Roof Obsidian Opacity:150.0
 [XP] Roof Snow Opacity:10.0
 [XP] Overlay Opacity Fix:true
 [XP] Min WorldMap Zoom:0.1
 [XP] Cross Dim Cursor Coords:false
-[XP] Prefer Overworld Waypoints:false
+[XP] Prefer Overworld Waypoints:true
 [XP] Show Waypoint Distances:true
 [XP] null OW Dim Dir:true
 [XP] Data Dir Mode:0
@@ -67,7 +67,7 @@
 [XP] Minimap FPS Limiter:false
 [XP] Minimap FPS Limit:60.0
 [XP] Transparent Background:false
-[XP] Minimap Scaling Factor:1.0
+[XP] Minimap Scaling Factor:2.0
 [XP] Minimap Size Multiplier:1.0
 [XP] Switch to Nether:false
 [XP] Switch to Overworld:false

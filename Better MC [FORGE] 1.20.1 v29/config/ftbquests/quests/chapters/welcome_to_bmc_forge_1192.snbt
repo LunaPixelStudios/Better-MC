@@ -136,7 +136,7 @@
 				""
 				"Press &bU &rwhile hovering over an item to view its Uses"
 				""
-				"Press &bZ &rto Crawl"
+				"Press &bLeft Alt &rto Crawl"
 				""
 				"Press &bRight Click &rwhile crouching to hold a block. (Useful for chests, doesn't work on all blocks)"
 				""
@@ -149,7 +149,8 @@
 				"Press &bU&r to see Player Death History"
 				""
 				"Press &bO&r to view the Claiming Screen"
-				"{@pagebreak}"
+				""
+				"Press &bR&r to Ping"
 			]
 			hide: true
 			icon: {

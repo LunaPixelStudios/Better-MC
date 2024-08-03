@@ -1,5 +1,5 @@
-ignoreUpdate:0
-updateNotification:true
+ignoreUpdate:141
+updateNotification:false
 allowInternetAccess:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
@@ -41,7 +41,7 @@ autoCaveMode:-1
 legibleCaveMaps:false
 displayCaveModeStart:true
 caveModeToggleTimer:1000
-defaultCaveModeType:2
+defaultCaveModeType:1
 biomeBlending:true
 trackedPlayers:true
 multipleImagesExport:false
