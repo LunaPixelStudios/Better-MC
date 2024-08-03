@@ -67,14 +67,6 @@
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
 			x: 2.0d
 			y: -2.0d
 		}
@@ -179,16 +171,16 @@
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: 3.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
@@ -243,16 +235,8 @@
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: 3.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
 			x: 7.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
@@ -260,7 +244,31 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.0d
-			y: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
@@ -268,7 +276,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
@@ -276,7 +284,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
@@ -284,7 +292,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
@@ -292,23 +300,39 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: 3.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			height: 1.0d
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: 3.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
@@ -316,7 +340,23 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			height: 1.0d
@@ -324,26 +364,18 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: 3.0d
+			y: -2.0d
 		}
 		{
 			height: 1.0d
 			image: "ftblibrary:textures/icons/star.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
-			y: 3.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.0d
-			y: 3.0d
+			x: 1.0d
+			y: 5.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -415,7 +447,7 @@
 				type: "item"
 			}]
 			title: "Craft &lIron Wolf Armor"
-			x: -0.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -438,7 +470,7 @@
 				type: "item"
 			}]
 			title: "Craft a &6Wrench"
-			x: 2.5d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
@@ -597,7 +629,7 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			subtitle: "Used for easy teleportation between dimensions and far distances."
+			subtitle: "Allows for easy transportation between &lany &rtwo places. Longer transport may consume &aexperience&r."
 			tasks: [{
 				id: "40816443016DB10C"
 				item: "waystones:waystone"
@@ -605,24 +637,6 @@
 			}]
 			title: "Obtain a &6Waystone"
 			x: -5.5d
-			y: 1.5d
-		}
-		{
-			id: "283303A94E452303"
-			rewards: [{
-				count: 3
-				id: "4CCA3743412D0DF4"
-				item: "storagenetwork:kabel"
-				type: "item"
-			}]
-			subtitle: "Read the Network Guide Book for more information."
-			tasks: [{
-				id: "2BA4869E23D65B68"
-				item: "storagenetwork:request"
-				type: "item"
-			}]
-			title: "Craft a &3Storage Request Table"
-			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -640,8 +654,231 @@
 				type: "item"
 			}]
 			title: "Craft a &dCalendar"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "2EEB848257B08A3B"
+			rewards: [{
+				count: 3
+				id: "14450171C10DC135"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			subtitle: "When a pet dies, they will drop a &cPet Collar&r. By clicking the collar onto a &8Charged Respawn Anchor&r (respawn anchors are charged using Glowstone Blocks), the pet will respawn in a &2zombified&r form. This can be reversed in the same way as a &2Zombie Villager&r, using a &6Golden Apple&r and a &8Weakness Potion&r."
+			tasks: [{
+				id: "4086ED8B1DB71163"
+				item: {
+					Count: 1
+					id: "pet_cemetery:pet_collar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a &cPet Collar"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "5EF5597FA5520B00"
+			subtitle: "Allows for easy transport on the same Y axis."
+			tasks: [{
+				id: "67AB7E57F0548C2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+				title: "Any #elevatorid:elevators"
+				type: "item"
+			}]
+			title: "Craft an &eElevator"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "3489512B36DB9628"
+			rewards: [{
+				id: "7B7C0394A3445B50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: " Compact, vertical &4redstone &rsignaling."
+			tasks: [{
+				id: "00697518D4841629"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "03B9C003DAEDF1CE"
+			rewards: [{
+				id: "44FAE8B305B71C3E"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			subtitle: "Reverts &cd&ay&ee&bd &ritems, cleans &6Copper Blocks&r, un&cd&ay&ee&bs &rSheep, and turns &2Sticky &rPistons into Pistons."
+			tasks: [{
+				id: "3AA7F92859BB07AE"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			title: "Craft &dSoap"
 			x: 1.0d
-			y: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "471C87D63FE2A6A4"
+			rewards: [{
+				id: "5886717CC6A7DA78"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Very small entities can be put into a &fJar&r. Right click to release, shift click on a block to place the &fJar&r."
+			tasks: [{
+				id: "44335EDA5736845E"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			title: "Craft a &fJar"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "33602EAD0489BB49"
+			rewards: [{
+				id: "580619F6E051C36D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Allows for remote teleportation to &8Waystones&r."
+			tasks: [{
+				id: "7CF1280AADA836C1"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			title: "Craft a &3Warp Scroll"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "4FBE783DB40E54EE"
+			rewards: [{
+				id: "3BC735314709C585"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "An easy way to store &aexperience levels&r."
+			tasks: [{
+				id: "742CF297B5ED3C79"
+				item: {
+					Count: 1
+					id: "xpbook:xp_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft an &5XP Tome"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "44DB5CC3ACBBCAF4"
+			rewards: [{
+				count: 3
+				id: "578B83BBB2FA549F"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			subtitle: "Tells you the current season. Seasons affect many things - especially crop growth and weather."
+			tasks: [{
+				id: "3A0E3567DE62DBCD"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "Craft a &eCalendar"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "318429EC124E5264"
+			rewards: [{
+				count: 32
+				id: "2E2888F31E927DA9"
+				item: "minecraft:scaffolding"
+				random_bonus: 32
+				type: "item"
+			}]
+			subtitle: "A totem that prevents you from dying in the void, teleporting you to a safe place. Can be equipped in the Trinket slot."
+			tasks: [{
+				id: "12D1019A39525D66"
+				item: "voidtotem:totem_of_void_undying"
+				type: "item"
+			}]
+			title: "Craft a &bTotem of Void Undying"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "333DE86C4B928B4E"
+			rewards: [{
+				id: "5C15A68B2CDFE642"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			subtitle: "Turns items back into the ingredients used to craft them. Map focuses can be found in the Twilight Forest."
+			tasks: [{
+				id: "638B7429D2CF73B9"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			title: "Craft an &cUncrafting Table"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "6861202DAEC8292E"
+			rewards: [{
+				id: "72082D2CB36D4EAF"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 2048 block radius."
+			tasks: [{
+				id: "2B2DDC4CC62CAA4B"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			title: "Craft a &bDiamond Magnum Torch"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "114B902CB4658651"
+			rewards: [{
+				id: "7BC8545A89523151"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{}"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Bounties have varying levels of rewards. You can craft decrees to get new bounties."
+			tasks: [{
+				id: "5E711F394E4964BE"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			title: "Craft a &6Bounty Board"
+			x: -2.5d
+			y: 3.5d
 		}
 	]
 	title: " &fCuriosities&f"

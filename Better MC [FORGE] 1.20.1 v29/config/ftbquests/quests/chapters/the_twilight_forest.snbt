@@ -17,11 +17,10 @@
 			}]
 			subtitle: "To create a Twilight Forest portal, first make a 2x2 infinite water source. Then, place flowers on surrounding grass blocks and throw a diamond into the water."
 			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				icon: "twilightforest:twilight_portal_miniature_structure"
-				id: "43B4B4196E278A86"
-				title: "Enter the Twilight Forest"
-				type: "dimension"
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "19F8C8263E23CE02"
+				type: "advancement"
 			}]
 			title: "Enter &2The Twilight Forest"
 			x: -1.0d
@@ -37,12 +36,10 @@
 			}]
 			subtitle: "Found in forests. Unlocks the &eLich Tower&r."
 			tasks: [{
-				entity: "twilightforest:naga"
-				icon: "twilightforest:naga_trophy"
-				id: "3E3AAB64DD29EF24"
-				title: "Defeat the Naga"
-				type: "kill"
-				value: 1L
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "3C1CB3BAA452081B"
+				type: "advancement"
 			}]
 			title: "Defeat the &aNaga"
 			x: 0.5d
@@ -64,12 +61,10 @@
 			}]
 			subtitle: "Found in forests. Unlocks Labyrinths and Yeti Lairs."
 			tasks: [{
-				entity: "twilightforest:lich"
-				icon: "twilightforest:lich_trophy"
-				id: "5794A56FA9705232"
-				title: "Defeat The Twilight Lich"
-				type: "kill"
-				value: 1L
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "78FF39133171A697"
+				type: "advancement"
 			}]
 			title: "Defeat the &eTwilight Lich"
 			x: 2.0d
@@ -93,12 +88,10 @@
 			]
 			subtitle: "Found in Hollow Hills in swamps. Unlocks The Dark Forest."
 			tasks: [{
-				entity: "twilightforest:hydra"
-				icon: "twilightforest:hydra_trophy"
-				id: "0C2016FE44EF5A17"
-				title: "Defeat the Hydra"
-				type: "kill"
-				value: 1L
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "2A4064BC7BFE10E4"
+				type: "advancement"
 			}]
 			title: "Defeat the &2Hydra"
 			x: 5.0d
@@ -133,12 +126,10 @@
 			}]
 			subtitle: "Found in &fYeti Lairs &rin the &fSnowy Forest&r. Unlocks the &f&lSnow Queen&r."
 			tasks: [{
-				entity: "twilightforest:alpha_yeti"
-				icon: "twilightforest:alpha_yeti_trophy"
-				id: "12C1C8D16C9D9FD1"
-				title: "Defeat the Alpha Yeti"
-				type: "kill"
-				value: 1L
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "3333C51B3A29AF0D"
+				type: "advancement"
 			}]
 			title: "Defeat the &f&lAlpha Yeti"
 			x: 3.5d
@@ -154,12 +145,10 @@
 			}]
 			subtitle: "Found in Glaciers."
 			tasks: [{
-				entity: "twilightforest:snow_queen"
-				icon: "twilightforest:snow_queen_trophy"
-				id: "191F4CCB0B22AB0A"
-				title: "Defeat the Snow Queen"
-				type: "kill"
-				value: 1L
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "2D288216E8C7D9BC"
+				type: "advancement"
 			}]
 			title: "Defeat the &f&lSnow Queen"
 			x: 5.0d
@@ -270,11 +259,12 @@
 			]
 			subtitle: "Obtained by killing a Minotaur, found in swamp Labyrinths. Unlocks Hollow Hills."
 			tasks: [{
-				id: "1837A3A7F85C4E8E"
-				item: "twilightforest:meef_stroganoff"
-				type: "item"
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "2A33D7EA1175736C"
+				type: "advancement"
 			}]
-			title: "Eat Meef Stroganof"
+			title: "Eat Meef Stroganoff"
 			x: 3.5d
 			y: 0.5d
 		}

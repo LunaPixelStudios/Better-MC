@@ -287,7 +287,7 @@
 	"Inventory Sorting" = false
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 	"Automatic Tool Restock" = true
 
 	[management.quick_armor_swapping]
@@ -1551,7 +1551,7 @@
 	"Microcrafting Helper" = true
 	"Improved Tooltips" = true
 	"Greener Grass" = false
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
 	"Buckets Show Inhabitants" = true

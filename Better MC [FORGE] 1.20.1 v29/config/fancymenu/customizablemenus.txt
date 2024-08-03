@@ -57,15 +57,12 @@ net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 com.jab125.mpuc.client.gui.screen.changelog.ChangelogScreen {
 }
 
-gg.essential.gui.friends.SocialMenu {
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
-net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 

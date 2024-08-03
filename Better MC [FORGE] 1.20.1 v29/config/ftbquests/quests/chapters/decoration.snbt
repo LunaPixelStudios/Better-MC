@@ -5,7 +5,7 @@
 	group: "5EC606153AA8CA77"
 	icon: "everycomp:tw/blue_skies/crystallized_table"
 	id: "4A6944EF3E0DB874"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -284,6 +284,62 @@
 			title: "Craft a &dSide Table"
 			x: -1.0d
 			y: -1.0d
+		}
+		{
+			id: "46C44C6856C3C97B"
+			rewards: [{
+				id: "379DDB4C04791029"
+				item: "handcrafted:hammer"
+				type: "item"
+			}]
+			subtitle: "Can be used on furniture from the Handcrafted mod to change the furniture color."
+			tasks: [{
+				id: "222D9A8E4EC840FB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:cushions"
+					}
+				}
+				title: "Any #handcrafted:cushions"
+				type: "item"
+			}]
+			title: "Craft a &cCushion"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "5C7D3880C410D7DB"
+			rewards: [
+				{
+					id: "176E6489404A324E"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "244FF4A475AEAC61"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "To create a &fHammock&r, first craft the &fHammock Cloth&r. Then, craft two &2Rope and Nails&r. With a gap of four blocks, place the two &2Rope and Nails&r, with the &fHammock Cloth&r connected."
+			tasks: [{
+				id: "075412A42ACCE8A5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:hammocks"
+					}
+				}
+				title: "Any #comforts:hammocks"
+				type: "item"
+			}]
+			title: "Craft a &f&lHammock"
+			x: 3.5d
+			y: -2.5d
 		}
 	]
 	title: " Decoration"

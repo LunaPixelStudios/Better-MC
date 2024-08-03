@@ -10,13 +10,12 @@
     "file/waystones_1.20.zip",
     "file/Better_Modded_GUI.zip",
     "file/NoBushyLeaves.zip",
-    "fabric",
-    "builtin/DAGoldenSwetBallFixClient",
     "builtin/resource/overrides_pack",
-    "builtin/resource/redux_tips",
     "file/Icon Xaero's 1.14 HF.zip",
     "file/Aether Regenerated v1.2.1.zip",
-    "file/Mandalas_Legacy_Gui_Background.zip"
+    "file/Mandalas_Legacy_Gui_Background.zip",
+    "file/Mandala's GUI - Dark mode Mod Compat 0.2.6 beta.zip",
+    "builtin/overrides/golden_swet_ball/DAGoldenSwetBallFixClient"
 
   ],
   "default_overrides": {

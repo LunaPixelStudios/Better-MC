@@ -99,7 +99,7 @@
 			rewards: [{
 				id: "4865893101B5F37C"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 15
 			}]
 			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r."
 			tasks: [{
@@ -124,9 +124,9 @@
 			dependencies: ["46D0AAEEB69E28B3"]
 			id: "0BFD8ED8A0E3AE60"
 			rewards: [{
-				id: "1FB79B0A8B0FBE90"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "3CCFD3CC570F65BC"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
 			}]
 			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
 			tasks: [{

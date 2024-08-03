@@ -222,6 +222,7 @@
 				type: "item"
 			}]
 			size: 1.5d
+			subtitle: "Breaking a log with an axe will destroy the entire tree attached. Sneaking while destroying a log will prevent this."
 			tasks: [{
 				id: "0470194500CBE26C"
 				item: {
@@ -335,6 +336,104 @@
 			}]
 			x: 11.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "1FA308C8C319403E"
+			rewards: [{
+				id: "0C267DF448BB3193"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "goblintraders:luck"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found by using a brush on Suspicious Sand in the Desert."
+			tasks: [{
+				id: "601A59E76485A542"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			title: "Dig up a &eNecklace of the Desert"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FA308C8C319403E"]
+			id: "3103B2CFCFDB2173"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36B8752F3E13A8DA"
+					table_id: 327386274853989853L
+					type: "choice"
+				}
+				{
+					id: "41A7430DB03A2ABB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found at the bottom of the &cCursed Pyramid&r, which spawns in deserts. Awaken the boss with the &eNecklace of the Desert&r. This boss is &lvery&r difficult and you will need to be properly prepared."
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "4B0CA66749CB35C7"
+				title: "Defeat an &6Ancient Remnant"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "49E6DC9CF4CAAAD9"
+			rewards: [{
+				count: 2
+				id: "7E0D3DD390A54784"
+				item: "spawnersplus:spawner_fragment"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Obtained by mining spawners. The level of Fortune on your pickaxe affects how many fragments drop from a spawner."
+			tasks: [{
+				id: "23A051B83028FB3D"
+				item: "spawnersplus:spawner_fragment"
+				type: "item"
+			}]
+			title: "Obtain &8Spawner Fragments"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49E6DC9CF4CAAAD9"]
+			id: "2B5FCD2A3579C941"
+			rewards: [{
+				id: "5A1688603A12AE38"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Killing mobs with the &2Soul Stealing&r enchantment gives them a chance to drop &1Mob Souls&r. By clicking a &1Mob Soul&r onto an Inactive Spawner, the spawner will become active."
+			tasks: [{
+				id: "2744C691D23BEEC8"
+				item: "spawnersplus:inactive_spawner"
+				type: "item"
+			}]
+			title: "Craft an &cInactive Spawner"
+			x: 14.0d
+			y: 3.5d
 		}
 	]
 	title: " &aOverworld"
