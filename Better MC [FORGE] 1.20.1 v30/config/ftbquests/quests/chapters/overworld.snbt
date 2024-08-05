@@ -1,0 +1,608 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:grass_block"
+	id: "1D4E5CDD59FFB7A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "268A05DFD4D5427A"
+			rewards: [
+				{
+					count: 12
+					id: "14F327BA69B975BD"
+					item: "blue_skies:turquoise_stonebrick"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2D05266B3F98B211"
+					item: "blue_skies:lunar_stonebrick"
+					type: "item"
+				}
+			]
+			subtitle: "Gatekeeper Houses can be found in most biomes"
+			tasks: [{
+				id: "08CA723FD16E3030"
+				item: "blue_skies:blue_journal"
+				title: "Obtain a Blue Journal from the Gatekeeper"
+				type: "item"
+			}]
+			title: "Obtain a &9Blue Journal &rfrom a Gatekeeper"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "6A12B1FE7B703F9D"
+			rewards: [{
+				id: "1C1C43B99CC8E4E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "When equipped, press &bB&r for easy access"
+			tasks: [{
+				id: "44740305C2A8DC52"
+				item: "backpacked:backpack"
+				title: "Craft a Backpack"
+				type: "item"
+			}]
+			title: "Craft a &2Backpack"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "3DAB175493B08089"
+			rewards: [{
+				id: "29B13597289089F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in Dark Oak Forests"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "10911C878598A90F"
+				title: "Kill the Conjurer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Conjurer"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "26EA75D177BC496B"
+			rewards: [
+				{
+					id: "2F1EFCBC72F69624"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6DA1A2B30558A913"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Raids are started by killing Illager Captains, the same way as normal"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "7362BF4629FAD929"
+				title: "Defend a Village"
+				type: "advancement"
+			}]
+			title: "Defend a Village from a &4Raid"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "3EA4CB4D9C90B767"
+			rewards: [{
+				id: "0EF5197E4E7ED8F3"
+				item: "conjurer_illager:throwable_ball"
+				type: "item"
+			}]
+			subtitle: "Found in &eIllusioner Towers&r"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "illagerinvasion:illusionary_dust"
+				id: "39A27C60C2775BD5"
+				title: "Defeat the &cIllusioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "1A878EB6FEC31A26"
+			rewards: [{
+				count: 3
+				id: "4794A29BDF3A8992"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &bOceanographer"
+			tasks: [{
+				id: "76FC0860F717FB35"
+				item: "villagersplus:oceanographer_table"
+				type: "item"
+			}]
+			title: "Craft an &bAquarium"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "6280E25813EA2805"
+			rewards: [{
+				count: 3
+				id: "020B040C4D079A06"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &dOccultist"
+			tasks: [{
+				id: "3594A94ECDBC14FB"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			title: "Craft an &dEnchanted Basin"
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "32C4134E67E71063"
+			rewards: [{
+				count: 3
+				id: "7DD343C14E49B4ED"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into a &5Alchemist"
+			tasks: [{
+				id: "72527896BB77CECD"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "Craft an &5Alchemist Table"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			icon: "cataclysm:mech_eye"
+			id: "1A118FBA223B14F9"
+			rewards: [{
+				id: "67D6BA05D7B17542"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Found in the &6Ancient Factories&r, in the Overworld Caves."
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "6C6A449FB595E875"
+				title: "Defeat the &4Harbringer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &4Harbringer"
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			id: "2574E7CF699D5B45"
+			rewards: [{
+				count: 2
+				id: "0B64280DCDE3B078"
+				item: "minecraft:oak_log"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Breaking a log with an axe will destroy the entire tree attached. Sneaking while destroying a log will prevent this."
+			tasks: [{
+				id: "0470194500CBE26C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Obtain a &2Wooden Log"
+			x: 13.035714285714278d
+			y: 0.3571428571428541d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			icon: "cataclysm:abyss_eye"
+			id: "0353FDDEA821D925"
+			rewards: [{
+				id: "3118E1F5F18B73C8"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Found in the &9Sunken City&r, at the seas."
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_baby_leviathan_bucket"
+				id: "0A7A8D8140025392"
+				title: "Defeat &dThe Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &dLeviathan"
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "233BA969DA5AA027"
+			rewards: [{
+				id: "4855400530BD87E7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Spawns randomly underground in boss rooms."
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "3333928391216A43"
+				title: "Defeat the &7Ferrous Wroughtnaut"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "5CEF21E35885E955"
+			rewards: [{
+				id: "72B831667F31BD94"
+				item: "friendsandfoes:totem_of_freezing"
+				type: "item"
+			}]
+			subtitle: "Found in &fsnowy&r biomes."
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "648F394BA53947B6"
+				title: "Defeat the &bFrostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "0226F89EEC57C5EC"
+			rewards: [{
+				id: "78658FFD3CABA528"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found upon his throne in &eSavanna &rbiomes"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:grant_suns_blessing"
+				id: "2498701E7715A09B"
+				title: "Defeat &eUmvuthi, the Sunbird"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "1FA308C8C319403E"
+			rewards: [{
+				id: "0C267DF448BB3193"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "goblintraders:luck"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found by using a brush on Suspicious Sand in the Desert."
+			tasks: [{
+				id: "601A59E76485A542"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			title: "Dig up a &eNecklace of the Desert"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FA308C8C319403E"]
+			id: "3103B2CFCFDB2173"
+			rewards: [
+				{
+					id: "41A7430DB03A2ABB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52CF5725728C0483"
+					table_id: 327386274853989853L
+					type: "random"
+				}
+			]
+			subtitle: "Found at the bottom of the &cCursed Pyramid&r, which spawns in deserts. Awaken the boss with the &eNecklace of the Desert&r. This boss is &lvery&r difficult and you will need to be properly prepared."
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "4B0CA66749CB35C7"
+				title: "Defeat an &6Ancient Remnant"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "49E6DC9CF4CAAAD9"
+			rewards: [{
+				count: 2
+				id: "7E0D3DD390A54784"
+				item: "spawnersplus:spawner_fragment"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Obtained by mining spawners. The level of Fortune on your pickaxe affects how many fragments drop from a spawner."
+			tasks: [{
+				id: "23A051B83028FB3D"
+				item: "spawnersplus:spawner_fragment"
+				type: "item"
+			}]
+			title: "Obtain &8Spawner Fragments"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49E6DC9CF4CAAAD9"]
+			id: "2B5FCD2A3579C941"
+			rewards: [{
+				id: "5A1688603A12AE38"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Killing mobs with the &2Soul Stealing&r enchantment gives them a chance to drop &1Mob Souls&r. By clicking a &1Mob Soul&r onto an Inactive Spawner, the spawner will become active."
+			tasks: [{
+				id: "2744C691D23BEEC8"
+				item: "spawnersplus:inactive_spawner"
+				type: "item"
+			}]
+			title: "Craft an &cInactive Spawner"
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			description: [
+				"Once you've placed a &ddragon egg&r, you can start hatching it by left clicking the egg."
+				""
+				"The habitat of a &ddragon egg&r will change its type. The dragon egg will change types after about 10 seconds. These habitats are as follows:"
+				""
+				"&bAether Dragon &r- Place the &ddragon egg&r above Y level 200."
+				""
+				"&cEnd Dragon &r- Place the &ddragon egg&r in Dragon's Breath (the purple particles spit out by the &8&lEnder Dragon&r)"
+				""
+				"&lSCROLL DOWN FOR MORE!"
+				""
+				"&aForest Dragon&r - Place the &ddragon egg&r in a Jungle biome while nearby leaves, saplings, flowers, moss blocks, moss carpet, or vines."
+				""
+				"&4Fire Dragon&r - Place the &ddragon egg&r in lava, while nearby more lava, fire, magma blocks, or campfires."
+				""
+				"&lGhost Dragon&r - Place the &ddragon egg&r below Y level 0 in a light level between 0 and 2. "
+				""
+				"&3Ice Dragon&r - Place the &ddragon egg&r near ice and snow."
+				""
+				"&4&lNether Dragon&r - Place the &ddragon egg&r in The Nether, while nearby netherrack, nether quartz ore, or nether gold ore."
+				""
+				"&1Water Dragon&r - Place the &ddragon egg&r in water, while near coral, seagrass, kelp, or sea lanterns."
+			]
+			id: "43434D70D90B74D6"
+			rewards: [{
+				count: 192
+				id: "20DC6A6E83106BEC"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "&dDragon eggs&r can be obtained by killing the &8&lEnder Dragon&r and through &eloot chests&r that spawn inside of structures. The breed of a &ddragon egg&r will change based on its habitat. Check the quest description for more information! "
+			tasks: [
+				{
+					id: "73B4C37CFAF9B2CC"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:forest"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "549DC16C7A183D01"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:end"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E9363337229399B"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:fire"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "662C1A31889BE3F2"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514F3B851D24D065"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:nether"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3017E9E4CCED38B1"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:aether"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16E96E7F9B6E5B7A"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ice"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A19BF04E566CE48"
+					item: {
+						Count: 1
+						id: "dragonmounts:dragon_egg"
+						tag: {
+							BlockEntityTag: {
+								Breed: "dragonmounts:ghost"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Collect all &dDragon Eggs"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43434D70D90B74D6"]
+			description: [
+				"Hold &bZ&r to descend while flying"
+				""
+				"Hold &bSpace&r to fly upwards"
+				""
+				"These keybinds can be changed in the Controls menu ingame."
+			]
+			id: "0826DFD7A8EB1AB6"
+			rewards: [{
+				id: "76953015C3DE42B5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Once your dragon hatches, it will turn into a lizard. You can tame it using fish, and heal it using meats. Once your dragon is fully grown, you can ride it using a saddle! Check the quest description for the dragon's keybinds!"
+			tasks: [{
+				id: "1D0E33EF18CED81F"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Obtain a &eSaddle"
+			x: 13.0d
+			y: 3.5d
+		}
+	]
+	title: " &aOverworld"
+}
