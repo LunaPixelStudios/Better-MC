@@ -1,0 +1,14 @@
+{
+	icon: "minecraft:netherite_block"
+	id: "048B1C151902ADDD"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "advancednetherite:netherite_iron_ingot" }
+		{ item: "advancednetherite:netherite_gold_ingot" }
+		{ item: "advancednetherite:netherite_emerald_ingot" }
+		{ item: "advancednetherite:netherite_diamond_ingot" }
+		{ item: "minecraft:enchanted_golden_apple" }
+	]
+	title: "Netherite Ingots"
+}
