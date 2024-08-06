@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1722524003671
+  last_edited_time = 1722928423014
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:c46d5e4f-2f78-4512-8ffd-5d56bbf7f08b-1722523988447] = [groups:][instances:]
+  [loading_requirement_container_meta:1adce2fb-76b3-4a2d-af49-037dd3f3efee-1722928411342] = [groups:][instances:]
 }
 
 menu_background {
@@ -31,6 +31,8 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
 }
 
 element {

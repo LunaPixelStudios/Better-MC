@@ -3,40 +3,64 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-com.blamejared.controlling.client.NewKeyBindsScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.ConfirmLinkScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.EditServerScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.LevelLoadingScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
 net.minecraft.client.gui.screens.PauseScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
+net.minecraft.client.gui.screens.ShareToLanScreen {
 }
 
-net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+com.jab125.mpuc.client.gui.screen.changelog.ChangelogScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
 net.minecraft.client.gui.screens.options.OptionsScreen {
