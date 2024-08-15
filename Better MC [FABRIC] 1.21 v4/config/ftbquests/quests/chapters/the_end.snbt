@@ -13,7 +13,7 @@
 		{
 			id: "2C23A9F30CBE3F4E"
 			rewards: [{
-				id: "4B72D80F8B6FAFD8"
+				id: "4B034F4B316EFC20"
 				item: {
 					count: 1
 					id: "betterend:guidebook"
@@ -35,7 +35,7 @@
 			dependencies: ["2C23A9F30CBE3F4E"]
 			id: "1FA3F627BCFF93F5"
 			rewards: [{
-				id: "6E2B29EF1582270C"
+				id: "2AB900DCB93F58C5"
 				item: {
 					count: 1
 					id: "adventurez:dragon_saddle"
@@ -56,36 +56,6 @@
 		}
 		{
 			dependencies: ["2C23A9F30CBE3F4E"]
-			id: "7E5FC5E13FFF2D6C"
-			rewards: [
-				{
-					id: "0A5A507FD247009F"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					id: "0109CBDA9D7F1EB6"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:levitation_block"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				icon: {
-					id: "bosses_of_mass_destruction:obsidian_heart"
-				}
-				id: "4497666E1477F3A1"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2C23A9F30CBE3F4E"]
 			id: "4D6CF923E92972CD"
 			rewards: [{
 				id: "4809C3912BC55A52"
@@ -93,22 +63,16 @@
 				xp_levels: 20
 			}]
 			tasks: [{
-				entity: "adventurez:the_eye"
-				icon: {
-					id: "minecraft:ender_eye"
-				}
-				id: "3C29130D1554F7DB"
-				type: "kill"
-				value: 1L
+				advancement: "adventurez:the_eye_advancement"
+				criterion: ""
+				id: "33E926906B6796F0"
+				type: "advancement"
 			}]
 			x: 2.5d
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"7E5FC5E13FFF2D6C"
-				"2C23A9F30CBE3F4E"
-			]
+			dependencies: ["2C23A9F30CBE3F4E"]
 			id: "246AB6FA4BDD0908"
 			rewards: [
 				{
@@ -117,7 +81,7 @@
 					xp_levels: 20
 				}
 				{
-					id: "6F355D476799CC02"
+					id: "0255785E1320ABB5"
 					item: {
 						count: 1
 						id: "bosses_of_mass_destruction:monolith_block"
@@ -125,7 +89,7 @@
 					type: "item"
 				}
 				{
-					id: "7AFBD891B19A5290"
+					id: "737DEC8DA1E59F30"
 					item: {
 						count: 1
 						id: "adventurez:shadow_chest"
@@ -142,7 +106,7 @@
 				id: "2A2B668B1E7B490E"
 				type: "advancement"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -154,7 +118,7 @@
 				xp_levels: 15
 			}]
 			tasks: [{
-				id: "6A848F2E5366BFF5"
+				id: "20ABB8C75A03CDF2"
 				item: { count: 1, id: "dragonloot:dragon_anvil" }
 				type: "item"
 			}]

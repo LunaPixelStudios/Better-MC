@@ -14,7 +14,7 @@
 			id: "4185D9740B80E39D"
 			rewards: [{
 				count: 3
-				id: "3BCA886BC8F09DC7"
+				id: "6FD73C2AB049EC66"
 				item: {
 					count: 1
 					id: "minecraft:emerald"
@@ -22,25 +22,21 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3AA524206ED7565E"
+				id: "1A87110D51613032"
 				item: { count: 1, id: "tradingpost:trading_post" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -3.5d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			id: "5F0FC5A5035E29B0"
 			rewards: [{
-				id: "594281C57F3471D7"
+				count: 16
+				id: "78535C006B1E1D87"
 				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:long_night_vision"
-						}
-					}
 					count: 1
-					id: "minecraft:splash_potion"
+					id: "minecraft:torch"
 				}
 				type: "item"
 			}]
@@ -49,8 +45,8 @@
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.5d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			id: "22135D7A4301D684"
@@ -64,14 +60,14 @@
 				item: { count: 1, id: "xp_storage:xp_book" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: -0.5d
+			y: -3.5d
 		}
 		{
 			id: "1E65308E968AF323"
 			rewards: [{
 				count: 3
-				id: "0ACEEFC15F4EEFF7"
+				id: "0222F0DF696FA1F5"
 				item: {
 					count: 1
 					id: "minecraft:melon_seeds"
@@ -79,12 +75,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "475C611E6274AD07"
+				id: "15B384EA2101FE2C"
 				item: { count: 1, id: "sereneseasons:calendar" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.5d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["22135D7A4301D684"]
@@ -99,8 +95,8 @@
 				item: { count: 1, id: "xp_storage_trinkets:xp_conduit" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["22135D7A4301D684"]
@@ -116,7 +112,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -0.5d
+			y: -3.5d
 		}
 		{
 			id: "4D2619AE1CA96DCE"
@@ -126,18 +122,18 @@
 				xp_levels: 10
 			}]
 			tasks: [{
-				id: "20A67B9BF8CE13D3"
+				id: "0D435DAA40E7BCA7"
 				item: { count: 1, id: "bosses_of_mass_destruction:charged_ender_pearl" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			id: "588E2CE453549BF6"
 			rewards: [{
 				count: 3
-				id: "4ACA8F73BE69F0B4"
+				id: "0D660BE4EF0C5B15"
 				item: {
 					count: 1
 					id: "minecraft:gold_ingot"
@@ -145,18 +141,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5406AF5479F8E25A"
+				id: "2D3E23BB392D7590"
 				item: { count: 1, id: "adventurez:piglin_flag" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
 			id: "440DEBFE3004F52C"
 			rewards: [{
 				count: 3
-				id: "1C49438CBBC43EE9"
+				id: "777B9FFC6DBE93E2"
 				item: {
 					count: 1
 					id: "minecraft:leather"
@@ -164,12 +160,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "03AC7120961C4DC9"
+				id: "6EDFEAA7F07D4364"
 				item: { count: 1, id: "comforts:sleeping_bag_white" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			id: "4416D33801F5E4B3"
@@ -184,7 +180,7 @@
 				}
 				{
 					count: 2
-					id: "6D95B06071427D39"
+					id: "414009535EE1FC8C"
 					item: {
 						count: 1
 						id: "minecraft:leather"
@@ -193,50 +189,64 @@
 				}
 			]
 			tasks: [{
-				id: "0E9C6B692ED9ABCE"
+				id: "209BA5406FED1F4A"
 				item: { count: 1, id: "comforts:hammock_white" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.5d
+			y: 1.0d
 		}
 		{
 			id: "5EECC9893E56A5A1"
 			rewards: [{
-				count: 8
-				id: "02C12B445418F57F"
+				count: 16
+				id: "32C932D8331882FD"
 				item: {
 					count: 1
-					id: "minecraft:oak_log"
+					id: "minecraft:stone"
 				}
-				random_bonus: 8
 				type: "item"
 			}]
 			tasks: [{
-				id: "75CEF7B8589572D7"
+				id: "25191ACC199A6055"
 				item: { count: 1, id: "minecraft:stonecutter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "4BBAB429C5402A23"
 			rewards: [{
-				id: "410502DB76CB08CC"
+				id: "2794EE43FCF95403"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C86FC8F05F7972E"
+				item: { count: 1, id: "handcrafted:white_cushion" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "08294911FF1A808E"
+			rewards: [{
+				count: 8
+				id: "3ADFE7FA953AB1C0"
 				item: {
 					count: 1
-					id: "handcrafted:hammer"
+					id: "minecraft:oak_log"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "1FDCEB17E17164D2"
-				item: { count: 1, id: "handcrafted:white_cushion" }
+				id: "46F2673C0F138F59"
+				item: { count: 1, id: "sawmill:sawmill" }
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.0d
+			y: -0.5d
 		}
 	]
 }

@@ -22,7 +22,7 @@
 					type: "item"
 				}
 				{
-					id: "78752345B2E87F1F"
+					id: "52606813314D0B6B"
 					item: {
 						count: 1
 						id: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
@@ -46,7 +46,7 @@
 			dependencies: ["5669A0DAB45F2C62"]
 			id: "6A5111F402D746D5"
 			rewards: [{
-				id: "75282259C25CC128"
+				id: "78FC500771B10A1E"
 				item: {
 					count: 1
 					id: "the_bumblezone:music_disc_la_bee_da_loca"
@@ -70,15 +70,15 @@
 			dependencies: ["5669A0DAB45F2C62"]
 			id: "1085588F956F6781"
 			rewards: [{
-				id: "34ABC67BDD611558"
+				id: "4EAAD157651B039B"
 				item: {
 					count: 1
-					id: "the_bumblezone:music_disc_la_bee_da_loca"
+					id: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "04FEEC415DD7A0E9"
+				id: "3348684085CDBD03"
 				item: { count: 1, id: "the_bumblezone:pollen_puff" }
 				type: "item"
 			}]
@@ -88,21 +88,11 @@
 		{
 			dependencies: ["5669A0DAB45F2C62"]
 			id: "619FF16C8CF1058C"
-			rewards: [
-				{
-					id: "058741F80A9B44E6"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "7F3C54226F26F0B5"
-					item: {
-						count: 1
-						id: "the_bumblezone:bee_soup"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "058741F80A9B44E6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:flower_pot"
@@ -118,7 +108,7 @@
 			dependencies: ["5669A0DAB45F2C62"]
 			id: "369D2467D02270EC"
 			rewards: [{
-				id: "31975D3855E35F1F"
+				id: "32947D10516C105F"
 				item: {
 					count: 1
 					id: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
@@ -143,11 +133,7 @@
 			id: "6164202DAC398029"
 			rewards: [{
 				count: 2
-				id: "347FEC998DC6F9BB"
-				item: {
-					count: 1
-					id: "the_bumblezone:honey_crystal_shards"
-				}
+				id: "2B885ADD87CCAAE4"
 				type: "item"
 			}]
 			tasks: [{

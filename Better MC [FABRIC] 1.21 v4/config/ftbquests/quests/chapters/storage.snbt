@@ -20,16 +20,26 @@
 	quests: [
 		{
 			id: "5BCF9D61C52EABCC"
-			rewards: [{
-				id: "72A7B8BE336C5891"
-				item: {
-					count: 1
-					id: "minecraft:ender_pearl"
+			rewards: [
+				{
+					id: "29A4F912FFE4D5D9"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1B53598FA0C439F7"
+					item: {
+						count: 1
+						id: "minecraft:comparator"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "7077AEE48738AF50"
+				id: "6505C70CC69C0BE8"
 				item: { count: 1, id: "toms_storage:storage_terminal" }
 				type: "item"
 			}]
@@ -38,24 +48,13 @@
 		}
 		{
 			id: "2252ACBB97526BB2"
-			rewards: [
-				{
-					id: "513A3A51470E7334"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					count: 8
-					id: "54DDB0C60B37B573"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "513A3A51470E7334"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
-				id: "3DD8DCFB754C5FFA"
+				id: "1109C62D8FB3ABC8"
 				item: { count: 1, id: "toms_storage:inventory_connector" }
 				type: "item"
 			}]
@@ -74,7 +73,7 @@
 				xp_levels: 2
 			}]
 			tasks: [{
-				id: "1F8E10FC4BBA555F"
+				id: "59B1921C7AAD518A"
 				item: { count: 1, id: "toms_storage:inventory_cable" }
 				type: "item"
 			}]
@@ -91,18 +90,17 @@
 					xp_levels: 3
 				}
 				{
-					count: 48
-					id: "5ACE357ABE3B4725"
+					id: "0F09DE931EF5E089"
 					item: {
 						count: 1
-						id: "toms_storage:inventory_cable"
+						id: "minecraft:diamond"
 					}
-					random_bonus: 16
+					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "0ED396DA810F0E81"
+				id: "3033AB1658D66FE9"
 				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
 				type: "item"
 			}]
@@ -112,13 +110,24 @@
 		{
 			dependencies: ["5BCF9D61C52EABCC"]
 			id: "123097813B579C3E"
-			rewards: [{
-				id: "2A71C93A6B21752E"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "2A71C93A6B21752E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3F7C99A10E01EE86"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "5BA551A76D338738"
+				id: "2C41BD31FB9F4C19"
 				item: { count: 1, id: "toms_storage:crafting_terminal" }
 				type: "item"
 			}]
@@ -129,12 +138,15 @@
 			dependencies: ["2252ACBB97526BB2"]
 			id: "2A1BA4AAA2162ECE"
 			rewards: [{
-				id: "065148BE54E365A7"
-				type: "xp_levels"
-				xp_levels: 5
+				id: "7BBD7008E4A2DA18"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
 			}]
 			tasks: [{
-				id: "5263CE26319B0FE2"
+				id: "1EE3B46110B9FD51"
 				item: { count: 1, id: "toms_storage:wireless_terminal" }
 				type: "item"
 			}]
@@ -151,7 +163,7 @@
 					xp_levels: 5
 				}
 				{
-					id: "7C4D0F5F4E392573"
+					id: "5A0B04EEF8EC73E8"
 					item: {
 						components: {
 							"minecraft:stored_enchantments": {
@@ -167,7 +179,7 @@
 				}
 			]
 			tasks: [{
-				id: "521BDB61B1A6F3D3"
+				id: "68A0DEE70384C827"
 				item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
 				type: "item"
 			}]

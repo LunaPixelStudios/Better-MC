@@ -13,7 +13,7 @@
 		{
 			id: "50F23C5899469ADB"
 			rewards: [{
-				id: "117364FD22453141"
+				id: "70CAE216D3839FF9"
 				item: {
 					components: {
 						"minecraft:potion_contents": {
@@ -47,7 +47,7 @@
 					xp_levels: 10
 				}
 				{
-					id: "62F9D99659FDE4D2"
+					id: "449D2D0B999E6420"
 					item: {
 						count: 1
 						id: "bosses_of_mass_destruction:brimstone_nectar"
@@ -60,19 +60,39 @@
 				icon: {
 					id: "minecraft:blaze_rod"
 				}
-				id: "0D87929CAF21FADA"
+				id: "7029153A709704A5"
 				type: "kill"
 				value: 1L
 			}]
 			x: 7.5d
-			y: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50F23C5899469ADB"]
+			id: "3C6AC5C1F553653F"
+			rewards: [{
+				id: "280091B4948F14F4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "239DC09AF0907ECC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50F23C5899469ADB"]
 			id: "6228AC7FFB8B4C6A"
 			rewards: [
 				{
-					id: "1CDEDA92A5F08616"
+					id: "1AB1AAA655F7CCF9"
 					item: {
 						count: 1
 						id: "minecraft:golden_apple"
@@ -80,7 +100,7 @@
 					type: "item"
 				}
 				{
-					id: "56EEBD92EFF6BA6D"
+					id: "237D8F2CC2753392"
 					item: {
 						count: 1
 						id: "minecraft:gold_block"
@@ -90,38 +110,32 @@
 			]
 			tasks: [{
 				entity: "adventurez:piglin_beast"
-				icon: {
-					id: "minecraft:piglin_head"
-				}
 				id: "60C901C781840EE6"
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["50F23C5899469ADB"]
 			id: "6FE3E409F3305431"
 			rewards: [{
-				id: "16641D3C35306534"
+				id: "14B8B29FC912B931"
 				item: {
 					count: 1
-					id: "friendsandfoes:totem_of_freezing"
+					id: "bosses_of_mass_destruction:blazing_eye"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				entity: "bosses_of_mass_destruction:gauntlet"
-				icon: {
-					id: "bosses_of_mass_destruction:blazing_eye"
-				}
-				id: "746282A3B3D28D48"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				id: "6FA5784F6709E41C"
+				type: "advancement"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["50F23C5899469ADB"]
@@ -129,7 +143,7 @@
 			rewards: [
 				{
 					count: 6
-					id: "692E98E44987DECE"
+					id: "39BA7BE94D36E782"
 					item: {
 						count: 1
 						id: "adventurez:gilded_netherite_fragment"
@@ -137,32 +151,29 @@
 					type: "item"
 				}
 				{
-					id: "6DEF8D3734DDFF9D"
+					id: "7FE6CDFAD5A51C18"
 					item: {
 						count: 1
-						id: "minecraft:enchanted_golden_apple"
+						id: "minecraft:golden_apple"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				entity: "adventurez:blackstone_golem"
-				icon: {
-					id: "adventurez:blackstone_golem_heart"
-				}
-				id: "040286EF28AB4F76"
-				type: "kill"
-				value: 1L
+				advancement: "adventurez:blackstone_golem_advancement"
+				criterion: ""
+				id: "0B635EF147B34BE5"
+				type: "advancement"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["50F23C5899469ADB"]
 			id: "0DFA02E6F9FF12EF"
 			rewards: [{
 				count: 3
-				id: "20D50BD9B072F199"
+				id: "622E126D2CA9AEFB"
 				item: {
 					count: 1
 					id: "minecraft:netherite_scrap"
@@ -180,7 +191,7 @@
 				value: 1L
 			}]
 			x: 3.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["50F23C5899469ADB"]
@@ -191,16 +202,16 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				entity: "friendsandfoes:wildfire"
+				advancement: "friendsandfoes:nether/kill_wildfire"
+				criterion: ""
 				icon: {
 					id: "friendsandfoes:wildfire_crown"
 				}
-				id: "3C02A17229E78D78"
-				type: "kill"
-				value: 1L
+				id: "425A2EC68CC1B882"
+				type: "advancement"
 			}]
-			x: 5.5d
-			y: 4.0d
+			x: 7.0d
+			y: 3.5d
 		}
 	]
 }
