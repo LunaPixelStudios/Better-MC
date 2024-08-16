@@ -409,5 +409,42 @@
 			x: 6.0d
 			y: 0.0d
 		}
+		{
+			id: "297701404265C093"
+			rewards: [{
+				count: 8
+				id: "6324E8504633B2E4"
+				item: {
+					count: 1
+					id: "betterend:pythadendron_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4504F0443A8521EB"
+				item: { count: 1, id: "sawmill:sawmill" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "1ABA46B046733CA1"
+			rewards: [{
+				id: "5AAAB7D843FCE9F9"
+				item: {
+					count: 1
+					id: "farmersdelight:noodle_soup"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7482613871CC635B"
+				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
 	]
 }

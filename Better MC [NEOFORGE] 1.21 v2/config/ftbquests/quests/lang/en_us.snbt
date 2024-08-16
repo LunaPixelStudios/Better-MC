@@ -6,6 +6,7 @@
 	chapter.537C6DB0026E6B7D.title: " &fCuriosities&f"
 	chapter_group.5BBB507BE497896B.title: "&5Dimensions"
 	chapter_group.5EC606153AA8CA77.title: "&bOddities"
+	file.0000000000000001.title: "Better MC [NEOFORGE] 1.21"
 	quest.009EC4156DE356FD.quest_subtitle: "Allows for easy transportation between &lany &rtwo places. Longer transport may consume &aexperience&r."
 	quest.009EC4156DE356FD.title: "Obtain a &6Waystone"
 	quest.0172BB881A7259C8.title: "Craft a &dWooden Bench"
@@ -53,6 +54,8 @@
 	quest.17EE59DC9B0C44B7.title: "Defeat the &cStarlit Crusher"
 	quest.192EE909C57F390A.quest_subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
 	quest.192EE909C57F390A.title: "Kill a &3Stalker"
+	quest.1ABA46B046733CA1.quest_subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 2048 block radius."
+	quest.1ABA46B046733CA1.title: "Craft a &bDiamond Magnum Torch"
 	quest.207769EC3251F70E.quest_subtitle: "Found Hidden in the Nature's Dungeon."
 	quest.207769EC3251F70E.title: "Collect 4 &aDungeon Keys"
 	quest.2165E80C52C79992.quest_desc: [
@@ -97,6 +100,8 @@
 	]
 	quest.2958CA7FA6FD3E4F.quest_subtitle: "Read my description!"
 	quest.2958CA7FA6FD3E4F.title: "&2Inventory"
+	quest.297701404265C093.quest_subtitle: "Same utility as a &eStone Cutter&r, but for wood."
+	quest.297701404265C093.title: "Craft a&1 Sawmill"
 	quest.2A51F2BA00FCA9DF.quest_subtitle: "Respawned the same way as normal - placing an end crystal on all four cardinal directions on the exit portal's outer rim."
 	quest.2A51F2BA00FCA9DF.title: "Defeat the &8&lEnder Dragon"
 	quest.2BC7B74C1D405B3B.quest_subtitle: "To create a Twilight Forest portal, first make a 2x2 infinite water source. Then, place flowers on surrounding grass blocks and throw a diamond into the water."
