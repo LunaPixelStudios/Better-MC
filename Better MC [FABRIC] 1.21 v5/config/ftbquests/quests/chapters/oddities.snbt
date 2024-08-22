@@ -248,5 +248,63 @@
 			x: -0.5d
 			y: -0.5d
 		}
+		{
+			id: "1E01F0A6354F15F6"
+			rewards: [{
+				count: 3
+				id: "20D6D9C2ABF32785"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FCB5DAA78CD5D32"
+				item: { count: 1, id: "barteringstation:bartering_station" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "55949A5DC9264888"
+			rewards: [{
+				count: 6
+				id: "22D2B94CF073F6B0"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "75281281A477293E"
+				item: { count: 1, id: "netherchested:nether_chest" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "7FE42B256F9BC9DF"
+			rewards: [{
+				count: 16
+				id: "04A7D6A6455F10B1"
+				item: {
+					count: 1
+					id: "minecraft:spectral_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "100849599C81C2CC"
+				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
 	]
 }

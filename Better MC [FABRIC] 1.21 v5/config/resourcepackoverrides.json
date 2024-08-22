@@ -5,11 +5,10 @@
     "vanilla",
     "file/Stay_True_1.21.zip",
     "file/MandalasGUI+Dakmode_1.20.5.zip",
-    "file/Mandala's GUI - Dark mode Mod Compat 0.2.6 beta.zip",
-    "continuity:default",
-    "continuity:glass_pane_culling_fix",
+    "file/Mandala's GUI - Dark mode Mod Compat 0.2.7 beta.zip",
     "file/NoBushyLeaves.zip",
-    "file/Better_MC.zip"
+    "file/Better_MC.zip",
+    "moonlight:mods_dynamic_assets"
 
   ],
   "default_overrides": {
