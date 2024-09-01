@@ -1,7 +1,7 @@
 {
   "disableRecipebook": {
     "desc:": "Whether to disable the recipe book entirely, removes the button on client side and removes synced data on server side: default:false",
-    "disableRecipebook": true
+    "disableRecipebook": false
   },
   "enableBetterRecipebookSorting": {
     "desc:": "Enables better sorting for the list of displayed recipes in the recipebook, craftables and recently used recipes are priotized: default:true",
