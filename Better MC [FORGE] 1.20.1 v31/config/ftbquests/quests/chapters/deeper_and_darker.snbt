@@ -20,13 +20,12 @@
 			size: 2.0d
 			subtitle: "Found underground in the &aOverworld&r."
 			tasks: [{
-				entity: "minecraft:warden"
-				id: "37E411F497C9CD71"
-				title: "Kill a Warden"
-				type: "kill"
-				value: 1L
+				advancement: "deeperdarker:main/kill_warden"
+				criterion: ""
+				id: "5433FB41B762C5D9"
+				type: "advancement"
 			}]
-			title: "Kill a &3Warden"
+			title: "Defeat a &3Warden"
 			x: 7.0d
 			y: 4.0d
 		}
@@ -82,6 +81,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			subtitle: "Spawns in &cDeeplands&r and &dEchoing Forests&r"
 			tasks: [{
 				entity: "deeperdarker:shattered"
 				icon: "deeperdarker:soul_dust"
@@ -90,7 +90,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Shattered"
+			title: "Defeat a &3Shattered"
 			x: 8.0d
 			y: 5.5d
 		}
@@ -111,7 +111,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Stalker"
+			title: "Defeat a &3Stalker"
 			x: 9.0d
 			y: 5.5d
 		}
@@ -132,7 +132,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &7Shriek Worm"
+			title: "Defeat a &7Shriek Worm"
 			x: 10.0d
 			y: 5.5d
 		}

@@ -3,7 +3,8 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ count: 6, item: { count: 1, id: "minecraft:spectral_arrow" } }
-		{ count: 2, item: { count: 1, id: "minecraft:red_bed" } }
+		{ count: 16, item: "minecraft:spectral_arrow", title: "&616x Spectral Arrows" }
+		{ count: 2, item: "minecraft:red_bed", title: "&c2x Bed" }
 	]
+	title: "End Quest"
 }
