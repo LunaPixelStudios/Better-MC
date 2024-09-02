@@ -6,14 +6,14 @@
   //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
   //        a spread factor above 1 means all structures are rarer
   //        a spread factor below 1 means all structure are more common
-  "spreadFactor": 1.5,
+  "spreadFactor": 1.1,
 
   // this is a list of custom spread factors
   "customSpreadFactors": [
     // example of the mansion being doubled in rarity (the mod's default)
     {
-        "structure": "minecraft:mansion",
-        "factor": 1.5
+      "structure": "minecraft:mansion",
+      "factor": 1
     },
     // add the structures you want to modify in the format:
     // {
