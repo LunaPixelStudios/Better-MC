@@ -415,8 +415,11 @@
 				count: 8
 				id: "6324E8504633B2E4"
 				item: {
+					components: {
+						"ftbquests:missing_item": "betterend:pythadendron_log"
+					}
 					count: 1
-					id: "betterend:pythadendron_log"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

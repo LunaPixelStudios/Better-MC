@@ -3,30 +3,31 @@
 	default_quest_shape: ""
 	filename: "deeper_and_darker"
 	group: "5BBB507BE497896B"
-	icon: "deeperdarker:heart_of_the_deep"
 	id: "43F9E85332B37439"
-	order_index: 7
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "minecraft:sculk_sensor"
 			id: "731C3214BB61FDAE"
 			rewards: [{
-				id: "1A22694A70BE865A"
-				item: "minecraft:netherite_scrap"
+				id: "08E5156CAC011D2B"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Found underground in the &aOverworld&r."
 			tasks: [{
 				entity: "minecraft:warden"
+				icon: {
+					id: "minecraft:sculk_sensor"
+				}
 				id: "37E411F497C9CD71"
-				title: "Kill a Warden"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Warden"
 			x: 7.0d
 			y: 4.0d
 		}
@@ -38,19 +39,11 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Used to negate the darkness in &8&lThe Otherside."
 			tasks: [{
 				id: "42CA7AAF304767E7"
-				item: {
-					Count: 1
-					id: "deeperdarker:warden_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "deeperdarker:warden_helmet" }
 				type: "item"
 			}]
-			title: "Craft a &9Warden Helmet"
 			x: 5.0d
 			y: 4.0d
 		}
@@ -58,19 +51,21 @@
 			dependencies: ["44937B2D2EB38094"]
 			id: "704CCA2CEAB23B4D"
 			rewards: [{
-				id: "1860E3DCA6E8E6FB"
-				item: "deeperdarker:ancient_vase"
+				id: "5BEDA6F82E711F25"
+				item: {
+					count: 1
+					id: "deeperdarker:ancient_vase"
+				}
 				type: "item"
 			}]
-			subtitle: "Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &8Heart of The Deep &rthat you got earlier from killing The Warden."
 			tasks: [{
 				dimension: "deeperdarker:otherside"
-				icon: "minecraft:reinforced_deepslate"
+				icon: {
+					id: "minecraft:reinforced_deepslate"
+				}
 				id: "474D2D76F2256297"
-				title: "Enter The Otherside"
 				type: "dimension"
 			}]
-			title: "Enter The &8&lOtherside"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -84,58 +79,111 @@
 			}]
 			tasks: [{
 				entity: "deeperdarker:shattered"
-				icon: "deeperdarker:soul_dust"
+				icon: {
+					id: "deeperdarker:soul_dust"
+				}
 				id: "5B9501581479A2EC"
-				title: "Kill a Shattered"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Shattered"
 			x: 8.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
+			icon: {
+				id: "deeperdarker:soul_crystal"
+			}
 			id: "192EE909C57F390A"
 			rewards: [{
 				id: "77B0B7D61481A552"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
 			tasks: [{
 				entity: "deeperdarker:stalker"
-				icon: "deeperdarker:soul_crystal"
 				id: "1D807C8DC05EF208"
-				title: "Kill a Stalker"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Stalker"
 			x: 9.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
+			icon: {
+				id: "deeperdarker:sculk_bone"
+			}
 			id: "3CBDB45D65737212"
 			rewards: [{
 				id: "2FE936F92AA38681"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "found by stepping on &1Infested Sculk"
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
-				icon: "deeperdarker:sculk_bone"
 				id: "3D7BD985875AFF57"
-				title: "Kill a Shriek Worm"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &7Shriek Worm"
 			x: 10.0d
 			y: 5.5d
 		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "0F4154714C10CACE"
+			rewards: [{
+				id: "09356BFFB5078613"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "31AC94806D023FFB"
+				item: { count: 1, id: "deeperdarker:warden_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6E7D3242496F4501"
+				"192EE909C57F390A"
+			]
+			id: "1A16AF04EC133432"
+			rewards: [{
+				id: "775357D90AA54CEB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "27999EF7C73E4CB5"
+				item: { count: 1, id: "deeperdarker:soul_elytra" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "2E5531834FF961CD"
+			rewards: [{
+				id: "204715DF239D901E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:netherite_chestplate"
+				}
+				id: "2CEECA4C26CA640C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdark:sculk_snapper"
+				type: "observation"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
 	]
-	title: " &1&lThe Otherside"
 }
