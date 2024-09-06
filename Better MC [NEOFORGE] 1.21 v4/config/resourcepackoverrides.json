@@ -6,8 +6,10 @@
     "mod_resources",
     "file/Stay_True_1.21.zip",
     "file/MandalasGUI+Dakmode_1.20.5.zip",
+    "file/NoBushyLeaves.zip",
     "file/Mandala's GUI - Dark mode Mod Compat 0.2.7 beta Hotfix.zip",
-    "file/Better_MC.zip"
+    "file/Better_MC.zip",
+    "moonlight:mods_dynamic_assets"
   ],
   "default_overrides": {
     "force_compatible": true
@@ -100,7 +102,13 @@
     "builtin/deep_aether_additional_assets": {
       "hidden": true
     },
+    "file/BetterEndCities-Vanilla-1.21.zip": {
+      "hidden": true
+    },
     "builtin/aether_tips": {
+      "hidden": true
+    },
+    "file/Scarecrow_Obliterator.zip": {
       "hidden": true
     }
   }
