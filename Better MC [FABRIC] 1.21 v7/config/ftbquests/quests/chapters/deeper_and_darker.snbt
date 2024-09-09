@@ -3,30 +3,31 @@
 	default_quest_shape: ""
 	filename: "deeper_and_darker"
 	group: "59C90AA1B128306B"
-	icon: "deeperdarker:heart_of_the_deep"
 	id: "4B6E4A0215F45FC0"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			id: "731C3214BB61FDAE"
 			rewards: [{
-				id: "1A22694A70BE865A"
-				item: "minecraft:netherite_scrap"
+				id: "3E29640CF17781A4"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Found underground in the &aOverworld&r."
 			tasks: [{
 				entity: "minecraft:warden"
-				icon: "minecraft:sculk_sensor"
+				icon: {
+					id: "minecraft:sculk_sensor"
+				}
 				id: "37E411F497C9CD71"
-				title: "Kill a Warden"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Warden"
 			x: 7.0d
 			y: 4.0d
 		}
@@ -38,19 +39,11 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Used to negate the darkness in &8&lThe Otherside."
 			tasks: [{
 				id: "42CA7AAF304767E7"
-				item: {
-					Count: 1
-					id: "deeperdarker:warden_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "deeperdarker:warden_helmet" }
 				type: "item"
 			}]
-			title: "Craft a &9Warden Helmet"
 			x: 5.0d
 			y: 4.0d
 		}
@@ -58,19 +51,21 @@
 			dependencies: ["731C3214BB61FDAE"]
 			id: "704CCA2CEAB23B4D"
 			rewards: [{
-				id: "336DFFDBA2B4F736"
-				item: "deeperdarker:ancient_vase"
+				id: "387E219D5C2864E7"
+				item: {
+					count: 1
+					id: "deeperdarker:ancient_vase"
+				}
 				type: "item"
 			}]
-			subtitle: "Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &8Heart of The Deep &rthat you got earlier from killing The Warden."
 			tasks: [{
 				dimension: "deeperdarker:otherside"
-				icon: "minecraft:reinforced_deepslate"
+				icon: {
+					id: "minecraft:reinforced_deepslate"
+				}
 				id: "474D2D76F2256297"
-				title: "Enter The Otherside"
 				type: "dimension"
 			}]
-			title: "Enter The &8&lOtherside"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -82,12 +77,9 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Found in the Echoing Forest"
 			tasks: [{
 				entity: "deeperdarker:shattered"
-				icon: "deeperdarker:soul_dust"
 				id: "5B9501581479A2EC"
-				title: "Defeat a Shattered"
 				type: "kill"
 				value: 1L
 			}]
@@ -102,12 +94,9 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
 			tasks: [{
 				entity: "deeperdarker:stalker"
-				icon: "deeperdarker:soul_crystal"
 				id: "1D807C8DC05EF208"
-				title: "Defeat a Stalker"
 				type: "kill"
 				value: 1L
 			}]
@@ -122,12 +111,9 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Found by stepping on Infested Sculk"
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
-				icon: "deeperdarker:sculk_bone"
 				id: "3D7BD985875AFF57"
-				title: "Defeat a Shriek Worm"
 				type: "kill"
 				value: 1L
 			}]
@@ -137,11 +123,7 @@
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
 			icon: {
-				Count: 1
 				id: "minecraft:netherite_chestplate"
-				tag: {
-					Damage: 0
-				}
 			}
 			id: "2DBD53ED18C97BE8"
 			rewards: [{
@@ -149,15 +131,16 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "
 			tasks: [{
+				icon: {
+					id: "minecraft:netherite_chestplate"
+				}
 				id: "6C293345A79D9606"
 				observe_type: 5
 				timer: 0L
 				to_observe: "deeperdark:sculk_snapper"
 				type: "observation"
 			}]
-			title: "Find a &2Sculk Snapper"
 			x: 11.0d
 			y: 4.0d
 		}
@@ -169,19 +152,11 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Grants the wearer a permanent &3speed effect"
 			tasks: [{
 				id: "56FDFD3E7BD7EE03"
-				item: {
-					Count: 1
-					id: "deeperdarker:warden_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "deeperdarker:warden_leggings" }
 				type: "item"
 			}]
-			title: "Craft &3Warden Leggings"
 			x: 5.0d
 			y: 2.5d
 		}
@@ -197,22 +172,13 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "An armored &6Elytra which allows you to boost without rockets."
 			tasks: [{
 				id: "7B6C04B363259D20"
-				item: {
-					Count: 1
-					id: "deeperdarker:soul_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "deeperdarker:soul_elytra" }
 				type: "item"
 			}]
-			title: "Craft the &1Soul Elytra"
 			x: 9.0d
 			y: 7.0d
 		}
 	]
-	title: " &1&lThe Otherside"
 }

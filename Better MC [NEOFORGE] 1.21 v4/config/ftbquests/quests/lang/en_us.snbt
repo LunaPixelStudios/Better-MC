@@ -125,8 +125,8 @@
 	quest.37E4C4EFA9E20B79.quest_subtitle: "Found in Hollow Hills in swamps. Unlocks The Dark Forest."
 	quest.37E4C4EFA9E20B79.title: "Defeat the &2Hydra"
 	quest.3BE6E50AA8E0170D.quest_subtitle: "&bMimics&r are &4hostile mobs&r in &eBronze Dungeons&r"
-	quest.3CBDB45D65737212.quest_subtitle: "found by stepping on &1Infested Sculk"
-	quest.3CBDB45D65737212.title: "Defeat a &7Shriek Worm"
+	quest.3CBDB45D65737212.quest_subtitle: "Found by stepping on &1Infested Sculk"
+	quest.3CBDB45D65737212.title: "Defeat a &7&lShriek Worm"
 	quest.3D1F53C06B660F96.quest_subtitle: "Found in &fYeti Lairs &rin the &fSnowy Forest&r. Unlocks the &f&lSnow Queen&r."
 	quest.3D1F53C06B660F96.title: "Defeat the &f&lAlpha Yeti"
 	quest.433FD23CAA2F4CEA.quest_desc: ["The Alchemist uses potions and physical constructs to fight. Many of his attacks can be predicted by looking out for visual queues, but missing those queues may result in heavy damage. Once defeated, you’ll gain access to the Poison Dungeon."]
