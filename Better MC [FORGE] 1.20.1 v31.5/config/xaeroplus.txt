@@ -1,0 +1,80 @@
+[XP] Fast Mapping:true
+[XP] Fast Mapping Delay:250.0
+[XP] Fast Mapping Rate Limit:50.0
+[XP] Fast Zip Writes:true
+[XP] Region Writes While Dim Switched:false
+[XP] Baritone Goal Waypoint:true
+[XP] Disable Waypoint Sharing:false
+[XP] Disable Receiving Waypoints:false
+[XP] Waystones Sync:true
+[XP] Waystone Color:16
+[XP] Waystone Waypoint Set:true
+[XP] Persist Dim Switch:true
+[XP] Radar While Dim Switched:true
+[XP] Transparent Obsidian Roof:true
+[XP] Roof Y Level:250.0
+[XP] Roof Obsidian Opacity:150.0
+[XP] Roof Snow Opacity:10.0
+[XP] Overlay Opacity Fix:true
+[XP] Min WorldMap Zoom:0.1
+[XP] Cross Dim Cursor Coords:false
+[XP] Prefer Overworld Waypoints:true
+[XP] Show Waypoint Distances:true
+[XP] null OW Dim Dir:true
+[XP] Data Dir Mode:0
+[XP] Nether Cave Fix:true
+[XP] Disable Xaero Internet Access:false
+[XP] Expanded Setting Entries:false
+[XP] Palette NewChunks:false
+[XP] Save/Load Palette NewChunks to Disk:true
+[XP] Palette NewChunks Opacity:100.0
+[XP] Palette NewChunks Color:0
+[XP] Palette NewChunks Inverse:false
+[XP] NewChunks Highlighting:false
+[XP] Save/Load NewChunks to Disk:true
+[XP] New Chunks Opacity:100.0
+[XP] New Chunks Color:0
+[XP] New Chunks Render Inverse:false
+[XP] New Chunks Inverse Color:1
+[XP] OldChunks Highlighting:false
+[XP] OldChunks Inverse:false
+[XP] Save/Load OldChunks to Disk:true
+[XP] Old Chunks Opacity:100.0
+[XP] Old Chunks Color:3
+[XP] Portal Highlights:false
+[XP] Save/Load Portals to Disk:true
+[XP] Portal Highlights Opacity:100.0
+[XP] Portal Highlights Color:5
+[XP] WorldTools Highlights:true
+[XP] WorldTools Highlights Opacity:100.0
+[XP] WorldTools Highlights Color:1
+[XP] PortalSkip Detection:false
+[XP] PortalSkip Opacity:100.0
+[XP] PortalSkip Color:6
+[XP] PortalSkip Portal Radius:15.0
+[XP] PortalSkip Search Delay:10.0
+[XP] PortalSkip NewChunks:true
+[XP] PortalSkip OldChunks Inverse:true
+[XP] 2b2t Highways:false
+[XP] 2b2t Highways Color:2
+[XP] 2b2t Highways Opacity:100.0
+[XP] Highlight Regions Without Textures:false
+[XP] Show Render Distance:false
+[XP] Show Render Distance WorldMap:false
+[XP] Always Render Player Name:true
+[XP] Always Render Player Icon:true
+[XP] Fix Main Entity Dot:true
+[XP] Minimap FPS Limiter:false
+[XP] Minimap FPS Limit:60.0
+[XP] Transparent Background:false
+[XP] Minimap Scaling Factor:2.0
+[XP] Minimap Size Multiplier:1.0
+[XP] Switch to Nether:false
+[XP] Switch to Overworld:false
+[XP] Switch to End:false
+[XP] WorldMap Baritone Goal Here:false
+[XP] WorldMap Baritone Path Here:false
+[XP] WorldMap Baritone Elytra Here:false
+[XP] Waypoint Beacons:false
+[XP] Waypoint Beacon Scale Min:0.0
+[XP] Waypoint Beacon Distance Min:0.0

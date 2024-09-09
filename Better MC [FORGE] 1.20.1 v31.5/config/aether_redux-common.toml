@@ -1,0 +1,168 @@
+
+["Gameplay Changes"]
+	#Makes Cockatrices shoot at you and chase you if they hit you. Requires world restart to refresh existing mob AI.
+	"Improved Cockatrice Behavior" = true
+	#Nerfs Gummy Swets, but also makes them craftable. Note: Requires the Aether's Gummy Swet Healing config to be false to properly nerf the hunger effect. Requires datapack reload.
+	"Nerf Gummy Swets" = true
+	#Causes mobs to try to avoid walking on quicksoil.
+	"Mobs Avoid Quicksoil" = true
+	#Makes Mimics smaller and have a new model. NOTE: Requires MC restart when changed.
+	"Better Mimics" = true
+	#Makes some Aether blocks take longer to break, to be more consistent with vanilla blocks
+	"Vanilla-Consistent Mining Speeds" = true
+	#Changes the hitboxes of vanilla double plants. Disable if it causes odd behavior.
+	"Change Double Plant Hitboxes" = true
+	#Changes Gold Aercloud and respective parachute behavior to launch entities downwards
+	"Gold Aerclouds launch entities downwards" = true
+
+[Audio]
+
+	[Audio."Mob Sound Changes"]
+		#Gives Moas their sounds from older builds of the Aether II: Highlands
+		"Improved Moa Sounds" = true
+		#Gives Cockatrices their sounds from older builds of the Aether II: Highlands
+		"Improved Cockatrice Sounds" = true
+		#Gives Sentries their sounds from older builds of the Aether II: Highlands
+		"Improved Sentry Sounds" = true
+		#Improves the sounds of the slider
+		"Improved Slider Sounds" = true
+		#Improves the sounds of Aechor Plants
+		"Improved Aechor Plant Sounds" = true
+		#Gives Aerwhales their sounds from older builds of the Aether II: Highlands
+		"Improved Aerwhale Sounds" = true
+		#Improves the awakening sound for mimics. Goes great paired with the better mimics option!
+		"Improved Mimic Awaken Sound" = true
+
+	[Audio."Block Sound Changes"]
+		#Gives Aether Portals their sounds from the Aether II
+		"Aether II Portal Sounds" = true
+		#Gives Glowstone a new and improved sound based on the Amethyst sounds
+		"Alternate Glowstone Sounds" = true
+
+[Worldgen]
+	#Enables Mossy Holystone as an ore. Configurable so that if you disable it, it's easier to tell if you've come across a dungeon.
+	"Mossy Holystone Ores" = true
+	#Replaces chests found in the Aether's dungeons with ones made of skyroot. Affects mimics as well.
+	"Skyroot Dungeon Chests" = true
+
+	[Worldgen.Biomes]
+		#When enabled, any biome value config changes will be reset. It is recommended that you disable this if you want to keep any custom biome parameters you may have set.
+		"Auto-Reset Biome Values" = true
+		#The value of Redux's biome region size. Larger values correspond to larger biome clumps
+		"Region Size" = 20
+
+		[Worldgen.Biomes."The Blight"]
+			#Enables the Blight biome.
+			"Enable the Blight" = true
+
+			[Worldgen.Biomes."The Blight".Temperature]
+				#Minimum Temperature value for the Blight.
+				Min = -0.4
+				#Maximum Temperature value for the Blight.
+				Max = -0.1
+
+			[Worldgen.Biomes."The Blight".Humidity]
+				#Minimum Humidity value for the Blight.
+				Min = -0.8
+				#Maximum Humidity value for the Blight.
+				Max = -0.1
+
+			[Worldgen.Biomes."The Blight".Depth]
+				#Minimum Depth value for the Blight.
+				Min = 0.85
+				#Maximum Depth value for the Blight.
+				Max = 1.25
+
+		[Worldgen.Biomes."Gilded Biomes"]
+
+			[Worldgen.Biomes."Gilded Biomes"."Gilded Groves"]
+				#Enables the Gilded Groves biome.
+				"Enable Gilded Groves" = true
+
+				[Worldgen.Biomes."Gilded Biomes"."Gilded Groves".Temperature]
+					#Minimum Temperature value for the Gilded Groves.
+					Min = -0.4
+					#Maximum Temperature value for the Gilded Groves.
+					Max = 0.1
+
+				[Worldgen.Biomes."Gilded Biomes"."Gilded Groves".Humidity]
+					#Minimum Humidity value for the Gilded Groves.
+					Min = -0.3
+					#Maximum Humidity value for the Gilded Groves.
+					Max = -0.1
+
+			[Worldgen.Biomes."Gilded Biomes"."Gilded Thicket"]
+				#Enables the Gilded Thicket biome
+				"Enable Gilded Thicket" = true
+
+				[Worldgen.Biomes."Gilded Biomes"."Gilded Thicket".Temperature]
+					#Minimum Temperature value for the Gilded Thicket.
+					Min = -0.6
+					#Maximum Temperature value for the Gilded Thicket.
+					Max = -0.2
+
+				[Worldgen.Biomes."Gilded Biomes"."Gilded Thicket".Humidity]
+					#Minimum Humidity value for the Gilded Thicket.
+					Min = -0.9
+					#Maximum Humidity value for the Gilded Thicket.
+					Max = -0.2
+
+		[Worldgen.Biomes."Frosted Forests"]
+			#Enables the Frosted Forests biome.
+			"Enable Frosted Forests" = true
+
+			[Worldgen.Biomes."Frosted Forests".Temperature]
+				#Minimum Temperature value for the Frosted Forests.
+				Min = -0.9
+				#Maximum Temperature value for the Frosted Forests.
+				Max = -0.2
+
+			[Worldgen.Biomes."Frosted Forests".Humidity]
+				#Minimum Humidity value for the Frosted Forests.
+				Min = -0.5
+				#Maximum Humidity value for the Frosted Forests.
+				Max = 0.1
+
+		[Worldgen.Biomes.Highfields]
+			#Enables the Highfields biome.
+			"Enable Highfields" = true
+
+			[Worldgen.Biomes.Highfields.Temperature]
+				#Minimum Temperature value for the Highfields.
+				Min = -1.0
+				#Maximum Temperature value for the Highfields.
+				Max = -0.1
+
+			[Worldgen.Biomes.Highfields.Humidity]
+				#Minimum Humidity value for the Highfields.
+				Min = -0.2
+				#Maximum Humidity value for the Highfields.
+				Max = 0.1
+
+		[Worldgen.Biomes."Cloudcap Jungle"]
+			#Enables the Cloudcap Jungle biome.
+			"Enable Cloudcap Jungle" = true
+
+			[Worldgen.Biomes."Cloudcap Jungle".Temperature]
+				#Minimum Temperature value for the Cloudcap Jungle.
+				Min = -0.6
+				#Maximum Temperature value for the Cloudcap Jungle.
+				Max = -0.2
+
+			[Worldgen.Biomes."Cloudcap Jungle".Humidity]
+				#Minimum Humidity value for the Cloudcap Jungle.
+				Min = 0.3
+				#Maximum Humidity value for the Cloudcap Jungle.
+				Max = 0.6
+
+			[Worldgen.Biomes."Cloudcap Jungle".Depth]
+				#Minimum Depth value for the Cloudcap Jungle.
+				Min = 0.25
+				#Maximum Depth value for the Cloudcap Jungle.
+				Max = 1.25
+
+[Fun]
+	#Changes quicksoil between various behaviors. Genesis is the most chaotic, highlands is the most fine-tuned, classic is the original
+	#Allowed Values: classic, genesis, highlands
+	"Quicksoil Movement System" = "highlands"
+

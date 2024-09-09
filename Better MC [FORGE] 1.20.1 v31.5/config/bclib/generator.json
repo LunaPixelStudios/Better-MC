@@ -1,0 +1,8 @@
+{
+  "options": {
+    "biomeSource": {
+      "fixEndBiomeSource [default: true]": true,
+      "fixNetherBiomeSource [default: true]": true
+    }
+  }
+}

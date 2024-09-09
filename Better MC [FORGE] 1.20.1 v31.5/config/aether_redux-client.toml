@@ -1,0 +1,42 @@
+
+[Core]
+	#Reloads the built-in resource packs after each update. Only disable if you know what you're doing!
+	"Reload Packs after updates" = true
+
+[Rendering]
+
+	[Rendering."Mob Model Improvements"]
+		#Makes Moas resemble their Mutation models
+		"Moa Model Improvements" = true
+		#Determines whether the updated Moa model should use more peaceful-appearing toes, or more aggressive talons
+		#Allowed Values: toes, talons
+		"Moa Foot Type" = "toes"
+		#Makes Cockatrices look far better
+		"Cockatrice Model Improvements" = true
+		#Makes some small edits to the zephyr model to make it more lore-accurate
+		"Zephyr Model Improvements" = true
+		#Improves the Sheepuff model, using a design taking elements both from older Aether II: Highlands Builds, and the lore-accurate design.
+		"Sheepuff Model Improvements" = true
+		#Improves the model for Sentries, giving them a new model and a springy jump animation
+		"Sentry Model Improvements" = true
+
+	[Rendering.Particles]
+		#Improves the leaf particles for Golden Oaks, Gilded Oaks, and Crystal Trees, based on Minecraft 1.20's new cherry tree particles.
+		"Better Leaf Particles" = true
+
+[Audio]
+	#Enables a slamming sound for mimics. Disable if it gets too annoying XD
+	"Mimic Slam Sound Effect" = true
+	#Adds some nice night tracks to the Aether's music selection. Also disables the default music manager for the Aether, to prevent overlap
+	"Nighttime music tracks" = true
+	#Makes Blue Aerclouds have their wobbly sounds that play when bouncing on them
+	"Blue Aercloud bouncing sounds" = true
+
+[Internal]
+	#Internal value to decide if it is the first startup and the base Aether configs should be modified. DO NOT EDIT THIS VALUE, unless you want things to break!
+	"First startup, change Aether configs (DO NOT CHANGE)" = false
+	#Internal value to decide if the game should open the first startup popup.
+	"First Startup Pop-up" = false
+	#DO NOT CHANGE. On startup, if this does not match the internal version value, it will be changed to it and resource packs will be reapplied.
+	"Version ID" = "undefined"
+

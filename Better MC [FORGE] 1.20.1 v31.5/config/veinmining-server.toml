@@ -1,0 +1,40 @@
+#The minimum destroy speed the used tool needs on the block to vein mine.
+#Range: 0.0 ~ 100.0
+requiredDestroySpeed = 1.0
+#If enabled, vein mining will not activate if the used tool cannot harvest drops from the source block.
+requireCorrectTool = false
+#The maximum number of blocks to vein mine without the enchantment.
+#Range: 0 ~ 1000
+maxBlocksBase = 0
+#The maximum number of blocks to vein mine per level of the enchantment.
+#Range: 1 ~ 1000
+maxBlocksPerLevel = 50
+#If enabled, vein mining can mine diagonally.
+diagonalMining = true
+#If enabled, vein mining will stop when the tool can no longer be used.
+limitedByDurability = true
+#If enabled, vein mining will move drops from blocks to the source location.
+relocateDrops = true
+#If enabled, vein mining will never break tools.
+preventToolDestruction = true
+#If enabled, vein mining will damage the tool for each block mined.
+addToolDamage = true
+#The multiplier to tool damage from blocks that are vein mined.
+#Range: 0 ~ 1000
+toolDamageMultiplier = 1
+#If enabled, vein mining will cause player exhaustion for each block mined.
+addExhaustion = true
+#The multiplier to player exhaustion from blocks that are vein mined.
+#Range: 0.0 ~ 1000.0
+exhaustionMultiplier = 1.0
+#The blocks or block tags for vein mining if blocks is set to "CONFIG_LIST".
+blocksList = []
+#Determines if blocksList contains allowed blocks or denied blocks.
+#Allowed Values: ALLOW, DENY
+blocksListType = "DENY"
+#The groups of blocks or block tags that are vein mined together.
+groupsList = ["#forge:obsidian", "#forge:ores/coal", "#forge:ores/diamond", "#forge:ores/emerald", "#forge:ores/gold", "#forge:ores/iron", "#forge:ores/lapis", "#forge:ores/redstone", "#forge:ores/quartz", "#forge:ores/netherite_scrap", "#forge:ores/copper", "#forge:ores/tin", "#forge:ores/osmium", "#forge:ores/uranium", "#forge:ores/fluorite", "#forge:ores/lead", "#forge:ores/zinc", "#forge:ores/aluminum", "#forge:ores/nickel", "#forge:ores/silver", "#forge:ores/apatite", "#forge:ores/cinnabar", "#forge:ores/niter", "#forge:ores/ruby", "#forge:ores/sapphire", "#forge:ores/sulfur"]
+#Determines the vein mineable blocks based on a preset option or a configured list.
+#Allowed Values: CONFIG_LIST, ALL, ORES, ORES_LOGS, ORES_STONE, ORES_STONE_LOGS, NO_BLOCK_ENTITIES
+blocks = "ALL"
+

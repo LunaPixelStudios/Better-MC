@@ -1,0 +1,13 @@
+{
+  "auto_sync": {
+    "enabled [default: true]": false,
+    "offerConfigs [default: true]": true,
+    "offerFiles [default: true]": true,
+    "offerMods [default: true]": true,
+    "offerAllMods [default: false]": false,
+    "sendAllModInfo [default: false]": false,
+    "additionalMods": [],
+    "excludeMods": [],
+    "forceBetterXPreset [default: true]": true
+  }
+}

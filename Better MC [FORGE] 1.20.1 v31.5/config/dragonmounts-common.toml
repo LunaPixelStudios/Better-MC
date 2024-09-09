@@ -1,0 +1,87 @@
+
+[config]
+	#Allow the vanilla ender egg to be interacted with? (Hatchable)
+	#Useful to help with mod compatibility
+	allow_egg_override = true
+	#Should Ender Dragon Eggs replenish on the exit portal after a respawned dragon is defeated?
+	#Useful for multiplayer scenarios.
+	#NOTE: This may break with mods that add content in the end. (A big example is YUNG's better end islands)
+	#You should see if those mods have ways to replenish dragon eggs themselves.
+	replenish_eggs = true
+	#Should dragon eggs generate in treasure chest loot tables?
+	#Useful for multiplayer scenarios and offering alternative ways to obtain eggs.
+	#Egg chance values can be modified below. If you'd like to change the loot tables the eggs appear
+	#in, consider using a datapack, since the static nature of configs complicates things.
+	use_loot_tables = true
+	#Should Dragon Eggs adapt to their environments and change breeds?
+	update_habitats = true
+
+#!!! THESE VALUES DO NOT TAKE EFFECT UNTIL `use_loot_tables` ABOVE IS SET TO `true` !!!
+#These entries define the chance values of which a dragon egg can appear in its respective loot table.
+#Due to the static nature of configs in general, DML cannot modify the chances of custom breed eggs
+#outside the built-in defaults, so those should be configured to use minecraft's built in random chance conditions.
+#(It is however, possible to point custom egg chances to the built-in values via the loot condition, therefore using a config chance)
+[egg_loot_chances]
+	#The chance that a aether egg appears in chests/simple_dungeon.
+	#0 = Never Appears, 1 = Guaranteed
+	#Range: 0.0 ~ 1.0
+	aether_in_simple_dungeon_chance = 0.15
+	#The chance that a fire egg appears in chests/desert_pyramid.
+	#0 = Never Appears, 1 = Guaranteed
+	#Range: 0.0 ~ 1.0
+	fire_in_desert_pyramid_chance = 0.075
+	#The chance that a forest egg appears in chests/jungle_temple.
+	#0 = Never Appears, 1 = Guaranteed
+	#Range: 0.0 ~ 1.0
+	forest_in_jungle_temple_chance = 0.3
+	#The chance that a ghost egg appears in chests/woodland_mansion.
+	#0 = Never Appears, 1 = Guaranteed
+	#Range: 0.0 ~ 1.0
+	ghost_in_woodland_mansion_chance = 0.2
+	#The chance that a ghost egg appears in chests/abandoned_mineshaft.
+	#0 = Never Appears, 1 = Guaranteed
+	#Range: 0.0 ~ 1.0
+	ghost_in_abandoned_mineshaft_chance = 0.095
+	#The chance that a ice egg appears in chests/igloo_chest.
+	#0 = Never Appears, 1 = Guaranteed
+	#Range: 0.0 ~ 1.0
+	ice_in_igloo_chest_chance = 0.2
+	#The chance that a nether egg appears in chests/bastion_treasure.
+	#0 = Never Appears, 1 = Guaranteed
+	#Range: 0.0 ~ 1.0
+	nether_in_bastion_treasure_chance = 0.35
+	#The chance that a water egg appears in chests/buried_treasure.
+	#0 = Never Appears, 1 = Guaranteed
+	#Range: 0.0 ~ 1.0
+	water_in_buried_treasure_chance = 0.175
+
+#These entries define the reproduction (breed) limits of each dragon breed.
+#Due to the static nature of configs in general, DML cannot modify the reproduction limits of custom breeds
+#outside the mod's built in breeds. Those should be configured in datapacks to use a direct number rather
+#than point to an entry here (unless that's the goal.)
+[reproduction_limits]
+	#-1 = No Limit, 0 = Cannot breed, 2 = Can breed only two times
+	#Range: > -1
+	aether = 2
+	#-1 = No Limit, 0 = Cannot breed, 2 = Can breed only two times
+	#Range: > -1
+	end = 2
+	#-1 = No Limit, 0 = Cannot breed, 2 = Can breed only two times
+	#Range: > -1
+	fire = 2
+	#-1 = No Limit, 0 = Cannot breed, 2 = Can breed only two times
+	#Range: > -1
+	forest = 2
+	#-1 = No Limit, 0 = Cannot breed, 2 = Can breed only two times
+	#Range: > -1
+	ghost = 2
+	#-1 = No Limit, 0 = Cannot breed, 2 = Can breed only two times
+	#Range: > -1
+	ice = 2
+	#-1 = No Limit, 0 = Cannot breed, 2 = Can breed only two times
+	#Range: > -1
+	nether = 2
+	#-1 = No Limit, 0 = Cannot breed, 2 = Can breed only two times
+	#Range: > -1
+	water = 2
+
