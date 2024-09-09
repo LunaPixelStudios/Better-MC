@@ -1,9 +1,0 @@
-
-["It Takes A Pillage - Config"]
-	#Replace naturally spawning Iron Golems with Clay Golems?
-	"Replace Iron Golems" = false
-	#Remove Bad Omen effect after drinking milk?
-	"Milk Removes Bad Omen" = true
-	#Pillage Sieges occur at night?
-	"Enable Pillage Sieges" = true
-
