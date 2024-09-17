@@ -1,0 +1,31 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips : a spread factor can be a decimal number (such as 1.5)
+  //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
+  //        a spread factor above 1 means all structures are rarer
+  //        a spread factor below 1 means all structure are more common
+  "spreadFactor": 1.1,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    // example of the mansion being doubled in rarity (the mod's default)
+    {
+      "structure": "minecraft:mansion",
+      "factor": 1.1
+    },
+    // add the structures you want to modify in the format:
+    // {
+    //     "structure": "namespace:structure_name",
+    //     "factor": number
+    // },
+    // where "structure" is a structure_set or the name of a structure
+    // /!\ if you put the name of a structure, all structures in its set will be modified
+    // (example : "minecraft:village_plains" will modify all structures in the "villages" set)
+    // see https://minecraft.wiki/w/Tutorials/Custom_structures#Structure_Set for more info
+    //
+    // tip : you can dump all structure sets in a file by running the custom command /dumpstructuresets
+    // tip : the same spread factors rules apply here
+  ]
+}

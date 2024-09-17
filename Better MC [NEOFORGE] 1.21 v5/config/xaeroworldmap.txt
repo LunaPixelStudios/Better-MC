@@ -1,0 +1,86 @@
+ignoreUpdate:141
+updateNotification:false
+differentiateByServerAddress:true
+caveMapsAllowed:true
+debug:false
+lighting:true
+colours:0
+loadChunks:true
+updateChunks:true
+terrainSlopes:2
+terrainDepth:true
+footsteps:true
+flowers:true
+coordinates:true
+hoveredBiome:true
+biomeColorsVanillaMode:false
+waypoints:true
+renderArrow:true
+displayZoom:true
+worldmapWaypointsScale:1.0
+openMapAnimation:true
+reloadVersion:0
+reloadEverything:false
+zoomButtons:true
+waypointBackgrounds:true
+detectAmbiguousY:true
+showDisabledWaypoints:false
+closeWaypointsWhenHopping:true
+adjustHeightForCarpetLikeBlocks:true
+onlyCurrentMapWaypoints:false
+minZoomForLocalWaypoints:0.0
+arrowColour:-2
+minimapRadar:true
+renderWaypoints:true
+partialYTeleportation:true
+displayStainedGlass:true
+caveModeDepth:30
+caveModeStart:2147483647
+autoCaveMode:-1
+legibleCaveMaps:false
+displayCaveModeStart:true
+caveModeToggleTimer:1000
+defaultCaveModeType:1
+biomeBlending:true
+trackedPlayers:true
+multipleImagesExport:false
+nightExport:false
+highlightsExport:false
+exportScaleDownSquare:20
+displayClaims:true
+claimsFillOpacity:46
+claimsBorderOpacity:80
+globalVersion:1
+[XP] Fast Mapping:true
+[XP] Fast Mapping Delay:250.0
+[XP] Fast Mapping Rate Limit:50.0
+[XP] Baritone Goal Waypoint:true
+[XP] Waystones Sync:true
+[XP] Persist WM Dim Switch:false
+[XP] Transparent Obsidian Roof:true
+[XP] Roof Y Level:250.0
+[XP] Roof Obsidian Opacity:150.0
+[XP] Min WorldMap Zoom:0.1
+[XP] Skip Background Render:false
+[XP] NewChunks Highlighting:false
+[XP] Save/Load NewChunks to Disk:true
+[XP] New Chunks Opacity:100.0
+[XP] New Chunks Color:0
+[XP] OldChunks Highlighting:false
+[XP] OldChunks Inverse:false
+[XP] Save/Load OldChunks to Disk:true
+[XP] Old Chunks Opacity:100.0
+[XP] Old Chunks Color:3
+[XP] Portal Highlights:false
+[XP] Portal Highlights Opacity:100.0
+[XP] Portal Highlights Color:5
+[XP] PortalSkip Detection:false
+[XP] PortalSkip Opacity:100.0
+[XP] PortalSkip Color:6
+[XP] PortalSkip Search Delay:10.0
+[XP] Prefer Overworld Waypoints:true
+[XP] Show Waypoint Distances:true
+[XP] null OW Dim Dir:true
+[XP] Data Dir Mode:0
+[XP] Nether Cave Fix:true
+[XP] Cross Dimension Teleport:true

@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "5BBB507BE497896B"
+	icon: {
+		id: "minecraft:obsidian"
+	}
+	id: "0D7FF8F037EFF568"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46D0AAEEB69E28B3"
+			rewards: [{
+				id: "07A6631C73901A4C"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:lingering_potion"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					id: "minecraft:netherrack"
+				}
+				id: "7FC5892104C0744C"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "0BFD8ED8A0E3AE60"
+			rewards: [{
+				id: "6E0CF26350E2D75F"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					id: "minecraft:wither_skeleton_skull"
+				}
+				id: "575C8BC94DAC2B05"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+	]
+}
