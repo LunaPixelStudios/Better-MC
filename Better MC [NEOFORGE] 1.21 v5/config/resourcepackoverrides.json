@@ -14,12 +14,7 @@
     "file/Re-Simple-Storage.zip",
     "file/waystones_1.21.zip",
     "file/Better_MC.zip",
-<<<<<<< HEAD:Better MC [NEOFORGE] 1.21 v4/config/resourcepackoverrides.json
     "file/NoBushyLeaves.zip"
-=======
-    "moonlight:mods_dynamic_assets",
-    "file/Mandela's GUI Vanilla Crosshair 1.21.zip"
->>>>>>> e6230ceb8958d93c70f04de2a819cf0a0498d75a:Better MC [NEOFORGE] 1.21 v5/config/resourcepackoverrides.json
   ],
   "default_overrides": {
     "force_compatible": true

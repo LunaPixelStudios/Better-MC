@@ -21,12 +21,7 @@
     "leaf_culling_quality": "SOLID_AGGRESSIVE"
   },
   "notifications": {
-<<<<<<< HEAD:Better MC [NEOFORGE] 1.21 v4/config/sodium-options.json
     "has_cleared_donation_button": true,
     "has_seen_donation_prompt": false
-=======
-    "has_cleared_donation_button": false,
-    "has_seen_donation_prompt": true
->>>>>>> e6230ceb8958d93c70f04de2a819cf0a0498d75a:Better MC [NEOFORGE] 1.21 v5/config/sodium-options.json
   }
 }
