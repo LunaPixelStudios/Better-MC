@@ -5,9 +5,9 @@
 	#Range: > 0
 	modpackProjectID = 876781
 	#The name of the modpack
-	modpackName = "Better MC [NEOFORGE] 1.21"
+	modpackName = "Better MC [NEOFORGE] 1.21.1"
 	#The version of the modpack
-	modpackVersion = "v4"
+	modpackVersion = "v5"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

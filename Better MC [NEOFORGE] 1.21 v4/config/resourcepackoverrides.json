@@ -4,12 +4,17 @@
   "default_packs": [
     "vanilla",
     "mod_resources",
+    "moonlight:mods_dynamic_assets",
     "file/Stay_True_1.21.zip",
     "file/MandalasGUI+Dakmode_1.20.5.zip",
     "file/NoBushyLeaves.zip",
     "file/Mandala's GUI - Dark mode Mod Compat 0.2.7 beta Hotfix.zip",
+    "file/MandalasGUI_AddOn+Modded+Darkmode_1.20.4.zip",
+    "file/Mandela's GUI Vanilla Crosshair 1.21.zip",
+    "file/Re-Simple-Storage.zip",
+    "file/waystones_1.21.zip",
     "file/Better_MC.zip",
-    "moonlight:mods_dynamic_assets"
+    "file/NoBushyLeaves.zip"
   ],
   "default_overrides": {
     "force_compatible": true

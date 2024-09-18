@@ -50,6 +50,8 @@
 	placementStateExceptions = ["minecraft:chest[type]", "minecraft:stone_button[face]", "minecraft:vine[north,east,south,west,up]", "minecraft:creeper_head[rotation]", "minecraft:glow_lichen[north,east,south,west,up,down]", "minecraft:oak_sign[rotation]", "minecraft:oak_trapdoor[half]"]
 	#Whether Players can be picked up. Creative players can't be picked up in Survival Mode
 	pickupPlayers = false
+	#Whether players in Survival Mode can pick up unbreakable blocks. Creative players always can.
+	pickupUnbreakableBlocks = false
 
 [whitelist]
 	#Whitelist. Read about the format here: https://github.com/Tschipp/CarryOn/wiki/Black---and-Whitelist-Config
@@ -75,4 +77,3 @@
 	customPickupConditionsBlocks = []
 	#Custom Pickup Conditions for Entities
 	customPickupConditionsEntities = []
-

@@ -17,10 +17,11 @@
     "use_fog_occlusion": true,
     "use_block_face_culling": true,
     "use_no_error_g_l_context": true,
-    "sorting_enabled_v2": true
+    "sorting_enabled_v2": true,
+    "leaf_culling_quality": "SOLID_AGGRESSIVE"
   },
   "notifications": {
-    "has_cleared_donation_button": false,
+    "has_cleared_donation_button": true,
     "has_seen_donation_prompt": false
   }
 }

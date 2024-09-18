@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/mac.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/32x32.png';
-S:custom_window_title = 'Better Minecraft [NEOFORGE] 1.21';
+S:custom_window_title = 'Better Minecraft [NEOFORGE] 1.21.1';
 S:custom_window_icon_16 = '/config/fancymenu/assets/16x16.png';
 
 

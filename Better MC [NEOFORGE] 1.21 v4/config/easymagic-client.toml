@@ -1,0 +1,23 @@
+#Keep the vanilla book inside the enchantment screen instead of rendering a reroll button.
+#The button is simply not visible, rerolling still works by clicking the book. Disabling the reroll feature itself is possible in the server config.
+#Default Value: false
+keep_enchantment_screen_book = false
+#Offset on y-axis for chiseled bookshelf book tooltips from original position.
+#Default Value: 0
+#Range: > -2147483648
+chiseled_bookshelf_tooltip_offset_y = 0
+#Render inventory contents of an enchanting table.
+#Default Value: FLOATING
+#Allowed Values: NONE, FLAT, FLOATING
+render_enchanting_table_contents = "FLOATING"
+#Show a tooltip for the hovered book in a chiseled bookshelf.
+#DISABLED: Vanilla behavior, no tooltip shows.
+#CROUCHING: A tooltip only shows while the player is crouching.
+#ENABLED: A tooltip always shows when a book is looked at.
+#Default Value: ENABLED
+#Allowed Values: DISABLED, CROUCHING, ENABLED
+chiseled_bookshelf_tooltip = "ENABLED"
+#Offset on x-axis for chiseled bookshelf book tooltips from original position.
+#Default Value: 0
+#Range: > -2147483648
+chiseled_bookshelf_tooltip_offset_x = 0

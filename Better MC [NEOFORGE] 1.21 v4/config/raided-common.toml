@@ -1,0 +1,12 @@
+#General settings
+[General]
+	#The spawns per wave for the Inquisitor before bonus spawns are applied (Must always have 8 values!)
+	inquisitorSpawnsPerWave = [0, 0, 0, 3, 0, 0, 0, 0]
+	#The spawns per wave for the Incinerator before bonus spawns are applied (Must always have 8 values!)
+	incineratorSpawnsPerWave = [0, 0, 0, 0, 1, 0, 0, 1]
+	#The spawns per wave for the Savager before bonus spawns are applied (Must always have 8 values!)
+	savagerSpawnsPerWave = [0, 0, 0, 2, 0, 0, 1, 0]
+	#The spawns per wave for the Necromancer before bonus spawns are applied (Must always have 8 values!)
+	necromancerSpawnsPerWave = [0, 0, 1, 0, 0, 1, 0, 0]
+	#The spawns per wave for the Electromancer before bonus spawns are applied (Must always have 8 values!)
+	electromancerSpawnsPerWave = [0, 1, 0, 2, 0, 1, 0, 0]

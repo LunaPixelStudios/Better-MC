@@ -1,70 +1,47 @@
 {
   "general": {
-    "displayTooltip": true,
-    "displayBlocks": true,
-    "displayEntities": true,
-    "displayMode": "TOGGLE",
+    "itemModNameTooltip": true,
+    "bossBarOverlapMode": "PUSH_DOWN",
+    "builtinCamouflage": true,
+    "hideFromGUIs": true,
+    "accessibilityModMemory": false,
+    "enableAccessibilityPlugin": false,
     "hideFromDebug": true,
-    "enableTextToSpeech": false,
+    "hideFromTabList": true,
     "ttsMode": "PRESS",
     "fluidMode": "ANY",
-    "reachDistance": 0.0,
+    "extendedReach": 0.0,
     "debug": false,
-    "itemModNameTooltip": true,
-    "bossBarOverlapMode": "PUSH_DOWN"
+    "displayEntities": true,
+    "displayBosses": true,
+    "displayMode": "TOGGLE",
+    "enableTextToSpeech": false,
+    "previewOverlay": true,
+    "displayTooltip": true,
+    "displayBlocks": true
   },
   "overlay": {
-    "overlayPosX": 0.0,
-    "overlayPosY": 1.0,
-    "overlayScale": 1.0,
-    "overlayAnchorX": 0.0,
-    "overlayAnchorY": 0.0,
+    "alpha": 0.0,
+    "iconMode": "TOP",
+    "animation": true,
+    "disappearingDelay": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "autoScaleThreshold": 0.5,
-    "alpha": 0.0,
-    "themes": {
-      "jade:waila": {
-        "id": "jade:waila",
-        "backgroundColor": "#100010",
-        "gradientStart": "#5000ff",
-        "gradientEnd": "#28007f",
-        "titleColor": "#fff",
-        "textColor": "#a0a0a0",
-        "textShadow": true
-      },
-      "jade:dark": {
-        "id": "jade:dark",
-        "backgroundColor": "#131313",
-        "gradientStart": "#383838",
-        "gradientEnd": "#242424",
-        "titleColor": "#fff",
-        "textColor": "#a0a0a0",
-        "textShadow": true
-      },
-      "jade:create": {
-        "id": "jade:create",
-        "backgroundColor": "#000",
-        "gradientStart": "#2a2626",
-        "gradientEnd": "#1a1717",
-        "titleColor": "#fff",
-        "textColor": "#a0a0a0",
-        "textShadow": true
-      },
-      "jade:top": {
-        "id": "jade:top",
-        "backgroundColor": "#0695",
-        "gradientStart": "#999f",
-        "gradientEnd": "#999f",
-        "titleColor": "#fff",
-        "textColor": "#a0a0a0",
-        "textShadow": true
-      }
-    },
+    "overlayScale": 1.0,
+    "overlayAnchorX": 0.0,
+    "overlayAnchorY": 0.0,
     "activeTheme": "jade:dark",
-    "iconMode": "TOP"
+    "overlayPosX": 0.0,
+    "overlayPosY": 1.0
   },
   "formatting": {
-    "modName": "§9§o%s"
+    "itemModNameStyle": {
+      "italic": true,
+      "color": "blue"
+    }
+  },
+  "history": {
+    "themesHash": -328442023
   }
 }

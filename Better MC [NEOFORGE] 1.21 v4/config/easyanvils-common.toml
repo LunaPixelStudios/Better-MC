@@ -1,0 +1,9 @@
+#Leftover vanilla anvils in a world become unusable until they are broken and replaced.
+#Default Value: true
+disable_vanilla_anvil = true
+#Enable a crafting recipe for name tags.
+#Default Value: false
+name_tag_crafting_recipe = false
+#Replace vanilla anvils created in structures during world generation. Does not affect already generated blocks.
+#Default Value: true
+convert_vanilla_anvil_during_world_gen = true
