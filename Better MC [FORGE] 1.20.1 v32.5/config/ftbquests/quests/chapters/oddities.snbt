@@ -1,0 +1,885 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oddities"
+	group: "5EC606153AA8CA77"
+	icon: "minecraft:nether_star"
+	id: "537C6DB0026E6B7D"
+	images: [
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4EE395F19A7AC6FF"
+			rewards: [{
+				count: 3
+				id: "505552935A899AC5"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Used to automatically &eTrade&r with nearby &6Piglins.&r Holds &6Gold ingots&r and output barter items."
+			tasks: [{
+				id: "2D4C1E2F839FD674"
+				item: "barteringstation:bartering_station"
+				type: "item"
+			}]
+			title: "Craft a &4Bartering Station"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "4989913FFC0D56C1"
+			rewards: [{
+				count: 3
+				id: "6947757EA23254ED"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Allows you to see &etrades&r with nearby &2villagers&r. Keep in mind that villagers will follow you if you have an &2emerald&r in hand, so trading halls are much easier to create!"
+			tasks: [{
+				id: "482F110C2981A7F7"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			title: "Craft a &3Trading Post"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "0BE7832F8D2EC88E"
+			rewards: [{
+				count: 8
+				id: "24C6DF04A20A80BC"
+				item: "biomesoplenty:redwood_log"
+				type: "item"
+			}]
+			subtitle: "Same utility as a &eStone Cutter&r, but for wood."
+			tasks: [{
+				id: "028E4A4E71034034"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			title: "Craft a&1 Sawmill"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "74C48F69F0A35A85"
+			rewards: [{
+				count: 5
+				id: "1ADC16491447A030"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			subtitle: "Armor for your pet &fWolves&r. Shift right click your tamed wolf with armor in hand to equip."
+			tasks: [{
+				id: "6BA9E9BF188D874E"
+				item: "revampedwolf:iron_wolf_armor"
+				type: "item"
+			}]
+			title: "Craft &lIron Wolf Armor"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "7CFF3B559D789D6E"
+			rewards: [{
+				id: "31FAB88D47D626D7"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			subtitle: "Used to rotate blocks by right clicking. Shift right click to rotate direction. Left and Shift Left click to rotate entities like &earmorstands&r and &eitem frames&r."
+			tasks: [{
+				id: "364054A106006ED9"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &6Wrench"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "370C7BBFD6825460"
+			rewards: [{
+				id: "2A44B454B5107552"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Can be used to capture small &eanimals&r and &emobs&r."
+			tasks: [{
+				id: "61506B03AD1D6FA4"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			title: "Craft a &5Cage"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "42D099430EBFAFFC"
+			rewards: [{
+				id: "2BDC18655CAC222C"
+				item: "supplementaries:key"
+				type: "item"
+			}]
+			subtitle: "Acts as a sort of upgraded &eshulker box&r that is &efire resistant&r. &eSafes&r can be locked with a key."
+			tasks: [{
+				id: "46FA4477B1E5F268"
+				item: "supplementaries:safe"
+				type: "item"
+			}]
+			title: "Craft a &7Safe"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "6EF76B3194FFE529"
+			rewards: [{
+				id: "4342DA902A95B0D8"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			subtitle: "&3Transmutes&r any number of items into another at the cost of &aExperience.&r Explodes when broken and drops &fNether Star."
+			tasks: [{
+				id: "1F47E54ADAE5BCB5"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			title: "Craft &athe Transmuation Table"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "06F27C7F86FBC564"
+			rewards: [{
+				count: 8
+				id: "2BF5D9DDAEC1B924"
+				item: "minecraft:torch"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Used to find &5End Portal Frames&r. &cIntegrated Structures&r overhauls the &8Stronghold&r, making them more vast. "
+			tasks: [{
+				id: "092337026D40809E"
+				item: {
+					Count: 1
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &bthe Endolocator"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "2FDD6172E8C2140A"
+			rewards: [{
+				id: "46BE46BF6E752A9F"
+				item: "minecraft:pufferfish_bucket"
+				type: "item"
+			}]
+			subtitle: "Used to find the world's &4Devil's Hole Chunk"
+			tasks: [{
+				id: "51D0F0965E7474D0"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &3the Strange Fish Finder"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "70A591213EFAF475"
+			rewards: [{
+				id: "1F2E3290BEB3C661"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Used as a &4Lava Surf Board&r that can jump, and is enchantable."
+			tasks: [{
+				id: "694519243F2ABB20"
+				item: {
+					Count: 1
+					id: "alexsmobs:straddleboard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft&5 the Straddleboard"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "5061F2F7FB54F3D0"
+			rewards: [{
+				id: "532FC1535ECE9114"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This compass allows you to search for any &2Biome."
+			tasks: [{
+				id: "1AB4700BD15535AC"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a &aNature's Compass"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "009EC4156DE356FD"
+			rewards: [{
+				id: "5E44F12141E26139"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Allows for easy transportation between &lany &rtwo places. Longer transport may consume &aexperience&r."
+			tasks: [{
+				id: "40816443016DB10C"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Obtain a &6Waystone"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "3ED8014539A04BF6"
+			rewards: [{
+				count: 3
+				id: "3FEEEB9CB11760DB"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			subtitle: "Tells you the current season. Seasons affect many things - especially crop growth and weather."
+			tasks: [{
+				id: "54B882129C4EB5FF"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "Craft a &dCalendar"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "2EEB848257B08A3B"
+			rewards: [{
+				count: 3
+				id: "14450171C10DC135"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			subtitle: "When a pet dies, they will drop a &cPet Collar&r. By clicking the collar onto a &8Charged Respawn Anchor&r (respawn anchors are charged using Glowstone Blocks), the pet will respawn in a &2zombified&r form. This can be reversed in the same way as a &2Zombie Villager&r, using a &6Golden Apple&r and a &8Weakness Potion&r."
+			tasks: [{
+				id: "4086ED8B1DB71163"
+				item: {
+					Count: 1
+					id: "pet_cemetery:pet_collar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a &cPet Collar"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "5EF5597FA5520B00"
+			subtitle: "Allows for easy transport on the same Y axis."
+			tasks: [{
+				id: "67AB7E57F0548C2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+				title: "Any #elevatorid:elevators"
+				type: "item"
+			}]
+			title: "Craft an &eElevator"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "3489512B36DB9628"
+			rewards: [{
+				id: "7B7C0394A3445B50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: " Compact, vertical &4redstone &rsignaling."
+			tasks: [{
+				id: "00697518D4841629"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "03B9C003DAEDF1CE"
+			rewards: [{
+				id: "44FAE8B305B71C3E"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			subtitle: "Reverts &cd&ay&ee&bd &ritems, cleans &6Copper Blocks&r, un&cd&ay&ee&bs &rSheep, and turns &2Sticky &rPistons into Pistons."
+			tasks: [{
+				id: "3AA7F92859BB07AE"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			title: "Craft &dSoap"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "471C87D63FE2A6A4"
+			rewards: [{
+				id: "5886717CC6A7DA78"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Very small entities can be put into a &fJar&r. Right click to release, shift click on a block to place the &fJar&r."
+			tasks: [{
+				id: "44335EDA5736845E"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			title: "Craft a &fJar"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "33602EAD0489BB49"
+			rewards: [{
+				id: "580619F6E051C36D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Allows for remote teleportation to &8Waystones&r."
+			tasks: [{
+				id: "7CF1280AADA836C1"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			title: "Craft a &3Warp Scroll"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "4FBE783DB40E54EE"
+			rewards: [{
+				id: "3BC735314709C585"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "An easy way to store &aexperience levels&r."
+			tasks: [{
+				id: "742CF297B5ED3C79"
+				item: {
+					Count: 1
+					id: "xpbook:xp_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft an &5XP Tome"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "44DB5CC3ACBBCAF4"
+			rewards: [{
+				count: 3
+				id: "578B83BBB2FA549F"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			subtitle: "Tells you the current season. Seasons affect many things - especially crop growth and weather."
+			tasks: [{
+				id: "3A0E3567DE62DBCD"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "Craft a &eCalendar"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "318429EC124E5264"
+			rewards: [{
+				count: 32
+				id: "2E2888F31E927DA9"
+				item: "minecraft:scaffolding"
+				random_bonus: 32
+				type: "item"
+			}]
+			subtitle: "A totem that prevents you from dying in the void, teleporting you to a safe place. Can be equipped in the Trinket slot."
+			tasks: [{
+				id: "12D1019A39525D66"
+				item: "voidtotem:totem_of_void_undying"
+				type: "item"
+			}]
+			title: "Craft a &bTotem of Void Undying"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "333DE86C4B928B4E"
+			rewards: [{
+				id: "5C15A68B2CDFE642"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			subtitle: "Turns items back into the ingredients used to craft them. Map focuses can be found in the Twilight Forest."
+			tasks: [{
+				id: "638B7429D2CF73B9"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			title: "Craft an &cUncrafting Table"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "6861202DAEC8292E"
+			rewards: [{
+				id: "72082D2CB36D4EAF"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 2048 block radius."
+			tasks: [{
+				id: "2B2DDC4CC62CAA4B"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			title: "Craft a &bDiamond Magnum Torch"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "114B902CB4658651"
+			rewards: [{
+				id: "7BC8545A89523151"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{}"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Bounties have varying levels of rewards. You can craft decrees to get new bounties."
+			tasks: [{
+				id: "5E711F394E4964BE"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			title: "Craft a &6Bounty Board"
+			x: -2.5d
+			y: 3.5d
+		}
+	]
+	title: " &fCuriosities&f"
+}

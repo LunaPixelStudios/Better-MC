@@ -1,0 +1,7 @@
+If you are using the Curseforge Launcher, you can update the modpack by clicking the "Change Version" button within the launcher. If you don't see the button, you may have turned Content Management on in Profile Options.
+
+If you are using ATLauncher, click the "Update" button next to the modpack, in the Instances tab.
+
+If you need further guidance or are using other launchers, you can find tutorials on Youtube, or join our discord at https://lunapixel.studio/discord.
+
+Updating the modpack will not corrupt or damage your world, unless specified in the changelog. Nonetheless, you should always make a copy of your Saves folder before updating.

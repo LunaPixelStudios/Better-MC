@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "5BBB507BE497896B"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "1D4E5CDD59FFB7A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "26EA75D177BC496B"
+			rewards: [
+				{
+					id: "6DA1A2B30558A913"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6F71164467192550"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "7362BF4629FAD929"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			id: "2574E7CF699D5B45"
+			rewards: [{
+				count: 2
+				id: "02BE6238FEE1686D"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4145F5BE1E32262B"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 13.035714285714278d
+			y: 0.3571428571428541d
+		}
+	]
+}

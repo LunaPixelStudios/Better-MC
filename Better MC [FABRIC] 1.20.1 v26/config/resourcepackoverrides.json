@@ -4,15 +4,16 @@
   "default_packs": [
     "seasons:seasonal_lush_caves",
     "file/Stay_True_1.20.zip",
-    "file/MandalasGUI+Dakmode_1.20.5.zip",
+    "file/MandalasGUI+Modded_Dakmode_v4.6.zip",
     "file/Mandalas_Legacy_Gui_Background.zip",
     "file/Better_Modded_GUI.zip",
     "autoslabs:distinct_slabs",
-    "file/Icon Xaero's 1.14 HF.zip",
+    "file/Icon Xaero's 1.2 HF.zip",
     "file/NoBushyLeaves.zip",
     "file/bettergrass:default",
     "file/AutoslabsCompat.zip",
-    "file/Mandala's GUI - Dark mode Mod Compat 0.2.6 beta.zip"
+    "file/Mandala's GUI - Dark mode Mod Compat 0.2.7 beta Hotfix.zip",
+    "file/Mandala's GUI Vanilla Crosshair.zip"
 
   ],
   "default_overrides": {

@@ -1,0 +1,53 @@
+#Your partner ID to use in during the ordering process.
+#Without this you will not be credited for the purchases.
+#(Your partner id is not the same as your referral link, please check your client area to find your partner id at https://www.bisecthosting.com/partners/console.php).
+partner_id = "2980"
+#The id of this modpack.
+#(This is BH internal pack id; Find the id here: https://www.bisecthosting.com/partners/console.php)
+pack_id = "19036"
+#Set this to false to disable pack config screen and enable user configs instead.
+#This should always be done by the pack author once they are done with configuring the pack.
+#To re-enable Pack Edit Mode, please edit the config file.
+pack_edit_mode = true
+
+[modules]
+
+	[modules.server_creator_banner]
+		enabled = true
+
+		#Modpack Configs
+		[modules.server_creator_banner.pack]
+			#The title to display at the top of the entry.
+			title = "Need a server? - Click here!"
+			#The description to display below the title.
+			description = "Use CODE: LunaPixel for 25% OFF!"
+			#Set this to true to use specific language translation keys.
+			#This requires a custom mod that adds resource files, such as OpenLoader.
+			#Use 'server_entry.title' key for the Title;
+			#Use 'server_entry.description' key for the Description.
+			use_language_files = false
+
+	[modules.public_server_list]
+		enabled = true
+
+		#Modpack Configs
+		[modules.public_server_list.pack]
+
+			#Open Public Screen List Button
+			[modules.public_server_list.pack.open_screen_button]
+				#The position of the button from the left of the screen.
+				#Set to -1 to default.
+				#Range: > -1
+				x = -1
+				#The position of the button from the top of the screen.
+				#Set to -1 to default.
+				#Range: > -1
+				y = -1
+				#The width of the button.
+				#Set to 0 to default.
+				#Range: 0 ~ 400
+				width = 0
+				#Turn the Public Server List button into a vanilla styled one.
+				#Causes default vanilla graphics and might help with compatibility with other mods.
+				vanillaButton = false
+

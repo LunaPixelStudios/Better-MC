@@ -1,0 +1,5 @@
+requireHoe = false
+harvestInRadius = true
+#Allowed Values: NONE, LOW, NORMAL, HIGH
+hungerLevel = "NORMAL"
+

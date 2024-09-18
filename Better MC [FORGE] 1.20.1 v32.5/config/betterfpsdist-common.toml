@@ -1,0 +1,6 @@
+
+["Config category"]
+	#The amount by which the chunk render distance sphere is stretched in horizontal direction. default:3
+	#Range: 0.5 ~ 10.0
+	stretch = 1.0
+

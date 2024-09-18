@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "799D8360B26E9792"
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "791A53DBEED81142"
+	images: [{
+		height: 1.0d
+		image: "toms_storage:block/inventory_cable"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.5d
+		y: -10.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5BCF9D61C52EABCC"
+			rewards: [
+				{
+					id: "29A4F912FFE4D5D9"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "1B53598FA0C439F7"
+					item: {
+						count: 1
+						id: "minecraft:comparator"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6505C70CC69C0BE8"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			id: "2252ACBB97526BB2"
+			rewards: [{
+				id: "513A3A51470E7334"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1109C62D8FB3ABC8"
+				item: { count: 1, id: "toms_storage:inventory_connector" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2252ACBB97526BB2"
+				"5BCF9D61C52EABCC"
+			]
+			id: "411FE795DBEB8033"
+			rewards: [{
+				id: "2B14496A4C61411B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "59B1921C7AAD518A"
+				item: { count: 1, id: "toms_storage:inventory_cable" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["411FE795DBEB8033"]
+			id: "3F31C6C5D260B2DA"
+			rewards: [
+				{
+					id: "13DFCFA396606FA3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0F09DE931EF5E089"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3033AB1658D66FE9"
+				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5BCF9D61C52EABCC"]
+			id: "123097813B579C3E"
+			rewards: [
+				{
+					id: "2A71C93A6B21752E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3F7C99A10E01EE86"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C41BD31FB9F4C19"
+				item: { count: 1, id: "toms_storage:crafting_terminal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2252ACBB97526BB2"]
+			id: "2A1BA4AAA2162ECE"
+			rewards: [{
+				id: "7BBD7008E4A2DA18"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EE3B46110B9FD51"
+				item: { count: 1, id: "toms_storage:wireless_terminal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2A1BA4AAA2162ECE"]
+			id: "42C47B7E819027E8"
+			rewards: [
+				{
+					id: "4A4D78B1A0964A9B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5A0B04EEF8EC73E8"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68A0DEE70384C827"
+				item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+	]
+}

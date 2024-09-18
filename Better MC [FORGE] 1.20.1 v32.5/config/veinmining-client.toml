@@ -1,0 +1,15 @@
+#If maxBlocksBase from veinmining-server.toml is 0, determines how to activate vein mining.
+#IMPORTANT: When using the "HOLD_KEY_DOWN" setting, remember to set a keybinding by going to Options > Controls > Key Binds.
+#Allowed Values: STANDING, CROUCHING, HOLD_KEY_DOWN
+activationState = "HOLD_KEY_DOWN"
+#If maxBlocksBase from veinmining-server.toml is greater than 0, determines how to activate vein mining.
+#IMPORTANT: When using the "HOLD_KEY_DOWN" setting, remember to set a keybinding by going to Options > Controls > Key Binds.
+#Allowed Values: STANDING, CROUCHING, HOLD_KEY_DOWN
+activationStateWithoutEnchantment = "HOLD_KEY_DOWN"
+#If enabled, users will be sent warnings about improper enchantment usage.
+enableEnchantmentWarnings = true
+#If enabled, instructions on how to vein mine will appear in the tooltip of enchanted items.
+enableEnchantmentTooltips = true
+#If enabled, instructions on how to vein mine will appear above the hotbar when switching to enchanted items.
+enableEnchantmentNotifications = false
+

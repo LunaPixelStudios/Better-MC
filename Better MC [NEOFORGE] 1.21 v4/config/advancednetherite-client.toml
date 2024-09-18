@@ -1,7 +1,0 @@
-[client]
-	#If true, displays tooltips, added by Advanced Netherite, with perks client-side. True by default.
-	showTooltips = true
-	#If true, displays a (color) matching durability bar underneath the item when damaged. False by default.
-	matchingDurabilityBars = false
-	#If true, forcefully disables support for Detail Armor Bar mod. Requires the game to be restarted. False by default.
-	forceDisableDetailArmorBarSupport = false

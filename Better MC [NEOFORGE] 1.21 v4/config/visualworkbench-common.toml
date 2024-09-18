@@ -1,6 +1,0 @@
-#Leftover vanilla crafting tables in a world become unusable until they are broken and replaced.
-#Default Value: true
-disable_vanilla_workbench = true
-#Replace vanilla crafting tables created in structures during world generation. Does not affect already generated blocks.
-#Default Value: true
-convert_vanilla_workbench_during_world_gen = true

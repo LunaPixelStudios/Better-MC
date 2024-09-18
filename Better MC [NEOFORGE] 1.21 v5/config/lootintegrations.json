@@ -1,0 +1,10 @@
+{
+  "showcontainerloottable": {
+    "desc:": "Set to true to print containers loottable to chat on first open: default:false",
+    "showcontainerloottable": false
+  },
+  "debugOutput": {
+    "desc:": "Shows the added loot in the log if enabled: default:false",
+    "debugOutput": false
+  }
+}

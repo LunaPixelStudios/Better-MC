@@ -1,0 +1,6 @@
+{
+	// Whether to enable BWG Villager Trades
+	"enable_trades": true,
+	// Whether to add BWG Villager Trades to Vanilla Villagers
+	"enable_vanilla_trade_additions": true,
+}

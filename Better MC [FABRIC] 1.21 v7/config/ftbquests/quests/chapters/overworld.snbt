@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "51FE38DFB14D1D53"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "405691D08E18B243"
+			rewards: [{
+				id: "2277B0E27893A120"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "adventurez:mammoth"
+				icon: {
+					id: "adventurez:mammoth_tusk"
+				}
+				id: "1A8A7046D01BC519"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "0CCC9DED48871D47"
+			rewards: [{
+				id: "64A97D9F4C655275"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "adventurez:amethyst_golem"
+				icon: {
+					id: "minecraft:amethyst_cluster"
+				}
+				id: "5007F18A98D1F2B2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "6F0A8B6DD645FE7C"
+			rewards: [{
+				id: "24ED0226D837A7F2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "adventurez:desert_rhino"
+				icon: {
+					id: "adventurez:rhino_leather"
+				}
+				id: "283043A7E0180FCB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "7D6D7B7DD55F344D"
+			rewards: [
+				{
+					id: "3B788C347294148B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "45DAFCDEB2EA6474"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:summoner"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "354A89017B6C62D7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "21BBC2B36580E236"
+			rewards: [{
+				count: 20
+				id: "41F9D7E4490E062F"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				random_bonus: 10
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+				icon: {
+					id: "friendsandfoes:totem_of_illusion"
+				}
+				id: "15D53F3294C6D247"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+}

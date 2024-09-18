@@ -1,0 +1,4 @@
+#If enabled, the default hammock recipes will be available.
+enableHammockRecipes = true
+#If enabled, the default sleeping bag recipes will be available.
+enableSleepingBagRecipes = true

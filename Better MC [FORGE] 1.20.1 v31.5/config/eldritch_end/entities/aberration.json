@@ -1,9 +1,0 @@
-{
-  "HEALTH_ATTRIBUTE": 20.0,
-  "MOVEMENT_SPEED_ATTRIBUTE": 0.3,
-  "ATTACK_DAMAGE_ATTRIBUTE": 4.0,
-  "ATTACK_SPEED_ATTRIBUTE": 1.0,
-  "CHASE_SPEED": 1.2,
-  "WANDER_SPEED": 1.0,
-  "initital_corruption_duration_ticks": 200
-}

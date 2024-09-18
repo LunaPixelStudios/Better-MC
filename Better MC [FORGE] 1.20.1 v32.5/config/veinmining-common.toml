@@ -1,0 +1,27 @@
+#The rarity of the enchantment.
+#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+rarity = "RARE"
+#The number of levels of the enchantment.
+#Range: 1 ~ 5
+levels = 1
+#If enabled, the enchantment is considered a treasure enchantment.
+isTreasure = false
+#If enabled, the enchantment can be offered by villagers for trade.
+isVillagerTrade = true
+#If enabled, the enchantment can generate in loot.
+isLootable = true
+#If enabled, the enchantment can be applied at the enchantment table.
+canApplyAtEnchantingTable = true
+#If enabled, the enchantment can be applied on books.
+canApplyOnBooks = true
+#The minimum enchantability required for the first enchantment level.
+#Range: 1 ~ 100
+minEnchantabilityBase = 15
+#The additional enchantability required for each enchantment level after the first.
+#Range: 1 ~ 100
+minEnchantabilityPerLevel = 5
+#Enchantments that cannot be applied together with the enchantment.
+incompatibleEnchantments = []
+#Items that the enchantment can be applied on.
+itemsList = ["is:tool", "quark:pickarang", "quark:flamerang"]
+

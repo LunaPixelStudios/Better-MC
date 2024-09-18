@@ -1,0 +1,60 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1717234161103
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:c98d9a13-e413-4150-a9c5-78d2146df0f9-1717234161103] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 2a16585b-00ae-420f-aa5b-6182ebf60778-1717234161107
+  [executable_block:2a16585b-00ae-420f-aa5b-6182ebf60778-1717234161107][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 390419
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 0bc0d106-51f9-4a7c-821a-9899130d3db2-1717234161107
+  [loading_requirement_container_meta:0bc0d106-51f9-4a7c-821a-9899130d3db2-1717234161107] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
