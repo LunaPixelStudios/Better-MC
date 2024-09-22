@@ -1,0 +1,180 @@
+{
+  "inventoryConfig": {
+    "dropPlayerHead": false,
+    "itemLoss": {
+      "enabled": false,
+      "affectStacks": false,
+      "usePercentRange": true,
+      "lossRangeFrom": 0,
+      "lossRangeTo": 100,
+      "percentChanceOfLoss": 50,
+      "canLoseSoulbound": false
+    },
+    "loseSoulboundLevelOnDeath": false,
+    "vanishingSlots": [],
+    "soulboundSlots": [],
+    "dropOnGroundSlots": []
+  },
+  "expConfig": {
+    "dropBehaviour": "BEST_OF_BOTH",
+    "dropPercentage": 0,
+    "keepPercentage": 0
+  },
+  "graveConfig": {
+    "enabled": true,
+    "storeItems": true,
+    "storeXp": true,
+    "informGraveLocation": true,
+    "requireItem": false,
+    "requiredItem": "yigd:grave",
+    "requireShovelToLoot": false,
+    "retrieveMethods": {
+      "onClick": true,
+      "onBreak": false,
+      "onSneak": false,
+      "onStand": false
+    },
+    "mergeStacksOnRetrieve": true,
+    "dropOnRetrieve": "IN_INVENTORY",
+    "dropGraveBlock": false,
+    "generateEmptyGraves": false,
+    "overrideSpawnProtection": true,
+    "claimPriority": "GRAVE",
+    "graveRobbing": {
+      "enabled": true,
+      "onlyMurderer": false,
+      "afterTime": 1,
+      "timeUnit": "HOURS",
+      "robPriority": "INVENTORY",
+      "notifyWhenRobbed": true,
+      "tellWhoRobbed": true
+    },
+    "graveTimeout": {
+      "enabled": false,
+      "afterTime": 5,
+      "timeUnit": "HOURS",
+      "dropContentsOnTimeout": true
+    },
+    "treatBindingCurse": true,
+    "generateGraveInVoid": true,
+    "lowestGraveY": 3,
+    "generateOnlyWithinBorder": true,
+    "ignoredDeathTypes": [],
+    "unlockable": true,
+    "randomSpawn": {
+      "percentSpawnChance": 0,
+      "spawnEntity": "minecraft:zombie",
+      "spawnNbt": "{ArmorItems:[{},{},{},{id:\"minecraft:player_head\",components:{\"minecraft:profile\":{name:\"${owner.name}\",id:${owner.uuid}}}}]}"
+    },
+    "generateOnLastGroundPos": false,
+    "generationMaxDistance": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "useSoftBlockWhitelist": false,
+    "useStrictBlockBlacklist": true,
+    "replaceOldWhenClaimed": true,
+    "dropItemsIfDestroyed": false,
+    "notifyOwnerIfDestroyed": true,
+    "persistentGraves": {
+      "enabled": false,
+      "showDeathDay": true,
+      "showDeathIrlTime": true,
+      "useAmPm": true
+    },
+    "dimensionBlacklist": [],
+    "blockUnderGrave": {
+      "enabled": true,
+      "blockInDimensions": [
+        {
+          "key": "minecraft:overworld",
+          "value": "minecraft:cobblestone"
+        },
+        {
+          "key": "minecraft:the_nether",
+          "value": "minecraft:soul_soil"
+        },
+        {
+          "key": "minecraft:the_end",
+          "value": "minecraft:end_stone"
+        },
+        {
+          "key": "misc",
+          "value": "minecraft:dirt"
+        }
+      ]
+    },
+    "sellOutOfflinePeople": false,
+    "maxBackupsPerPerson": 50,
+    "dropFromOldestWhenDeleted": true
+  },
+  "respawnConfig": {
+    "respawnEffects": [],
+    "respawnHealth": -1,
+    "resetHunger": true,
+    "respawnHunger": -1,
+    "resetSaturation": true,
+    "respawnSaturation": -1.0,
+    "extraItemDrops": []
+  },
+  "compatConfig": {
+    "enableAccessoriesCompat": true,
+    "defaultAccessoriesDropRule": "PUT_IN_GRAVE",
+    "enableTravelersBackpackCompat": true,
+    "defaultTravelersBackpackDropRule": "PUT_IN_GRAVE",
+    "enableCuriosCompat": true,
+    "defaultCuriosDropRule": "PUT_IN_GRAVE"
+  },
+  "commandConfig": {
+    "mainCommand": "yigd",
+    "basePermissionLevel": 0,
+    "viewLatestPermissionLevel": 0,
+    "viewSelfPermissionLevel": 0,
+    "viewUserPermissionLevel": 2,
+    "viewAllPermissionLevel": 2,
+    "restorePermissionLevel": 2,
+    "robPermissionLevel": 2,
+    "whitelistPermissionLevel": 3,
+    "deletePermissionLevel": 3,
+    "unlockPermissionLevel": 0
+  },
+  "graveRendering": {
+    "useCustomFeatureRenderer": true,
+    "useSkullRenderer": true,
+    "useTextRenderer": true,
+    "adaptRenderer": false,
+    "useGlowingEffect": true,
+    "glowingDistance": 15
+  },
+  "extraFeatures": {
+    "enableSoulbound": true,
+    "deathSightEnchant": {
+      "enabled": false,
+      "range": 64.0,
+      "targets": "PLAYER_GRAVES"
+    },
+    "graveKeys": {
+      "enabled": false,
+      "rebindable": true,
+      "required": true,
+      "receiveOnRespawn": true,
+      "obtainableFromGui": false,
+      "targeting": "PLAYER_GRAVE"
+    },
+    "deathScroll": {
+      "enabled": false,
+      "rebindable": false,
+      "receiveOnRespawn": false,
+      "clickFunction": "VIEW_CONTENTS",
+      "consumeOnUse": false
+    },
+    "graveCompass": {
+      "receiveOnRespawn": false,
+      "consumeOnUse": true,
+      "deleteWhenUnlinked": true,
+      "cloneRecoveryCompassWithGUI": false,
+      "pointToClosest": "DISABLED"
+    }
+  }
+}

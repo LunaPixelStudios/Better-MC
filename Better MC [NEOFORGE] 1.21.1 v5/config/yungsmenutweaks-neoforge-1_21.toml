@@ -1,0 +1,16 @@
+["YUNG's Menu Tweaks"]
+	# Allows right clicking to cycle backwards through some buttons.
+	# Default: true
+	"Right Click Reverses Cycle Buttons" = true
+	# Allows scrolling the mouse wheel to modify options using a slider
+	# when hovering over the slider.
+	# Default: true
+	"Mouse Scroll Wheel Affects Sliders" = true
+	# If enabled, a custom background texture will be used in menus where possible.
+	# The texture used is specified by the Custom Background Texture option below.
+	# Default: false
+	"Enable Custom Background Texture" = false
+	# A texture to use as a custom background, instead of the typical blurred background.
+	# Only does anything if the Enable Custom Background Texture option is true.
+	# Default: minecraft:textures/block/dirt.png
+	"Custom Background Texture" = "minecraft:textures/block/dirt.png"
