@@ -3,11 +3,15 @@
   "failed_reloads_per_session": 5,
   "default_packs": [
     "vanilla",
+    "continuity:default",
     "file/Stay_True_1.21.zip",
     "file/MandalasGUI+Dakmode_1.20.5.zip",
-    "file/Mandala's GUI - Dark mode Mod Compat 0.2.7 beta Hotfix.zip",
+    "file/Mandala's GUI - Dark mode Mod Compat 0.2.8.zip",
     "file/NoBushyLeaves.zip",
+    "file/Re-Simple-Storage.zip",
+    "file/Mandela's GUI Vanilla Crosshair 1.21.zip",
     "file/Better_MC.zip",
+    "continuity:glass_pane_culling_fix",
     "moonlight:mods_dynamic_assets"
 
   ],

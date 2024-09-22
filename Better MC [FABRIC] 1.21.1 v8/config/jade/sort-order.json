@@ -6,6 +6,14 @@
   "jade:mod_name": null,
   "jade:object_name": null,
   "jade:registry_name": null,
+  "jade_access:block": null,
+  "jade_access:block_amount": null,
+  "jade_access:block_body": null,
+  "jade_access:entity": null,
+  "jade_access:entity_body": null,
+  "jade_access:entity_variant": null,
+  "jade_access:held_item": null,
+  "jade_access:sign": null,
   "minecraft:animal_owner": null,
   "minecraft:armor_stand": null,
   "minecraft:beehive": null,
@@ -25,6 +33,7 @@
   "minecraft:fluid_storage.default": null,
   "minecraft:furnace": null,
   "minecraft:harvest_tool": null,
+  "minecraft:hopper_lock": null,
   "minecraft:horse_stats": null,
   "minecraft:item_ber": null,
   "minecraft:item_display": null,
@@ -54,5 +63,7 @@
   "polymer:entities": null,
   "reputation:iron_golem": null,
   "reputation:villager_reputation": null,
-  "reputation:villager_snitch": null
+  "reputation:villager_snitch": null,
+  "toms_storage:inventory_config": null,
+  "toms_storage:inventory_connector": null
 }

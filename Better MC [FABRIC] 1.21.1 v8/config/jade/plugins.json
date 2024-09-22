@@ -50,6 +50,17 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "toms_storage": {
+    "inventory_config": true,
+    "inventory_connector": true
+  },
   "reputation": {
     "iron_golem": true,
     "villager_snitch": true,
