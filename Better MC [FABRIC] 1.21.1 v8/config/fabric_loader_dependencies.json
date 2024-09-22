@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "overrides": {
+        "mediumcore": {
+            "-depends": {
+              "minecraft": "IGNORED"
+            }
+          },
+        "improved-signs": {
+          "-depends": {
+            "minecraft": "IGNORED"
+          }
+        }
+    }
+  }
