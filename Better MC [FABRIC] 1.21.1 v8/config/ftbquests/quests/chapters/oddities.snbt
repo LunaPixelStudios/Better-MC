@@ -60,8 +60,8 @@
 				item: { count: 1, id: "xp_storage:xp_book" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			id: "1E65308E968AF323"
@@ -95,8 +95,8 @@
 				item: { count: 1, id: "xp_storage_trinkets:xp_conduit" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["22135D7A4301D684"]
@@ -111,8 +111,8 @@
 				item: { count: 1, id: "xp_storage_trinkets:xp_saver" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			id: "4D2619AE1CA96DCE"
@@ -218,16 +218,20 @@
 		{
 			id: "4BBAB429C5402A23"
 			rewards: [{
-				id: "2794EE43FCF95403"
+				id: "70ACD081FD8B5F5F"
+				item: {
+					count: 1
+					id: "handcrafted:hammer"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0C86FC8F05F7972E"
-				item: { count: 1, id: "handcrafted:white_cushion" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cushions)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			id: "08294911FF1A808E"
@@ -241,8 +245,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "46F2673C0F138F59"
-				item: { count: 1, id: "sawmill:sawmill" }
+				id: "1EEC22658601380C"
+				item: { count: 1, id: "chipped:carpenters_table" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -303,8 +307,94 @@
 				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
 				type: "item"
 			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "3EBB93F5103DC38F"
+			rewards: [{
+				count: 4
+				id: "76E529F11EE159D8"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40A5404491616B14"
+				item: { count: 1, id: "inmis:frayed_backpack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "4EF2248A2407DD07"
+			rewards: [{
+				count: 3
+				id: "2C0D4347114D3548"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14EAA931CC31120E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: -0.5d
-			y: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "31C2FFB959EB23F3"
+			rewards: [
+				{
+					id: "33126A2C4A2AD911"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "299D9AF661CFF6B8"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AD294B09E9C3C35"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:hammocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "13BC032FE5E18D59"
+			rewards: [{
+				id: "5724E40809D76B28"
+				item: {
+					count: 1
+					id: "minecraft:book"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D0185BF67109F2"
+				item: { count: 1, id: "minecraft:grindstone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 }

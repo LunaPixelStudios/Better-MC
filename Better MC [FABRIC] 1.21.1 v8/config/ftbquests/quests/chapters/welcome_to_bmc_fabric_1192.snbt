@@ -131,7 +131,7 @@
 		}
 		{
 			dependencies: ["2958CA7FA6FD3E4F"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/search.png"
