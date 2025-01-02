@@ -1,0 +1,68 @@
+
+[categories]
+	aether = true
+	deep_aether = true
+
+[aether]
+	"Aether Variant Animal Textures" = true
+	"Ambrosium Lamp" = true
+	"Ambrosium Torch Arrow" = true
+	"Extra Slime And Swet In A Bucket" = true
+	#Enables skyroot woodset blocks for quark blocks, such as skyroot post. Disable if another mod already adds compat blocks. 
+	"Skyroot Quark Blocks" = true
+	"Skyroot Stool" = true
+	"A Q Pickarang" = true
+	"Aether Brick Types" = true
+	"Ascended Quark Vertical Slabs" = true
+	"Compressed Block" = true
+	"Holystone Furnace" = true
+	"Quicksoil Framed Glass" = true
+
+	[aether.aether_variant_animal_textures]
+		"Enable Phyg" = true
+		"Enable Aerbunny" = true
+		"Enable Zephyr" = true
+		"Enable Cockatrice" = true
+
+	[aether.extra_slime_and_swet_in_a_bucket]
+		#Disables Swets from dancing in The Aether. Note that this config only affects the client.
+		"Are Swets Exited In The Aether" = true
+		#When disabled, disables all Ascended Quark bucket items except for the Slime in a Skyroot Bucket item. Disable if you find swet buckets unbalanced.
+		"Are Swet Buckets Enabled" = true
+
+	#Enables skyroot woodset blocks for quark blocks, such as skyroot post. Disable if another mod already adds compat blocks. 
+	[aether.skyroot_quark_blocks]
+		#This feature disables itself if any of the following mods are loaded:
+		# - everycomp
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+
+	[aether.a_q_pickarang]
+		"Enable Flamerang" = true
+
+	[aether.aether_brick_types]
+		"Enable Quicksoil Bricks" = true
+		"Enable Aether Dirt Bricks" = true
+		"Enable  Polished Icestone and Icestone Bricks" = true
+
+[general]
+	"Enable 'aq' Button" = true
+	"'aq' Button on the Right" = false
+	"Disable A Q Menu Effects" = false
+	#Set to false to disable the popup message telling you that you can config ascended quark in the aq menu
+	"Enable Onboarding" = true
+
+[deep_aether]
+	"Deep Aether Vertical Slab" = true
+	"Deep Aether Wood" = true
+	"Golden Berries Crate" = true
+	"More Aether Mud Blocks" = true
+
+	[deep_aether.deep_aether_wood]
+		#This feature disables itself if any of the following mods are loaded:
+		# - everycomp
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+

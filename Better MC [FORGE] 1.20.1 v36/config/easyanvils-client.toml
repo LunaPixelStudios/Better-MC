@@ -1,0 +1,3 @@
+#Render inventory contents of an anvil.
+render_anvil_contents = true
+

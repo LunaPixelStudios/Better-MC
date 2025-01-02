@@ -1,0 +1,28 @@
+
+[client]
+	#Is dragon flight vertical movement driven by the pitch of the game camera?
+	#This option can be toggled in-game via keybinding for quick switching.
+	#If you choose to disable this, vertical movement can still be achieved via dedicated keybindings.
+	camera_driven_flight = true
+	#When mounting and dismounting a dragon, should the camera automatically switch third-person perspectives?
+	third_person_on_mount = true
+
+#The values that define the offset of the camera position when riding a dragon in the third person camera.
+[camera_offsets]
+
+	[camera_offsets.third_person_back]
+		#Range: -3.0 ~ 1000.0
+		distance = 6.0
+		#Range: -3.0 ~ 1000.0
+		vertical = 4.0
+		#Range: -1000.0 ~ 1000.0
+		horizontal = 0.0
+
+	[camera_offsets.third_person_front]
+		#Range: -3.0 ~ 1000.0
+		distance = 6.0
+		#Range: -3.0 ~ 1000.0
+		vertical = 4.0
+		#Range: -1000.0 ~ 1000.0
+		horizontal = 0.0
+

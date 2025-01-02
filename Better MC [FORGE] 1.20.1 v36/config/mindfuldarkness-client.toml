@@ -1,0 +1,30 @@
+#Do not add the dark mode toggle buttons to the top of every menu.
+hide_in_game_switcher = true
+#Print menu type to game chat whenever a new menu screen is opened. Intended for finding menu types to be added to "menu_blacklist".
+debug_container_types = false
+#Screens to add a dark mode toggle button to, so that toggling is possible outside of inventory menus.
+#Allowed Values: NONE, TITLE_SCREEN, PAUSE_SCREEN, BOTH
+dark_mode_toggle_screens = "BOTH"
+#Exclude certain menus from showing the dark mode switcher. Useful when the box intersects other screen elements.
+menu_blacklist = []
+#Specifies gui paths and resources to darken.
+#End a path using '*' as a wildcard char to include every file (no nested directories) from that directory.
+#Begin with a namespace or skip namespace to apply to all namespaces.
+#Begin with '!' to exclude matches, list those exclusions after entries that would otherwise include them.
+paths = ["textures/gui/*", "!minecraft:textures/gui/icons.png", "!minecraft:textures/gui/options_background.png", "textures/gui/container/*", "minecraft:textures/gui/container/creative_inventory/*", "trinkets:textures/gui/slots/*", "craftingtweaks:gui.png", "dankstorage:textures/container/gui/*", "ae2:textures/guis/*"]
+#Use a dark theme for the configuration screens.
+dark_theme = false
+#Percentage of original interface brightness to apply.
+#Range: 0.0 ~ 1.0
+texture_darkness = 0.5
+#The minimum brightness value of font while dark mode is enabled.
+#Range: 0.0 ~ 1.0
+font_brightness = 0.75
+#Algorithm selector for darkening interface pixels.
+#Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
+darkening_algorithm = "GRAYSCALE_AND_HSP"
+#Print screen identifier to game chat or log file whenever a new screen is opened. Intended for finding screens to be added to "font_color_blacklist".
+debug_all_screens = false
+#Exclude certain screens from being affected by any text color alterations.
+font_color_blacklist = ["chat_screen.title", "sign.edit", "hanging_sign.edit", "book.edit", "book.view"]
+

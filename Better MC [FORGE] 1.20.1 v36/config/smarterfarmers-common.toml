@@ -1,0 +1,12 @@
+
+[general]
+	#If true, villagers will pick up food items from the regardless of mob griefing gamerule. Needed since with mob griefing on they wont be able to breed.
+	pickup_food_override = true
+	#If true, villagers will eat food items they pick up. Eating food will heal them
+	eat_food = true
+	#Time for a farmer to harvest a crop once it reached its destination
+	#Range: 1 ~ 1000
+	time_to_harvest = 40
+	#If true, will render debug info for farmers. Only works in single player
+	debug_renderer = false
+

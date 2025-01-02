@@ -1,0 +1,7 @@
+
+[Rendering]
+	#Always Enables the halloween Slider
+	"Always Enable Halloween Slider" = false
+	#Never Enables the halloween Slider, not even during halloween
+	"Never Enable Halloween Slider" = false
+

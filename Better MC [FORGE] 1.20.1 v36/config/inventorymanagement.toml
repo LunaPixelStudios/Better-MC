@@ -1,0 +1,22 @@
+# Config version is auto-generated
+# DO NOT CHANGE
+configVersion = 1
+
+[inventorymanagement]
+	# Simple toggle for the mod! Set to false to disable.
+	modEnabled = true
+	# Whether or not to show sort buttons in the UI.
+	showSort = true
+	# Whether or not to show transfer buttons in the UI.
+	showTransfer = true
+	# Whether or not to show autostack buttons in the UI.
+	showStack = true
+	# Whether the buttons should use light theme (vanilla),
+	# dark theme (VanillaTweaks dark UI), or automatically choose 
+	# based on whether you have VanillaTweaks dark UI enabled.
+	guiTheme = "auto"
+	# Customize a default for button position.
+	defaultPosition = "(-4,-1)"
+	# Customize button position on a per-screen basis.
+	screenPositions = {}
+

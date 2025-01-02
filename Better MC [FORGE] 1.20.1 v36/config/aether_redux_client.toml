@@ -1,0 +1,60 @@
+
+[Rendering]
+
+	[Rendering."Mob Model Upgrades"]
+		#Makes Moas resemble their Mutation models
+		"Moa Model Upgrade" = true
+		#Determines which model variation to use for the Moa. Refreshed is sort of a preview for a future design that will be used, the two legacy ones are from the old Moa Foot Type config to change between peaceful-appearing toes and menacing talons for the feet.
+		#Allowed Values: refreshed, legacy_toes, legacy_talons
+		"Moa Model Type" = "refreshed"
+		#Makes Cockatrices look far better
+		"Cockatrice Model Upgrade" = true
+		#Determines which model variation to use for the Cockatrice. Refreshed is sort of a preview for a future design that will be used, the legacy one uses Redux's previous iteration.
+		#Allowed Values: refreshed, legacy
+		"Cockatrice Model Type" = "refreshed"
+		#Improves the model for Sentries, giving them a new model and a springy jump animation
+		"Sentry Model Upgrade" = true
+		#Whether or not to use the upgraded Mimic model. Note that unless you use sync_with_server, there may be hitbox differences.
+		#Allowed Values: sync_with_server, modern_override, classic_override
+		"Mimic Model Upgrade" = "sync_with_server"
+		#Gives the Sheepuff's model some touchups and improvements
+		"Sheepuff Model Upgrade" = true
+		#Gives the Phyg's model some touchups and improvements
+		"Phyg Model Upgrade" = true
+		#Gives the Flying Cow's model some touchups and improvements
+		"Flying Cow Model Upgrade" = true
+
+	[Rendering.GUI]
+
+		[Rendering.GUI.Menu]
+			#Current folder used for the menu panorama
+			"Menu Directory" = "skyfields"
+			#Which menu panorama directories to cycle between. Make empty to disable cycling logic
+			"Menu Choices" = ["skyfields", "dungeon", "blight", "cloudcaps", "gilded"]
+			#Randomize menu panorama ranther than cycling in order.
+			"Randomize Menu Cycling" = false
+			#Center the mod's logo in the menu
+			"Center Aether: Redux Logo" = true
+
+	[Rendering.Particles]
+		#Improves the leaf particles for Golden Oaks, Gilded Oaks, and Crystal Trees, based on Minecraft 1.20's new cherry tree particles.
+		"Better Leaf Particles" = true
+
+[Fixes]
+	#Fixes a forge/neoforge bug causing biome modifiers to not be able to change grass colors, so Redux can have vanilla grass use vanilla colors in the Aether
+	"Fix Biome Modifier Grass Bug" = true
+
+[Audio]
+	#Enables a slamming sound for mimics when using the new model. Disable if it gets too annoying XD
+	"Mimic Slam Sound Effect" = true
+	#Gives sounds to the other clouds for the Aether: Genesis when it is installed
+	"Aercloud Ability Sounds" = true
+
+[Internal]
+	#Internal value to do menu changes. Set this to false in modpacks if you want to use your own menu.
+	"First Startup - Menu Setup" = false
+	#Internal value to change an Aether config, giving a nicer lightmap in the dimension.
+	"First Startup - Lightmap Change" = false
+	#Value used to track the version of the Aether: Redux most recently used.
+	"Version ID" = "2.0.18"
+

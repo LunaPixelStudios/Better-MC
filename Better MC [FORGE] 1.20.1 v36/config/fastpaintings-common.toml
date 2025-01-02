@@ -1,0 +1,6 @@
+
+[general]
+	#Makes paintings always drop with their NBT
+	#Allowed Values: OFF, ALWAYS, WHEN_PLACED_WITH_NBT
+	nbt_drop = "OFF"
+

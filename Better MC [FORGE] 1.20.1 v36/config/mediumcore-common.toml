@@ -1,0 +1,20 @@
+#Whether mediumcore appears as the first, default game mode when creating a new world.
+mediumcore_default_game_mode = false
+#Whether hearts appear with a different texture in mediumcore.
+mediumcore_heart_texture = true
+#The amount of max health each player starts with in mediumcore. Default is 20 HP, which is 10 hearts.
+#Range: 0.5 ~ 1000.0
+starting_player_health = 20.0
+#The lowest amount of max health a player can have in mediumcore. Health will not decrease beyond this threshold no matter how many deaths are taken. Default is 6 HP, which is 3 hearts.
+#Range: 0.5 ~ 1000.0
+minimum_player_health = 6.0
+#The amount of max health each player can possibly have in mediumcore. Default is 20 HP, which is 10 hearts.
+#Range: 0.5 ~ 1000.0
+max_player_health = 20.0
+#The amount of max health lost with each death. Default is 2 HP, which is 1 heart.
+#Range: 0.0 ~ 20.0
+health_decrease_per_death = 2.0
+#The amount of max health regained when healed. Default is 2 HP, which is 1 heart.
+#Range: 0.0 ~ 20.0
+health_increase_per_heal = 2.0
+

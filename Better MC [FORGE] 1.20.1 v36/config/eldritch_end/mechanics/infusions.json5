@@ -1,0 +1,10 @@
+{
+  "etyr_infusion": {
+    "can_apply_to_weapons": true,
+    "can_apply_to_armor": true
+  },
+  "corruption_infusion": {
+    "can_apply_to_weapons": true,
+    "can_apply_to_armor": true
+  }
+}

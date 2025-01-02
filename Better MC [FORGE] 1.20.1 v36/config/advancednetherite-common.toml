@@ -1,0 +1,51 @@
+
+[common]
+
+	#Configure properties related to armor perks here
+	[common.armor_perks]
+
+		#Configure properties related to Netherite-Iron armor here
+		[common.armor_perks.netherite_iron_armor]
+			#If true, Phantoms behave neutral towards players wearing Netherite-Iron armor. True by default.
+			ironPhantomPassiveArmor = true
+			#If true, Piglins behave neutral towards players wearing Netherite-Iron armor. False by default.
+			ironPiglinPassiveArmor = false
+			#If true, Endermen behave neutral towards players wearing Netherite-Iron armor. False by default.
+			ironEndermanPassiveArmor = false
+
+		#Configure properties related to Netherite-Gold armor here
+		[common.armor_perks.netherite_gold_armor]
+			#If true, Phantoms behave neutral towards players wearing Netherite-Gold armor. False by default.
+			goldPhantomPassiveArmor = false
+			#If true, Piglins behave neutral towards players wearing Netherite-Gold armor. True by default.
+			goldPiglinPassiveArmor = true
+			#If true, Endermen behave neutral towards players wearing Netherite-Gold armor. False by default.
+			goldEndermanPassiveArmor = false
+
+		#Configure properties related to Netherite-Emerald armor here
+		[common.armor_perks.netherite_emerald_armor]
+			#If true, Phantoms behave neutral towards players wearing Netherite-Emerald armor. False by default.
+			emeraldPhantomPassiveArmor = false
+			#If true, Piglins behave neutral towards players wearing Netherite-Emerald armor. False by default.
+			emeraldPiglinPassiveArmor = false
+			#If true, Endermen behave neutral towards players wearing Netherite-Emerald armor. True by default.
+			emeraldEndermanPassiveArmor = true
+
+		#Configure properties related to Netherite-Diamond armor here
+		[common.armor_perks.netherite_diamond_armor]
+			#If true, Phantoms behave neutral towards players wearing Netherite-Diamond armor. True by default.
+			diamondPhantomPassiveArmor = true
+			#If true, Piglins behave neutral towards players wearing Netherite-Diamond armor. True by default.
+			diamondPiglinPassiveArmor = true
+			#If true, Endermen behave neutral towards players wearing Netherite-Diamond armor. True by default.
+			diamondEndermanPassiveArmor = true
+
+	#Configure properties related to additional drop perks here. Drop chances can be modified in the SERVER config.
+	[common.additional_drops]
+		#If true, enables additional crop drops for hoes. True by default.
+		enableAdditionalCropDrops = true
+		#If true, enables additional ore drops for pickaxes. Pickaxes with Silk Touch remain unaffected. True by default.
+		enableAdditionalOreDrops = true
+		#If true, enables additional ore drops for swords. True by default.
+		enableAdditionalMobDrops = true
+

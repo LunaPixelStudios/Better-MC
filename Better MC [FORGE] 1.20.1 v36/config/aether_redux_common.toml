@@ -1,0 +1,108 @@
+
+["Gameplay Changes"]
+
+	["Gameplay Changes"."Existing Mob Changes"]
+		#Makes Cockatrices shoot at you and chase you if they hit you. Also disables Cockatrice spawns in the Blight. Requires world restart to refresh existing mob AI.
+		"Improved Cockatrice Behavior" = true
+		#Makes Cockatrices burn in daylight. Requires world restart to refresh existing mob AI.
+		"Cockatrices burn in daylight" = false
+		#Gives Swets less irritating behavior, based on their behavior in older builds of the Paradise Lost mod. Requires world restart to refresh existing mob AI.
+		"PL-Like Swet Behavior" = true
+		#Decreases the size of mimics. Intended to be used with the client-side model. Requires an MC restart
+		"Smaller Mimic Hitbox" = true
+		#Causes mobs to try to avoid walking on quicksoil.
+		"Mobs Avoid Quicksoil" = true
+
+	["Gameplay Changes".Loot]
+		#Enables the Valkyrie Ring as a drop from Valkyries
+		"Valkyrie Ring" = true
+
+	["Gameplay Changes"."Mob Spawns"]
+		#Allows Endermen to spawn in the Aether
+		"Enderman Spawns" = false
+		#Allows Vanilla Swets to spawn in the Aether
+		"Vanilla Swet Spawns" = true
+
+	["Gameplay Changes"."Existing Content Alterations"]
+		#Nerfs Gummy Swets, but also makes them craftable. Note: Requires the Aether's Gummy Swet Healing config to be false to properly nerf the hunger effect. Requires datapack reload.
+		"Nerf Gummy Swets" = true
+		#Makes some Aether blocks take a bit longer to break, as they are extremely quick currently
+		"Consistent Mining Speeds" = false
+		#Changes quicksoil between various behaviors. Genesis is the most chaotic, highlands is the most fine-tuned, classic is the original
+		#Allowed Values: classic, genesis, highlands
+		"Quicksoil Movement System" = "highlands"
+		#Replaces Enchanted Gravitite with Gravitite Ingots. The blocks of this have the original floating behavior.
+		"Gravitite Ingots" = true
+		#Makes Light Dungeon stones use better recipes
+		"Better Light Dungeon Stone Recipes" = true
+
+	["Gameplay Changes".Additions]
+		#Use Raw ores for different Aether metals.
+		"Raw Ores" = true
+
+	["Gameplay Changes".Misc]
+		#Changes the hitboxes of vanilla double plants. Disable if it causes odd behavior.
+		"Change Double Plant Hitboxes" = true
+		#Makes blockstate conversion sounds (ambrosium, swet ball) better
+		"Better Conversion Sounds" = true
+
+[Worldgen]
+	#Uses an alternative island noise for the Aether. By default, this is disabled with the Ancient Aether mod installed.
+	#Allowed Values: TRUE, FALSE, WITHOUT_AA
+	"Redux Noise" = "without_aa"
+
+	[Worldgen."Additional Features"]
+		#Enables Mossy Holystone as an ore. Configurable so that if you disable it, it's easier to tell if you've come across a dungeon.
+		"Mossy Holystone Ores" = true
+		#Enables Enchanted/Gilded vines on trees
+		"Enable Enchanted and Gilded Vines" = true
+		#Enables roots made of logs and log walls on the sides of Large Cloudcap mushrooms and Blightwillow trees.
+		"Wall Roots on Blightwillows and Large Cloudcaps" = true
+		#Uses the legacy design for the gilded groves, instead of the new one added in 2.0.17 that is an inbetween of 2.0 and 2.1's designs
+		"Legacy Gilded Groves Design" = false
+
+		[Worldgen."Additional Features"."Cloud Layer"]
+			#Replaces the Aether's large cloud features with a new and improved noise-based cloud layer.
+			"Cloud Layer Generation" = true
+			#Minimum value for the cloud layer's noise threshold
+			#Range: -4.0 ~ 4.0
+			"Cloud Layer Threshold Min" = 0.0
+			#Maximum value for the cloud layer's noise threshold
+			#Range: -4.0 ~ 4.0
+			"Cloud Layer Threshold Max" = 1.0
+
+	[Worldgen."Bronze Dungeon"]
+		#Adds dungeon mobs from the Aether: Genesis to the spawners added to the Bronze Dungeon if it is installed
+		#Allowed Values: sentry_only, all, no_golems
+		"Genesis Mobs in Spawners" = "all"
+		#Upgrades the Bronze Dungeon structure with new blocks and more depth
+		"Bronze Dungeon Upgrade" = true
+
+	[Worldgen.Biomes]
+		#When enabled, any biome value config changes will be reset. It is recommended that you disable this if you want to keep any custom biome parameters you may have set.
+		"Auto-Reset Biome Values" = true
+		#The value of Redux's biome region size. Larger values correspond to larger biome clumps
+		"Region Size" = 20
+		#Improves the water color of Aether biomes, making the color match the rest of the dimension better
+		"Better Water Color" = true
+		#Alters the sky colors of the Aether, to be a bit more in line with vanilla. Also adds some new unique colors as well to some of Redux's new biomes
+		"Alternate Sky Colors" = true
+		#Enables the Blight biome.
+		"Enable the Blight" = true
+		#Enables the Gilded Groves and Gilded Grasslands biomes.
+		"Enable Gilded Biomes" = true
+		#Enables the Frosted Tundra and Glacial Tagia biomes.
+		"Enable Snowy Biomes" = true
+		#Enables the Skyfields biome.
+		"Enable Skyfields" = true
+		#Enables the Cloudcaps biome.
+		"Enable the Cloudcaps" = true
+		#Enables the Skyroot Shrublands biome.
+		"Enable Skyroot Shrublands" = true
+		#Uses Enchanted Aether Grass for the ground in the Gilded Groves. May require a Minecraft restart.
+		"Enchanted Gilded Grass" = true
+
+[Internal]
+	#Internal value, used to decide if the Aeroblender configs should be changed
+	"First Startup - Aeroblender Setup" = true
+

@@ -1,0 +1,35 @@
+
+#General settings
+[storagenetwork]
+	#Enable very spammy logs.  Sometimes useful for debugging. 
+	logSpam = false
+	#
+	# How many itemstacks from the network are visible to external connections through the storagenetwork:exchange.  Too low and not all items can pass through, too large and there will be packet/buffer overflows.
+	#Range: 1 ~ 5000
+	exchangeBufferSize = 1024
+	#
+	# When matching items to recipes in the JEI + button, this is the maximum number of tags to serialize over the network when on a server.  Reduce if you get errors relating to Packet Sizes being too large (Minecraft 1.12.2 had this hardcoded at 5).
+	#Range: 5 ~ 128
+	jeiMaximumRecipeTags = 64
+	#
+	# Disable these blocks from ever being able to connect to the network, they will be treated as a non-inventory.
+	NotallowedBlocks = ["extrautils2:playerchest"]
+	#
+	# If this is true, reload network when a chunk unloads, this keeps your network always up to date.  It has been reported that this cause lag and chunk load issues on servers, so disable if you have any problems. 
+	reloadNetworkWhenUnloadChunk = false
+	#
+	# Maximum range of the Storage Remote and Crafting Remote.   -1 means unlimited.
+	#Range: -1 ~ 8388607
+	remoteMaxRange = -1
+	#
+	# How often to auto-refresh a network (one second is 20 ticks)
+	#Range: 2 ~ 4096
+	autoRefreshTicks = 20
+
+	[storagenetwork.facades]
+		#
+		# These items are not able to be used as Facade blocks for cables (shift-left-click to add or remove block facades while in not-creative)
+		itemsNotAllowed = ["minecraft:ladder", "minecraft:double_plant", "minecraft:waterlily", "minecraft:torch", "minecraft:*_torch", "minecraft:redstone", "minecraft:iron_bars", "minecraft:chest", "minecraft:ender_chest", "minecraft:sculk_vein", "minecraft:string", "minecraft:vine", "minecraft:rail", "minecraft:*_rail", "minecraft:brewing_stand", "minecraft:*_dripleaf", "minecraft:*_pane", "minecraft:*_sapling", "minecraft:*_sign", "minecraft:*_door", "minecraft:*_banner", "minecraft:*_shulker_box", "cyclic:*_pipe", "cyclic:*_bars", "storagenetwork:*"]
+		#Change this to 'false' to disable facades.  The facade feature lets you hide cables with blocks (does not consume the item, use shift-left-click when not creative)
+		enabled = true
+

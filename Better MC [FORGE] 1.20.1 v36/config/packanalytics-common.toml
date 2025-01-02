@@ -1,0 +1,11 @@
+#.
+#URL to send data to.
+"Metrics Endpoint URL" = "https://analyticsinjest.txni.dev/"
+#.
+#Identifier for this modpack
+"Pack ID" = "bmc4forge"
+#.
+#Interval between keepalive requests, in minutes.
+#Range: > -2147483648
+"Update Rate" = 30
+

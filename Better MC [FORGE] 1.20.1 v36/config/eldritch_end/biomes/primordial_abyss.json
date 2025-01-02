@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "enable_midlands": false,
+  "spawn_endermen": false,
+  "spawn_aberrations": true,
+  "biome_weight": 4.0,
+  "biome_temperature": 1.0,
+  "enable_tendril_patches": true,
+  "tendril_patch_chance": 10,
+  "enable_roots_generation": true,
+  "roots_generation_chance": 10,
+  "enable_leaves_generation": true
+}

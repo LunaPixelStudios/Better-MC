@@ -1,0 +1,24 @@
+
+#General settings
+[General]
+	#Enable Inquisitor spawning during raids based on the 'inquisitorSpawnsPerWave' setup
+	spawnInquisitor = true
+	#The spawns per wave for the Inquisitor before bonus spawns are applied (Must always have 8 values!)
+	inquisitorSpawnsPerWave = [0, 0, 0, 3, 0, 0, 0, 0]
+	#Enable Incinerator spawning during raids based on the 'incineratorSpawnsPerWave' setup
+	spawnIncinerator = true
+	#The spawns per wave for the Incinerator before bonus spawns are applied (Must always have 8 values!)
+	incineratorSpawnsPerWave = [0, 0, 0, 0, 1, 0, 0, 1]
+	#Enable Savager spawning during raids based on the 'savagerSpawnsPerWave' setup
+	spawnSavager = true
+	#The spawns per wave for the Savager before bonus spawns are applied (Must always have 8 values!)
+	savagerSpawnsPerWave = [0, 0, 0, 2, 0, 0, 1, 0]
+	#Enable Necromancer spawning during raids based on the 'necromancerSpawnsPerWave' setup
+	spawnNecromancer = true
+	#The spawns per wave for the Necromancer before bonus spawns are applied (Must always have 8 values!)
+	necromancerSpawnsPerWave = [0, 0, 1, 0, 0, 1, 0, 0]
+	#Enable Electromancer spawning during raids based on the 'electromancerSpawnsPerWave' setup
+	spawnElectromancer = true
+	#The spawns per wave for the Electromancer before bonus spawns are applied (Must always have 8 values!)
+	electromancerSpawnsPerWave = [0, 1, 0, 2, 0, 1, 0, 0]
+

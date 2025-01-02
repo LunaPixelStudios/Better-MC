@@ -1,0 +1,94 @@
+
+[general]
+	tooltip_hints = true
+	custom_configured_screen = true
+
+[lily_pad]
+	#set to 0 tho have lilypads at the same exact position as vanilla.negative numbers will place them in their own blockspace right below avoiding any clipping.best of both worlds at default as its barely within its space
+	#Range: -1.0 ~ 1.0
+	y_offset = -0.016625
+
+[bell]
+	#Visually attach chains and ropes to bells
+	chain_attachment = true
+
+[brewing_stand]
+	#Colors the brewing stand potion texture depending on the potions it's brewing.
+	#If using a resource pack add tint index from 0 to 3 to the 3 potion layers
+	brewing_stand_colors = true
+
+[arrows]
+	#Makes tipped arrows show their colors when loaded with a crossbow
+	crossbows_colors = true
+
+[tripwire_hook]
+	#Makes hooks render faster using a block model instead of tile renderer. Cost is that animated and enchanted items will appear static
+	fast_hooks = false
+
+[hanging_sign]
+	#Scale of items on hanging signs (unit is in pixel they would occupy). Set to 8 to better match the pixels on the sign
+	#Range: 0.0 ~ 32.0
+	item_pixel_scale = 10.0
+	#Makes signs swing!
+	swinging_signs = true
+	#Signs have visual attachment to walls and fences
+	sign_attachment = true
+
+	[hanging_sign.swing_physics]
+		frequency = 0.6
+		collision_considers_entity_hitbox = true
+		collision_inertia = 1.0
+		collision_force = 15.0
+		min_angle = 0.79999995
+		max_angle = 60.0
+		damping = 0.525
+
+[lantern]
+	#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
+	fast_lanterns = false
+	#Size lanterns when held in hand
+	#Range: 0.0 ~ 2.0
+	lantern_item_size = 0.625
+	#Gives a special animation to lanterns when held in hand
+	lantern_item_holding = true
+	#Makes lantern holding animation have the arm angled more upwards. Looks better if you have dynamic lights on
+	lantern_item_holding_up = false
+
+	[lantern.swing_physics]
+		frequency = 0.6
+		collision_considers_entity_hitbox = true
+		collision_inertia = 1.0
+		collision_force = 15.0
+		min_angle = 0.79999995
+		max_angle = 60.0
+		damping = 0.525
+
+[cauldron]
+	#Gives a unique texture to potion cauldrons
+	potion_texture = true
+
+[jukebox]
+	#Use the new jukebox model
+	new_model = true
+	#Makes jukebox disc spin while playing
+	disc_spin = true
+
+[misc]
+	#Gives a special animation to torches when held in hand
+	torch_item_holding = true
+	#Size lanterns when held in hand
+	#Range: 0.0 ~ 2.0
+	torch_item_size = 1.0
+	#Gives a special animation to supplementaries candle holders when held in hand
+	candle_holder_item_holding = true
+	#Size lanterns when held in hand
+	#Range: 0.0 ~ 2.0
+	handle_holder_item_size = 0.625
+	#Makes Torch and Lantern holding animation be fixed, not changing with player facing
+	fixed_holding_animations = false
+	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
+	#Range: 0.0 ~ 5.0
+	sign_text_color_multiplier = 1.2
+	#Prevents campfire smoke from rendering if there is a solid block above it
+	campfire_smoke_through_blocks = false
+

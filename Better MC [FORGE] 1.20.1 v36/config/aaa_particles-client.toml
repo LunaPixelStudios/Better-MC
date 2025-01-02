@@ -1,0 +1,4 @@
+#Replace the visual of lighting with an effekseer effect,
+#in production environment.
+effek_lightning_in_production_environment = false
+

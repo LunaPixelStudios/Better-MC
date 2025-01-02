@@ -1,0 +1,9 @@
+
+#LongNbtKiller Config
+[depth]
+	#Range: > 512
+	maxDepthForCompoundTag = 2147483647
+	#Range: > 512
+	maxDepthForListTag = 2147483647
+	removeByteBufTagLimit = true
+

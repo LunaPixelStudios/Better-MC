@@ -1,0 +1,22 @@
+{
+  "mob": {
+    "purple_aechor_plants": true,
+    "cockatrice_texture": "blighted"
+  },
+  "item": {
+    "veridium_type": "modern",
+    "swet_ball_type": "gel"
+  },
+  "tintable_grass": true,
+  "mob_sounds": {
+    "better_sentry_sounds": true,
+    "better_cockatrice_sounds": false,
+    "better_aerwhale_sounds": true,
+    "better_mimic_awaken_sound": true,
+    "better_slider_sounds": true,
+    "better_aechor_sounds": true,
+    "better_moa_sounds": false,
+    "better_tempest_sounds": true
+  },
+  "use_jappafied_textures": false
+}

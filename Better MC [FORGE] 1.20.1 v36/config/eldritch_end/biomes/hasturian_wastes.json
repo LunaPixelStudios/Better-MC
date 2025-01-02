@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "biome_weight": 3.0,
+  "biome_temperature": 5.0,
+  "enable_spike_generation": true,
+  "spike_generation_chance": 100,
+  "etyr_spawn_chance_per_block": 2,
+  "enable_grass_generation": true,
+  "grass_generation_chance": 10,
+  "spawn_dendlers": true
+}

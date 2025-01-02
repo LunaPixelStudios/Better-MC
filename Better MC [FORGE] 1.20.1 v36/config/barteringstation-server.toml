@@ -1,0 +1,11 @@
+#Range on y axis bartering station should search for available piglins.
+#Range: 1 ~ 96
+vertical_range = 4
+#Range on xz plane bartering station should search for available piglins.
+#Range: 1 ~ 96
+horizontal_range = 12
+#Delay in ticks after a bartering station tries to give gold ingots to piglins again. The piglin inspecting the gold ingot always takes half that time, the other half is a cool-down.
+#Bartering manually in vanilla always takes 120 ticks, this option doesn't change that.
+#Range: > 20
+barter_delay = 300
+

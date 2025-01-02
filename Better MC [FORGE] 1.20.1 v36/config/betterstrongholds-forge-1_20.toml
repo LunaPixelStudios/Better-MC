@@ -1,0 +1,20 @@
+
+["YUNG's Better Strongholds"]
+
+	###########################################################################################################
+	## General settings.
+	###########################################################################################################
+	["YUNG's Better Strongholds".General]
+		# The rate at which cobwebs will spawn in various parts of the stronghold.
+		# Default: 0.1
+		"Cobweb Spawn Rate (NORMAL)" = 0.1
+		# The rate at which cobwebs will spawn around spider spawners in libraries.
+		# Default: 0.3
+		"Cobweb Spawn Rate (SPAWNER)" = 0.3
+		# The rate at which torches spawn throughout the stronghold.
+		# Default: 0.1
+		"Torch Spawn Rate" = 0.1
+		# The rate at which lanterns spawn throughout the stronghold.
+		# Default: 0.2
+		"Lantern Spawn Rate" = 0.2
+

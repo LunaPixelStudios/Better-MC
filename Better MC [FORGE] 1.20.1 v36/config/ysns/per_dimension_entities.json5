@@ -1,0 +1,36 @@
+{
+  // ----------------------------------------------------------------------------------------------------------------
+  //                                     You Shall Not Spawn by ElocinDev.
+  //                                       per_dimension_entities.json5
+  // ----------------------------------------------------------------------------------------------------------------
+  //  
+  //  entity: The entity's id you want to adjust. (For example: minecraft:zombie, regex can be used.)
+  //  dimension: The dimension id you want to adjust. (For example: minecraft:overworld, regex can be used.)
+  //  spawn_chance: The chance of the entity spawning. (For example: 0.1 is 10%, 0.5 is 50%, 0.0 will disable the spawn.)
+  //  
+  //  The example below adds a modifier for the zombie, with 1.0 spawn chance (100%).
+  //  By default, this does nothing, but you for example set the spawn chance to 0.5, making zombies spawn half the time they usually do.
+  //  
+  //  YSNS CAN'T INCREASE SPAWN RATES! ANYTHING ABOVE 1.0 WILL NOT INCREASE SPAWNRATE!
+  //  
+  // Note: As a more advanced method, you can use regex by starting the entry with !
+  // With regex, you can do things such as disabling multiple entities in a single entry, or cover multiple (or all) dimensions
+  // Format: "!{Regular expression}"
+  // Example: "!minecraft:.*" will disable all entities from minecraft. (NOT RECOMMENDED, JUST AN EXAMPLE)
+  //  
+  // Regex works on both entity and dimension entries.
+  "dimensions": [
+    {
+      "entityId": "palegarden:creaking",
+      "dimension": "minecraft:*",
+      "spawn_chance": 0.1
+    },
+    {
+      "entityId": "palegarden:creaking_heart",
+      "dimension": "minecraft:*",
+      "spawn_chance": 0.5
+    }
+  ],
+  // Don't touch this!
+  "CONFIG_VERSION": 1
+}

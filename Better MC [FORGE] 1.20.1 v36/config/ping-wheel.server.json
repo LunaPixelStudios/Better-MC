@@ -1,0 +1,5 @@
+{
+  "defaultChannelMode": "AUTO",
+  "msToRegenerate": 1000,
+  "rateLimit": 5
+}

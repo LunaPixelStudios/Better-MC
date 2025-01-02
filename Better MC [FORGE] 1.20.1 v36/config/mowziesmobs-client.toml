@@ -1,0 +1,17 @@
+
+[client]
+	#Toggles the lantern glow effect, which may look bad with certain shaders.
+	glow_effect = true
+	#Toggles the Umvuthana footprint effects, which may decrease performance.
+	umvuthana_footprints = true
+	#Enable camera shaking during certain mob attacks and abilities.
+	do_camera_shake = true
+	#Play boss battle themes during boss encounters.
+	play_boss_music = true
+	#Use custom boss health bar textures, if the boss has them.
+	custom_boss_bar = true
+	#Use custom player animations.
+	custom_player_anims = true
+	#Play Umvuthana Crane heal sounds. Turn this off if you are experiencing crashes when Cranes appear during Umvuthi's boss battle.
+	crane_heal_sounds = true
+

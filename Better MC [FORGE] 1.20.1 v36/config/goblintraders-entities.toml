@@ -1,0 +1,176 @@
+# If true, prevents the trader from despawning if named
+# Valid values: true, false
+preventDespawnIfNamed = true
+
+[goblinTrader]
+	# The minimum level the trader can spawn
+	# Valid range: -64 to 320 (inclusive)
+	traderMinSpawnLevel = -64
+	# The maximum level the trader can spawn
+	# Valid range: -64 to 320 (inclusive)
+	traderMaxSpawnLevel = 50
+	# The amount of ticks to wait before trying to spawn a trader again if the spawn failed
+	# Valid range: 1 to 2147483647 (inclusive)
+	spawnInterval = 12000
+	# If true, the goblin will try to hit back a player or mob that hit them
+	# Valid values: true, false
+	canAttackBack = true
+	# Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
+	# Valid range: 1 to 1000 (inclusive)
+	gruntNoiseInterval = 80
+	# The chance out of one hundred that the trader will spawn in the over world
+	# Valid range: 1 to 100 (inclusive)
+	traderSpawnChance = 25
+	# The amount of ticks before the trader will start spawning in a new world
+	# Valid range: 1 to 2147483647 (inclusive)
+	traderSpawnDelay = 24000
+	# The amount of ticks before the trader will despawn
+	# Valid range: 1 to 2147483647 (inclusive)
+	traderDespawnDelay = 24000
+	# The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
+	# Valid range: -1 to 2147483647 (inclusive)
+	restockDelay = 48000
+
+	[goblinTrader.trades]
+
+		[goblinTrader.trades.uncommon]
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 5
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 3
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 1.0
+
+		[goblinTrader.trades.common]
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 5
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 8
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 1.0
+
+		[goblinTrader.trades.rare]
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 1.0
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 3
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 4
+
+		[goblinTrader.trades.epic]
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 1.0
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 2
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 0
+
+		[goblinTrader.trades.legendary]
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 1
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 1
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 0.1
+
+[veinGoblinTrader]
+	# The chance out of one hundred that the trader will spawn in the over world
+	# Valid range: 1 to 100 (inclusive)
+	traderSpawnChance = 25
+	# The amount of ticks before the trader will start spawning in a new world
+	# Valid range: 1 to 2147483647 (inclusive)
+	traderSpawnDelay = 24000
+	# The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
+	# Valid range: -1 to 2147483647 (inclusive)
+	restockDelay = 48000
+	# The amount of ticks before the trader will despawn
+	# Valid range: 1 to 2147483647 (inclusive)
+	traderDespawnDelay = 24000
+	# The maximum level the trader can spawn
+	# Valid range: -64 to 320 (inclusive)
+	traderMaxSpawnLevel = 128
+	# Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
+	# Valid range: 1 to 1000 (inclusive)
+	gruntNoiseInterval = 80
+	# The amount of ticks to wait before trying to spawn a trader again if the spawn failed
+	# Valid range: 1 to 2147483647 (inclusive)
+	spawnInterval = 12000
+	# If true, the goblin will try to hit back a player or mob that hit them
+	# Valid values: true, false
+	canAttackBack = true
+	# The minimum level the trader can spawn
+	# Valid range: -64 to 320 (inclusive)
+	traderMinSpawnLevel = 0
+
+	[veinGoblinTrader.trades]
+
+		[veinGoblinTrader.trades.legendary]
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 1
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 1
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 0.1
+
+		[veinGoblinTrader.trades.uncommon]
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 5
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 3
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 1.0
+
+		[veinGoblinTrader.trades.epic]
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 1.0
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 0
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 2
+
+		[veinGoblinTrader.trades.rare]
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 1.0
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 4
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 3
+
+		[veinGoblinTrader.trades.common]
+			# The chance this trade rarity will be included in the goblin's trades
+			# Valid range: 0 to 1 (inclusive)
+			includeChance = 1.0
+			# The minimum amount of trades that a golbin will have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			minAmount = 5
+			# The maximum amount of trades that a golbin can have.
+			# Valid range: 0 to 2147483647 (inclusive)
+			manAmount = 8
+

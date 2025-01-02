@@ -1,0 +1,643 @@
+
+[tools_and_abilities]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	geomancy_attack_multiplier = 1.0
+	#Cost in minutes of using the supernova ability.
+	#Range: > 0
+	supernova_cost = 60
+
+	[tools_and_abilities.suns_blessing]
+		#Duration in minutes of the Sun's Blessing effect.
+		#Range: > 0
+		suns_blessing_duration = 60
+		#Range: 0.0 ~ 1.7976931348623157E308
+		suns_blessing_attack_multiplier = 1.0
+		#Cost in minutes of using the solar beam ability.
+		#Range: > 0
+		solar_beam_cost = 5
+
+	[tools_and_abilities.wrought_helm]
+		#Set to true for the Wrought Helm to have limited durability.
+		breakable = false
+
+		[tools_and_abilities.wrought_helm.armor_config]
+			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
+			#Range: > 0
+			damage_reduction = 2
+			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 0.0
+
+	[tools_and_abilities.axe_of_a_thousand_metals]
+		#Set to true for the Axe of a Thousand Metals to have limited durability.
+		breakable = false
+
+		[tools_and_abilities.axe_of_a_thousand_metals.tool_config]
+			#Tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 9.0
+			#Tool attack speed
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_speed = 0.8999999761581421
+
+	[tools_and_abilities.sol_visage]
+		#Set to true for the Sol Visage to have limited durability.
+		breakable = false
+		#Maximum number of Umvuthana followers a player can summon at once using the Sol Visage
+		#Range: 0 ~ 300
+		max_followers = 10
+
+		[tools_and_abilities.sol_visage.armor_config]
+			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
+			#Range: > 0
+			damage_reduction = 2
+			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 0.0
+
+	[tools_and_abilities.ice_crystal]
+		#Multiply all damage done with the ice crystal by this amount.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		attack_multiplier = 1.0
+		#Set to true for the ice crystal to have limited durability.
+		#Prevents regeneration in inventory.
+		breakable = false
+		#Ice crystal durability
+		#Range: > 1
+		durability = 600
+
+	[tools_and_abilities.umvuthana_mask]
+
+		[tools_and_abilities.umvuthana_mask.armor_config]
+			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
+			#Range: > 0
+			damage_reduction = 1
+			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness = 0.0
+
+	[tools_and_abilities.spear]
+
+		[tools_and_abilities.spear.tool_config]
+			#Tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 5.0
+			#Tool attack speed
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_speed = 1.600000023841858
+
+	[tools_and_abilities.naga_fang_dagger]
+		#Duration in ticks of the poison effect (20 ticks = 1 second).
+		#Range: > 0
+		poison_duration = 40
+		#Damage multiplier when attacking from behind
+		#Range: 0.0 ~ 1.7976931348623157E308
+		backstab_damage_mult = 2.0
+
+		[tools_and_abilities.naga_fang_dagger.tool_config]
+			#Tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 3.0
+			#Tool attack speed
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_speed = 2.0
+
+	[tools_and_abilities.blowgun]
+		#Duration in ticks of the poison effect (20 ticks = 1 second).
+		#Range: > 0
+		poison_duration = 40
+		#Multiply all damage done with the blowgun/darts by this amount.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		attack_damage = 1.0
+
+	[tools_and_abilities.earthbore_gauntlet]
+		#Multiply all damage done with the Earthbore Gauntlet by this amount.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		attack_multiplier = 1.0
+		#Set to true for the Earthbore Gauntlet to have limited durability.
+		#Prevents regeneration in inventory.
+		breakable = false
+		#Earthbore Gauntlet durability
+		#Range: > 1
+		durability = 400
+
+		[tools_and_abilities.earthbore_gauntlet.tool_config]
+			#Tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 6.0
+			#Tool attack speed
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_speed = 1.2000000476837158
+
+[mobs]
+
+	[mobs.frostmaw]
+		#Disable/enable Frostmaw's boss health bar
+		has_boss_bar = true
+		#Disable/enable frostmaws healing while asleep
+		heals_out_of_battle = true
+		#Allow players to steal frostmaws' ice crystals (only using specific means!)
+		stealable_ice_crystal = true
+		#Disable/enable frostmaws resetting health when a player respawns nearby. (Prevents respawn cheese!)
+		reset_health_when_respawn = true
+
+		[mobs.frostmaw.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["forge:is_snowy,!minecraft:is_ocean,!minecraft:is_river,!minecraft:is_beach,!minecraft:is_forest,!minecraft:is_taiga"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for spawning structure/mob with world generation
+		[mobs.frostmaw.generation_config]
+			#Smaller number causes more generation, -1 to disable generation
+			#Maximum number of chunks between placements of this mob/structure.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Range: > -1
+			generation_distance = 25
+			#Smaller number causes more generation, -1 to disable generation
+			#Minimum number of chunks between placements of this mob/structure.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Range: > -1
+			generation_separation = 8
+			#Maximum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_max = 100.0
+			#Minimum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_min = 50.0
+			#Names of structures this mob/structure will avoid when generating.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
+
+		[mobs.frostmaw.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.umvuthi]
+		#Disable/enable Umvuthi's boss health bar
+		has_boss_bar = true
+		#Disable/enable Umvuthi healing while not in combat
+		heals_out_of_battle = true
+		#Which item Umvuthi desires in exchange for the Sun's Blessing
+		trade_which_item = "minecraft:gold_block"
+		#How many of the item Umvuthi desires in exchange for the Sun's Blessing
+		#Range: 0 ~ 64
+		trade_how_many = 7
+		#Disable/enable Umvuthi resetting health when a player respawns nearby. (Prevents respawn cheese!)
+		reset_health_when_respawn = true
+
+		#Generation controls for Umvuthana Groves
+		[mobs.umvuthi.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["minecraft:is_savanna"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for spawning structure/mob with world generation
+		[mobs.umvuthi.generation_config]
+			#Smaller number causes more generation, -1 to disable generation
+			#Maximum number of chunks between placements of this mob/structure.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Range: > -1
+			generation_distance = 25
+			#Smaller number causes more generation, -1 to disable generation
+			#Minimum number of chunks between placements of this mob/structure.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Range: > -1
+			generation_separation = 8
+			#Maximum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_max = 100.0
+			#Minimum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_min = 50.0
+			#Names of structures this mob/structure will avoid when generating.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
+
+		[mobs.umvuthi.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.ferrous_wroughtnaut]
+		#Disable/enable Ferrous Wroughtnaut's boss health bar
+		has_boss_bar = true
+		#Disable/enable Ferrous Wroughtnaut healing while not active
+		heals_out_of_battle = true
+		#Disable/enable Ferrous Wroughtnaut resetting health when a player respawns nearby. (Prevents respawn cheese!)
+		reset_health_when_respawn = true
+
+		[mobs.ferrous_wroughtnaut.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["!minecraft:is_ocean"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for spawning structure/mob with world generation
+		[mobs.ferrous_wroughtnaut.generation_config]
+			#Smaller number causes more generation, -1 to disable generation
+			#Maximum number of chunks between placements of this mob/structure.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Range: > -1
+			generation_distance = 15
+			#Smaller number causes more generation, -1 to disable generation
+			#Minimum number of chunks between placements of this mob/structure.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Range: > -1
+			generation_separation = 5
+			#Maximum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_max = 50.0
+			#Minimum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_min = 20.0
+			#Names of structures this mob/structure will avoid when generating.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			avoid_structures = []
+
+		[mobs.ferrous_wroughtnaut.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.sculptor]
+		#Disable/enable the Sculptor healing while not in combat
+		heals_out_of_battle = true
+
+		[mobs.sculptor.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["minecraft:is_mountain"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for spawning structure/mob with world generation
+		[mobs.sculptor.generation_config]
+			#Smaller number causes more generation, -1 to disable generation
+			#Maximum number of chunks between placements of this mob/structure.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Range: > -1
+			generation_distance = 25
+			#Smaller number causes more generation, -1 to disable generation
+			#Minimum number of chunks between placements of this mob/structure.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			#Range: > -1
+			generation_separation = 8
+			#Maximum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_max = 200.0
+			#Minimum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_min = 120.0
+			#Names of structures this mob/structure will avoid when generating.
+			#NO LONGER USED! USE DATAPACK INSTEAD
+			avoid_structures = []
+
+		[mobs.sculptor.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.grottol]
+
+		[mobs.grottol.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["!forge:is_mushroom"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for vanilla-style mob spawning
+		[mobs.grottol.spawn_config]
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 2
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 1
+			#Maximum number of mobs that appear in a spawn group
+			#Range: > 1
+			max_group_size = 1
+			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
+			#Range: 0.0 ~ 1.0
+			extra_rarity = 1.0
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = []
+			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
+			allowed_block_tags = ["minecraft:base_stone_overworld"]
+			#Maximum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_max = 16
+			#Minimum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_min = -65
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = true
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = true
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = []
+
+		[mobs.grottol.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.lantern]
+
+		[mobs.lantern.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["minecraft:is_forest,mowziesmobs:is_magical,!forge:is_snowy"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for vanilla-style mob spawning
+		[mobs.lantern.spawn_config]
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 5
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 2
+			#Maximum number of mobs that appear in a spawn group
+			#Range: > 1
+			max_group_size = 4
+			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
+			#Range: 0.0 ~ 1.0
+			extra_rarity = 1.0
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = []
+			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
+			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
+			#Maximum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_max = -65
+			#Minimum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_min = 60
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = true
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = []
+
+		[mobs.lantern.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.umvuthana]
+
+		#Controls spawning for Umvuthana hunting groups
+		#Group size controls how many raptors spawn, not followers
+		#See Umvuthi config for grove structure controls
+		[mobs.umvuthana.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["minecraft:is_savanna"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for vanilla-style mob spawning
+		[mobs.umvuthana.spawn_config]
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 5
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 1
+			#Maximum number of mobs that appear in a spawn group
+			#Range: > 1
+			max_group_size = 1
+			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
+			#Range: 0.0 ~ 1.0
+			extra_rarity = 1.0
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = []
+			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
+			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:sand"]
+			#Maximum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_max = -65
+			#Minimum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_min = 60
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = false
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts", "mowziesmobs:umvuthana_groves"]
+
+		[mobs.umvuthana.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.naga]
+
+		[mobs.naga.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["minecraft:is_beach,minecraft:is_mountain", "minecraft:is_beach,minecraft:is_hill"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = ["minecraft:stony_shore"]
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for vanilla-style mob spawning
+		[mobs.naga.spawn_config]
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 13
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 2
+			#Maximum number of mobs that appear in a spawn group
+			#Range: > 1
+			max_group_size = 3
+			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
+			#Range: 0.0 ~ 1.0
+			extra_rarity = 1.0
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = []
+			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
+			allowed_block_tags = []
+			#Maximum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_max = -65
+			#Minimum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_min = 70
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = false
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = true
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
+
+		[mobs.naga.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+
+	[mobs.foliaath]
+
+		[mobs.foliaath.biome_config]
+			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!
+			#Each entry is a combination of allowed biome tags or biome names.
+			#Separate types with commas to require biomes to have all tags in an entry
+			#Put a '!' before a biome tag to mean NOT that tag
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
+			#'!minecraft:is_mountain' would mean all non-mountain biomes
+			biome_tags = ["minecraft:is_jungle"]
+			#Allow spawns in these biomes regardless of the biome tag settings
+			biome_whitelist = []
+			#Prevent spawns in these biomes regardless of the biome tag settings
+			biome_blacklist = []
+
+		#Controls for vanilla-style mob spawning
+		[mobs.foliaath.spawn_config]
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 70
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 1
+			#Maximum number of mobs that appear in a spawn group
+			#Range: > 1
+			max_group_size = 4
+			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
+			#Range: 0.0 ~ 1.0
+			extra_rarity = 1.0
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = []
+			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
+			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
+			#Maximum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_max = -65
+			#Minimum height for this spawn. -65 to ignore.
+			#Range: -65 ~ 256
+			height_min = 60
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = true
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = ["minecraft:villages", "minecraft:pillager_outposts"]
+
+		[mobs.foliaath.combat_config]
+			#Scale mob health by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			health_multiplier = 1.0
+			#Scale mob attack damage by this value
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_multiplier = 1.0
+

@@ -1,0 +1,31 @@
+
+[building_tool]
+	#
+	# The amount of undo operations saved by the Building Tool.
+	# Default: 64
+	#Range: 8 ~ 256
+	max_undos = 64
+	#
+	# The amount of copied block regions that can be stored at a time with the Clone tool.
+	# Default: 9
+	#Range: 1 ~ 32
+	clipboard_size = 9
+	#
+	# The amount hours that a player's actions should stay in memory for. Use -1 to save forever.
+	# Default: 24
+	#Range: -1 ~ 240
+	expiration_time = 24
+
+[debug]
+	#
+	# When true, allows extra debug logging to be printed to the console.
+	# Default: false
+	console_debug = false
+	#
+	# When true:
+	# - Gel blocks can be clicked through like air when holding items that don't interact with them.
+	# - Gel blocks can be replaced like air when not holding gel or crouching.
+	# - Gel blocks automatically replace destroyed neighboring blocks.
+	# Default: true
+	advanced_gel_behavior = true
+

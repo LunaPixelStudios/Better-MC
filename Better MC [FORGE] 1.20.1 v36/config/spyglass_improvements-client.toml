@@ -1,0 +1,13 @@
+
+["Configuration file for spyglass Improvements"]
+	#Spyglass Overlay
+	#Allowed Values: Default, Clear, Circle, None
+	overlay = "Default"
+	#Size of zoom steps
+	#Range: 0.0 ~ 1.0
+	multiplier = 0.1
+	#Hide crosshair when scoping
+	showcrosshair = false
+	#Smooth camera while scoping
+	smoothcamera = false
+

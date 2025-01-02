@@ -1,0 +1,39 @@
+{
+  "show_icon_only_when_corrupted": true,
+  "temporary_corruption_amount_per_stack": 10,
+  // Effects caused by corruption
+  // You can set the starting corruption level for each effect, setting it to -1 will disable the effect.
+  "corruption_effects": {
+    "received_damage_increment": {
+      "damage_amount": 0.1,
+      "starting_corruption_level": 10
+    },
+    "tentacle_spawn": {
+      "effect_rate_seconds": 30,
+      "spawn_chance": 0.25,
+      "combat_duration_ticks": 100,
+      "launch_velocity": 0.9,
+      "starting_corruption_level": 25
+    },
+    "madness_vision": {
+      "strength": 0.6,
+      "end_level": 100,
+      "starting_corruption_level": 40
+    },
+    "non_corruption_damage_reduction": {
+      "damage_reduction": 0.15,
+      "starting_corruption_level": 70
+    },
+    "ominous_eye_spawn": {
+      "effect_rate_seconds": 30,
+      "spawn_chance": 0.5,
+      "eye_amount": 2,
+      "combat_duration_ticks": 100,
+      "starting_corruption_level": 50
+    },
+    "madness_consumed": {
+      "max_health_per_second": 0.15,
+      "starting_corruption_level": 100
+    }
+  }
+}

@@ -1,0 +1,17 @@
+
+["It Takes A Pillage - Config"]
+	#Replace naturally spawning Iron Golems with Clay Golems?
+	"Replace Iron Golems" = false
+	#Remove Bad Omen effect after drinking milk?
+	"Milk Removes Bad Omen" = true
+	#Pillage Sieges occur at night?
+	"Enable Pillage Sieges" = true
+	#Clay Golem replacement rate (Peaceful difficulty)
+	"Peaceful Replacement Rate" = 0.0
+	#Clay Golem replacement rate (Easy difficulty)
+	"Easy Replacement Rate" = 0.2
+	#Clay Golem replacement rate (Normal difficulty)
+	"Normal Replacement Rate" = 0.5
+	#Clay Golem replacement rate (Hard difficulty)
+	"Hard Replacement Rate" = 1.0
+

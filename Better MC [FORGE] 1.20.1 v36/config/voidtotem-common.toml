@@ -1,0 +1,17 @@
+#Void Totem Common Config
+#Whether the void totem should be added to the end city treasure.
+add_end_city_treasure = true
+#Dimensions in this blacklist will prevent the functionality of the void totem. Example: "minecraft:overworld"
+blacklisted_dimensions = []
+#Whether you get the regeneration and absorption effect on the void totem execution. This also removes all previous effects.
+give_totem_effects = true
+#Whether the blacklist is inverted, meaning the void totem only works in whitelisted dimensions.
+is_inverted_blacklist = false
+#Whether you need a totem to prevent death when falling into the void.
+needs_totem = true
+#The height offset from the world height you will be teleported if you can't be placed on a block.
+#Range: 0 ~ 1024
+teleport_height_offset = 64
+#Whether you can use the void totem from anywhere in your inventory.
+use_totem_from_inventory = false
+

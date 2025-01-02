@@ -1,0 +1,45 @@
+
+[Debug]
+	#
+	# When loading files from datapacks, set this to true to log missing registry data for things like items.
+	# Default: false
+	log_missing_registry_data_for_datapacks = false
+	#
+	# When true, generated world regions, 1024 blocks wide, will be saved as a file to make generating chunks faster in already visited areas. If file size is a concern or issues arise, this may be disabled.
+	# Default: true
+	write_world_regions_to_disk = true
+	#
+	# When printing "Blue Skies' player capability wasn't present for...", crash the game.
+	# Default: false
+	crash_on_missing_capability_for_dungeon = false
+
+["Holiday Content"]
+	#
+	# Determines if Halloween cosmetic effects should happen.
+	# Default: true
+	allow_halloween_content = true
+	#
+	# Determines if Christmas cosmetic effects should happen.
+	# Default: true
+	allow_christmas_content = true
+
+[Gatekeeper]
+	#
+	# The emerald cost for the Zeal Lighter sold by the Gatekeeper.
+	# Default: 8
+	zeal_lighter_cost = 8
+
+["Mod Compatibility"]
+	#
+	# A list of mods that are allowed to generate features in the Everbright and Everdawn.
+	# This does not make them generate, it just allows them to pass the filter.
+	# Example: ["minecraft", "farlanders", "botania"]
+	# Default: []
+	allowed_mods_for_feature_gen = []
+	#
+	# A list of mobs that are allowed to spawn in the Everbright and Everdawn.
+	# This does not make them spawn, it just allows them to pass the filter.
+	# Example: ["minecraft:bee", "moolands:awful_cow", "alexs_mobs:grizzly_bear"]
+	# Default: []
+	allowed_mobs_for_spawning = []
+

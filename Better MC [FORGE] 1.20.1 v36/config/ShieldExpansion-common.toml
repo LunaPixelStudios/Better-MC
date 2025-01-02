@@ -1,0 +1,30 @@
+
+[ShieldList]
+	#
+	#List of items to considered as shields, any item with right-click functionality will theoretically work
+	#Automatically populated with items that have parrying stats set by active datapacks
+	shieldList = ["blue_skies:spike_shield", "shieldexp:wooden_shield", "shieldexp:griefer_shield", "blue_skies:moonstone_shield", "shieldexp:iron_shield", "twilightforest:knightmetal_shield", "shieldexp:netherite_shield", "stalwart_dungeons:tungsten_shield", "alexsmobs:shield_of_the_deep", "minecraft:shield", "shieldexp:golden_shield", "stalwart_dungeons:chorundum_shield", "shieldexp:diamond_shield", "shieldexp:paragon_shield", "stalwart_dungeons:warted_tungsten_shield"]
+	#
+	#List of items to not consider as shields, even if they have stats set by a datapack
+	shieldBlacklist = []
+
+[Modifiers]
+	#
+	#Disable the cooldown when the player lowers their shield
+	noLoweringCooldown = false
+	#
+	#Disable putting shields on cooldown at all
+	noCooldown = false
+	#
+	#Make all shields have vanilla movement speed
+	noSpeedModifier = false
+	#
+	#Make shields only block partial damage from explosions when not parrying
+	harderExplosions = false
+	#
+	#Double the parry window for a more relaxed experience
+	lenientParryMode = false
+	#
+	#Double the shield stamina for a more relaxed experience
+	lenientStaminaMode = false
+

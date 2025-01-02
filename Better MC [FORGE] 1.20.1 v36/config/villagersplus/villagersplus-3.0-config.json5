@@ -1,0 +1,60 @@
+{
+  //Amount of new trades per level a villager can have at max. (Default: 2)
+  "trade_offers_per_level": 2,
+  //Amount of trades the wandering trader can have at max. (Default: 5)
+  "trade_offers_wandering_trader": 5,
+  //Max amount of experience storable in the enchanted basin. (Default: 500)
+  "max_exp_amount": 500,
+  //Amount of experience taken or given to the enchanted basin per interaction. (Default: 50)
+  "exp_amount": 50,
+  //Enable explosion potential of the alchemist workstation. (Default: true)
+  "can_explode": true,
+  //Chance of the alchemist workstation NOT exploding (1 in ?). Must be greater than 0! (Default: 3)
+  "explosion_chance": 3,
+  //Weight of the house in the village structure pool. Higher values increase the chance of generating.
+  "plains_alchemist_weight": 10,
+  "plains_occultist_weight": 10,
+  "plains_horticulturist_weight": 7,
+  "plains_oceanographer_weight": 15,
+  //Weight of the house in a village. Higher values increase the chance of generating.
+  "taiga_alchemist_weight": 10,
+  "taiga_occultist_weight": 10,
+  "taiga_horticulturist_weight": 7,
+  "taiga_oceanographer_weight": 15,
+  //Weight of the house in a village. Higher values increase the chance of generating.
+  "savanna_alchemist_weight": 10,
+  "savanna_occultist_weight": 10,
+  "savanna_horticulturist_weight": 7,
+  "savanna_oceanographer_weight": 15,
+  //Weight of the house in a village. Higher values increase the chance of generating.
+  "snowy_alchemist_weight": 10,
+  "snowy_occultist_weight": 10,
+  "snowy_horticulturist_weight": 7,
+  "snowy_oceanographer_weight": 15,
+  //Weight of the house in a village. Higher values increase the chance of generating.
+  "desert_alchemist_weight": 10,
+  "desert_occultist_weight": 10,
+  "desert_horticulturist_weight": 7,
+  "desert_oceanographer_weight": 15,
+  //Two flower offsets in flower tub for small flowers. Each offset is added to the following offsets.
+  "first_flower_in_two_X_offset": 0.15,
+  "first_flower_in_two_Z_offset": 0.15,
+  "second_flower_in_two_X_offset": -0.3,
+  "second_flower_in_two_Z_offset": -0.35,
+  //Three flower offsets in flower tub for small flowers. Each offset is added to the following offsets.
+  "first_flower_in_three_X_offset": 0.15,
+  "first_flower_in_three_Z_offset": 0.0,
+  "second_flower_in_three_X_offset": -0.3,
+  "second_flower_in_three_Z_offset": -0.15,
+  "third_flower_in_three_X_offset": -0.05,
+  "third_flower_in_three_Z_offset": 0.3,
+  //Four flower offsets in flower tub for small flowers. Each offset is added to the following offsets.
+  "first_flower_in_four_X_offset": 0.15,
+  "first_flower_in_four_Z_offset": 0.15,
+  "second_flower_in_four_X_offset": 0.0,
+  "second_flower_in_four_Z_offset": -0.35,
+  "third_flower_in_four_X_offset": -0.3,
+  "third_flower_in_four_Z_offset": 0.0,
+  "forth_flower_in_four_X_offset": -0.05,
+  "forth_flower_in_four_Z_offset": 0.37
+}

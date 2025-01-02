@@ -1,0 +1,9 @@
+#Slows the mining speed of budding amethyst
+slowedBuddingAmethystMiningSpeed = true
+#Adds silver ingot to pillager drops
+pillagerDropSilverIngot = true
+#Adds spectre flares to ancient city loot
+spectreFlareAncientCityLoot = true
+#Adds Silver Upgrade Template to Abandoned Mineshafts or Pillager Outposts loot
+silverUpgradeTemplatesLoot = true
+

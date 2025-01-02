@@ -1,0 +1,47 @@
+{
+  "generator": {
+    "world": {
+      "ores": {
+        "cincinnasite": {
+          "vein_count [default: 10]": 10,
+          "vein_size [default: 8]": 8,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_ruby": {
+          "vein_count [default: 3]": 3,
+          "vein_size [default: 8]": 8,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_ruby_soul": {
+          "vein_count [default: 5]": 5,
+          "vein_size [default: 5]": 5,
+          "air_discard_chance [default: 0.1]": 0.1
+        },
+        "nether_ruby_large": {
+          "vein_count [default: 5]": 5,
+          "vein_size [default: 5]": 5,
+          "air_discard_chance [default: 0.1]": 0.1
+        },
+        "nether_ruby_rare": {
+          "vein_count [default: 2]": 2,
+          "vein_size [default: 12]": 12,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_lapis": {
+          "vein_count [default: 14]": 14,
+          "vein_size [default: 4]": 4,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_redstone": {
+          "vein_count [default: 1]": 1,
+          "vein_size [default: 16]": 16,
+          "air_discard_chance [default: 0.3]": 0.3
+        }
+      },
+      "cities": {
+        "distance [default: 64]": 64,
+        "overworld [default: false]": false
+      }
+    }
+  }
+}

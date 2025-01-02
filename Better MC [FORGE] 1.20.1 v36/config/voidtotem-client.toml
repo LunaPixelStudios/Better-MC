@@ -1,0 +1,6 @@
+#Void Totem Client Config
+#Whether the void totem is displayed on the chest when worn in the curios charm slot (curios mod must be installed).
+display_totem_on_chest = true
+#This sets whether a tooltip is shown on the totem.
+show_totem_tooltip = true
+

@@ -1,0 +1,11 @@
+
+["YUNG's Cave Biomes"]
+
+	["YUNG's Cave Biomes"."Lost Caves"]
+		"Enable Sandstorms" = true
+		"Min Sandstorm Duration (seconds)" = 120
+		"Max Sandstorm Duration (seconds)" = 600
+		"Min Time Between Sandstorms (seconds)" = 1200
+		"Max Time Between Sandstorms (seconds)" = 2400
+		"Render Extra Particles During Sandstorms" = true
+

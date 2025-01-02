@@ -1,0 +1,8 @@
+
+#General settings
+[flib]
+
+	[flib.command]
+		#If true, the /flib command will be registered
+		enabled = true
+
