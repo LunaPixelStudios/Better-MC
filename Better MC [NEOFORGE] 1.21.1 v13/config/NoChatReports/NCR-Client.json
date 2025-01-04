@@ -4,7 +4,7 @@
   "showNCRButton": false,
   "showReloadButton": false,
   "verifiedIconEnabled": false,
-  "showServerSafety": true,
+  "showServerSafety": false,
   "hideInsecureMessageIndicators": true,
   "hideModifiedMessageIndicators": true,
   "hideSystemMessageIndicators": true,

@@ -1,9 +1,9 @@
 {
-  "skipWarning": false,
+  "skipWarning": true,
   "enableEncryption": false,
   "encryptPublic": true,
-  "showEncryptionButton": true,
-  "showEncryptionIndicators": true,
+  "showEncryptionButton": false,
+  "showEncryptionIndicators": false,
   "encryptionKey": "blfrngArk3chG6wzncOZ5A\u003d\u003d",
   "encryptionPassphrase": "",
   "algorithmName": "AES/CFB8+Base64",
