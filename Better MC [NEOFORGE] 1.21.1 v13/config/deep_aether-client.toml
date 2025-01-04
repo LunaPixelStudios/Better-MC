@@ -1,0 +1,13 @@
+[Rendering]
+	#Changes to some Deep Aether's old mob model such as the Eye of The Storm
+	"Switches to legacy mob models" = false
+	#Always Enables the halloween Slider
+	"Always Enable Halloween Slider" = false
+	#Never Enables the halloween Slider, not even during halloween
+	"Never Enable Halloween Slider" = false
+
+[Gui]
+	#The horizontal position of the stratus cooldown icon
+	"Stratus Cooldown Indicator Horizontal Position" = 354
+	#The vertical position of the stratus cooldown icon
+	"Stratus Cooldown Indicator Vertical Position" = 17

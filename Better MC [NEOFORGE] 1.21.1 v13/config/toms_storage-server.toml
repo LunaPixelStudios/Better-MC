@@ -1,0 +1,55 @@
+#Inventory Connector Range
+# Default: 16
+# Range: 4 ~ 256
+inventoryConnectorRange = 16
+#Only Allow Trims to Connect Inventories
+onlyTrimsConnect = false
+#Inventory Cable Connector Maximum number of cables
+# Default: 2048
+# Range: > 16
+invCableConnectorMaxScanSize = 2048
+#Wireless terminal reach
+# Default: 16
+# Range: 4 ~ 64
+wirelessReach = 16
+#Wireless terminal reach
+# Default: 64
+# Range: 16 ~ 512
+advWirelessRange = 64
+#Adv Wireless terminal requied beacon level for infinite range
+#Value of 0 only requires a single beacon block nearby
+#Value of -1 disables this feature entirely
+# Default: 1
+# Range: -1 ~ 4
+wirelessTermBeaconLvl = 1
+#Adv Wireless terminal requied beacon level for cross dimensional access
+#Value of 0 only requires a single beacon block nearby
+#Value of -1 disables this feature entirely
+# Default: 4
+# Range: -1 ~ 4
+wirelessTermBeaconLvlDim = 4
+#Inventory Cable Connector requied beacon level for inventory linking
+#Value of 0 only requires a single beacon block
+#Value of -1 disables this feature entirely
+# Default: 0
+# Range: -1 ~ 4
+invLinkBeaconLvl = 0
+#Inventory Linking range with beacons
+#Value of 0 disables this feature entirely
+# Default: 4096
+# Range: > 0
+invLinkBeaconRange = 4096
+#Inventory Cable Connector requied beacon level for same dimension access with unlimited range
+#Value of 0 only requires a single beacon block
+#Value of -1 disables this feature entirely
+# Default: 1
+# Range: -1 ~ 4
+invLinkBeaconLvlSameDim = 1
+#Inventory Cable Connector requied beacon level for cross dimensional access
+#Value of 0 only requires a single beacon block
+#Value of -1 disables this feature entirely
+# Default: 2
+# Range: -1 ~ 4
+invLinkBeaconLvlCrossDim = 2
+#Use multithreading to improve performance
+runMultithreaded = true

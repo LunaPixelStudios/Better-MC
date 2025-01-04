@@ -1,0 +1,70 @@
+{
+  "enabled": true,
+  "interval": 10,
+  "entries": [
+    {
+      "block": [
+        "minecraft:gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:nether_gold_ore"
+      ],
+      "particle": {
+        "color": [
+          0.99607843,
+          1.0,
+          0.7411765
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "minecraft:diamond_ore",
+        "minecraft:deepslate_diamond_ore"
+      ],
+      "particle": {
+        "color": [
+          0.7058824,
+          0.99215686,
+          0.93333334
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "minecraft:emerald_ore",
+        "minecraft:deepslate_emerald_ore"
+      ],
+      "particle": {
+        "color": [
+          0.8509804,
+          1.0,
+          0.92156863
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": "minecraft:amethyst_cluster",
+      "particle": {
+        "color": [
+          0.99607843,
+          0.79607844,
+          0.9019608
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "minecraft:soul_sand",
+        "minecraft:soul_soil"
+      ],
+      "direction": "up",
+      "particle": {
+        "type": "visuality:soul"
+      }
+    }
+  ]
+}

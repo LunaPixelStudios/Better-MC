@@ -1,0 +1,13 @@
+#General settings
+[general]
+	#The CurseForge project ID for the modpack
+	# Default: 0
+	# Range: > 0
+	modpackProjectID = 876781
+	#The name of the modpack
+	modpackName = "Better MC [NEOFORGE] 1.21.1"
+	#The version of the modpack
+	modpackVersion = "v12.5"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false

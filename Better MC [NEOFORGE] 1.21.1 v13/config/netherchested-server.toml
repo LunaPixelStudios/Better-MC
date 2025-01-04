@@ -1,0 +1,17 @@
+#Strength of the explosion when a nether chest is trying to be opened in the nether dimension.
+#Default Value: 5
+# Default: 5
+# Range: > -2147483648
+nether_explosion_strength = 5
+#Explode a nether chest when it is trying to be opened in the nether dimension.
+#Default Value: false
+explode_in_nether = false
+#Multiplier for the max stack size for all items placed in a nether chest.
+#The stack size of already damaged items cannot be increased.
+#Default Value: 8
+# Default: 8
+# Range: 1 ~ 32
+stack_size_multiplier = 8
+#Prevent a nether chest from opening when a block is placed directly above.
+#Default Value: true
+no_block_above = true

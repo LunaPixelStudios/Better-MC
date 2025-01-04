@@ -1,0 +1,48 @@
+{
+  "weaponItems": {
+    "entries": {
+      "minecraft:stone_sword": 0.025,
+      "minecraft:golden_sword": 0.05,
+      "minecraft:golden_axe": 0.05,
+      "minecraft:shield": 0.025,
+      "minecraft:netherite_sword": 0.005,
+      "minecraft:iron_sword": 0.025,
+      "minecraft:stone_axe": 0.025,
+      "minecraft:iron_axe": 0.025
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "lootItems": {
+    "entries": {
+      "minecraft:gold_ingot": 0.1,
+      "minecraft:gold_nugget": 0.2,
+      "minecraft:nether_wart": 0.1
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "studyItems": {
+    "entries": {
+      "minecraft:writable_book": 0.1,
+      "minecraft:paper": 0.1,
+      "minecraft:enchanted_book": 0.1,
+      "minecraft:book": 0.4
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "messHallItems": {
+    "entries": {
+      "minecraft:porkchop": 0.3,
+      "minecraft:gold_ingot": 0.2,
+      "minecraft:cooked_porkchop": 0.3
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "alchemyItems": {
+    "entries": {
+      "minecraft:fire_charge": 0.2,
+      "minecraft:magma_cream": 0.3,
+      "minecraft:quartz": 0.3
+    },
+    "defaultItem": "minecraft:air"
+  }
+}

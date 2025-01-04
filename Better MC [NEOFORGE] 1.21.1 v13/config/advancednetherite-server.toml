@@ -1,0 +1,85 @@
+	#Configure properties related to tools here.
+	[server.tool_properties]
+
+		#Configure tool properties related to block breaking speed here.
+		[server.tool_properties.breaking_speed_multipliers]
+			#Block breaking speed multiplier for Netherite-Iron tools
+			# Default: 12
+			# Range: 1 ~ 64
+			ironBreakingSpeedMultiplier = 12
+			#Block breaking speed multiplier for Netherite-Gold tools
+			# Default: 20
+			# Range: 1 ~ 64
+			goldBreakingSpeedMultiplier = 20
+			#Block breaking speed multiplier for Netherite-Emerald tools
+			# Default: 29
+			# Range: 1 ~ 64
+			emeraldBreakingSpeedMultiplier = 29
+			#Block breaking speed multiplier for Netherite-Diamond tools
+			# Default: 39
+			# Range: 1 ~ 64
+			diamondBreakingSpeedMultiplier = 39
+
+	#Configure properties related to additional drops here.
+	[server.additional_drop_properties]
+
+		#Configure properties related to crop drop chances here.
+		[server.additional_drop_properties.crop_drop_chances]
+			#Chance of dropping additional wheat. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.3
+			# Range: 0.0 ~ 1.0
+			additionalWheatDropChance = 0.3
+			#Chance of dropping additional carrots. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.3
+			# Range: 0.0 ~ 1.0
+			additionalCarrotsDropChance = 0.3
+			#Chance of dropping additional potatoes. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.3
+			# Range: 0.0 ~ 1.0
+			additionalPotatoesDropChance = 0.3
+			#Chance of dropping additional beetroots. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.2
+			# Range: 0.0 ~ 1.0
+			additionalBeetrootsDropChance = 0.2
+
+		#Configure properties related to mob drop chances here.
+		[server.additional_drop_properties.mob_drop_chances]
+			#Chance of dropping additional phantom membrane. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			additionalPhantomDropChance = 0.5
+			#Chance of dropping additional golden nuggets. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
+			additionalZombifiedPiglinDropChance = 0.5
+			#Chance of dropping additional golden ingots. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.15
+			# Range: 0.0 ~ 1.0
+			additionalPiglinDropChance = 0.15
+			#Chance of dropping additional ender pearls. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.3
+			# Range: 0.0 ~ 1.0
+			additionalEndermanDropChance = 0.3
+
+		#Configure properties related to ore drop chances here.
+		[server.additional_drop_properties.ore_drop_chances]
+			#Chance of dropping additional raw iron. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.2
+			# Range: 0.0 ~ 1.0
+			additionalRawIronDropChance = 0.2
+			#Chance of dropping additional raw gold. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.3
+			# Range: 0.0 ~ 1.0
+			additionalRawGoldChance = 0.3
+			#Chance of dropping additional emerald. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.4
+			# Range: 0.0 ~ 1.0
+			additionalEmeraldDropChance = 0.4
+			#Chance of dropping additional diamond. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			additionalDiamondDropChance = 0.25
+			#Chance of dropping additional golden nugget. 0.0 = 0% chance, 1.0 = 100% chance.
+			# Default: 0.6
+			# Range: 0.0 ~ 1.0
+			additionalGoldNuggetDropChance = 0.6

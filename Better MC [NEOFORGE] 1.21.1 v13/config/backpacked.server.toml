@@ -1,0 +1,74 @@
+[pickpocketing]
+	# The maximum angle at which another player's backpack can be accessed.
+	# Think of this as how directly behind the backpack the player needs to be
+	# in order to pickpocket. A smaller range prevents the player from accessing
+	# the backpack from the side.
+	# Valid range: 0 to 90 (inclusive)
+	maxAngleRange = 80.0
+	# If enabled, allows players to access the backpack of another player by interacting with the visible backpack on their back.
+	# Valid values: true, false
+	enabledPickpocketing = true
+	# The maximum reach distance of a player to interact with another player's backpack.
+	# Valid range: 0 to 4 (inclusive)
+	maxReachDistance = 2.0
+
+[wanderingTrader]
+	# If enabled, allows wandering traders to equip backpacks
+	# Valid values: true, false
+	enableBackpack = true
+	# The chance a Wandering Trader will spawn with a backpack. The chance is interpreted as one out of x, with x being the number given from this config option.
+	# Valid range: 1 to 100 (inclusive)
+	spawnWithBackpackChance = 2
+
+	[wanderingTrader.pickpocketingChallenge]
+		# The maximum distance a Wandering Trader can detect a player. The longer the distance, the more difficult the challenge to pickpocket their backpack.
+		# Valid range: 1 to 32 (inclusive)
+		maxDetectionDistance = 10.0
+		# If true, allows players who are disliked by Wandering Traders to continue to trade normally with them. A player is considered disliked if they are caught when trying to pickpocket a Wandering Trader's backpack.
+		# Valid values: true, false
+		dislikedPlayersCanTrade = false
+		# The maximum multiplier to apply when generating loot in the Wandering Trader backpack
+		# Valid range: 1 to 64 (inclusive)
+		maxLootMultiplier = 12
+		# The amount of time (in ticks) a player has to wait before a Wandering Trader will like them again. If a player gets caught pickpocketing a Wandering Trader, the cooldown will be reset
+		# Valid range: 0 to 24000 (inclusive)
+		dislikeCooldown = 6000
+		# The time (in ticks) a Wandering Trader will wait before it decides to forget about a detected player. The Wandering Trader will wait indefinitely if the detected player is within the maximum detection distance.
+		# Valid range: 1 to 12000 (inclusive)
+		timeToForgetPlayer = 200
+		# Instead of generating trades as loot in the Wandering Traders backpacks, only generate emeralds.
+		# Valid values: true, false
+		generateEmeraldsOnly = false
+		# The maximum size of an emerald stack that can generate in the Wandering Trader backpack
+		# Valid range: 1 to 64 (inclusive)
+		maxEmeraldStack = 32
+
+[backpack]
+	# The amount of slot rows in the backpack inventory.
+	# Valid range: 1 to 7 (inclusive)
+	inventorySizeRows = 6
+	# If enabled, the backpack will stay on the player on death. Similar to keep inventory rule.
+	# Valid values: true, false
+	keepOnDeath = false
+	# Allows every player to use any backpack cosmetic variant without needing to complete the challenges. Side note, any progress to a challenge will not be tracked while enabled.
+	# Valid values: true, false
+	unlockAllCosmetics = false
+	# If enabled, prevents backpacks from being customised. This will remove the customise button from the backpack inventory
+	# Valid values: true, false
+	disableCustomisation = false
+	# The amount of slot columns in the backpack inventory.
+	# Valid range: 1 to 13 (inclusive)
+	inventorySizeColumns = 9
+	# A list of items that are not allowed inside a backpack. Note: It is recommended to ban items that have an inventory as this will create large NBT data and potentially crash the server!
+	bannedItems = ["travelersbackpack:custom_travelers_backpack", "pinesbarrels:better_barrel", "quark:seed_pouch", "quark:backpack", "sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack", "improvedbackpacks:tiny_pocket", "improvedbackpacks:medium_pocket", "improvedbackpacks:large_pocket", "improvedbackpacks:white_backpack", "improvedbackpacks:orange_backpack", "improvedbackpacks:magenta_backpack", "improvedbackpacks:light_blue_backpack", "improvedbackpacks:yellow_backpack", "improvedbackpacks:lime_backpack", "improvedbackpacks:pink_backpack", "improvedbackpacks:gray_backpack", "improvedbackpacks:light_gray_backpack", "improvedbackpacks:cyan_backpack", "improvedbackpacks:purple_backpack", "improvedbackpacks:blue_backpack", "improvedbackpacks:brown_backpack", "improvedbackpacks:green_backpack", "improvedbackpacks:red_backpack", "improvedbackpacks:black_backpack", "immersiveengineering:toolbox", "immersiveengineering:crate", "immersiveengineering:reinforced_crate", "create:white_toolbox", "create:orange_toolbox", "create:magenta_toolbox", "create:light_blue_toolbox", "create:yellow_toolbox", "create:lime_toolbox", "create:pink_toolbox", "create:gray_toolbox", "create:light_gray_toolbox", "create:cyan_toolbox", "create:purple_toolbox", "create:blue_toolbox", "create:brown_toolbox", "create:green_toolbox", "create:red_toolbox", "create:black_toolbox", "mekanism:personal_chest", "supplementaries:sack"]
+	# Stops players from removing the backpack if it's not empty. This prevents players from carrying multiple backpacks.
+	# Valid values: true, false
+	lockIntoSlot = true
+	# The default cosmetic (model) of the backpack. This should generally be a backpack that is unlocked by default
+	defaultCosmetic = "backpacked:standard"
+	# When picking up a backpack (with items inside) off the ground, the item will automatically equip. Having this enabled may not be ideal for multiplayer servers.
+	# Valid values: true, false
+	autoEquipOnPickup = false
+	# When breaking a shelf, the placed backpack will also drops it's items into the world. This prevents players from carrying multiple backpacks
+	# Valid values: true, false
+	dropContentsFromShelf = true

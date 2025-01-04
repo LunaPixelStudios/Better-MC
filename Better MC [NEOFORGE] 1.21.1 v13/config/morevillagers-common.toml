@@ -1,0 +1,35 @@
+#House generation settings
+[houses]
+	#Should More Villagers houses generate in plains biome villages?
+	generatePlainsHouses = true
+	#Should More Villagers houses generate in taiga biome villages?
+	generateTaigaHouses = true
+	#Should More Villagers houses generate in savanna biome villages?
+	generateSavannaHouses = true
+	#Should More Villagers houses generate in snowy biome villages?
+	generateSnowyHouses = true
+	#Should More Villagers houses generate in desert biome villages?
+	generateDesertHouses = true
+
+	#House weights (spawn frequency)
+	[houses.weights]
+		#Woodworker house spawn chance
+		# Default: 10
+		# Range: > 0
+		woodworkerHouseWeight = 10
+		#Oceanographer house spawn chance
+		# Default: 10
+		# Range: > 0
+		oceanographerHouseWeight = 10
+		#Florist house spawn chance
+		# Default: 10
+		# Range: > 0
+		floristHouseWeight = 10
+		#Hunter house spawn chance
+		# Default: 10
+		# Range: > 0
+		hunterHouseWeight = 10
+		#Engineer house spawn chance
+		# Default: 10
+		# Range: > 0
+		engineerHouseWeight = 10

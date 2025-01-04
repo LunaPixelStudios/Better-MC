@@ -1,0 +1,280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight_forest"
+	group: "5BBB507BE497896B"
+	icon: {
+		id: "twilightforest:mazestone"
+	}
+	id: "3DAC62F9CB57DD77"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "twilightforest:twilight_portal_miniature_structure"
+			}
+			id: "2BC7B74C1D405B3B"
+			rewards: [{
+				id: "71430D2368C43F40"
+				item: {
+					count: 1
+					id: "twilightforest:magic_map"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "19F8C8263E23CE02"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BC7B74C1D405B3B"]
+			id: "7630C21661FED121"
+			rewards: [{
+				id: "165BE5F21305C953"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "3C1CB3BAA452081B"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7630C21661FED121"]
+			id: "7149FE98D0E105CE"
+			rewards: [{
+				id: "3A2EB8FD6C05F748"
+				item: {
+					count: 1
+					id: "twilightforest:fortification_scepter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "78FF39133171A697"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["264FA27F45BDDCFF"]
+			id: "37E4C4EFA9E20B79"
+			rewards: [
+				{
+					count: 8
+					id: "7B865D8658718853"
+					item: {
+						count: 1
+						id: "twilightforest:cooked_venison"
+					}
+					type: "item"
+				}
+				{
+					id: "38DE506F9B3311B7"
+					item: {
+						count: 1
+						id: "twilightforest:charm_of_keeping_1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "2A4064BC7BFE10E4"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["601FE17AA8C90316"]
+			id: "57FD6DFF7B7647D0"
+			rewards: [{
+				id: "2D11EF3881B41B6D"
+				item: {
+					count: 1
+					id: "twilightforest:charm_of_keeping_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "45767EA415670C8F"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7149FE98D0E105CE"]
+			id: "3D1F53C06B660F96"
+			rewards: [{
+				id: "79222C2CD3CB5B2B"
+				item: {
+					count: 1
+					id: "twilightforest:charm_of_keeping_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "3333C51B3A29AF0D"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D1F53C06B660F96"]
+			id: "7B6005A9F6F5C7FE"
+			rewards: [{
+				count: 2
+				id: "1C0F43443D2349AF"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "2D288216E8C7D9BC"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7149FE98D0E105CE"]
+			id: "601FE17AA8C90316"
+			rewards: [{
+				id: "626837192CAE58BC"
+				item: {
+					count: 1
+					id: "twilightforest:uncrafting_table"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "40801B47C78FF0BB"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E9415FC5D3711EB"]
+			id: "0EDB1E145CB2D26F"
+			rewards: [
+				{
+					id: "5AB6929366335D0C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 25
+					id: "7AB722A320C5D6FD"
+					item: {
+						count: 1
+						id: "twilightforest:blue_castle_door"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progression_end"
+				criterion: ""
+				id: "3FB649297849E864"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7B6005A9F6F5C7FE"
+				"37E4C4EFA9E20B79"
+				"57FD6DFF7B7647D0"
+			]
+			id: "4E9415FC5D3711EB"
+			rewards: [
+				{
+					id: "19C8C6D2C0117B6A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "2F5FFB48F0A3A663"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "69F7F01A2320CCFF"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7149FE98D0E105CE"]
+			id: "264FA27F45BDDCFF"
+			rewards: [
+				{
+					id: "0FB5C5C3A7CCD6B7"
+					item: {
+						count: 1
+						id: "twilightforest:zombie_scepter"
+					}
+					type: "item"
+				}
+				{
+					id: "4B0235030ED057E9"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "2A33D7EA1175736C"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+	]
+}

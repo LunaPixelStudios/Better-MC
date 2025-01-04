@@ -1,0 +1,5 @@
+# Default: 250
+# Range: -1000000 ~ 1000000
+overlayZVal = 250
+#Allowed Values: DISABLE, SHIFT_ONLY, ALWAYS
+addEnchantmentDescription = "ALWAYS"

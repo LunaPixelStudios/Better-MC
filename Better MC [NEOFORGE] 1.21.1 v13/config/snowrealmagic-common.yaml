@@ -1,0 +1,26 @@
+# Use Cloth Config mod for the descriptions.
+---
+snowGravity: true
+snowMakingIce: true
+snowAlwaysReplaceable: true
+thinnerBoundingBox: true
+snowNeverMelt: false
+snowReduceFallDamage: true
+sustainGrassIfLayerMoreThanOne: true
+sneakSnowball: true
+fancySnowOnUpperSlab: true
+mobSpawningMaxLayers: 8
+snow-cover:
+  replaceWorldgenFeature: true
+  placeSnowOnBlock: true
+  retainOriginalBlocks: false
+  placeNaturally: true
+accumulation:
+  naturalMelting: true
+  snowAndIceMeltInWarmBiomes: false
+  maxLayers: 8
+  accumulatesDuringSnowstorm: true
+  accumulatesDuringSnowfall: false
+debug:
+  weatherTickSlowness: 16
+  mobSpawningCommand: false

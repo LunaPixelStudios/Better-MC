@@ -1,0 +1,22 @@
+#This configuration will change the default components of the XP Tome item. Existing XP Tomes will change, unless they have differing components set.
+#This configuration can be overwritten on individual XP Tome items by setting the corresponding components accordingly, for instance in a give command or a recipe.
+#WARNING: Changing default components may lead to unintended visual side-effects in certain cases (like clients connecting to a server) - this config is mainly provided for ease-of-use in singleplayer environments.
+#         Connecting to a server where the settings in this config file differ from the client's may cause visual inconsistencies and incorrect information to be displayed.
+#         If you run a server, consider changing the recipe of the XP Tome instead of its default components.
+["Default item components"]
+	#The maximum amount of XP points that the XP Tome can hold. The default value (1395) represents having 30 levels.
+	# Default: 1395
+	# Range: > 1
+	max_xp = 1395
+	#The percentage of XP that the book will give back, as a sort of cost of using it.
+	#Example: If this config value is set to 0.75, and an XP Tome has 100 XP stored, attempting to retrieve these 100 XP will give back 75 XP.
+	#Note: This will not be 100% accurate, as Minecraft's XP does not use decimals.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	retrieval_percentage = 1.0
+	#Setting this to true will remove XP from the book in XP orb form. This is useful if you want to use XP from the book for tools enchanted with Mending.
+	retrieve_xp_orbs = false
+	#Setting this to true will remove only as much XP from the book at a time as is needed for the player to reach their next level.
+	retrieve_until_next_level = false
+	#Setting this to true will store only as much XP from the player's XP bar until reaching the previous level, meaning only one level at maximum will be added to the book's storage at a time.
+	store_until_previous_level = false

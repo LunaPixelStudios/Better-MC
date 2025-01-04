@@ -1,0 +1,8 @@
+##[zoom]
+
+B:smooth_zoom_in_out = 'true';
+F:zoom_in_change_modifier_per_scroll = '0.05';
+F:base_zoom_modifier = '0.25';
+F:zoom_out_change_modifier_per_scroll = '0.05';
+B:smooth_camera_movement_on_zoom = 'false';
+B:normalize_mouse_sensitivity_on_zoom = 'true';

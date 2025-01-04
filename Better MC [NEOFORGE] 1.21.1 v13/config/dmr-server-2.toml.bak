@@ -1,0 +1,43 @@
+#Should Ender Dragon Eggs replenish on the exit portal after a respawned dragon is deafeated?
+#Useful for multiplayer scenarios.
+replenish_eggs = true
+#Number of times a dragon is able to breed.
+# Default: 3
+# Range: > 0
+breed_limit = 3
+#Time in seconds for a dragon egg to hatch.
+# Default: 600
+# Range: > 0
+hatch_time = 600
+#Time in seconds for a dragon to grow.
+# Default: 600
+# Range: > 0
+growth_time = 600
+#Size modifier for all dragons.
+# Default: 1.0
+# Range: 0.0 ~ 1.7976931348623157E308
+size_modifier = 1.0
+#Allow hybridization between dragons.
+allow_hybridization = true
+#Offspring from breeding can turn into dragon type matching current environment.
+habitat_offspring = true
+#The cooldown for using the whistle ability.
+# Default: 5000
+# Range: 0 ~ 9223372036854775807
+whistle_cooldown = 5000
+#Should the dragon whistle check for available space?
+whistle_check_space = true
+#Base health for all dragons.
+# Default: 60.0
+# Range: 1.0 ~ 1.7976931348623157E308
+base_health = 60.0
+#Base damage for all dragons.
+# Default: 8.0
+# Range: 1.0 ~ 1.7976931348623157E308
+base_damage = 8.0
+#Allow dragons to respawn after death.
+allow_respawn = true
+#Time in seconds for a dragon to respawn.
+# Default: 60
+# Range: > 0
+respawn_time = 60

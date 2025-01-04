@@ -1,0 +1,34 @@
+{
+  "armouryItems": {
+    "entries": {
+      "minecraft:stone_sword": 0.05,
+      "minecraft:golden_sword": 0.05,
+      "minecraft:golden_axe": 0.05,
+      "minecraft:shield": 0.1,
+      "minecraft:name_tag": 0.05,
+      "minecraft:arrow": 0.05,
+      "minecraft:iron_sword": 0.1,
+      "minecraft:stone_axe": 0.05,
+      "minecraft:iron_axe": 0.1,
+      "minecraft:bow": 0.1
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "storageItems": {
+    "entries": {
+      "minecraft:flint": 0.05,
+      "minecraft:melon_seeds": 0.025,
+      "minecraft:map": 0.25,
+      "minecraft:cake": 0.05,
+      "minecraft:compass": 0.05,
+      "minecraft:paper": 0.25,
+      "minecraft:pumpkin_seeds": 0.025,
+      "minecraft:lead": 0.05,
+      "minecraft:wheat_seeds": 0.025,
+      "minecraft:slime_ball": 0.05,
+      "minecraft:beetroot_seeds": 0.025,
+      "minecraft:rabbit_foot": 0.01
+    },
+    "defaultItem": "minecraft:air"
+  }
+}

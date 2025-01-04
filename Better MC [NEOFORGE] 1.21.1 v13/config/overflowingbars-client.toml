@@ -1,0 +1,90 @@
+[toughness]
+	#Render a separate armor bar for the armor toughness attribute (from diamond and netherite armor).
+	#Having only this option active will make the toughness bar behave just like vanilla's armor bar without any colorful stacking or so.
+	#Default Value: true
+	armor_toughness_bar = true
+	#Render row count to indicate total amount of rows since not all may be visible at once due to the stacked rendering.
+	#Default Value: true
+	allow_count = true
+	#Show colorful icons on the front row, not just on all subsequent rows.
+	#Default Value: false
+	colorize_first_row = false
+	#Render the toughness bar on the left side above the hotbar (where health and armor is rendered).
+	#Default Value: false
+	left_side = false
+	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
+	#Default Value: true
+	allow_layers = true
+	#Shift the bar up or down by specified number of icon rows. Allows for better mod compatibility.
+	#Default Value: 0
+	# Default: 0
+	# Range: -5 ~ 5
+	manual_row_shift = 0
+	#Don't draw empty armor points, this will make the armor bar potentially shorter.
+	#Default Value: true
+	skip_empty_armor_points = true
+	#Use vanilla's icons on all front rows, use custom colored icons on the background row.
+	#Default Value: false
+	inverse_coloring = false
+
+[health]
+	#Show colorful icons on the front row, not just on all subsequent rows.
+	#Default Value: false
+	colorize_first_row = false
+	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
+	#Default Value: true
+	allow_layers = true
+	#Shift the bar up or down by specified number of icon rows. Allows for better mod compatibility.
+	#Default Value: 0
+	# Default: 0
+	# Range: -5 ~ 5
+	manual_row_shift = 0
+	#Render row count to indicate total amount of rows since not all may be visible at once due to the stacked rendering.
+	#Default Value: true
+	allow_count = true
+	#Use vanilla's icons on all front rows, use custom colored icons on the background row.
+	#Default Value: false
+	inverse_coloring = false
+
+[armor]
+	#Render row count to indicate total amount of rows since not all may be visible at once due to the stacked rendering.
+	#Default Value: true
+	allow_count = true
+	#Move chat messages above armor / absorption bar.
+	#Default Value: true
+	move_chat_above_armor = true
+	#Show colorful icons on the front row, not just on all subsequent rows.
+	#Default Value: false
+	colorize_first_row = false
+	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
+	#Default Value: true
+	allow_layers = true
+	#Shift the bar up or down by specified number of icon rows. Allows for better mod compatibility.
+	#Default Value: 0
+	# Default: 0
+	# Range: -5 ~ 5
+	manual_row_shift = 0
+	#Don't draw empty armor points, this will make the armor bar potentially shorter.
+	#Default Value: true
+	skip_empty_armor_points = true
+	#Use vanilla's icons on all front rows, use custom colored icons on the background row.
+	#Default Value: false
+	inverse_coloring = false
+
+[row_count]
+	#Color of row count, use any chat formatting color value.
+	#Default Value: §f
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+	row_count_color = "WHITE"
+	#Only include completely filled rows for the row count.
+	#Default Value: false
+	count_full_rows_only = false
+	#Force drawing row count using the font renderer, will make numbers display larger.
+	#Default Value: false
+	force_font_renderer = false
+	#Show row count also when only one row is present.
+	#Default Value: false
+	always_render_row_count = false
+	#Render an 'x' together with the row count number.
+	#Default Value: true
+	row_count_x = true

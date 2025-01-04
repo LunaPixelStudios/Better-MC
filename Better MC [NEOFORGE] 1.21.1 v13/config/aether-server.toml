@@ -1,0 +1,63 @@
+[Gameplay]
+	#Vanilla's beds will explode in the Aether
+	"Beds explode" = false
+	#Tools that aren't from the Aether will mine Aether blocks slower than tools that are from the Aether
+	"Debuff non-Aether tools" = true
+	#Ambrosium Shards can be eaten to restore a half heart of health
+	"Ambrosium Shards are edible" = true
+	#Makes Berry Bushes and Bush Stems behave consistently with Sweet Berry Bushes
+	"Berry Bush consistency" = false
+	#Makes Crystal Fruit Leaves behave consistently with Sweet Berry Bushes
+	"Crystal Fruit Leaves consistency" = false
+	#Gummy Swets when eaten restore full health instead of full hunger
+	"Gummy Swets restore health" = false
+	#Determines the limit of the amount of Life Shards a player can consume to increase their health
+	"Maximum consumable Life Shards" = 10
+	#Determines the cooldown in ticks for the Hammer of Kingbdogz's ability
+	"Cooldown for the Hammer of Kingbdogz projectile" = 50
+	#Determines the cooldown in ticks for the Cloud Staff's ability
+	"Cooldown for the Cloud Staff" = 40
+	#Makes armor abilities depend on wearing the respective gloves belonging to an armor set
+	"Require gloves for set abilities" = true
+
+[Loot]
+	#Allows the Golden Feather to spawn in the Silver Dungeon loot table
+	"Golden Feather in loot" = false
+	#Allows the Valkyrie Cape to spawn in the Silver Dungeon loot table
+	"Valkyrie Cape in loot" = true
+
+["World Generation"]
+	#Determines whether the Aether should generate Tall Grass blocks on terrain or not
+	"Generate Tall Grass in the Aether" = true
+	#Determines whether Holiday Trees should always be able to generate when exploring new chunks in the Aether, if true, this overrides 'Generate Holiday Trees seasonally'
+	"Generate Holiday Trees always" = false
+	#Determines whether Holiday Trees should be able to generate during the time frame of December and January when exploring new chunks in the Aether, only works if 'Generate Holiday Trees always' is set to false
+	"Generate Holiday Trees seasonally" = true
+
+[Multiplayer]
+	#Makes the Invisibility Cloak more balanced in PVP by disabling equipment invisibility temporarily after attacks
+	"Balance Invisibility Cloak for PVP" = false
+	#Sets the time in ticks that it takes for the player to become fully invisible again after attacking when wearing an Invisibility Cloak; only works with 'Balance Invisibility Cloak for PVP'
+	"Invisibility Cloak visibility timer" = 50
+	#Makes it so that only whitelisted users or anyone with permission level 4 can use the Sun Altar on a server
+	"Only whitelisted users access Sun Altars" = false
+	#Configures what dimensions are able to have their time changed by the Sun Altar
+	"Configure Sun Altar dimensions" = ["aether:the_aether"]
+
+[Modpack]
+	#Spawns the player in the Aether dimension; this is best enabled alongside other modpack configuration to avoid issues
+	"Spawns the player in the Aether" = false
+	#Prevents the Aether Portal from being created normally in the mod
+	"Disables Aether Portal creation" = false
+	#Prevents the player from falling back to the Overworld when they fall out of the Aether
+	"Disables falling into the Overworld" = false
+	#Removes eternal day so that the Aether has a normal daylight cycle even before defeating the Sun Spirit
+	"Disables eternal day" = false
+	#Sets the ID of the dimension that the Aether Portal will send the player to
+	"Sets portal destination dimension" = "aether:the_aether"
+	#Sets the ID of the dimension that the Aether Portal will return the player to
+	"Sets portal return dimension" = "minecraft:overworld"
+	#Sets the Aether's time cycle to be the same length as the Overworld's
+	"Overworld-length Aether time cycle" = false
+	#Syncs the Aether's time cycle to the Overworld's
+	"Syncs time cycles" = false

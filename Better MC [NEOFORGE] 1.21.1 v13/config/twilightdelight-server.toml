@@ -1,0 +1,6 @@
+# Default: 6
+# Range: 0 ~ 128
+effectRange = 6
+# Default: 24
+# Range: 0 ~ 128
+auroraRange = 24

@@ -1,0 +1,12 @@
+#Client configuration settings for Dragon Mounts Reborn.
+#Should the dragon be controlled by the camera during flight?
+camera_flight = true
+#Should dismounting the dragon require double pressing the dismount button? Disabling this will not allow using sneak or the dismount button to descend.
+alternate_dismount = true
+#Should dragon attacks require holding down the dragon attack key?
+alternate_attack_key = true
+#The zoom offset for the riding camera.
+#Higher values will zoom the camera out further.
+# Default: 10
+# Range: 1 ~ 100
+riding_camera_offset = 10

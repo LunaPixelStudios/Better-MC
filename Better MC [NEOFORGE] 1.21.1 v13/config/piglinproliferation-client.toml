@@ -1,0 +1,10 @@
+["vanilla changes"]
+	"Allow Zombified Piglins to render consistent clothing?" = true
+
+["after image"]
+	"Render an after image while an entity is charging with a buckler?" = true
+	"Render the layers of an entity when charging? (this includes things like items and armor, be warned that the alpha transparencies may glitch out)" = false
+
+["buckler description"]
+	"Enable expanded buckler description" = true
+	"Enable buckler description" = true

@@ -1,0 +1,11 @@
+#.
+#URL to send data to.
+"Metrics Endpoint URL" = ""
+#.
+#Identifier for this modpack
+"Pack ID" = ""
+#.
+#Interval between keepalive requests, in minutes.
+# Default: 30
+# Range: > -2147483648
+"Update Rate" = 30

@@ -1,0 +1,32 @@
+#Makes Cicadas silent for those having sound library problems or finding them annoying.
+silentCicadas = false
+#Makes Cicadas silent when one is on your head. If the above option is set to true, this won't have any effect.
+silentCicadasOnHead = false
+#Controls whether the screen shakes when a Magic Bean is in the process of growing.
+screenShakingEffect = true
+#Rotate Trophy heads on item model. Has no performance impact at all. For those who don't like fun.
+rotateTrophyHeadsGui = true
+#Disable the nag screen when OptiFine is installed.
+disableOptifineNagScreen = false
+#Disables the toasts that appear when entering a locked biome. Not recommended if you're unfamiliar with progression.
+disableLockedBiomeToasts = false
+#Renders a check mark or X above your crosshair while holding wool when hovering over the Questing Ram depending on if that color of wool has been fed to it already.
+questRamWoolIndicator = true
+#Renders how many fortification shields are currently active on your player above your armor bar.
+#"Turn this off if other mods render over/under it.
+fortificationShieldIndicator = true
+#Enables the fortification shield indicator in creative for debugging.
+fortificationShieldIndicatorInCreative = false
+#Renders precipitation underneath cloud blocks. -1 sets it to be synced with the common config.
+#Set this to a lower number if experiencing poor performance, set to 0 to turn it off
+# Default: -1
+# Range: > -1
+cloudBlockPrecipitationDistance = -1
+#List of player UUIDs whose skins the Giants should use. Leave the list empty to use the skin of the player viewing them.
+giantSkinUUIDs = []
+#Defines which biomes the aurora shader effect will appear in. Leave the list empty to disable the effect.
+auroraBiomes = ["twilightforest:glacier"]
+#Lines up the dashes and percentages in the Ore Meter GUI.
+prettifyOreMeterGui = true
+#Makes Charms when triggered display like the Totem of Undying instead of our own effects.
+totemCharmAnimation = false

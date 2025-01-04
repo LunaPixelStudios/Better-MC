@@ -1,0 +1,16 @@
+#Where to place mods button on main menu screen. Select "NO_CHANGE" to prevent any changes to the screen, useful for mod compatibility.
+#Allowed Values: REPLACE_REALMS, LEFT_TO_REALMS, RIGHT_TO_REALMS, INSERT_BELOW_REALMS, NONE, NO_CHANGE
+main_menu_mods_button = "INSERT_BELOW_REALMS"
+#Add mod count to mods button.
+#Allowed Values: COMPACT, ADAPTIVE, NONE
+mod_count_mode = "ADAPTIVE"
+#Where to place mods button on pause menu screen. Select "NO_CHANGE" to prevent any changes to the screen, useful for mod compatibility.
+#Allowed Values: REPLACE_FEEDBACK, REPLACE_BUGS, REPLACE_FEEDBACK_AND_BUGS, REPLACE_AND_MOVE_LAN, INSERT_AND_MOVE_LAN, INSERT_BELOW_FEEDBACK_AND_BUGS, NONE, NO_CHANGE
+pause_screen_mods_button = "INSERT_BELOW_FEEDBACK_AND_BUGS"
+#Safe area in pixels from screen border for buttons to not be moved to prevent them from going off screen.
+#Not effective for vanilla menu layouts, but can be useful when mods add buttons close to the border.
+# Default: 24
+# Range: > 0
+safe_area = 24
+#Make title screen game branding more compact to prevent overlapping with menu buttons.
+collapse_branding = false

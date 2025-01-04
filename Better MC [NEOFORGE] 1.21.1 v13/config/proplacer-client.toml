@@ -1,0 +1,15 @@
+#Treat sneaking as active while placing blocks via the fast placement mechanic or reach-around. Allows block placement to work with interactable blocks such as chests and fence gates.
+#Default Value: false
+bypass_use_block = false
+#Allow using Bedrock Edition-like reach-around block placement, where a block can be placed directly in front of the block the player is standing on when clicking in mid-air for fast bridging.
+#Default Value: true
+allow_reach_around_placement = true
+#Blocks that are excluded from the fast placement mechanic.
+#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
+#Default Value: [minecraft:scaffolding]
+normal_placement_blocks = ["minecraft:scaffolding"]
+#Allow using Bedrock Edition-like fast block placement, with blocks being placed without leaving gaps or unwanted placements. Also enables placing blocks when clicking in mid-air while building.
+#Additionally introduces a similar mechanic for quickly breaking blocks in a row or column in creative mode.
+#Toggle in-game via the dedicated key binding.
+#Default Value: true
+allow_fast_placement = true

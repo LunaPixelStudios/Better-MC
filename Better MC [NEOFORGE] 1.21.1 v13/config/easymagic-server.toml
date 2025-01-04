@@ -1,0 +1,43 @@
+#Amount of bookshelves required to perform enchantments at the highest level.
+#Default Value: 15
+# Default: 15
+# Range: 0 ~ 50
+max_enchanting_power = 15
+#Add a button in the enchanting screen to allow for re-rolling enchantments.
+#This costs experience levels as well as lapis lazuli, or can be free when the costs are set to 0.
+#Default Value: true
+reroll_enchantments = true
+#Switch re-rolling cost from experience points to full enchantment levels, making re-rolls considerable more expensive.
+#Default Value: false
+rerolling_takes_enchantment_levels = false
+#Blocks without a full collision shape (e.g. torches & carpet) do not block bookshelves placed behind from counting towards current enchanting power.
+#Default Value: true
+lenient_bookshelves = true
+#Amount of catalyst item taken as a cost for re-rolling enchantments. Set to 0 to disable this kind of cost.
+#The default re-roll catalyst is simply lapis lazuli as defined in 'easymagic:enchanting_catalysts'.
+#Requires the re-rolling option to be enabled.
+#Default Value: 1
+# Default: 1
+# Range: 0 ~ 64
+reroll_catalyst_cost = 1
+#Choose how many enchantments are shown on the enchanting tooltip, if any at all.
+#Default Value: SINGLE
+#Allowed Values: NONE, SINGLE, ALL
+enchantment_hint = "SINGLE"
+#Do chiseled bookshelves provide enchanting power to an enchanting table, one for every three contained books.
+#NONE: Vanilla behavior, no power is provided.
+#FACING: The bookshelf must face the enchanting table to provide any power.
+#ALL: Chiseled bookshelves provide enchanting power regardless of where they are facing.
+#Default Value: FACING
+#Allowed Values: NONE, FACING, ALL
+chiseled_bookshelf_enchanting_power = "FACING"
+#Catalyst items for re-rolling are defined by the 'easymagic:reroll_catalysts' item tag instead of 'easymagic:enchanting_catalysts' (which includes just lapis lazuli by default).
+#Unlocks an additional slot for providing those items in the enchanting table interface.
+#Default Value: false
+dedicated_reroll_catalyst = false
+#Amount of experience points (not enchantment levels) taken as a cost for re-rolling enchantments. Set to 0 to disable this kind of cost.
+#Requires the re-rolling option to be enabled.
+#Default Value: 5
+# Default: 5
+# Range: > 0
+reroll_experience_points_cost = 5

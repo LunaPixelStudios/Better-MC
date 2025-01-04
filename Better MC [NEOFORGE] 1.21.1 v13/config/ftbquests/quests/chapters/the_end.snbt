@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5BBB507BE497896B"
+	icon: {
+		id: "minecraft:end_stone"
+	}
+	id: "50EEC609E833AB5F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D36AAFE17F5CD9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F2C1C227A8CC557"
+				table_id: 6935663685294125539L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
+				id: "444AC080F3243355"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			dependency_requirement: "all_started"
+			id: "2A51F2BA00FCA9DF"
+			rewards: [{
+				count: 6
+				id: "388140BF40C4E69E"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "412B85684482E982"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

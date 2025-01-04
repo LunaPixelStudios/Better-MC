@@ -1,0 +1,82 @@
+["Vanilla Changes"]
+	"Allow healing and Regeneration arrows to not do damage?" = true
+	#Weig
+	#ht is calculated by dividing the current value by the sum of all weights combined.
+	#Use https://minecraft.fandom.com/wiki/Bastion_Remnant?so=search#cite_ref-piglin_group_1-39 as a guide.
+	#The default weight for alchemists spawning is 4, giving them a 28% chance of spawning in bastions.
+	#(Due to this, regular piglins have a spawn rate of 28% aswell, and brutes have a spawn rate of 7% spawn rate, changed values will have to account for this).
+	#To change the natural spawn rates, use a datapack that overrides add_alchemist.json file, located in data/piglinproliferation/data/forge/biome_modifier
+	# Default: 4
+	# Range: > -2147483648
+	"Alchemist spawnrate weight in bastions" = 4
+	# Default: 0.5
+	# Range: 0.0 ~ 9000.0
+	"Chance of zombified piglins spawning with crossbows" = 0.5
+	# Default: 0.8999999761581421
+	# Range: 0.0 ~ 9000.0
+	"Chance of zombified piglins spawning with regular piglin clothing" = 0.8999999761581421
+	# Default: 0.014999999664723873
+	# Range: 0.0 ~ 9000.0
+	"Chance of zombified piglins spawning with brute clothing (including items)" = 0.014999999664723873
+	# Default: 0.10000000149011612
+	# Range: 0.0 ~ 9000.0
+	"Chance of zombified piglins spawning with alchemist clothing (including items)" = 0.10000000149011612
+	# Default: 0.10000000149011612
+	# Range: 0.0 ~ 9000.0
+	"Chance of zombified piglins spawning with traveler clothing " = 0.10000000149011612
+
+[Buckler]
+	"Mobs that can also use the buckler" = ["guardvillagers:guard"]
+	"Have the explosion spawned while using the Bang! enchant destroy blocks?" = false
+	# Default: 240
+	# Range: > -2147483648
+	"How long should the buckler's cooldown be in ticks?" = 240
+	# Default: 15
+	# Range: > -2147483648
+	"How long should the buckler's charge move be in ticks?" = 15
+	# Default: 40
+	# Range: > -2147483648
+	"How long should the buckler's charge move if you have the max level of turning enchant be in ticks?" = 40
+	# Default: 0.25
+	# Range: 0.0 ~ 9999999.0
+	"Chance of buckler appearing in bastion loot" = 0.25
+	#Experimental: Bucklers enchanted with Turning will allow the player to launch off of blocks they collide with.
+	# Default: 0.15
+	# Range: 0.0 ~ 999999.0
+	"Launch strength " = 0.15
+	"Enable critical aura feature for buckler" = true
+	# Default: 1.0
+	# Range: -999999.0 ~ 999999.0
+	"Chance of brutes spawning with bucklers" = 1.0
+	# Default: 0.10000000149011612
+	# Range: -999999.0 ~ 999999.0
+	"Chance of brutes to drop buckler" = 0.10000000149011612
+
+["Piglin Alchemist"]
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 9000.0
+	"Chance of alchemist potions not getting broken when killed" = 0.20000000298023224
+
+	["Piglin Alchemist"."Healing Arrow Chances"]
+		# Default: 0.30000001192092896
+		# Range: 0.0 ~ 100.0
+		"Chances of an alchemist getting healing arrows" = 0.30000001192092896
+		# Default: 1
+		# Range: > -2147483648
+		"Minmium healing arrow stack size" = 1
+		# Default: 6
+		# Range: > -2147483648
+		"Maximium healing arrow stack size" = 6
+
+["Piglin Traveler"]
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 9000.0
+	"Chance of travelers equipping crossbows" = 0.20000000298023224
+
+["Alchemical Fire Rings"]
+	# Default: 999999
+	# Range: -999999 ~ 999999
+	"Max effect level for Alchemical Fire Rings when effects are transferred (uncapped by default, set to 0 for a cap of 1)" = 999999
+	# Default: 999999
+	# Range: -999999 ~ 999999
+	"Max duration for Alchemical Fire Rings when effects are transferred (uncapped by default, set to 0 for a cap of 1)" = 999999

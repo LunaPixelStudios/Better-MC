@@ -1,0 +1,116 @@
+[lectern]
+	#Improved lectern screen allowing to edit font of a book while on it
+	improved_screen = true
+
+[hanging_signs]
+	#Allows placing items on hanging signs
+	items_on_signs = true
+
+[cauldron]
+	#Enables enhanced cauldron
+	enhanced_cauldron = true
+	#Allows crafting items using cauldrons by clicking on them
+	crafting = true
+	#Allows dying cauldron water bedrock style and mixing them too
+	dye_water = true
+	#Max amount of items that 1 cauldron layer can recolor.This is a multiplier on top of vanilla crafting recipe amount
+	# Default: 4
+	# Range: 1 ~ 64
+	dye_recipes_per_layer = 4
+	#Max amount of items that 1 cauldron layer can craft with potions.This is a multiplier on top of vanilla crafting recipe amount
+	# Default: 2
+	# Range: 1 ~ 64
+	potion_recipes_per_layer = 2
+	#Allows mixin potions in cauldrons
+	#Allowed Values: OFF, ONLY_BOILING, ON
+	potions_mixing = "ON"
+	#Max amount of effects allowed in a mixed potion
+	# Default: 8
+	# Range: 1 ~ 64
+	potion_mixing_limit = 8
+	#Makes cauldrons connect to fences
+	connect_to_fences = true
+
+	#Map of potion ids to their inverse ids. Used for potion mixing
+	[cauldron.inverse_potions]
+		"minecraft:mining_fatigue" = "minecraft:haste"
+		"minecraft:instant_health" = "minecraft:instant_damage"
+		"minecraft:unluck" = "minecraft:luck"
+		"minecraft:instant_damage" = "minecraft:instant_health"
+		"minecraft:weakness" = "minecraft:strength"
+		"minecraft:slowness" = "minecraft:speed"
+		"minecraft:haste" = "minecraft:mining_fatigue"
+		"minecraft:strength" = "minecraft:weakness"
+		"minecraft:speed" = "minecraft:slowness"
+		"minecraft:luck" = "minecraft:unluck"
+
+[tripwire_hook]
+	#Allows placing tools on tripwire hooks
+	tool_hook = true
+
+[carpets]
+	#Allows you to place carpets on stairs
+	carpeted_stairs = true
+	#Allows you to place carpets on slabs
+	carpeted_slabs = true
+
+[cake]
+	#Allows you to place a cake on top of another
+	double_cake = true
+	#Allows eating a cake from every side
+	directional_cake = true
+
+[mob_head]
+	#Allows you to place two mob heads on top of each other
+	skull_piles = true
+	#Allows candles to be placed on top of skulls
+	skull_candles = true
+	#Allows placing more than one candle ontop of each skull
+	multiple_candles = true
+
+[flower_pot]
+	#allows you to place hanging flower pots. Works with any modded pot too
+	hanging_pot = true
+
+[lantern]
+	#Allow wall lanterns placement
+	wall_lanterns = true
+	#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
+	high_priority = true
+	#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
+	mod_blacklist = ["bbb", "extlights", "betterendforge", "spelunkery", "galosphere", "tconstruct", "enigmaticlegacy", "beautify"]
+	#Ids of blocks that are not detected as lanterns but should be
+	id_whitelist = ["enlightened_end:xenon_lantern"]
+	#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
+	#Allowed Values: ON, OFF, NO_FIRE
+	falling_lanterns = "ON"
+
+[bell]
+	#Ring a bell by clicking on a chain that's connected to it
+	chain_ringing = true
+	#Max chain length that allows a bell to ring
+	# Default: 16
+	# Range: 0 ~ 256
+	chain_length = 16
+
+[banners]
+	#Allow banners to be placed on ceilings
+	ceiling_banners = true
+
+[misc]
+	#Allows dying blocks by right clicking them with dye
+	dye_blocks = false
+
+[torch]
+	#Allows torches to set entities on fire
+	torch_fire = true
+	#Allows torches to set entities on fire when held in offhand given you are attacking with a sword
+	torch_fire_offhand = false
+	#Duration of the on fire effect applied by torches. In seconds
+	# Default: 2
+	# Range: 1 ~ 60
+	torch_fire_duration = 2
+
+[lily_pad]
+	#Allows lilypads to have any block placed ontop
+	better_lilypads = true

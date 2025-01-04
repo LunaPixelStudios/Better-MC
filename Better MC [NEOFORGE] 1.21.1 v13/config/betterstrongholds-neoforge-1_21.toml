@@ -1,0 +1,8 @@
+	###########################################################################################################
+	## General settings.
+	###########################################################################################################
+	["YUNG's Better Strongholds".General]
+		# Allows strongholds to be slightly destroyed by small noodle caves.
+		# Note that they will remain unaffected by large caverns.
+		# Default: false
+		"Enable Structure Ruin" = false
