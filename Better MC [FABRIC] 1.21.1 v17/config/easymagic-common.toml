@@ -1,0 +1,6 @@
+#Replace vanilla enchanting tables created in structures during world generation. Does not affect already generated blocks.
+#Default Value: true
+convert_vanilla_enchanting_table_during_world_gen = true
+#Leftover vanilla enchanting tables in a world become unusable until they are broken and replaced.
+#Default Value: true
+disable_vanilla_enchanting_table = true

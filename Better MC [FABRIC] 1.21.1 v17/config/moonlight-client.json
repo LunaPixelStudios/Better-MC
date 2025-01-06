@@ -1,0 +1,9 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
+  "general": {
+    "merge_dynamic_packs": true,
+    "lazy_map_upload": true,
+    "maps_mipmap": 3,
+    "consistent_entity_renderer_shading": "NO_GUI"
+  }
+}

@@ -1,0 +1,558 @@
+[AerialAffinity]
+	#Aerial Affinity is a boots enchantment that increases mining rate when not on the ground.
+	Enabled = true
+
+[AnimalArmorEnchanting]
+	#Horse and wolf armor can be enchanted.
+	#The enchantment tags 'on_horse_armor' and 'on_wolf_armor' can be used to configure valid enchantments.
+	Enabled = true
+
+[AnimalArmorGrinding]
+	#Animal armor returns a single ingot, leather, scute or diamond when used on the grindstone.
+	Enabled = true
+
+[AnimalDamageImmunity]
+	#Tamed animals do not take direct damage from players.
+	Enabled = true
+
+[AnimalReviving]
+	#A tamed animal with a name drops its name tag on death.
+	#Right-click (use) the name tag while holding a Totem of Undying to revive the animal and consume the totem.
+	Enabled = true
+	#If true, tamed and named animals drop items from their loot table (such as leather from horses) when they die.
+	#This could be unwanted behavior as it can be used to dupe items by killing and resurrecting an animal repeatedly.
+	"Drop loot on death" = false
+	#If true, tamed and named animals drop experience when they die. This could be unwanted behavior as it can be used
+	#to receive an increasing amount of experience by killing and resurrecting an animal repeatedly.
+	"Drop experience on death" = false
+
+[AnvilsLastLonger]
+	#Anvils are less likely to take damage when used. By default anvils are 50% stronger.
+	Enabled = true
+	#Chance (out of 1.0) of an anvil applying the damage it would normally receive.
+	#A value of 0.0 makes anvils invulnerable and a value of 1.0 is vanilla damage behavior.
+	"Damage chance" = 0.5
+
+[ArcanePurpur]
+	#Arcane Purpur is a decorative block made from Purpur and Endermite Powder.
+	#Chiseled Arcane Purpur allows teleportation when a chorus fruit is eaten within range of the block.
+	Enabled = true
+	#Range (in blocks) in which a player will be teleported to a chiseled arcane purpur block when eating a chorus fruit.
+	"Teleport range" = 12
+
+[Atlases]
+	#Storage for maps that automatically updates the displayed map as you explore.
+	Enabled = true
+	#Allow opening the atlas while it is in the off-hand.
+	"Open in off hand" = false
+	#Map scale used in atlases by default.
+	"Map scale" = 0
+
+[BatBuckets]
+	#Right-click a bat with a bucket to capture it.
+	#Right-click again to release it and locate entities around you.
+	Enabled = true
+
+[BeaconsHealMobs]
+	#Passive and friendly mobs will heal themselves within range of a beacon with the regeneration effect.
+	Enabled = true
+
+[Beekeepers]
+	#Beekeepers are villagers that trade beekeeping items. Their job site is the beehive.
+	Enabled = true
+
+[CampfiresHealPlayers]
+	#Standing within range and sight of a lit campfire provides a small regeneration boost.
+	#It does not work if there are enemies nearby.
+	Enabled = true
+
+[Casks]
+	#Casks are used to hold potions. Use a potion bottle on a cask to add the bottle's contents to the cask.
+	#Use an empty bottle to retrieve one potion bottle back from the cask.
+	#Potion effects are combined inside the cask and the contents are not lost when the cask is broken.
+	Enabled = true
+	#Maximum number of bottles a cask can hold.
+	"Maximum bottles" = 16
+	#If true, splash and lingering potions may be added to a cask.
+	"Allow splash and lingering" = false
+
+[Chairs]
+	#Right-click (with empty hand) on any stairs block to sit down.
+	Enabled = true
+
+[Collection]
+	#Tools with the Collection enchantment automatically pick up drops.
+	Enabled = true
+
+[CookingPots]
+	#Cooking pots allow any food item to be added. Once the combined nourishment total has reached maximum, use wooden bowls to take mixed stew from the pot.
+	#All negative and positive effects will be removed from the food added to the pot.
+	Enabled = true
+	#Number of hunger points restored from a single portion of mixed stew.
+	"Stew hunger restored" = 6
+	#Amount of saturation restored from a single portion of mixed stew.
+	"Stew saturation restored" = 0.6
+	#Maximum stack size of stew obtained from the cooking pot.
+	"Stew stack size" = 16
+
+[CopperPistons]
+	#Copper Pistons do not have quasi-connectivity.
+	Enabled = true
+
+[CoralSeaLanterns]
+	#Coral can be combined with sea lanterns to make colored variants.
+	Enabled = true
+
+[CoralSquids]
+	#Coral Squids spawn near coral in warm oceans.
+	Enabled = true
+	#Chance (out of 1.0) of a coral squid dropping coral when killed.
+	"Drop chance" = 0.2
+
+[Core]
+	#Enable debugging mode. Produces more logging output and adds some testing code.
+	"Debug mode" = false
+	#Enable mixin disable mode. All mixins will be disabled, making Charm mods useless.
+	#Use this if any Charm mods are crashing to determine if there is a mixin collision with another mod.
+	"Mixin disable mode" = false
+	#Enable custom onTake behavior for anvils.
+	#This changes the vanilla anvil behavior to avoid destroying entire stacks.
+	#There is a small chance that a mod depends on the default behavior, in which case you should
+	#disable this config option and change the stack size of ItemStacking "Enchanted book" to 1.
+	"Custom on-take behavior" = true
+
+[CraftingFromInventory]
+	#Allows crafting if the player has a crafting table in their inventory.
+	Enabled = false
+
+[CropFeatherFalling]
+	#Prevents crop trampling when wearing boots enchanted with Feather Falling.
+	Enabled = true
+
+[CropReplanting]
+	#Right-click with a hoe to quickly harvest and replant a fully-grown crop.
+	Enabled = false
+
+[DeepslateDungeons]
+	#Dungeons in the deepslate layer will be constructed of deepslate bricks and cobbled deepslate.
+	Enabled = true
+
+[DoorsOpenTogether]
+	#Automatically opens double doors.
+	Enabled = true
+
+[EndermitePowder]
+	#Endermites drop endermite powder that can be used to locate an End City.
+	Enabled = true
+
+[GlintColorTemplates]
+	#Smithing template that changes the glint color of any enchanted item.
+	Enabled = true
+	#Loot table in which a colored glint smithing template will be added.
+	"Loot table" = "minecraft:chests/ancient_city"
+	#Chance (out of 1.0) of a colored glint smithing template appearing in loot.
+	"Loot chance" = 0.25
+
+[GlintColoring]
+	#Customizable item enchantment colors. This feature is a helper for other Charm features and mods.
+	#If disabled then other features and mods that rely on it will not function properly.
+	Enabled = true
+
+[GrindstoneDisenchanting]
+	#Extract enchantments from any enchanted item onto an empty book using the grindstone.
+	Enabled = true
+	#Initial cost (in XP levels) of extraction before adding on the cost of the enchantment(s).
+	"Initial cost" = 5
+	#Adds extra cost (in XP levels) if the enchantment is a treasure enchantment such as Mending.
+	"Treasure cost" = 5
+	#If true, the item's repair cost will be added to the cost of extraction.
+	"Add item repair cost" = true
+
+[ItemFrameHiding]
+	#Add amethyst shards to item frames to hide them.
+	Enabled = true
+
+[ItemHoverSorting]
+	#Scroll the mouse while hovering over a bundle or shulker box to cycle the order of its contents.
+	Enabled = true
+
+[ItemRepairing]
+	#More ways to repair items using different materials.
+	Enabled = true
+	#Use prismarine shards to repair trident damage.
+	"Repair tridents using prismarine" = true
+	#Leather can be used to repair elytra when insomnia is disabled.
+	"Repair elytra using leather" = true
+	#Use netherite scrap to repair netherite item damage.
+	"Repair netherite using scrap" = true
+
+[ItemRestocking]
+	#Refills hotbar from your inventory.
+	Enabled = true
+
+[ItemStacking]
+	#Allows some unstackable items to stack.
+	Enabled = true
+	#Enchanted book maximum stack size.
+	"Enchanted book" = 1
+	#Potion maximum stack size.
+	Potion = 1
+	#Splash potion maximum stack size.
+	"Splash potion" = 1
+	#Lingering potion maximum stack size.
+	"Lingering potion" = 1
+	#Stew (and beetroot soup) maximum stack size.
+	Stew = 16
+	#Suspicious stew maximum stack size.
+	"Suspicious stew" = 1
+
+[ItemTidying]
+	#Button to automatically tidy items in inventories.
+	Enabled = true
+
+[Kilns]
+	#A functional block that speeds up cooking of clay, glass, bricks and terracotta.
+	Enabled = true
+
+[Lumberjacks]
+	#Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
+	Enabled = true
+	#If true, lumberjacks will provide custom barrels in their trades.
+	#If false, lumberjacks will trade the vanilla barrel.
+	"Use custom barrels in trades" = true
+	#If true, lumberjacks will provide custom bookshelves in their trades.
+	#If false, lumberjacks will trade the vanilla bookshelf.
+	"Use custom bookshelves in trades" = true
+	#If true, lumberjacks will provide custom ladders in their trades.
+	#If false, lumberjacks will trade the vanilla ladder.
+	"Use custom ladders in trades" = true
+
+[MineshaftImprovements]
+	#Adds decoration and more ores to mineshafts.
+	Enabled = true
+	#Chance (out of 1.0) of blocks such as candles and ores spawning on the floor of corridors.
+	"Corridor floor blocks" = 0.03
+	#Chance (out of 1.0) of blocks such as lanterns spawning on the ceiling of corridors.
+	"Corridor ceiling blocks" = 0.02
+	#Chance (out of 1.0) of stone, gravel and ore spawning at the entrance of corridors.
+	"Corridor block piles" = 0.2
+	#Chance (out of 1.0) for a moss or precious ore block to spawn on a single block of the central mineshaft room.
+	"Room blocks" = 0.25
+	#Chance (out of 1.0) for a minecart to spawn in a corridor. Minecart loot is chosen from the 'Minecart loot' tables.
+	"Extra minecarts" = 0.2
+	#List of loot tables that will be used to populate custom minecarts.
+	"Minecart loot" = ["minecraft:chests/simple_dungeon", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/village/village_temple", "minecraft:chests/village/village_cartographer", "minecraft:chests/village/village_mason", "minecraft:chests/village/village_toolsmith", "minecraft:chests/village/village_weaponsmith"]
+
+[MobDrops]
+	#Some mobs have a chance to drop additional items either by chance or when killed.
+	Enabled = true
+
+	[MobDrops.CaveSpiderDrops]
+		#Cave spiders have a chance to drop cobwebs when killed.
+		Enabled = true
+		#Maximum cobwebs dropped when a cave spider is killed.
+		"Maximum cobweb drops" = 2
+
+	[MobDrops.ChickenDrops]
+		#Chickens occasionally shed a feather.
+		Enabled = true
+		#1 in X chance of a chicken dropping a feather, per game tick.
+		"Feather drop chance" = 5000
+
+	[MobDrops.GoatDrops]
+		#Goats have a chance to drop mutton when killed.
+		Enabled = true
+		#Maximum pieces of mutton dropped when a goat is killed.
+		"Maximum mutton drops" = 2
+
+	[MobDrops.HuskDrops]
+		#Husks have a chance to drop sand when killed.
+		Enabled = true
+		#Maximum sand blocks dropped when a husk is killed.
+		"Maximum sand drops" = 2
+
+	[MobDrops.WitchDrops]
+		#Witches have a chance to drop a Potion of Luck when killed.
+		Enabled = true
+		#Chance (out of 1.0) of a witch dropping a Potion of Luck when killed.
+		"Potion of Luck drop chance" = 0.05
+
+[Mooblooms]
+	#Mooblooms are cow-like mobs that come in a variety of flower types.
+	#They spawn flowers where they walk and can be milked for suspicious stew.
+	Enabled = true
+
+[NetherPortalBlocks]
+	#Adds more blocks that can be used to build nether portals. By default this adds Crying Obsidian.
+	#The item tag 'nether_portal_blocks' can be used to configure the blocks that can be used to build portals.
+	Enabled = true
+
+[NoteBlockLowerPitch]
+	#Use a note block while sneaking to lower its pitch by one semitone.
+	Enabled = true
+
+[NoteBlocks]
+	#Adds more note block sounds.
+	#Disabling this feature will disable all of Charm's note block features.
+	Enabled = true
+
+	[NoteBlocks.AmethystNoteBlock]
+		#Place a block of amethyst under a note block to play its placement sound.
+		Enabled = true
+
+[ParrotsStayOnShoulder]
+	#Parrots stay on player's shoulder when jumping and falling. Crouch to make them dismount.
+	Enabled = true
+
+[PathConverting]
+	#Use a shovel or hoe to convert dirt and path blocks.
+	Enabled = true
+	#If true, a shovel can be used to convert a dirt block to a path block.
+	"Convert dirt to path" = true
+	#If true, a hoe can be used to convert a path block to a dirt block.
+	"Convert path to dirt" = true
+
+[PiglinPointing]
+	#Piglins turn and point in the rough direction of a nether fortress or bastion remnant.
+	#By default, give them a chiseled nether brick block for a fortress and a gilded blackstone block for a bastion.
+	#The item tags 'piglin_barters_for_bastions' and 'piglin_barters_for_fortresses' can be used to configure the blocks.
+	Enabled = true
+
+[PigsFindMushrooms]
+	#Pigs have a chance to find mushrooms from certain blocks. By default mushrooms are unearthed from mycelium and podzol blocks.
+	#The item tag 'pigs_find_mushrooms' can be used to configure the blocks in which mushrooms can be unearthed by a pig.
+	Enabled = true
+	#Approximately 1 in X chance of a pig finding a mushroom per game tick.
+	"Chance to find mushroom" = 1000
+	#Chance (out of 1.0) of a block being converted to dirt when a pig finds a mushroom.
+	"Chance to erode block" = 0.25
+
+[PlayerPressurePlates]
+	#Player-only pressure plates crafted using smooth basalt.
+	Enabled = true
+
+[PotionOfRadiance]
+	#Potion of Radiance gives the glowing effect. It is brewed using a torchflower.
+	Enabled = true
+
+[RaidHorns]
+	#Raid horns are sometimes dropped from raid leaders and can be used to call off raids or summon pillagers.
+	Enabled = true
+
+[RecipeImprovements]
+	#Adds more recipes and recipe tweaks.
+	#Disabling this feature will disable all related recipe features.
+	Enabled = false
+	#If true, adds a blast furnace recipe for smelting raw ore blocks into ore blocks.
+	"Ore block from raw ore block" = true
+	#If true, adds a recipe for Gilded Blackstone using gold nuggets and blackstone.
+	"Gilded Blackstone" = true
+	#If true, adds a recipe for Cyan Dye using warped roots.
+	"Cyan Dye from warped roots" = true
+	#If true, adds a recipe for Green Dye using yellow and blue dyes.
+	"Green Dye from yellow and blue" = true
+	#If true, adds a recipe for turning snow blocks back into snowballs.
+	"Snowballs from snow blocks" = true
+	#If true, adds a recipe for turning quartz blocks back into quartz.
+	"Quartz from quartz blocks" = true
+	#If true, adds a recipe for turning clay blocks back into clay balls.
+	"Clay balls from clay blocks" = true
+	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
+	"Simpler Soul Torch" = true
+
+	[RecipeImprovements.BundlesFromLeather]
+		#Adds a leather-based recipe for the vanilla bundle.
+		Enabled = true
+
+	[RecipeImprovements.RecipeUnlocking]
+		#Unlocks all vanilla recipes when the player joins the game.
+		#This feature may cause problems with mod progression and is disabled by default.
+		Enabled = false
+
+	[RecipeImprovements.ShapelessRecipes]
+		#Adds convenient shapeless recipe versions of common shaped vanilla recipes.
+		Enabled = true
+		#If true, adds a shapeless recipe for bread.
+		"Shapeless bread" = true
+		#If true, adds a shapeless recipe for paper.
+		"Shapeless paper" = true
+
+[RedstoneSand]
+	#A block that acts like sand but is powered like a block of redstone.
+	Enabled = true
+
+[RepairCostUnlimited]
+	#Allows anvil repair of items with repair cost 39 or more.
+	Enabled = true
+
+[RespawnAnchorsWorkEverywhere]
+	#The repsawn anchor can be used in any dimension.
+	#This feature changes core gameplay so is disabled by default.
+	Enabled = false
+
+[ShulkerBoxTransferring]
+	#Drag and drop items into a shulkerbox from within your inventory.
+	Enabled = true
+
+[Silence]
+	#Disables some nag messages and telemetry.
+	#Some data removal may be considered controversial so this feature is disabled by default.
+	Enabled = false
+	#If true, disables the 'Chat messages can't be verified' dialog message when the server does not enforce secure profile.
+	#This only applies if you set 'enforce-secure-profile' to true in server.properties
+	"Disable chat message verification dialog" = true
+	#If true, disables the 'Experimental' warning dialog that appears when opening a world with experimental features enabled.
+	"Disable experimental screen dialog" = true
+	#If true, prevents the client telemetry manager from ever sending any messages back to the mothership.
+	#Telemetry includes your game session, game version, operating system and launcher.
+	"Disable telemetry" = true
+	#If true, downgrades the 'No data fixer registered' error to an info message.
+	#This isn't really an error for modded entities.
+	"Downgrade data fixer registered error" = true
+	#If true, disables realms and other API connections when running in the development environment.
+	#Setting this to true doesn't do anything if you are playing in a launcher.
+	"Disable development mode connections" = true
+
+[SmoothGlowstone]
+	#Smooth glowstone.
+	Enabled = true
+
+[SpawnersDropItems]
+	#Monster spawners drop mob-related items when broken. This allows items such as gunpowder, string
+	#and rotten flesh to be gathered in larger quantities when the game difficulty is set to peaceful.
+	Enabled = true
+	#If true, monster spawners only drop items when the game difficulty is set to peaceful.
+	#If false, monster spawners drop items regardless of the game difficulty.
+	"Peaceful only" = true
+
+[StorageBlocks]
+	#Adds more item blocks.
+	#Disabling this feature will disable all related storage block features.
+	Enabled = true
+
+	[StorageBlocks.EnderPearlBlock]
+		#Combine ender pearls to make an ender pearl block.
+		Enabled = true
+		#If true, ender pearl blocks will convert silverfish to endermites.
+		"Ender pearl block converts silverfish" = true
+
+	[StorageBlocks.GunpowderBlock]
+		#Combine gunpowder to make a gunpowder block.
+		#Gunpowder blocks are affected by gravity and dissolve in lava.
+		Enabled = true
+		#If true, adds a recipe for TNT using a gunpowder block and any sand.
+		"TNT from gunpowder block and sand" = true
+
+	[StorageBlocks.SugarBlock]
+		#Combine sugar to make a sugar block.
+		#Sugar blocks are affected by gravity and dissolve in water.
+		Enabled = true
+
+[SuspiciousBlockCreating]
+	#Use a piston to push an item into sand or gravel, making it suspicious.
+	Enabled = true
+
+[SuspiciousEffectImprovements]
+	#Adds more functionality to suspicious effects, flowers and stews.
+	Enabled = true
+
+	[SuspiciousEffectImprovements.SuspiciousBigPlants]
+		#Suspicious stews can be crafted from pitcher plants and sunflowers.
+		Enabled = true
+		#Number of seconds of strength and regeneration from a pitcher plant.
+		"Pitcher plant effect duration" = 8
+		#Number of seconds of health boost from a sunflower.
+		"Sunflower effect duration" = 8
+
+	[SuspiciousEffectImprovements.SuspiciousEffectsLastLonger]
+		#Suspicious effects from stews and flowers last longer.
+		Enabled = true
+		#The duration of beneficial suspicious effects (such as strength) will be multiplied by this number.
+		"Beneficial effect multiplier" = 4
+		#The duration of detrimental suspicious effects (such as poison) will be multiplied by this number.
+		"Detrimental effect multiplier" = 2
+
+[TorchflowersEmitLight]
+	#Torchflowers emit ambient light.
+	Enabled = true
+	#Amount of light emitted by a Torchflower. Valid values between 0-15.
+	"Light level" = 8
+
+[TotemOfPreserving]
+	#Preserves your items on death.
+	Enabled = false
+	#If true, a totem of preserving will always be created when you die.
+	#If false, you must be holding a totem of preserving to preserve your items on death.
+	"Grave mode" = false
+	#The maximum number of times a single totem can be used. Once a totem runs out of uses it is destroyed.
+	#A value of -1 means that the totem is never destroyed.
+	#You can add an echo shard on an anvil to increase the durability of the totem.
+	#Note: Durability has no effect if 'Grave mode' is enabled.
+	Durability = 3
+	#If true, only the owner of the totem may pick it up.
+	"Owner only" = false
+	#If true, the coordinates where you died will be added to the player's chat screen.
+	"Show death position" = false
+
+[TotemsWorkFromInventory]
+	#A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
+	#This includes the Totem of Preserving, if enabled.
+	Enabled = true
+
+[TradeImprovements]
+	#Adds more villager trades.
+	Enabled = true
+	#If true, librarians will buy any enchanted book in return for emeralds.
+	"Enchanted books" = true
+	#If true, armorers, weaponsmiths and toolsmiths will buy chipped or damaged anvils along with iron ingots in return for repaired anvils.
+	"Repaired anvils" = true
+	#If true, leatherworkers will sell leather in return for rotten flesh.
+	"Leather for rotten flesh" = true
+	#If true, butchers will sell beef in return for rotten flesh.
+	"Beef for rotten flesh" = true
+	#If true, leatherworkers will sell bundles in return for emeralds.
+	Bundles = true
+	#If true, clerics will sell phantom membrane in return for emeralds.
+	"Phantom membrane" = true
+	#If true, wandering traders have a chance to sell various items from Charm mods.
+	"Charm mod items" = true
+
+[VillagerAttracting]
+	#Attract villagers by holding a desired item. By default this is an emerald block.
+	#The item tag 'villager_loved' can be used to configure the items that attract a villager.
+	Enabled = true
+
+[Waypoints]
+	#Lodestones broadcast a message to a nearby player when a banner is placed on top.
+	#The title and color of the banner will be used in the message.
+	Enabled = true
+	#Distance (in blocks) between a player and waypoint at which a message will be broadcast.
+	"Broadcast distance" = 200
+	#Length of time (in seconds) that the broadcast message will remain on the screen.
+	#Set to zero to always be shown while the player is in range of a waypoint.
+	"Message duration" = 20
+	#If true, the nearest waypoint will be shown when holding a compass.
+	#The closer to the waypoint source, the greater the number of stars shown next to the waypoint name.
+	#This setting is disabled if the CompassesShowPosition feature is not enabled.
+	"Show nearest waypoint on compass" = true
+
+[Wood]
+	#Adds new wood types and variants.
+	#Disabling this feature will disable all related wood features.
+	Enabled = true
+
+	[Wood.AzaleaWood]
+		#Azalea wood is obtainable from naturally occurring azalea trees or by growing azalea saplings.
+		Enabled = true
+
+	[Wood.EbonyWood]
+		#Ebony is a dark wood obtainable from ebony trees that grow in savanna biomes.
+		Enabled = true
+
+	[Wood.VanillaWoodVariants]
+		#Barrels, bookcases, chests and ladders in all vanilla wood types.
+		Enabled = true
+
+[Woodcutters]
+	#A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
+	Enabled = true

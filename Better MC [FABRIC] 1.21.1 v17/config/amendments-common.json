@@ -1,0 +1,86 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
+  "lectern": {
+    "improved_screen": true
+  },
+  "hanging_signs": {
+    "items_on_signs": true
+  },
+  "cauldron": {
+    "enhanced_cauldron": true,
+    "crafting": true,
+    "dye_water": true,
+    "dye_recipes_per_layer": 4,
+    "potion_recipes_per_layer": 2,
+    "potions_mixing": "ON",
+    "potion_mixing_limit": 8,
+    "inverse_potions": {
+      "minecraft:mining_fatigue": "minecraft:haste",
+      "minecraft:luck": "minecraft:unluck",
+      "minecraft:slowness": "minecraft:speed",
+      "minecraft:haste": "minecraft:mining_fatigue",
+      "minecraft:weakness": "minecraft:strength",
+      "minecraft:instant_health": "minecraft:instant_damage",
+      "minecraft:speed": "minecraft:slowness",
+      "minecraft:strength": "minecraft:weakness",
+      "minecraft:unluck": "minecraft:luck",
+      "minecraft:instant_damage": "minecraft:instant_health"
+    },
+    "connect_to_fences": true
+  },
+  "tripwire_hook": {
+    "tool_hook": true
+  },
+  "carpets": {
+    "carpeted_stairs": true,
+    "carpeted_slabs": true
+  },
+  "cake": {
+    "double_cake": true,
+    "directional_cake": true
+  },
+  "mob_head": {
+    "skull_piles": true,
+    "skull_candles": true,
+    "multiple_candles": true
+  },
+  "flower_pot": {
+    "hanging_pot": true
+  },
+  "lantern": {
+    "wall_lanterns": true,
+    "high_priority": true,
+    "mod_blacklist": [
+      "bbb",
+      "extlights",
+      "betterendforge",
+      "spelunkery",
+      "galosphere",
+      "tconstruct",
+      "enigmaticlegacy",
+      "beautify"
+    ],
+    "id_whitelist": [
+      "enlightened_end:xenon_lantern"
+    ],
+    "falling_lanterns": "ON"
+  },
+  "bell": {
+    "chain_ringing": true,
+    "chain_length": 16
+  },
+  "banners": {
+    "ceiling_banners": true
+  },
+  "misc": {
+    "dye_blocks": false
+  },
+  "torch": {
+    "torch_fire": true,
+    "torch_fire_offhand": false,
+    "torch_fire_duration": 2
+  },
+  "lily_pad": {
+    "better_lilypads": true
+  }
+}

@@ -1,0 +1,28 @@
+minY = -55
+maxY = 30
+disableVanillaMineshafts = true
+
+[spawnRates]
+lanternSpawnRate = 0.0067
+torchSpawnRate = 0.02
+workstationSpawnRate = 0.025
+workstationDungeonSpawnRate = 0.25
+smallShaftSpawnRate = 0.07
+cobwebSpawnRate = 0.15
+smallShaftChestMinecartSpawnRate = 0.00125
+mainShaftChestMinecartSpawnRate = 0.01
+smallShaftTntMinecartSpawnRate = 0.0024999999441206455
+mainShaftTntMinecartSpawnRate = 0.0024999999441206455
+zombieVillagerRoomSpawnChance = 2
+smallShaftPieceChainLength = 9
+
+[ores]
+enabled = true
+cobble = 50
+coal = 20
+iron = 9
+redstone = 7
+gold = 7
+lapis = 3
+emerald = 3
+diamond = 1

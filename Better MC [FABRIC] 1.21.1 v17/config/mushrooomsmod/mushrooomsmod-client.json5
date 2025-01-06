@@ -1,0 +1,5 @@
+{
+	/* send message to player when joining game
+	*/
+	"betawarningmessage": true
+}

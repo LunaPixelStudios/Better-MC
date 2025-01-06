@@ -1,0 +1,11 @@
+{
+  "patches": {
+    "applyPatches [default: true]": false,
+    "repairBiomesOnLoad [default: false]": false,
+    "apply_patches": true
+  },
+  "infos": {
+    "verbose [default: true]": true
+  },
+  "modify_version": "21.0.13"
+}

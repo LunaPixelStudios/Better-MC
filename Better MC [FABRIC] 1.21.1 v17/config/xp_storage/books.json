@@ -1,0 +1,15 @@
+{
+  "nbBooks": 3,
+  "book1": {
+    "capacity": 30,
+    "xpFromUsing": 85
+  },
+  "book2": {
+    "capacity": 42,
+    "xpFromUsing": 90
+  },
+  "book3": {
+    "capacity": 69,
+    "xpFromUsing": 95
+  }
+}

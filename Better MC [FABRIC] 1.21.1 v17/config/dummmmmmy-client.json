@@ -1,0 +1,29 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
+  "visuals": {
+    "animation_intensity": 0.75,
+    "show_hearths": false,
+    "damage_numbers": true,
+    "full_bright_damage_numbers": true,
+    "hay_particles": true,
+    "texture": "DEFAULT",
+    "damage_type_colors": {
+      "minecraft:generic": "#00FFFFFF",
+      "#minecraft:is_lightning": "#00FFF200",
+      "minecraft:dragon_breath": "#00E600FF",
+      "attributeslib:bleeding": "#00810A0A",
+      "#dummmmmmy:is_thorn": "#000FA209",
+      "#dummmmmmy:is_wither": "#00666666",
+      "minecraft:trident": "#0000FF9D",
+      "#minecraft:is_drowning": "#001898E3",
+      "dummmmmmy:true": "#00910038",
+      "minecraft:sonic_boom": "#00074550",
+      "#minecraft:witch_resistant_to": "#00844CE7",
+      "#dummmmmmy:is_explosion": "#00FFBB29",
+      "#dummmmmmy:is_cold": "#0009D2FF",
+      "dummmmmmy:critical": "#00FF0000",
+      "minecraft:wind_charge": "#00BEF3FF",
+      "#dummmmmmy:is_fire": "#00FF7700"
+    }
+  }
+}

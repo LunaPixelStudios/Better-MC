@@ -1,0 +1,22 @@
+{
+  "_c0": "UUID of default/main resource pack.",
+  "main_uuid": "6632d374-df06-465a-993d-23a17116014d",
+  "_c1": "Marks resource pack as required, only effects clients and mods using api to check it",
+  "markResourcePackAsRequiredByDefault": false,
+  "_c2": "Force-enables offset of CustomModelData",
+  "forcePackOffset": false,
+  "_c3": "Value of CustomModelData offset when enabled",
+  "offsetValue": 100000,
+  "_c4": "Enables usage of alternative armor rendering for increased mod compatibility. (Always on with Iris or Canvas present)",
+  "use_alternative_armor_rendering": false,
+  "_c5": "Included resource packs from mods!",
+  "include_mod_assets": [],
+  "_c6": "Included resource packs from zips!",
+  "include_zips": [
+    "world/resources.zip"
+  ],
+  "_c7": "Path used for creation of default resourcepack!",
+  "resource_pack_location": "polymer/resource_pack.zip",
+  "_c8": "Prevents selected paths from being added to resource pack, if they start with provided text.",
+  "prevent_path_with": []
+}

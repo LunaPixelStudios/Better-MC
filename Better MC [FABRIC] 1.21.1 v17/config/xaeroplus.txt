@@ -1,0 +1,93 @@
+[XP] Long Waypoint Initials:false
+[XP] WorldMap Baritone Goal Here:false
+[XP] Roof Y Level:250.0
+[XP] Switch to Nether:false
+[XP] OldBiomes Color:1
+[XP] Persist Dim Switch:true
+[XP] Disable Xaero Internet Access:false
+[XP] Waystone Waypoint Set:true
+[XP] Show Render Distance WorldMap:false
+[XP] WorldTools Highlights:true
+[XP] Save/Load Portals to Disk:true
+[XP] Cross Dim Cursor Coords:false
+[XP] Old Chunks Opacity:100.0
+[XP] Prefer Overworld Waypoints:true
+[XP] Palette NewChunks Opacity:100.0
+[XP] Roof Snow Opacity:10.0
+[XP] WorldTools Highlights Opacity:100.0
+[XP] Nether Cave Fix:true
+[XP] Portal Highlights Opacity:100.0
+[XP] New Chunks Render Inverse:false
+[XP] Highlight Shader:true
+[XP] Waypoint Beacon Distance Min:0.0
+[XP] Disable Receiving Waypoints:false
+[XP] PortalSkip OldChunks Inverse:true
+[XP] Data Dir Mode:0
+[XP] Transparent Obsidian Roof:true
+[XP] PortalSkip NewChunks:true
+[XP] WorldTools Highlights Color:1
+[XP] Minimap Size Multiplier:1.0
+[XP] PortalSkip Opacity:100.0
+[XP] 2b2t Highways Color:2
+[XP] OldChunks Highlighting:false
+[XP] Region Writes While Dim Switched:false
+[XP] Palette NewChunks Color:0
+[XP] Waystone Color:16
+[XP] Expanded Setting Entries:false
+[XP] Switch to Overworld:false
+[XP] Minimap FPS Limit:60.0
+[XP] Min WorldMap Zoom:0.1
+[XP] Transparent Background:false
+[XP] Minimap FPS Limiter:false
+[XP] Portal Highlights Color:5
+[XP] New Chunks Inverse Color:1
+[XP] Minimap Scaling Factor:2.0
+[XP] Waystone WP Visibility Type:0
+[XP] Disable Waypoint Sharing:false
+[XP] null OW Dim Dir:true
+[XP] NewChunks Highlighting:false
+[XP] Plain Waypoint Sharing:false
+[XP] Palette NewChunks:false
+[XP] WorldMap Baritone Elytra Here:false
+[XP] Old Biomes:false
+[XP] 2b2t Highways:false
+[XP] Fast Mapping Rate Limit:50.0
+[XP] Fast Mapping:true
+[XP] Save/Load NewChunks to Disk:true
+[XP] Save/Load Palette NewChunks to Disk:true
+[XP] Switch to End:false
+[XP] OldBiomes Opacity:100.0
+[XP] Fast Mapping Delay:250.0
+[XP] Overlay Opacity Fix:true
+[XP] WorldMap Baritone Path Here:false
+[XP] Radar While Dim Switched:true
+[XP] Waystones Sync:true
+[XP] New Chunks Opacity:100.0
+[XP] Hide Invisible Entities:true
+[XP] Show Waypoint Distances:true
+[XP] PortalSkip Detection:false
+[XP] Waypoint ETA:false
+[XP] Portal Highlights:false
+[XP] Waypoint Beacons:false
+[XP] PortalSkip Color:6
+[XP] Palette NewChunks Inverse:false
+[XP] OldChunks Inverse:false
+[XP] New Chunks Color:0
+[XP] Roof Obsidian Opacity:150.0
+[XP] Old Chunks Color:3
+[XP] Save/Load OldBiomes To Disk:true
+[XP] Always Render Player Name:true
+[XP] Waypoint Beacon Scale Min:0.0
+[XP] Show World Border:false
+[XP] Baritone Goal Waypoint:true
+[XP] Fix Main Entity Dot:true
+[XP] Liquid NewChunks Only Y > 0:false
+[XP] 2b2t Highways Opacity:100.0
+[XP] Show World Border WorldMap:false
+[XP] PortalSkip Portal Radius:15.0
+[XP] Save/Load OldChunks to Disk:true
+[XP] Always Render Player Icon:true
+[XP] Fast Zip Writes:true
+[XP] PortalSkip Search Delay:10.0
+[XP] Sodium/Embeddium Setting Integration:true
+[XP] Show Render Distance:false

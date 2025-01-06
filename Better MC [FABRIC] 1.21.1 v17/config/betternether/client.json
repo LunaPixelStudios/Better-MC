@@ -1,0 +1,12 @@
+{
+  "create_version": "21.0.11",
+  "performance": {
+    "lavafall_particles": true,
+    "weeping_obsidian_particles": true
+  },
+  "cosmetic": {
+    "fog_density": 0.75,
+    "thin_armor": true
+  },
+  "modify_version": "21.0.11"
+}

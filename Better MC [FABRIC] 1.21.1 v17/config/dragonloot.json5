@@ -1,0 +1,19 @@
+{
+	"scale_minimum_drop_amount": 3,
+	"additional_scales_per_player": 2,
+	// 0.8F = 80%
+	"additional_scale_drop_chance": 0.800000011920929,
+	"dragon_armor_protection_helmet": 7,
+	"dragon_armor_protection_chest": 10,
+	"dragon_armor_protection_leggings": 9,
+	"dragon_armor_protection_boots": 7,
+	"dragon_armor_toughness": 3.0,
+	"dragon_armor_knockback_resistance": 1.0,
+	"dragon_armor_enchantability": 15,
+	"dragon_armor_durability_multiplier": 37,
+	"dragon_item_durability": 1961,
+	"dragon_item_base_damage": 5.0,
+	"dragon_item_mining_speed_multiplier": 12.0,
+	"dragon_tool_enchantability": 20,
+	"dragon_anvil_no_cap": true
+}

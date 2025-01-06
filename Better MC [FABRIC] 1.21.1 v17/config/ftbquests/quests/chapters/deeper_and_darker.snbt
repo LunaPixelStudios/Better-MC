@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "minecraft:sculk"
+	}
+	id: "4B6E4A0215F45FC0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "731C3214BB61FDAE"
+			rewards: [{
+				id: "3E29640CF17781A4"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					id: "minecraft:sculk_sensor"
+				}
+				id: "37E411F497C9CD71"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "44937B2D2EB38094"
+			rewards: [{
+				id: "2B6B4A1DB2165CC7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "42CA7AAF304767E7"
+				item: { count: 1, id: "deeperdarker:warden_helmet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "704CCA2CEAB23B4D"
+			rewards: [{
+				id: "387E219D5C2864E7"
+				item: {
+					count: 1
+					id: "deeperdarker:ancient_vase"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: {
+					id: "minecraft:reinforced_deepslate"
+				}
+				id: "474D2D76F2256297"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "6E7D3242496F4501"
+			rewards: [{
+				id: "72D2DF3718C327BD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "5B9501581479A2EC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "192EE909C57F390A"
+			rewards: [{
+				id: "2530F4B88B3A7492"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "1D807C8DC05EF208"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "3CBDB45D65737212"
+			rewards: [{
+				id: "1186E0C01704A6F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				id: "3D7BD985875AFF57"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "2DBD53ED18C97BE8"
+			rewards: [{
+				id: "6887FFF9A990A3C1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:netherite_chestplate"
+				}
+				id: "6C293345A79D9606"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdark:sculk_snapper"
+				type: "observation"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "505973CBB20E92ED"
+			rewards: [{
+				id: "563D0E8ACB1FEAD7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "56FDFD3E7BD7EE03"
+				item: { count: 1, id: "deeperdarker:warden_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6E7D3242496F4501"
+				"192EE909C57F390A"
+			]
+			dependency_requirement: "one_completed"
+			id: "759A9CF262C2D265"
+			rewards: [{
+				id: "0FBD98AC6DA2B25D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7B6C04B363259D20"
+				item: { count: 1, id: "deeperdarker:soul_elytra" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+	]
+}

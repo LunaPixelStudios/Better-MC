@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "displayDebugData": false,
+  "enabled": true,
+  "leafSize": 5,
+  "leafLifespan": 200,
+  "leafSpawnRate": 10,
+  "coniferLeafSpawnRate": 0,
+  "cherrySpawnRate": 10,
+  "snowflakeSpawnRate": 15,
+  "dropFromPlayerPlacedBlocks": true,
+  "leavesOnBlockHit": true,
+  "minimumFreeSpaceBelow": 1,
+  "windEnabled": true,
+  "windlessDimensions": [
+    "minecraft:the_end",
+    "minecraft:the_nether"
+  ],
+  "leafSettings": {},
+  "leafSpawners": [],
+  "fallSpawnRateFactor": 1.8,
+  "winterSpawnRateFactor": 0.1,
+  "startingSpawnRadius": 0,
+  "decaySpawnRateFactor": 2.6,
+  "maxDecayLeaves": 9,
+  "registerParticles": true
+}

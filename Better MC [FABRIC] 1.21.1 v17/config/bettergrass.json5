@@ -1,0 +1,40 @@
+{
+	// General
+	// OFF/FAST/FANCY (default: FANCY)
+	betterGrassMode: "FANCY",
+	// (default: true)
+	snowy: true,
+	// 
+	// Connected Blocks
+	// (default: true)
+	grassBlocks: true,
+	// (default: false)
+	dirtPaths: false,
+	// (default: false)
+	farmLands: false,
+	// (default: true)
+	podzol: true,
+	// (default: true)
+	mycelium: true,
+	// (default: true)
+	crimsonNylium: true,
+	// (default: true)
+	warpedNylium: true,
+	moreBlocks: [],
+	// 
+	// Better Snow
+	// OFF/OPTIFINE/LAMBDA (default: OPTIFINE)
+	betterSnowMode: "OPTIFINE",
+	excludedTags: [
+		"leaves",
+		"buttons",
+		"rails",
+		"wooden_pressure_plates"
+	],
+	excludedBlocks: [
+		"heavy_weighted_pressure_plate",
+		"light_weighted_pressure_plate",
+		"polished_blackstone_pressure_plate",
+		"stone_pressure_plate"
+	]
+}

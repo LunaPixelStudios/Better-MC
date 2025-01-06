@@ -1,0 +1,248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "aether:holystone"
+	}
+	id: "566DC2763E60ED8A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "32226ED25E813908"
+			rewards: [{
+				id: "4D4DA7A91ACF3F08"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: {
+					id: "aether:aether_portal_frame"
+				}
+				id: "31FCF5CABCAD832D"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "0A99C7852725BFC2"
+			rewards: [{
+				count: 8
+				id: "0E0382863EC71948"
+				item: {
+					count: 1
+					id: "aether:blue_aercloud"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [{
+				icon: {
+					id: "aether:carved_stone"
+				}
+				id: "3865A3E4D4A9A5F3"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"100082345FA03A9B"
+				"3BE6E50AA8E0170D"
+			]
+			id: "0E349CAEF1D249B6"
+			rewards: [{
+				count: 4
+				id: "49774BB966DB2252"
+				item: {
+					count: 1
+					id: "aether:zanite_gemstone"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				entity: "aether:slider"
+				id: "69F7F61602435663"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			icon: {
+				id: "aether:locked_angelic_stone"
+			}
+			id: "79A852D2B339DF57"
+			rewards: [{
+				id: "194D6096FB82DFBA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [{
+				id: "760227D918F26D13"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "7149B8FB49671630"
+			rewards: [{
+				id: "7D50456D7965C694"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [{
+				icon: {
+					id: "aether:hellfire_stone"
+				}
+				id: "1D066EC48DFC09CD"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["79A852D2B339DF57"]
+			id: "038B71E71E3C8213"
+			rewards: [{
+				id: "7BD57D475873DA89"
+				item: {
+					count: 1
+					id: "aether:golden_gummy_swet"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie"
+				id: "121640BF259D479C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["038B71E71E3C8213"]
+			id: "68BF5A98532CD5C3"
+			rewards: [{
+				id: "59C25E04F824F10E"
+				item: {
+					count: 1
+					id: "aether:iron_gloves"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "0E561AF5890B4422"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			id: "100082345FA03A9B"
+			rewards: [{
+				id: "4C8ED658B40A67DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "aether:sentry"
+				id: "4937B6F09587F4C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A99C7852725BFC2"]
+			id: "3BE6E50AA8E0170D"
+			rewards: [{
+				id: "44E8FA81EB7738A8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "aether:mimic"
+				id: "71C06FD3B2B127B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7149B8FB49671630"]
+			id: "221923EEDAEE1BEE"
+			rewards: [{
+				id: "24EDB2BA1FCB3470"
+				item: {
+					count: 1
+					id: "aether:golden_ring"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "49A00D8BAA0923BD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.6d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "438644BA08887360"
+			rewards: [{
+				id: "74AB5BCB7E14C195"
+				item: {
+					count: 1
+					id: "paradise_lost:cherine_campfire"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "paradise_lost:paradise_lost"
+				icon: {
+					id: "paradise_lost:bloomed_calcite"
+				}
+				id: "2BAC01B802E83110"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

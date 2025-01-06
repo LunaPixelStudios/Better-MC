@@ -1,0 +1,20 @@
+{
+	// - default: true
+	requireHoe: true,
+	// - default: true
+	harvestInRadius: true,
+	/* - default: NORMAL
+	   - must be one of: NONE, LOW, NORMAL, HIGH
+	*/
+	hungerLevel: "NORMAL",
+	/* - default: NONE
+	   - must be one of: NONE, COST, REWARD
+	*/
+	experienceType: "NONE",
+	// - default: true
+	showServerWarning: false,
+	/* Modpack developers, set this to true to stop RCH telling users that they probably need to equip a hoe to harvest crops (if requireHoe is set to true). This message will only be displayed once.
+	   - default: false
+	*/
+	hasUserBeenWarnedForNotUsingHoe: false
+}

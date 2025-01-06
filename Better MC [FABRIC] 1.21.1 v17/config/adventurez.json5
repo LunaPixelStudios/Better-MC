@@ -1,0 +1,43 @@
+{
+	"necromancer_spawn_weight": 1,
+	"nightmare_spawn_weight": 5,
+	// Chance for spawning when mining gold ore in nether; 1/Value
+	"piglin_beast_ore_spawn_chance": 30,
+	// Chance for spawning when killing too many piglins; 1/Value
+	"piglin_beast_attack_piglin_spawn_chance": 7,
+	"mini_blackstone_golem_spawn_weight": 5,
+	// Chance for spawning when thunder occurs; 1/Value
+	"summoner_thunder_spawn_chance": 4,
+	"blaze_guardian_spawn_weight": 1,
+	"fungus_spawn_weight": 8,
+	"orc_spawn_weight": 30,
+	"mammoth_spawn_weight": 1,
+	"ender_whale_spawn_weight": 5,
+	"iguana_spawn_weight": 10,
+	// Chance for spawning when geode generates; 1/Value
+	"amethyst_golem_spawn_chance": 5,
+	"desert_rhino_spawn_weight": 1,
+	// Chance for spawning when desert well generates; 1/Value
+	"desert_rhino_well_spawn_chance": 1,
+	"shaman_spawn_weight": 1,
+	"deer_spawn_weight": 6,
+	"enderwarthog_spawn_weight": 1,
+	"allow_blackstone_golem_summoning": true,
+	"allow_the_eye_summoning": true,
+	"allow_dragon_hatching": true,
+	"allow_guardian_spawner_spawn": true,
+	"allow_source_stone_tp": true,
+	"resummoned_ender_dragon_drops_egg": false,
+	"allow_ender_dragon_nether_portal": false,
+	"heavy_dragon_flight": true,
+	"allow_special_enchant_loot": true,
+	"allow_extra_tooltips": true,
+	"allow_all_items_on_holder": false,
+	"warthog_rare_chance": 0.009999999776482582,
+	"stoned_heart_duration": 72000,
+	"stoned_heart_amplifier": 0,
+	"gilded_netherite_armor_effect_duration": 1200,
+	"gilded_netherite_armor_dodge_chance": 0.20000000298023224,
+	"allow_other_dragon_hatching": false,
+	"allow_gilded_blackstone_shard_throw": false
+}

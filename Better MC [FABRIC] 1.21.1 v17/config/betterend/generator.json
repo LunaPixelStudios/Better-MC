@@ -1,0 +1,57 @@
+{
+  "create_version": "21.0.11",
+  "structure": {
+    "generate_central_island": true,
+    "generate_obsidian_platform": true,
+    "has_portal": true,
+    "replace_portal": true,
+    "has_pillars": true,
+    "replace_pillars": true,
+    "biome_size_caves": 32,
+    "end_city_fail_chance": 5
+  },
+  "generator": {
+    "use_new_generator": true,
+    "layers": {
+      "big_islands": {
+        "distance": 300.0,
+        "scale": 200.0,
+        "average_height": 0.546875,
+        "height_variation": 0.078125,
+        "coverage": 0.5,
+        "contains_central_island": false
+      },
+      "medium_islands": {
+        "distance": 150.0,
+        "scale": 100.0,
+        "average_height": 0.546875,
+        "height_variation": 0.15625,
+        "coverage": 0.5,
+        "contains_central_island": true
+      },
+      "small_islands": {
+        "distance": 60.0,
+        "scale": 50.0,
+        "average_height": 0.546875,
+        "height_variation": 0.234375,
+        "coverage": 0.5,
+        "contains_central_island": false
+      }
+    }
+  },
+  "entity": {
+    "has_dragon_fights": true,
+    "spawn": {
+      "has_spawn": false,
+      "point": {
+        "x": 20,
+        "y": 65,
+        "z": 0
+      }
+    }
+  },
+  "cosmetic": {
+    "change_chorus_plant": true
+  },
+  "modify_version": "21.0.11"
+}

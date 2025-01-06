@@ -1,0 +1,5 @@
+{
+	"allow_boss_respawn": false,
+	// In ticks: 20 = 1sec
+	"boss_respawn_time": 72000
+}

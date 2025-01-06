@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "moonlight:mods_dynamic_assets",
+    "file/Stay_True_1.21.zip",
+    "file/MandalasGUI+Dakmode_1.20.5.zip",
+    "file/Mandala's GUI - Dark Mode Compat 0.3.zip",
+    "file/Mandela's GUI Vanilla Crosshair 1.21.zip",
+    "file/Re-Simple-Storage.zip",
+    "seasons:seasonal_lush_caves",
+    "file/Better_MC.zip",
+    "file/NoBushyLeaves.zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "$polymer-resources": {
+      "hidden": true
+    },
+    "continuity:default": {
+      "hidden": true
+    },
+    "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "file/Charm_BetterEnd_integration_v5.zip": {
+      "hidden": true
+    },
+    "file/Charm_BetterNether_integration_v5.zip": {
+      "hidden": true
+    },
+    "file/Scarecrow_Obliterator.zip": {
+      "hidden": true
+    },
+    "high_contrast": {
+      "hidden": true
+    },
+    "natures_spirit:better_leaves_compatibility": {
+      "hidden": true
+    },
+    "natures_spirit:plank_consistency": {
+      "hidden": true
+    },
+    "the_bumblezone:anti_tropophobia": {
+      "hidden": true
+    },
+    "programmer_art": {
+      "hidden": true
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "general": {
+    "itemModNameTooltip": true,
+    "bossBarOverlapMode": "PUSH_DOWN",
+    "builtinCamouflage": true,
+    "hideFromGUIs": true,
+    "accessibilityModMemory": false,
+    "enableAccessibilityPlugin": false,
+    "hideFromDebug": true,
+    "hideFromTabList": true,
+    "ttsMode": "PRESS",
+    "fluidMode": "ANY",
+    "extendedReach": 0.0,
+    "debug": false,
+    "displayEntities": true,
+    "displayBosses": true,
+    "displayMode": "TOGGLE",
+    "enableTextToSpeech": false,
+    "previewOverlay": true,
+    "displayTooltip": true,
+    "displayBlocks": true
+  },
+  "overlay": {
+    "alpha": 0.0,
+    "iconMode": "TOP",
+    "animation": true,
+    "disappearingDelay": 0.0,
+    "overlaySquare": false,
+    "flipMainHand": false,
+    "autoScaleThreshold": 0.5,
+    "overlayScale": 1.0,
+    "overlayAnchorX": 0.5,
+    "overlayAnchorY": 0.0,
+    "activeTheme": "jade:dark",
+    "overlayPosX": 0.5,
+    "overlayPosY": 0.9948583
+  },
+  "formatting": {
+    "itemModNameStyle": {
+      "italic": true,
+      "color": "blue"
+    }
+  },
+  "history": {
+    "themesHash": -328442023
+  }
+}

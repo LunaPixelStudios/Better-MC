@@ -1,0 +1,18 @@
+{
+  "defaultUncompletedIconColor": "#FFFFFF",
+  "defaultUncompletedTitleColor": "#0489C1",
+  "defaultCompletedIconColor": "#DBA213",
+  "defaultCompletedTitleColor": "#DBA213",
+  "doAdvancementsBackgroundFade": true,
+  "showDebugCoordinates": false,
+  "orderTabsAlphabetically": false,
+  "uiScaling": 100,
+  "criteriaDetail": "Default",
+  "criteriaDetailRequiresShift": false,
+  "addInventoryButton": false,
+  "defaultDrawDirectLines": false,
+  "defaultHideLines": false,
+  "defaultCompletedLineColor": "#FFFFFF",
+  "defaultUncompletedLineColor": "#FFFFFF",
+  "onlyUseAboveAdvancementTabs": false
+}

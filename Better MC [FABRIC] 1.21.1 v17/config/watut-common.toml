@@ -1,0 +1,7 @@
+#General mod settings
+[general]
+	#-
+	announceIdleStatesInChat = false
+	#Default 5 minutes
+	#Range: > 0
+	ticksToMarkPlayerIdle = 6000

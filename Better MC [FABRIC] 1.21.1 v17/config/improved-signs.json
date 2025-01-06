@@ -1,0 +1,10 @@
+{
+  "disableSignEditOnPlace": false,
+  "enableSignPassthrough": true,
+  "enableSignRetain": true,
+  "enableSignCopy": true,
+  "retainDyeOnSignCopy": false,
+  "enableFramePassthrough": true,
+  "enableInvisibleFrames": true,
+  "invisibleFrameItem": "AMETHYST_SHARD"
+}

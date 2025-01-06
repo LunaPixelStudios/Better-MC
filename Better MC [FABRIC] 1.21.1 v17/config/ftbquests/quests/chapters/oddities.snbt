@@ -1,0 +1,400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "oddities"
+	group: "799D8360B26E9792"
+	icon: {
+		id: "naturescompass:naturescompass"
+	}
+	id: "4E33D80DA11F2414"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4185D9740B80E39D"
+			rewards: [{
+				count: 3
+				id: "6FD73C2AB049EC66"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A87110D51613032"
+				item: { count: 1, id: "tradingpost:trading_post" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "5F0FC5A5035E29B0"
+			rewards: [{
+				count: 16
+				id: "78535C006B1E1D87"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "351D2EAFAE0F9CB7"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "22135D7A4301D684"
+			rewards: [{
+				id: "6635A80C76852EE7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "410B726B778B0E9E"
+				item: { count: 1, id: "xp_storage:xp_book" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "1E65308E968AF323"
+			rewards: [{
+				count: 3
+				id: "0222F0DF696FA1F5"
+				item: {
+					count: 1
+					id: "minecraft:melon_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05C36F4E0C620932"
+				item: { count: 1, id: "seasonsextras:season_calendar" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22135D7A4301D684"]
+			id: "6F10C7FC41EC0463"
+			rewards: [{
+				id: "296063B66EAE3F50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "319822DAEDCDD1C7"
+				item: { count: 1, id: "xp_storage_trinkets:xp_conduit" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22135D7A4301D684"]
+			id: "5AAA1D8E90544F8A"
+			rewards: [{
+				id: "2713004902B5FCE9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "163BF25B796DA3B5"
+				item: { count: 1, id: "xp_storage_trinkets:xp_saver" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "4D2619AE1CA96DCE"
+			rewards: [{
+				id: "796A97FF54909DE0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "0D435DAA40E7BCA7"
+				item: { count: 1, id: "bosses_of_mass_destruction:charged_ender_pearl" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "588E2CE453549BF6"
+			rewards: [{
+				count: 3
+				id: "0D660BE4EF0C5B15"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D3E23BB392D7590"
+				item: { count: 1, id: "adventurez:piglin_flag" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "440DEBFE3004F52C"
+			rewards: [{
+				count: 3
+				id: "777B9FFC6DBE93E2"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EDFEAA7F07D4364"
+				item: { count: 1, id: "comforts:sleeping_bag_white" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "4416D33801F5E4B3"
+			rewards: [
+				{
+					id: "3631C99270832C38"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "414009535EE1FC8C"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "209BA5406FED1F4A"
+				item: { count: 1, id: "comforts:hammock_white" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "5EECC9893E56A5A1"
+			rewards: [{
+				count: 16
+				id: "32C932D8331882FD"
+				item: {
+					count: 1
+					id: "minecraft:stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25191ACC199A6055"
+				item: { count: 1, id: "minecraft:stonecutter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "4BBAB429C5402A23"
+			rewards: [{
+				id: "70ACD081FD8B5F5F"
+				item: {
+					count: 1
+					id: "handcrafted:hammer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C86FC8F05F7972E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cushions)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "08294911FF1A808E"
+			rewards: [{
+				count: 8
+				id: "3ADFE7FA953AB1C0"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EEC22658601380C"
+				item: { count: 1, id: "chipped:carpenters_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "1E01F0A6354F15F6"
+			rewards: [{
+				count: 3
+				id: "20D6D9C2ABF32785"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FCB5DAA78CD5D32"
+				item: { count: 1, id: "barteringstation:bartering_station" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "55949A5DC9264888"
+			rewards: [{
+				count: 6
+				id: "22D2B94CF073F6B0"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "75281281A477293E"
+				item: { count: 1, id: "netherchested:nether_chest" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "7FE42B256F9BC9DF"
+			rewards: [{
+				count: 16
+				id: "04A7D6A6455F10B1"
+				item: {
+					count: 1
+					id: "minecraft:spectral_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "100849599C81C2CC"
+				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "3EBB93F5103DC38F"
+			rewards: [{
+				count: 4
+				id: "76E529F11EE159D8"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40A5404491616B14"
+				item: { count: 1, id: "inmis:frayed_backpack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "4EF2248A2407DD07"
+			rewards: [{
+				count: 3
+				id: "2C0D4347114D3548"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14EAA931CC31120E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "31C2FFB959EB23F3"
+			rewards: [
+				{
+					id: "33126A2C4A2AD911"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "299D9AF661CFF6B8"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AD294B09E9C3C35"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:hammocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "13BC032FE5E18D59"
+			rewards: [{
+				id: "5724E40809D76B28"
+				item: {
+					count: 1
+					id: "minecraft:book"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D0185BF67109F2"
+				item: { count: 1, id: "minecraft:grindstone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+}

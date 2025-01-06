@@ -1,0 +1,98 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_426 {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_4288 {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+net.minecraft.class_407 {
+}
+
+net.minecraft.class_445 {
+}
+
+net.minecraft.class_440 {
+}
+
+net.minecraft.class_6777 {
+}
+
+com.terraformersmc.modmenu.gui.ModsScreen {
+}
+
+net.minecraft.class_525 {
+}
+
+net.minecraft.class_5235 {
+}
+
+net.minecraft.class_8134 {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.class_443 {
+}
+
+com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+}
+
+net.minecraft.class_420 {
+}
+
+net.minecraft.class_422 {
+}
+
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHOrderScreen {
+}
+
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_5346 {
+}
+
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_481 {
+}
+
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
+}
+
+net.minecraft.class_436 {
+}
+

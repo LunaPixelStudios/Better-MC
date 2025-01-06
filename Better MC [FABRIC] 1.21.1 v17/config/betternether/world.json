@@ -1,0 +1,7 @@
+{
+  "create_version": "21.0.11",
+  "structure": {
+    "city_in_overworld": false
+  },
+  "modify_version": "21.0.11"
+}

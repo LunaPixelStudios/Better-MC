@@ -1,0 +1,14 @@
+{
+  "onlyTrims": false,
+  "runMultithreaded": true,
+  "invConnectorScanRange": 16,
+  "wirelessRange": 16,
+  "invConnectorMaxCables": 2048,
+  "advWirelessRange": 64,
+  "wirelessTermBeaconLvl": 1,
+  "wirelessTermBeaconLvlCrossDim": 4,
+  "invLinkBeaconLvl": 0,
+  "invLinkBeaconRange": 4096,
+  "invLinkBeaconLvlSameDim": 1,
+  "invLinkBeaconLvlCrossDim": 2
+}

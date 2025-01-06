@@ -1,0 +1,19 @@
+{
+  "professionNames": true,
+  "golemNames": true,
+  "needsOP": true,
+  "hasRead": true,
+  "nitwitText": "Nitwit",
+  "villagerTextFormatting": "WHITE",
+  "childNames": false,
+  "turnOffVillagerConsoleSpam": false,
+  "wanderingTraderNames": true,
+  "wanderingTraderText": "Wandering Trader",
+  "surNames": true,
+  "reverseLastNames": false,
+  "nameTagNames": true,
+  "piglinNames": true,
+  "piglinSurnames": true,
+  "illagerEntityNames": true,
+  "catNames": true
+}

@@ -1,0 +1,4 @@
+{
+	// Whether dark mode should be enabled. Will only affect Vanilla-styled GUIs.
+	"darkMode": false
+}

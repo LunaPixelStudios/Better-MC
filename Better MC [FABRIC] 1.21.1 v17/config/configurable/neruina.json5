@@ -1,0 +1,12 @@
+{
+	auto_kill_ticking_entities: false,
+	handles: {
+		block_entities: true,
+		block_states: true,
+		entites: true,
+		item_stacks: true,
+		players: true
+	},
+	log_level: "OPERATORS",
+	ticking_exception_threshold: 10
+}

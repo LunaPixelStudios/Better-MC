@@ -1,0 +1,8 @@
+{
+	/* spawn rate of common biomes, cannot be <= 0
+	*/
+	"commonbiomespawnrate": 4,
+	/* spawn rate of cave biomes, cannot be <= 0
+	*/
+	"cavebiomespawnrate": 4
+}

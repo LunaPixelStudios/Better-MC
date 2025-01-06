@@ -1,0 +1,32 @@
+{
+  "default_cycle_time": {
+    "//": [
+      "The default amount of time for a tip to be displayed before it cycles to the    ",
+      "next tip.                                                                       "
+    ],
+    "//default": 5000,
+    "value": 5000
+  },
+  "ignored_namespaces": {
+    "//": "Tips from an ignored namespace will not be displayed in game.",
+    "value": []
+  },
+  "ignored_tip_ids": {
+    "//": "Adding a tip ID here will prevent it from being displayed.",
+    "value": []
+  },
+  "tip_render_width_percentage": {
+    "//": "The percentage of the screen width that tips should render over.",
+    "//default": 0.35,
+    "value": 0.35
+  },
+  "default_title": {
+    "//": "The default tile to use when rendering a tip.",
+    "value": {
+      "translate": "tipsmod.title.default",
+      "underlined": true,
+      "color": "yellow",
+      "bold": true
+    }
+  }
+}

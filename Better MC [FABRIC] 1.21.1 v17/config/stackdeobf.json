@@ -1,0 +1,6 @@
+{
+  "config-version-dont-touch-this": 2,
+  "inject-logger": true,
+  "rewrite-every-log-message": false,
+  "mapping-type": "yarn"
+}

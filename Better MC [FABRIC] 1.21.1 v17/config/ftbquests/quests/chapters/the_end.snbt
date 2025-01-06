@@ -1,0 +1,197 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "minecraft:end_portal_frame"
+	}
+	id: "4B174BB2FDFE4D4F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2C23A9F30CBE3F4E"
+			rewards: [{
+				id: "4B034F4B316EFC20"
+				item: {
+					count: 1
+					id: "betterend:guidebook"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_stone"
+				}
+				id: "0B159B91978F8FC7"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "1FA3F627BCFF93F5"
+			rewards: [{
+				id: "2AB900DCB93F58C5"
+				item: {
+					count: 1
+					id: "adventurez:dragon_saddle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "117EB48A874B628D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "4D6CF923E92972CD"
+			rewards: [{
+				id: "4809C3912BC55A52"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				advancement: "adventurez:the_eye_advancement"
+				criterion: ""
+				id: "33E926906B6796F0"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "246AB6FA4BDD0908"
+			rewards: [
+				{
+					id: "21D5BF2F52B9C1F1"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0255785E1320ABB5"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:monolith_block"
+					}
+					type: "item"
+				}
+				{
+					id: "737DEC8DA1E59F30"
+					item: {
+						count: 1
+						id: "adventurez:shadow_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "adventurez:void_shadow_advancement"
+				criterion: ""
+				icon: {
+					id: "minecraft:dragon_egg"
+				}
+				id: "2A2B668B1E7B490E"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1FA3F627BCFF93F5"]
+			id: "6381BB849DDEE54A"
+			rewards: [{
+				id: "64C9F6F6921F8A27"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "20ABB8C75A03CDF2"
+				item: { count: 1, id: "dragonloot:dragon_anvil" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "523ECDEFE767B5D0"
+			rewards: [{
+				id: "62D410635AA984DE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				icon: {
+					id: "adventurez:ender_whale_skin"
+				}
+				id: "640CC1970264149D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "adventurez:ender_whale"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21D51BCBD1818836"]
+			id: "4ABFB228442D00FB"
+			rewards: [
+				{
+					id: "3EDA1F9BB902B2FD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "618265B423CFCF5B"
+					item: {
+						count: 1
+						id: "betterend:netherite_hammer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "betterend:portal_on"
+				criterion: ""
+				id: "50056AE5531C98C3"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C23A9F30CBE3F4E"]
+			id: "21D51BCBD1818836"
+			rewards: [{
+				id: "288285752789C313"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "adventurez:enderwarthog"
+				icon: {
+					id: "adventurez:warthog_shell_piece"
+				}
+				id: "64FF133673B090FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+}

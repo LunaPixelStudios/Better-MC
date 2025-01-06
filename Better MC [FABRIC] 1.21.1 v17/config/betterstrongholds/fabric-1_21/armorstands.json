@@ -1,0 +1,60 @@
+{
+  "commonHelmets": {
+    "entries": {
+      "minecraft:chainmail_helmet": 0.3,
+      "minecraft:carved_pumpkin": 0.01,
+      "minecraft:iron_helmet": 0.3,
+      "minecraft:leather_helmet": 0.1
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "rareHelmets": {
+    "entries": {
+      "minecraft:diamond_helmet": 0.3,
+      "minecraft:carved_pumpkin": 0.2
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "commonChestplates": {
+    "entries": {
+      "minecraft:leather_chestplate": 0.1,
+      "minecraft:iron_chestplate": 0.3,
+      "minecraft:chainmail_chestplate": 0.3
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "rareChestplates": {
+    "entries": {
+      "minecraft:diamond_chestplate": 0.3
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "commonLeggings": {
+    "entries": {
+      "minecraft:chainmail_leggings": 0.3,
+      "minecraft:leather_leggings": 0.1,
+      "minecraft:iron_leggings": 0.3
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "rareLeggings": {
+    "entries": {
+      "minecraft:diamond_leggings": 0.3
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "commonBoots": {
+    "entries": {
+      "minecraft:leather_boots": 0.1,
+      "minecraft:chainmail_boots": 0.3,
+      "minecraft:iron_boots": 0.3
+    },
+    "defaultItem": "minecraft:air"
+  },
+  "rareBoots": {
+    "entries": {
+      "minecraft:diamond_boots": 0.3
+    },
+    "defaultItem": "minecraft:air"
+  }
+}
