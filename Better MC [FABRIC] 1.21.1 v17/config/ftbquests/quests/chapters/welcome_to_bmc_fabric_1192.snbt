@@ -44,10 +44,10 @@
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "19324202817D4202"
+				id: "48EE3EE04EC87E0D"
 				item: {
 					count: 1
-					id: "minecraft:totem_of_undying"
+					id: "minecraft:lantern"
 				}
 				type: "item"
 			}]
