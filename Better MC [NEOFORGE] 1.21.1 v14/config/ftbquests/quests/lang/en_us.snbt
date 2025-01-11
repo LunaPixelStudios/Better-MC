@@ -7,6 +7,7 @@
 	chapter.50EEC609E833AB5F.title: " &5The End"
 	chapter.537C6DB0026E6B7D.title: " &fCuriosities&f"
 	chapter.566DC2763E60ED8A.title: " &eThe Aether"
+	chapter.791A53DBEED81142.title: " &3Storage"
 	chapter_group.5BBB507BE497896B.title: "&5Dimensions"
 	chapter_group.5EC606153AA8CA77.title: "&bOddities"
 	file.0000000000000001.title: "Better MC [NEOFORGE] 1.21.1"
@@ -22,6 +23,8 @@
 	quest.084BFF7D3DD9BB24.quest_desc: ["The Summoner fights with lightning, energy attacks, and his golem guards. Be sure to watch your back as these golems can quickly overwhelm you if not properly tended to. Defeating him will allow you to access the Nature Dungeon."]
 	quest.084BFF7D3DD9BB24.quest_subtitle: "Use the Keys to Teleport to the &5Summoner's Dungeon&r. Found at the top of the Blinding Dungeon."
 	quest.084BFF7D3DD9BB24.title: "Defeat the &5Summoner"
+	quest.09919A0C03840EA7.quest_subtitle: "Can be equipped in the Wrist slot to show the current world time on screen at all times."
+	quest.09919A0C03840EA7.title: "Craft a &6Clock"
 	quest.0A99C7852725BFC2.quest_subtitle: "&eBronze Dungeons&r have entrances that are located on the sides of normal islands. Bronze dungeons can have a varying number of rooms. Non-boss rooms contain &c&lsentries&r&r which attack the player, and sometimes have chests on 4x4 tables. Some of these chests are &cMimics&r, however. The &9boss&r of this dungeon can't be attacked with a sword. He can, however, take damage from any tool (&apickaxe&r, &ashovel&r, etc.). &c9 blocks&r on the floor of each antechamber aren't minable at all. The &cboss room's&r walls are only minable once the &cboss&r is dead."
 	quest.0BFD8ED8A0E3AE60.quest_subtitle: "Make sure there are no obstructions like snow or grass under the arms when spawning."
 	quest.0BFD8ED8A0E3AE60.title: "Defeat &8&lThe Wither"
@@ -56,6 +59,8 @@
 	]
 	quest.1080AF8822FEF6E2.quest_subtitle: "&dDragon eggs&r can be obtained by killing the &8&lEnder Dragon&r and through &eloot chests&r that spawn inside of structures. The breed of a &ddragon egg&r will change based on its habitat. Check the quest description for more information! "
 	quest.1080AF8822FEF6E2.title: "Collect any &dDragon Egg"
+	quest.123097813B579C3E.quest_subtitle: "Has the same functions as a &3Storage Terminal&7, but has a built-in crafting grid."
+	quest.123097813B579C3E.title: "Craft a &6Crafting Terminal"
 	quest.139DAA6E8CF4267A.quest_desc: [
 		"At the bottom of the inventory, you may have noticed a search bar."
 		""
@@ -114,6 +119,8 @@
 	quest.2165E80C52C79992.quest_subtitle: "Read my description! Make sure to scroll down."
 	quest.2165E80C52C79992.title: "&9Important Controls"
 	quest.221923EEDAEE1BEE.quest_subtitle: "&eThe Sun Spirit&r is a boss found in the &6Gold Dungeons&r. "
+	quest.2252ACBB97526BB2.quest_subtitle: "Connects all of touching inventories into one, upto 16 blocks away. Use the &6Storage Terminal &7to acces all of your items."
+	quest.2252ACBB97526BB2.title: "Craft an &3Inventory Connector"
 	quest.23B2A759FBB4DBFF.quest_desc: ["The &8Everdawn &rhas its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you."]
 	quest.23B2A759FBB4DBFF.quest_subtitle: "Portal blocks can be found in or outside the Gatekeeper's Home."
 	quest.23B2A759FBB4DBFF.title: "Enter the &8Everdawn"
@@ -129,6 +136,8 @@
 	quest.2802A4603874C24B.title: "Craft a &dDesk"
 	quest.283303A94E452303.quest_subtitle: "The same thing as &3Storage Inventory&r, except the &9Storage Request Table&r has a built-in crafting table for easy crafting."
 	quest.283303A94E452303.title: "Craft a &9Storage Request Table"
+	quest.286DD9222F4F78D6.quest_subtitle: "Can be equipped in the Wrist slot to show your current coordinates on screen at all times."
+	quest.286DD9222F4F78D6.title: "Craft a &cCompass"
 	quest.2958CA7FA6FD3E4F.quest_desc: [
 		"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
 		""
@@ -140,6 +149,8 @@
 	]
 	quest.2958CA7FA6FD3E4F.quest_subtitle: "Read my description!"
 	quest.2958CA7FA6FD3E4F.title: "&2Inventory"
+	quest.2A1BA4AAA2162ECE.quest_subtitle: "Extends your reach for the &3terminal &7by 16 blocks. Press &bX&r to easily open the terminal."
+	quest.2A1BA4AAA2162ECE.title: "Craft a &1Wireless Terminal"
 	quest.2A51F2BA00FCA9DF.quest_subtitle: "Respawned the same way as normal - placing an end crystal on all four cardinal directions on the exit portal's outer rim."
 	quest.2A51F2BA00FCA9DF.title: "Defeat the &8&lEnder Dragon"
 	quest.2BC7B74C1D405B3B.quest_subtitle: "To create a Twilight Forest portal, first make a 2x2 infinite water source. Then, place flowers on surrounding grass blocks and throw a diamond into the water."
@@ -168,6 +179,12 @@
 	quest.3D9EF6B37213DC9A.title: "Craft an &cUncrafting Table"
 	quest.3F022B30806D39BF.quest_subtitle: "Found in &eIllusioner Towers&r"
 	quest.3F022B30806D39BF.title: "Defeat the &cIllusioner"
+	quest.3F31C6C5D260B2DA.quest_subtitle: "Used to connect individual storage blocks to the Inventory Network. "
+	quest.3F31C6C5D260B2DA.title: "Craft an &6Inventory Cable Connector"
+	quest.411FE795DBEB8033.quest_subtitle: "Connects inventories across long distances"
+	quest.411FE795DBEB8033.title: "Craft some &6Inventory Cable"
+	quest.42C47B7E819027E8.quest_subtitle: "Allows remote access to your storage. Hold shift on the &8Advanced Wireless Terminal &7for more info."
+	quest.42C47B7E819027E8.title: "Craft an &8Advanced Wireless Terminal"
 	quest.433FD23CAA2F4CEA.quest_desc: ["The Alchemist uses potions and physical constructs to fight. Many of his attacks can be predicted by looking out for visual queues, but missing those queues may result in heavy damage. Once defeated, you’ll gain access to the Poison Dungeon."]
 	quest.433FD23CAA2F4CEA.quest_subtitle: "Use the Keys to teleport to the &5Alchemist Dungeon&r. Found at the top of the &8Blinding Dungeon&r."
 	quest.433FD23CAA2F4CEA.title: "Defeat the &5Alchemist"
@@ -199,6 +216,8 @@
 	quest.57FD6DFF7B7647D0.quest_subtitle: "Found in Dark Towers in The Dark Forest."
 	quest.57FD6DFF7B7647D0.title: "Defeat the &fUr-Ghast"
 	quest.5835B89CD2B85989.title: "Craft a &dSide Table"
+	quest.5BCF9D61C52EABCC.quest_subtitle: "Gives access to your items. Place it on a storage block, or on an &3Inventory Connector&r to access all connected storage blocks"
+	quest.5BCF9D61C52EABCC.title: "Craft the &6Storage Terminal"
 	quest.5C7D3880C410D7DB.quest_subtitle: "To create a &fHammock&r, first craft the &fHammock Cloth&r. Then, craft two &2Rope and Nails&r. With a gap of four blocks, place the two &2Rope and Nails&r, with the &fHammock Cloth&r connected."
 	quest.5C7D3880C410D7DB.title: "Craft a &f&lHammock"
 	quest.601FE17AA8C90316.quest_subtitle: "Found by opening underground Strongholds in the Dark Forest with a trophy. Unlocks the Ur-Ghast Tower."

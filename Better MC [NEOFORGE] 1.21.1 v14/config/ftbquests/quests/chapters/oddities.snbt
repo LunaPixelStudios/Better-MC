@@ -297,7 +297,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -502,6 +502,44 @@
 			}]
 			x: 0.7499999999999858d
 			y: -0.9285714285714413d
+		}
+		{
+			id: "286DD9222F4F78D6"
+			rewards: [{
+				id: "450EF8D9C590905B"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B41A474E0F3E28"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "09919A0C03840EA7"
+			rewards: [{
+				id: "3D5B4F110B3B7F0E"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D4AC8EE656EFF98"
+				item: { count: 1, id: "minecraft:clock" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
 		}
 	]
 }
