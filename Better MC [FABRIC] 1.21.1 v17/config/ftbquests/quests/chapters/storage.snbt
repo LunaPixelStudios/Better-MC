@@ -7,14 +7,6 @@
 		id: "minecraft:chest"
 	}
 	id: "791A53DBEED81142"
-	images: [{
-		height: 1.0d
-		image: "toms_storage:block/inventory_cable"
-		rotation: 0.0d
-		width: 1.0d
-		x: 0.5d
-		y: -10.5d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -1,0 +1,58 @@
+
+#General settings of Crash Assistant mod.
+[general]
+	#Link which will be opened in browser on request_help_button pressed.
+	help_link = "https://discord.gg/lunapixel"
+	#Show gui on minecraft crashed on modloading and FML error screen displayed.
+	show_on_fml_error_screen = true
+	#Close old CrashAssistantApp if it's still running when starting a new instance of Minecraft, to avoid confusing player with window from old crash.
+	kill_old_app = true
+	#If options.txt doesn't exist, the default language will be used.
+	default_lang = "en_us"
+	#List of blacklisted log files. This files won't show in GUI logs list.
+	blacklisted_logs = ["CrashAssistant: latest.log"]
+
+#Here you can configure debug options for easier configuration of the mod.
+[debug]
+	#Setting this value to one of listed here, will crash the game in order to show/debug gui.
+	#NONE - default value, no crash. You can always crash game by holding vanilla F3+C keybind or '/crash_assistant crash' command
+	#MIXIN_SETUP - will crash game on Mixin setup. Crash report not generated.
+	#MOD_LOADING - will crash game on load of this mod. Can be used to show FML error screen. Crash report generated.
+	#GAME_STARTED - will crash game on first tick of TitleScreen. Crash report generated.
+	crash_game_on_event = "NONE"
+
+#Here you can change text of lang placeHolders.
+#You can change any text in lang files.
+#You don't need to modify jar. You can change it in config/crash_assistant/lang. For more info read README.md file located where.
+[text]
+	#$SUPPORT_NAME$ in lang files will be replaced with this value.
+	#For example this placeHolder used in: "gui.request_help_button": "request help in $SUPPORT_NAME$"
+	support_name = "Luna Pixel Studios Discord server"
+	#$SUPPORT_PLACE$ in lang files will be replaced with this value.
+	support_place = "#get-support channel"
+	#$MODPACK_NAME$ in lang files will be replaced with this value.
+	#For example this placeHolder used in: "gui.title_crashed_with_report": "Oops, $MODPACK_NAME$ crashed!"
+	modpack_name = "Minecraft"
+
+#Settings of modlist feature.
+#Adds in generated msg block about which mods modpack user added/removed/updated.
+[modpack_modlist]
+	#Enable feature.
+	enabled = true
+	#nicknames of players, who considered as modpack creator.
+	#Only this players can overwrite modlist.json
+	#If this feature is enabled and this array is empty, will be appended with nickname of current player.
+	modpack_creators = ["oofmas, SHXRKIEgg, Aedesius"]
+	#If enabled, modlist.json will be overwritten on every launch(mod loading),
+	#then game is launched by modpack creator.
+	#So you won't forget to save it before publishing.
+	auto_update = true
+
+#Settings of '/crash_assistant crash' command feature.
+[crash_command]
+	#Enable feature.
+	enabled = true
+	#To ensure the user really wants to crash the game, the command needs to be run again within this amount of seconds.
+	#Set to <= 0 to disable the confirmation.
+	seconds = 10
+
