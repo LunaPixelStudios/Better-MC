@@ -1,0 +1,39 @@
+#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+position = "TOP_LEFT"
+# Default: 0
+# Range: > 0
+offsetX = 0
+# Default: 0
+# Range: > 0
+offsetY = 50
+textBackground = true
+# Default: 0.3
+# Range: 0.0 ~ 1.0
+textBackgroundOpacity = 0.3
+textShadow = false
+coloredSeason = true
+coloredWeather = true
+# Default: 5415159
+# Range: > 0
+raining = 5415159
+# Default: 3171228
+# Range: > 0
+thundering = 3171228
+# Default: 8882055
+# Range: > 0
+cloudy = 8882055
+# Default: 3133138
+# Range: > 0
+snowing = 3133138
+# Default: 4388186
+# Range: > 0
+spring = 4388186
+# Default: 15922498
+# Range: > 0
+summer = 15922498
+# Default: 16086338
+# Range: > 0
+autumn = 16086338
+# Default: 4388341
+# Range: > 0
+winter = 4388341
