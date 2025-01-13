@@ -396,5 +396,43 @@
 			x: 1.0d
 			y: -2.0d
 		}
+		{
+			id: "28E1A800F7DA74F8"
+			rewards: [{
+				id: "5CBC1A94254E5BD8"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "335DC39F1CB925E3"
+				item: { count: 1, id: "minecraft:clock" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "604327BF09B6CBBF"
+			rewards: [{
+				id: "7A6E2EDBB418070E"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "74933A8D6E2BAB36"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
 	]
 }

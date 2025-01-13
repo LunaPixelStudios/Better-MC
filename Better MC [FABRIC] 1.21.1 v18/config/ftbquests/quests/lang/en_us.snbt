@@ -131,6 +131,8 @@
 	quest.2778DD9736386DA3.title: "Defeat the &8Blackstone Golem"
 	quest.277A0F5BB5027FA5.quest_subtitle: "Found in &8Citadels"
 	quest.277A0F5BB5027FA5.title: "Defeat a &6Wildfire"
+	quest.28E1A800F7DA74F8.quest_subtitle: "Can be equipped in the Wrist slot to show the current world time on screen at all times."
+	quest.28E1A800F7DA74F8.title: "Craft a &6Clock"
 	quest.2958CA7FA6FD3E4F.quest_desc: [
 		"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
 		""
@@ -225,6 +227,8 @@
 	quest.5EECC9893E56A5A1.title: "Obtain a &8Stonecutter"
 	quest.5F0FC5A5035E29B0.quest_subtitle: "Used to locate biomes."
 	quest.5F0FC5A5035E29B0.title: "Craft a &2Nature's Compass"
+	quest.604327BF09B6CBBF.quest_subtitle: "Can be equipped in the Wrist slot to show your current coordinates on screen at all times."
+	quest.604327BF09B6CBBF.title: "Craft a &cCompass"
 	quest.6164202DAC398029.quest_subtitle: "Upgradeable by repairing it in an anvil, using &6Honey Crystal Shards&r. Has double the durability of a normal shield at max level. Slows attackers."
 	quest.6164202DAC398029.title: "Craft a &6Honey Crystal Shield"
 	quest.619FF16C8CF1058C.quest_subtitle: "A great place to find flowers of all kinds."

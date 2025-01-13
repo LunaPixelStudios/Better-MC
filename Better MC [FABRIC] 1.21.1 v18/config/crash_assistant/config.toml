@@ -11,6 +11,8 @@
 	default_lang = "en_us"
 	#List of blacklisted log files. This files won't show in GUI logs list.
 	blacklisted_logs = ["CrashAssistant: latest.log"]
+	#Append comment text with notice about sending screenshot of this gui tells nothing to modpack creators.
+	show_dont_send_screenshot_of_gui_notice = true
 
 #Here you can configure debug options for easier configuration of the mod.
 [debug]
@@ -22,7 +24,7 @@
 	crash_game_on_event = "NONE"
 
 #Here you can change text of lang placeHolders.
-#You can change any text in lang files.
+#Also you can change any text in lang files.
 #You don't need to modify jar. You can change it in config/crash_assistant/lang. For more info read README.md file located where.
 [text]
 	#$SUPPORT_NAME$ in lang files will be replaced with this value.
@@ -32,10 +34,12 @@
 	support_place = "#get-support channel"
 	#$MODPACK_NAME$ in lang files will be replaced with this value.
 	#For example this placeHolder used in: "gui.title_crashed_with_report": "Oops, $MODPACK_NAME$ crashed!"
-	modpack_name = "Minecraft"
+	#Supports Better Compatibility Checker integration. You can use $BCC.modpackName$, $BCC.modpackVersion$, etc and it will be replaced with value from config/bcc-common.toml
+	modpack_name = "$BCC.modpackName$ $BCC.modpackVersion$"
 
 #Settings of modlist feature.
 #Adds in generated msg block about which mods modpack user added/removed/updated.
+#Also you can see diff by running '/crash_assistant modlist diff' command.
 [modpack_modlist]
 	#Enable feature.
 	enabled = true
@@ -43,9 +47,10 @@
 	#Only this players can overwrite modlist.json
 	#If this feature is enabled and this array is empty, will be appended with nickname of current player.
 	modpack_creators = ["oofmas", "SHXRKIEgg", "Aedesius"]
-	#If enabled, modlist.json will be overwritten on every launch(mod loading),
+	#If enabled, modlist.json will be overwritten on every launch(first tick of TitleScreen),
 	#then game is launched by modpack creator.
 	#So you won't forget to save it before publishing.
+	#If you want to save manually: disable this and use '/crash_assistant modlist save' command.
 	auto_update = true
 
 #Settings of '/crash_assistant crash' command feature.
