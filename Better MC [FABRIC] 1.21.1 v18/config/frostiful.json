@@ -49,10 +49,10 @@
   },
   "freezingConfig": {
     "doPassiveFreezing": true,
-    "doWindSpawning": true,
+    "doWindSpawning": false,
     "windSpawnStrategy": "POINT",
     "spawnWindInAir": true,
-    "windDestroysTorches": true,
+    "windDestroysTorches": false,
     "doSnowPacking": true,
     "passiveFreezingTickInterval": 1,
     "windSpawnCapPerSecond": 15,
