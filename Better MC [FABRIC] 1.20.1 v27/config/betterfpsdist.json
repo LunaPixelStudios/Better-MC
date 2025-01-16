@@ -5,7 +5,7 @@
   },
   "horizontalScaling": {
     "desc:": "The amount by which the chunk render distance sphere is stretched horizontally. default:1.0, min 0.05, max 2",
-    "horizontalScaling": 1.1
+    "horizontalScaling": 1.05
   },
   "affectEntities": {
     "desc:": "Enables the distance stretch to also affect entity rendering, default = true",
