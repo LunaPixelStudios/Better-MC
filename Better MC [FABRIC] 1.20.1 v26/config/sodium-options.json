@@ -1,7 +1,7 @@
 {
   "quality": {
     "weather_quality": "DEFAULT",
-    "leaves_quality": "FANCY",
+    "leaves_quality": "DEFAULT",
     "enable_vignette": true
   },
   "advanced": {

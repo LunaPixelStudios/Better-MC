@@ -1,0 +1,76 @@
+{
+	"statues": {
+		"plains": [
+			{
+				"location": "explorations:statues/statue_1",
+				"weight": 2
+			},
+			{
+				"location": "explorations:statues/statue_2",
+				"weight": 2
+			},
+			{
+				"location": "explorations:statues/statue_3",
+				"weight": 2
+			},
+			{
+				"location": "explorations:statues/statue_4",
+				"weight": 2
+			}
+		],
+		"savanna": [
+			{
+				"location": "explorations:statues/statue_1",
+				"weight": 2
+			},
+			{
+				"location": "explorations:statues/statue_2",
+				"weight": 2
+			},
+			{
+				"location": "explorations:statues/statue_3",
+				"weight": 2
+			},
+			{
+				"location": "explorations:statues/statue_4",
+				"weight": 2
+			}
+		],
+		"taiga": [
+			{
+				"location": "explorations:statues/statue_1",
+				"weight": 4
+			},
+			{
+				"location": "explorations:statues/statue_2",
+				"weight": 4
+			},
+			{
+				"location": "explorations:statues/statue_3",
+				"weight": 4
+			},
+			{
+				"location": "explorations:statues/statue_4",
+				"weight": 4
+			}
+		],
+		"snowy": [
+			{
+				"location": "explorations:statues/statue_1",
+				"weight": 3
+			},
+			{
+				"location": "explorations:statues/statue_2",
+				"weight": 3
+			},
+			{
+				"location": "explorations:statues/statue_3",
+				"weight": 3
+			},
+			{
+				"location": "explorations:statues/statue_4",
+				"weight": 3
+			}
+		]
+	}
+}

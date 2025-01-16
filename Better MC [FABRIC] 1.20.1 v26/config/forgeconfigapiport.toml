@@ -1,0 +1,13 @@
+#When single config values need to be corrected (think like the config value is a number 1-10, but the user enters an incompatible input like '5.0', in that case only this single value needs fixing not the whole file),
+#Forge restores the built-in default value for that option, but ignores a value that is set in a possibly present default config in 'defaultconfigs'.
+#This option fixes this behavior and checks for a value in a default config from 'defaultconfigs' before falling back to the built-in default.
+correctConfigValuesFromDefaultConfig = true
+#Path to load default configs from, intended for setting global server configs for newly created worlds, but also works when recreating client and common configs.
+defaultConfigsPath = "defaultconfigs"
+#Config loading from a file config appears to occasionally fail and throw a com.electronwill.nightconfig.core.io.ParsingException: Not enough data available.
+#This workaround catches the exception, and recreates a fresh file to try config loading for again. If loading fails for the new file the original exception is thrown.
+#To make sure any required changes through configs stay intact through such recreations, placed your changed configs in the 'defaultconfigs' directory.
+recreateConfigsWhenParsingFails = true
+#Prevent server config files from being saved inside the current world directory. Instead, save them to the global config directory in .minecraft/config/.
+#This option effectively disables per world server configs, but helps a lot with avoiding user confusion.
+forceGlobalServerConfigs = true

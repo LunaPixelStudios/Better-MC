@@ -3,7 +3,7 @@
   "general": {
     "sort_recipes": true,
     "save_recipes": false,
-    "dynamic_recipes": false,
+    "dynamic_recipes": true,
     "allow_non_blocks": true,
     "allow_non_variant": true,
     "mods_blacklist": [
@@ -14,9 +14,10 @@
     "search_bar_mode": "AUTOMATIC",
     "search_bar_threshold": 32,
     "special_recipe_costs": {
-      "boat": 4.0,
-      "stairs": 1.0
+      "stairs": 1.0,
+      "boat": 4.0
     },
-    "max_discount": 0.35
+    "max_discount": 0.35,
+    "ignore_custom_ingredients": true
   }
 }

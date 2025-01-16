@@ -15,9 +15,11 @@
 	"Always show" = false
 	#If true, the overlay will be shown in smaller text and in top left of the screen.
 	"Compact view" = false
+
 [DiscsStopBackgroundMusic]
 	#Playing a music disc in a jukebox prevents background music from playing at the same time.
 	"DiscsStopBackgroundMusic enabled" = true
+
 [ExtraTooltips]
 	#Adds hover tooltips for some items that have content.
 	"ExtraTooltips enabled" = true
@@ -25,21 +27,27 @@
 	Maps = true
 	#If true, the contents of a shulker box will be shown when hovering over the item.
 	"Shulker boxes" = true
+
 [GentlePotionParticles]
 	#Potion effect particles are less obtrusive.
 	"GentlePotionParticles enabled" = true
+
 [NoChatUnverifiedMessage]
 	#Disables the 'Chat messages can't be verified' nag when the server does not enforce secure profile.
 	"NoChatUnverifiedMessage enabled" = true
+
 [NoExperimentalScreen]
 	#Prevents the 'Experimental World' screen from showing with customized worldgen or tags present.
 	"NoExperimentalScreen enabled" = true
+
 [NoSpyglassScope]
 	#Removes the dark outer overlay when zooming in with the spyglass, giving you the full view.
 	"NoSpyglassScope enabled" = true
+
 [ShowRepairCost]
 	#An item's repair cost is shown in their tooltip when looking at the anvil screen.
 	"ShowRepairCost enabled" = true
+
 [VariantMobTextures]
 	#Mobs may spawn with different textures.
 	"VariantMobTextures enabled" = true

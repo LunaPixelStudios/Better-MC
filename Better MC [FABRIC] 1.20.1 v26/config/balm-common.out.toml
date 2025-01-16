@@ -1,0 +1,10 @@
+
+# IDs of mods whose compatibility should be disabled.
+disabledCompat = [  ]
+
+# Set to true to have KleeSlabs dump a list of items containing the word 'slab' in their name upon world load
+dumpSlabs = false
+
+# Control whether KleeSlabs should trigger ALWAYS, ONLY_WHEN_SNEAKING or ONLY_WHEN_NOT_SNEAKING
+mode = "ALWAYS"
+

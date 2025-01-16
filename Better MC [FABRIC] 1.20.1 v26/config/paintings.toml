@@ -1,0 +1,4 @@
+use_vanilla_only = false
+use_selection_gui = true
+cycle_paintings = false
+show_painting_size = true

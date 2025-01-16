@@ -1,0 +1,12 @@
+{
+  "items": {
+    "guide_book [default: true]": true,
+    "limphium_leaf [default: true]": true,
+    "limphium_leaf_dryed [default: true]": true,
+    "spawn_egg_diskwing [default: true]": true,
+    "limphium_painting [default: true]": true
+  },
+  "spawnEggs": {
+    "spawn_egg_diskwing [default: true]": true
+  }
+}

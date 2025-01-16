@@ -1,0 +1,13 @@
+{
+  "maxGiftBoxCapacity": 3,
+  "updateCheckerEnabled": true,
+  "generateUndergroundIcicles": true,
+  "generateCryomarble": true,
+  "generateFrozenGrass": true,
+  "generateFrozenFlowers": true,
+  "mobDecorations": {
+    "enabled": false,
+    "onlyInWinter": true,
+    "chance": 15
+  }
+}

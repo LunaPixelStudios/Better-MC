@@ -1,0 +1,35 @@
+#Color item inventories on tooltips according to the container item's color.
+colorful_tooltips = true
+#Show a tooltip for the item currently selected in a container item's tooltip next to the main tooltip.
+#Select a modifier key required to be held, otherwise selecting "KEY" serves as a toggle. The key is defined in vanilla's controls menu.
+#Show a tooltip for the item currently selected in a container item's tooltip next to the main tooltip.
+#Select a modifier key required to be held, otherwise selecting "KEY" serves as a toggle. The key is defined in vanilla's controls menu.
+#Allowed Values: KEY, ALWAYS, SHIFT, CONTROL, ALT
+selected_item_tooltips = "ALWAYS"
+#Invert scroll wheel direction for extracting / inserting items from a container item in precision mode.
+invert_precision_mode_scrolling = false
+#Expand container item tooltips to reveal their contents.
+#Select a modifier key required to be held, otherwise selecting "KEY" serves as a toggle. The key is defined in vanilla's controls menu.
+#Expand container item tooltips to reveal their contents.
+#Select a modifier key required to be held, otherwise selecting "KEY" serves as a toggle. The key is defined in vanilla's controls menu.
+#Allowed Values: KEY, ALWAYS, SHIFT, CONTROL, ALT
+reveal_contents = "ALWAYS"
+#Show an indicator on container items when the stack carried by the cursor can be added in your inventory.
+container_item_indicator = true
+#Select a modifier key required to be held to use precision mode.
+#In precision mode left-clicking inserts an item, and right-clicking extracts a single item, overriding vanilla mouse interactions. The scroll wheel can also be used for quickly moving items.
+#Select a modifier key required to be held to use precision mode.
+#In precision mode left-clicking inserts an item, and right-clicking extracts a single item, overriding vanilla mouse interactions. The scroll wheel can also be used for quickly moving items.
+#Allowed Values: SHIFT, CONTROL, ALT
+precision_mode = "CONTROL"
+#Always show item tooltips while interacting with container items, even when the cursor is currently carrying an item.
+#Select a modifier key required to be held, otherwise selecting "KEY" serves as a toggle. The key is defined in vanilla's controls menu.
+#Always show item tooltips while interacting with container items, even when the cursor is currently carrying an item.
+#Select a modifier key required to be held, otherwise selecting "KEY" serves as a toggle. The key is defined in vanilla's controls menu.
+#Allowed Values: KEY, ALWAYS, SHIFT, CONTROL, ALT
+carried_item_tooltips = "ALT"
+#Disable sounds from inserting and extracting items from playing, as they trigger quite often with all the new interactions.
+disable_interaction_sounds = true
+#Render a white overlay or the hotbar selected item frame over the slot the next item will be taken out of when right-clicking the container item.
+#Allowed Values: HOTBAR, HOVER
+slot_overlay = "HOVER"

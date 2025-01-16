@@ -1,0 +1,15 @@
+{
+	"chatRange": 30.0,
+	// Time in ticks
+	"chatTime": 200,
+	"maxChatWidth": 180,
+	"chatColor": 1315860,
+	"chatHeight": 0.0,
+	"backgroundOpacity": 0.699999988079071,
+	"backgroundRed": 1.0,
+	"backgroundGreen": 1.0,
+	"backgroundBlue": 1.0,
+	// 0 = disabled
+	"maxUUIDWordCheck": 0,
+	"showOwnBubble": false
+}

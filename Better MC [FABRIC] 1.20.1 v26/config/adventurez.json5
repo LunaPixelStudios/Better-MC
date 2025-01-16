@@ -5,7 +5,7 @@
 	"piglin_beast_ore_spawn_chance": 15,
 	// Chance for spawning when killing too many piglins; 1/Value
 	"piglin_beast_attack_piglin_spawn_chance": 7,
-	"small_stone_golem_spawn_weight": 5,
+	"mini_blackstone_golem_spawn_weight": 5,
 	// Chance for spawning when thunder occurs; 1/Value
 	"summoner_thunder_spawn_chance": 4,
 	"blaze_guardian_spawn_weight": 1,
@@ -22,12 +22,11 @@
 	"shaman_spawn_weight": 4,
 	"deer_spawn_weight": 6,
 	"enderwarthog_spawn_weight": 1,
-	"allow_stone_golem_summoning": true,
+	"allow_blackstone_golem_summoning": true,
 	"allow_the_eye_summoning": true,
 	"allow_dragon_hatching": true,
 	"allow_guardian_spawner_spawn": true,
 	"allow_source_stone_tp": true,
-	"disable_armor_bonus": false,
 	"resummoned_ender_dragon_drops_egg": false,
 	"allow_ender_dragon_nether_portal": false,
 	"heavy_dragon_flight": false,
@@ -37,5 +36,8 @@
 	"warthog_rare_chance": 0.009999999776482582,
 	"stoned_heart_duration": 72000,
 	"stoned_heart_amplifier": 0,
-	"allow_other_dragon_hatching": false
+	"gilded_netherite_armor_effect_duration": 1200,
+	"gilded_netherite_armor_dodge_chance": 0.20000000298023224,
+	"allow_other_dragon_hatching": false,
+	"allow_gilded_blackstone_shard_throw": false
 }

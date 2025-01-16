@@ -8,5 +8,6 @@
 	"singleItemInventorySwap": false,
 	"screenshotsFolder": true,
 	"debugInvisibleEntities": false,
+	"fullbright": false,
 	"fireOverlay": "REDUCED"
 }

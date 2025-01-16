@@ -1,0 +1,139 @@
+{
+  "minecraft": {
+    "basalt_deltas": {
+      "spawn": {
+        "ambient": {
+          "betternether": {
+            "firefly": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 1]": 1,
+              "maxGroupSize [default: 3]": 3
+            },
+            "hydrogen_jellyfish": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 2]": 2,
+              "maxGroupSize [default: 6]": 6
+            }
+          }
+        },
+        "monster": {
+          "betternether": {
+            "naga": {
+              "weight [default: 8]": 8,
+              "minGroupSize [default: 3]": 3,
+              "maxGroupSize [default: 5]": 5
+            }
+          }
+        }
+      }
+    },
+    "nether_wastes": {
+      "spawn": {
+        "ambient": {
+          "betternether": {
+            "firefly": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 1]": 1,
+              "maxGroupSize [default: 3]": 3
+            },
+            "hydrogen_jellyfish": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 2]": 2,
+              "maxGroupSize [default: 6]": 6
+            }
+          }
+        },
+        "monster": {
+          "betternether": {
+            "naga": {
+              "weight [default: 8]": 8,
+              "minGroupSize [default: 3]": 3,
+              "maxGroupSize [default: 5]": 5
+            }
+          }
+        }
+      }
+    },
+    "soul_sand_valley": {
+      "spawn": {
+        "ambient": {
+          "betternether": {
+            "firefly": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 1]": 1,
+              "maxGroupSize [default: 3]": 3
+            },
+            "hydrogen_jellyfish": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 2]": 2,
+              "maxGroupSize [default: 6]": 6
+            }
+          }
+        },
+        "monster": {
+          "betternether": {
+            "naga": {
+              "weight [default: 8]": 8,
+              "minGroupSize [default: 3]": 3,
+              "maxGroupSize [default: 5]": 5
+            }
+          }
+        }
+      }
+    },
+    "warped_forest": {
+      "spawn": {
+        "ambient": {
+          "betternether": {
+            "firefly": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 1]": 1,
+              "maxGroupSize [default: 3]": 3
+            },
+            "hydrogen_jellyfish": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 2]": 2,
+              "maxGroupSize [default: 6]": 6
+            }
+          }
+        },
+        "monster": {
+          "betternether": {
+            "naga": {
+              "weight [default: 8]": 8,
+              "minGroupSize [default: 3]": 3,
+              "maxGroupSize [default: 5]": 5
+            }
+          }
+        }
+      }
+    },
+    "crimson_forest": {
+      "spawn": {
+        "ambient": {
+          "betternether": {
+            "firefly": {
+              "weight [default: 15]": 15,
+              "minGroupSize [default: 1]": 1,
+              "maxGroupSize [default: 3]": 3
+            },
+            "hydrogen_jellyfish": {
+              "weight [default: 5]": 5,
+              "minGroupSize [default: 2]": 2,
+              "maxGroupSize [default: 6]": 6
+            }
+          }
+        },
+        "monster": {
+          "betternether": {
+            "naga": {
+              "weight [default: 0]": 0,
+              "minGroupSize [default: 3]": 3,
+              "maxGroupSize [default: 5]": 5
+            }
+          }
+        }
+      }
+    }
+  }
+}

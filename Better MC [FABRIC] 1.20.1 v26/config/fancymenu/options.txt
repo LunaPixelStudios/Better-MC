@@ -24,8 +24,8 @@ B:game_intro_fade_out = 'true';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/icon32x32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/icon32x32.png';
 S:custom_window_title = 'Better MC [FABRIC] 1.20.1';
 S:custom_window_icon_16 = '/config/fancymenu/assets/icon16x16.png';
@@ -73,3 +73,8 @@ B:debug_overlay_show_system_category = 'true';
 B:debug_overlay_show_advanced_screen_category = 'true';
 B:show_debug_overlay = 'false';
 B:debug_overlay_show_resources_category = 'true';
+
+
+##[tutorial]
+
+B:show_welcome_screen = 'false';

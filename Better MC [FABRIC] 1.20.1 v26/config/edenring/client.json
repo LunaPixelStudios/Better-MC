@@ -1,0 +1,6 @@
+{
+  "rendering": {
+    "renderSky [default: true]": true,
+    "renderInBuffer [default: false]": false
+  }
+}

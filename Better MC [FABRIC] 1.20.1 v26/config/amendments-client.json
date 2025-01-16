@@ -1,0 +1,67 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "general": {
+    "tooltip_hints": true,
+    "custom_configured_screen": true
+  },
+  "lily_pad": {
+    "y_offset": -0.016625
+  },
+  "bell": {
+    "chain_attachment": true
+  },
+  "brewing_stand": {
+    "brewing_stand_colors": true
+  },
+  "arrows": {
+    "crossbows_colors": true
+  },
+  "tripwire_hook": {
+    "fast_hooks": false
+  },
+  "hanging_sign": {
+    "item_pixel_scale": 10.0,
+    "swinging_signs": true,
+    "sign_attachment": true,
+    "swing_physics": {
+      "frequency": 0.6,
+      "collision_considers_entity_hitbox": true,
+      "collision_inertia": 1.0,
+      "collision_force": 15.0,
+      "min_angle": 0.79999965,
+      "max_angle": 60.0,
+      "damping": 0.525
+    }
+  },
+  "lantern": {
+    "fast_lanterns": false,
+    "swing_physics": {
+      "frequency": 0.6,
+      "collision_considers_entity_hitbox": true,
+      "collision_inertia": 1.0,
+      "collision_force": 15.0,
+      "min_angle": 0.79999965,
+      "max_angle": 60.0,
+      "damping": 0.525
+    },
+    "lantern_item_size": 0.625,
+    "lantern_item_holding": true,
+    "lantern_item_holding_up": false
+  },
+  "cauldron": {
+    "potion_texture": true
+  },
+  "jukebox": {
+    "new_model": true,
+    "disc_spin": true
+  },
+  "misc": {
+    "torch_item_holding": true,
+    "torch_item_size": 1.0,
+    "candle_holder_item_holding": true,
+    "handle_holder_item_size": 0.625,
+    "fixed_holding_animations": false,
+    "sign_text_color_multiplier": 1.2,
+    "campfire_smoke_through_blocks": false
+  }
+}

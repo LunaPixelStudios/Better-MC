@@ -1,0 +1,361 @@
+{
+  "format": 0,
+  "tick_time": 20,
+  "elements": [
+    {
+      "type": "ENTITY",
+      "entity_type": "minecraft:skeleton",
+      "entity_pose": "SLEEPING",
+      "tags": [
+        "graves:equipment/boots",
+        "graves:equipment/chestplate",
+        "graves:equipment/offhand_hand",
+        "graves:player_head",
+        "graves:equipment/main_hand",
+        "graves:if_unprotected",
+        "graves:equipment/helmet",
+        "graves:equipment/leggings"
+      ],
+      "rotate_position": true,
+      "rotate_yaw": true,
+      "position": [
+        0.9,
+        -0.51,
+        0.0
+      ]
+    },
+    {
+      "type": "ENTITY",
+      "entity_type": "minecraft:zombie",
+      "entity_pose": "SLEEPING",
+      "tags": [
+        "graves:equipment/boots",
+        "graves:if_protected",
+        "graves:equipment/chestplate",
+        "graves:equipment/offhand_hand",
+        "graves:player_head",
+        "graves:equipment/main_hand",
+        "graves:equipment/helmet",
+        "graves:equipment/leggings"
+      ],
+      "rotate_position": true,
+      "rotate_yaw": true,
+      "position": [
+        0.9,
+        -0.51,
+        0.0
+      ]
+    },
+    {
+      "type": "ITEM",
+      "display_item": {
+        "id": "universal_graves:icon",
+        "Count": 1,
+        "tag": {
+          "Texture": "remove_protection"
+        }
+      },
+      "item_model_transformation": "FIXED",
+      "transformation": {
+        "translation": [
+          0.0,
+          -0.42,
+          0.0
+        ],
+        "left_rotation": [
+          -0.35355335,
+          0.6123724,
+          0.35355335,
+          0.6123724
+        ],
+        "scale": [
+          0.34999996,
+          0.34999996,
+          0.34999996
+        ],
+        "right_rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      "billboard": "fixed",
+      "view_range": 1.0,
+      "shadow_radius": 0.0,
+      "shadow_strength": 0.0,
+      "culling": [
+        2.0,
+        2.0
+      ],
+      "glow_color": -1,
+      "tags": [
+        "graves:payment_required"
+      ],
+      "rotate_position": true,
+      "rotate_yaw": true,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "type": "TEXT",
+      "text": [
+        "<yellow>${cost}"
+      ],
+      "text_width": -1,
+      "text_background": -1,
+      "text_opacity": -1,
+      "text_shadow": true,
+      "text_see_through": false,
+      "text_default_background": true,
+      "text_alignment": "center",
+      "transformation": {
+        "translation": [
+          0.0,
+          -0.29,
+          0.0
+        ],
+        "left_rotation": [
+          -0.35355335,
+          0.6123724,
+          0.35355335,
+          0.6123724
+        ],
+        "scale": [
+          0.34999996,
+          0.34999996,
+          0.34999996
+        ],
+        "right_rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      "billboard": "fixed",
+      "view_range": 1.0,
+      "shadow_radius": 0.0,
+      "shadow_strength": 0.0,
+      "culling": [
+        2.0,
+        2.0
+      ],
+      "glow_color": -1,
+      "tags": [
+        "graves:payment_required"
+      ],
+      "rotate_position": true,
+      "rotate_yaw": true,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "type": "TEXT",
+      "text": [
+        "<gold><lang:'text.graves.grave_of':'<yellow>${player}'>",
+        "<yellow>${death_cause}",
+        "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+        {
+          "text": "<blue><lang:'text.graves.protected_time':'<white>${protection_time}'><r>",
+          "tags": [
+            "graves:if_protected",
+            "graves:has_protection_timer"
+          ]
+        },
+        {
+          "text": "<red><lang:'text.graves.break_time':'<white>${break_time}'>",
+          "tags": [
+            "graves:has_breaking_timer"
+          ]
+        }
+      ],
+      "text_width": 9999,
+      "text_background": -1,
+      "text_opacity": -1,
+      "text_shadow": true,
+      "text_see_through": false,
+      "text_default_background": true,
+      "text_alignment": "center",
+      "transformation": {
+        "translation": [
+          0.0,
+          0.15,
+          0.0
+        ],
+        "left_rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "right_rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      "billboard": "center",
+      "brightness": {
+        "block": 15,
+        "sky": 15
+      },
+      "view_range": 0.5,
+      "shadow_radius": 0.0,
+      "shadow_strength": 0.0,
+      "culling": [
+        2.0,
+        2.0
+      ],
+      "glow_color": -1,
+      "tags": [
+        "graves:if_not_visual"
+      ],
+      "rotate_position": true,
+      "rotate_yaw": true,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "type": "TEXT",
+      "text": [
+        "${text_1}",
+        "${text_2}",
+        "${text_3}",
+        "${text_4}"
+      ],
+      "text_width": 9999,
+      "text_background": -1,
+      "text_opacity": -1,
+      "text_shadow": true,
+      "text_see_through": false,
+      "text_default_background": true,
+      "text_alignment": "center",
+      "transformation": {
+        "translation": [
+          0.0,
+          0.15,
+          0.0
+        ],
+        "left_rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "right_rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      "billboard": "center",
+      "brightness": {
+        "block": 15,
+        "sky": 15
+      },
+      "view_range": 0.5,
+      "shadow_radius": 0.0,
+      "shadow_strength": 0.0,
+      "culling": [
+        2.0,
+        2.0
+      ],
+      "glow_color": -1,
+      "tags": [
+        "graves:if_player_made",
+        "graves:if_visual"
+      ],
+      "rotate_position": true,
+      "rotate_yaw": true,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "type": "TEXT",
+      "text": [
+        "<gold><lang:'text.graves.grave_of':'<yellow>${player}'>",
+        "<yellow>${death_cause}"
+      ],
+      "text_width": 9999,
+      "text_background": -1,
+      "text_opacity": -1,
+      "text_shadow": true,
+      "text_see_through": false,
+      "text_default_background": true,
+      "text_alignment": "center",
+      "transformation": {
+        "translation": [
+          0.0,
+          0.15,
+          0.0
+        ],
+        "left_rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "right_rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      "billboard": "center",
+      "brightness": {
+        "block": 15,
+        "sky": 15
+      },
+      "view_range": 0.5,
+      "shadow_radius": 0.0,
+      "shadow_strength": 0.0,
+      "culling": [
+        2.0,
+        2.0
+      ],
+      "glow_color": -1,
+      "tags": [
+        "graves:if_visual",
+        "graves:if_not_player_made"
+      ],
+      "rotate_position": true,
+      "rotate_yaw": true,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

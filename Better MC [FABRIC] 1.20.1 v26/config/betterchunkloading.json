@@ -1,0 +1,42 @@
+{
+  "enablePrediction": {
+    "desc:": "Enables predictive chunkloading, which predicts player movement and preloads an area in movement direction: default:true",
+    "enablePrediction": true
+  },
+  "predictionLoadingSpeed": {
+    "desc:": "Set a modifier to prediction area loading speed, increasing the value increases the speed at which chunks load around the player. Note that faster loading also means higher impact on TPS. range: [0.01 -> 10.0], default: 1.0",
+    "predictionLoadingSpeed": 1.0
+  },
+  "predictionarea": {
+    "desc:": "Size of the area marked for preloading: default:7 chunks, max: 32, min: 2",
+    "predictionarea": 7
+  },
+  "enableSmartChunkLoading": {
+    "desc:": "Enables smart chunkloading around the player, which dynamically loads the around the player : default:true",
+    "enableSmartChunkLoading": true
+  },
+  "smartChunkLoadingSpeed": {
+    "desc:": "Set a modifier to smart chunkloading speed, increasing the value increases the speed at which chunks load around the player. Note that faster loading also means higher impact on TPS. range: [0.01 -> 10.0], default: 1.0",
+    "smartChunkLoadingSpeed": 1.0
+  },
+  "preventWalkUnloaded": {
+    "desc:": "Prevents players from moving into unloaded areas on serverside, which stalls the server and forceloads the chunk: default:true",
+    "preventWalkUnloaded": true
+  },
+  "enableSmartPostProcessing": {
+    "desc:": "Enables smart post processing, which slightly improves the general chunk loading speed by waiting with post processing(e.g. fluid updates) until neighbouring chunks are loaded: default:true",
+    "enableSmartPostProcessing": true
+  },
+  "enableFasterChunkTasks": {
+    "desc:": "Enables faster worldgen tasks: default:false",
+    "enableFasterChunkTasks": true
+  },
+  "optimizeWaiting": {
+    "desc:": "Optimizes time the world is stalled while waiting for a chunk: default:true",
+    "optimizeWaiting": true
+  },
+  "debugLogging": {
+    "desc:": "Enables debug logging to show chunk loading changes: default:false",
+    "debugLogging": false
+  }
+}

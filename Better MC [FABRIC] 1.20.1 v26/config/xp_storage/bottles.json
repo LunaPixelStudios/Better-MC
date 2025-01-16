@@ -1,0 +1,7 @@
+{
+  "enableBrewing": true,
+  "maxLevel": 30,
+  "xpFromBrewing1": 1,
+  "xpFromBrewing2": 3,
+  "xpFromBrewing3": 10
+}

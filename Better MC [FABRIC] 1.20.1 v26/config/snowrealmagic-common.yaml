@@ -8,6 +8,7 @@ snowNeverMelt: false
 snowReduceFallDamage: true
 sustainGrassIfLayerMoreThanOne: true
 sneakSnowball: true
+fancySnowOnUpperSlab: true
 mobSpawningMaxLayers: 8
 snow-cover:
   replaceWorldgenFeature: true

@@ -1,0 +1,56 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "snowy_season": {
+    "snow_season_start": {
+      "month": 12,
+      "day": 20
+    },
+    "snow_season_end": {
+      "month": 1,
+      "day": 30
+    },
+    "season_mod_compat": {
+      "enabled": true,
+      "winter_seasons": [
+        "WINTER"
+      ]
+    }
+  },
+  "misc": {
+    "debug_save_dynamic_pack": false,
+    "custom_configured_screen": true,
+    "mod_creative_tab": false
+  },
+  "blocks_and_items": {
+    "gumdrop": true,
+    "glow_lights": true,
+    "candy_cane": true,
+    "ginger": true,
+    "eggnog": true,
+    "wreath": true,
+    "snow_globe": true,
+    "gingerbread_golem": true
+  },
+  "sled": {
+    "enabled": true,
+    "physics": {
+      "friction": {
+        "sand_slipperiness": 0.83,
+        "snow_slipperiness": 0.985,
+        "ice_slipperiness_mult": 0.97,
+        "slope_slipperiness_increment": 0.06,
+        "rotation_slipperiness": 0.92,
+        "rotation_slipperiness_on_forward_acceleration": 0.75
+      },
+      "steering": {
+        "forward_acceleration": 0.015,
+        "forward_acceleration_with_wolf": 0.017,
+        "forward_acceleration_when_not_on_snow": 0.03700000047683716,
+        "backwards_acceleration": 0.005,
+        "steer_factor": 0.042,
+        "steer_factor_with_wolf": 0.067
+      }
+    },
+    "max_sled_puller_size": 1.25
+  }
+}

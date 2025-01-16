@@ -5,15 +5,14 @@
     "seasons:seasonal_lush_caves",
     "file/Stay_True_1.20.zip",
     "file/MandalasGUI+Modded_Dakmode_v4.6.zip",
+    "file/MandalasGUI_AddOn+Modded+Whitemode_1.20.4.zip",
+    "file/Mandala's GUI - Dark Mode Compat 0.3.zip",
     "file/Mandalas_Legacy_Gui_Background.zip",
     "file/Better_Modded_GUI.zip",
-    "autoslabs:distinct_slabs",
     "file/Icon Xaero's 1.2 HF.zip",
     "file/NoBushyLeaves.zip",
-    "file/bettergrass:default",
-    "file/AutoslabsCompat.zip",
-    "file/Mandala's GUI - Dark mode Mod Compat 0.2.7 beta Hotfix.zip",
-    "file/Mandala's GUI Vanilla Crosshair.zip"
+    "autoslabs:distinct_slabs",
+    "file/AutoslabsCompat.zip"
 
   ],
   "default_overrides": {
@@ -92,7 +91,22 @@
     "Moonlight Mods Dynamic Assets": {
       "hidden": true
     },
-    "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
+    "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {
+      "hidden": true
+    },
+    "$polymer-resources": {
+      "hidden": true
+    },
+    "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "high_contrast": {
+      "hidden": true
+    },
+    "lambdabettergrass:default": {
+      "hidden": true
+    },
+    "programmer_art": {
       "hidden": true
     }
     }

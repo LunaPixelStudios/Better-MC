@@ -1,0 +1,12 @@
+{
+  "onlyTrims": false,
+  "invRange": 16,
+  "wirelessRange": 16,
+  "invConnectorMaxCables": 2048,
+  "multiblockInv": [],
+  "advWirelessRange": 64,
+  "wirelessTermBeaconLvl": 1,
+  "wirelessTermBeaconLvlDim": 4,
+  "invLinkBeaconLvl": 1,
+  "invLinkBeaconLvlDim": 2
+}

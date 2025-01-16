@@ -24,7 +24,9 @@
     "powderSnowFreezeRate": 30,
     "warmthPerLightLevel": 2,
     "minLightForWarmth": 5,
-    "ultrawarmWarmRate": 15
+    "ultrawarmWarmRate": 15,
+    "winterTemperatureShift": -1,
+    "isNightColdInSummer": false
   },
   "combatConfig": {
     "doChillagerPatrols": true,
@@ -40,11 +42,11 @@
     "packedSnowballFreezeAmount": 500,
     "packedSnowballDamage": 2.0,
     "packedSnowballVulnerableTypesDamage": 5.0,
-    "polarBearShearingDamage": 1.0,
     "frostologerPassiveFreezingPerTick": 2,
     "frostologerMaxPassiveFreezing": 0.5,
     "biterFrostBiteMaxAmplifier": 2,
     "chillagerFireDamageMultiplier": 1.5,
+    "frostologerIntolerableHeat": 9,
     "furUpgradeTemplateGenerateChance": 0.5,
     "skateUpgradeTemplateGenerateChance": 0.33
   },
@@ -55,6 +57,7 @@
     "spawnWindInAir": true,
     "windDestroysTorches": false,
     "doSnowPacking": true,
+    "passiveFreezingTickInterval": 1,
     "windSpawnCapPerSecond": 15,
     "windSpawnRarity": 750,
     "windSpawnRarityThunder": 500,
@@ -70,7 +73,9 @@
     "heatFromHotFloor": 12,
     "shiverBelow": -0.51,
     "shiverWarmth": 1,
-    "stopShiverWarmingBelowFoodLevel": 10
+    "stopShiverWarmingBelowFoodLevel": 10,
+    "warmFoodWarmthTime": 1200,
+    "netheriteFrostResistance": 0.5
   },
   "icicleConfig": {
     "iciclesFormInWeather": true,

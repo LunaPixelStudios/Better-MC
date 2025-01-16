@@ -2,17 +2,16 @@
 	"lichConfig": {
 		"eternalNighttime": true,
 		"experienceDrop": 1500,
-		"idleHealingPerTick": 0.10000000149011612,
-		"health": 750.0,
+		"idleHealingPerTick": 0.20000000298023224,
+		"health": 300.0,
 		"missile": {
 			"statusEffectId": "minecraft:slowness",
 			"statusEffectDuration": 100,
 			"statusEffectPotency": 2,
-			"damage": 10.0
+			"damage": 9.0
 		},
 		"comet": {
-			"explosionStrength": 5.0,
-			"destroysBlocks": false
+			"explosionStrength": 4.0
 		},
 		"summonMechanic": {
 			"isEnabled": true,
@@ -32,54 +31,36 @@
 				"minecraft:zombie_villager",
 				"minecraft:zombified_piglin"
 			],
-			"numEntitiesKilledToDropSoulStar": 70
-		},
-		"towerGeneration": {
-			"generateLichTower": true,
-			"lichTowerGenerationSpacing": 100,
-			"lichTowerGenerationSeparation": 50
+			"numEntitiesKilledToDropSoulStar": 50
 		}
 	},
 	"obsidilithConfig": {
-		"health": 750.0,
-		"armor": 20.0,
-		"attack": 20.0,
-		"idleHealingPerTick": 0.25,
+		"health": 300.0,
+		"armor": 14.0,
+		"attack": 16.0,
+		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnPillarOnDeath": true,
-		"anvilAttackExplosionStrength": 5.0,
-		"arenaGeneration": {
-			"generationHeight": 90,
-			"generationSpacing": 64,
-			"generationSeparation": 32,
-			"generationEnabled": true
-		}
+		"anvilAttackExplosionStrength": 4.0
 	},
 	"gauntletConfig": {
 		"health": 250.0,
-		"armor": 2.5,
-		"attack": 15.0,
+		"armor": 8.0,
+		"attack": 16.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnAncientDebrisOnDeath": true,
-		"energizedPunchExplosionSize": 5.0,
-		"normalPunchExplosionMultiplier": 1.5,
-		"arenaGeneration": {
-			"generationSpacing": 64,
-			"generationSeparation": 32,
-			"generationEnabled": true
-		}
+		"energizedPunchExplosionSize": 4.5,
+		"normalPunchExplosionMultiplier": 1.5
 	},
 	"voidBlossomConfig": {
-		"health": 800.0,
-		"armor": 5.0,
-		"attack": 15.0,
+		"health": 350.0,
+		"armor": 4.0,
+		"attack": 12.0,
 		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000,
-		"arenaGeneration": {
-			"generationSpacing": 64,
-			"generationSeparation": 32,
-			"generationEnabled": true
-		}
+		"experienceDrop": 1000
+	},
+	"generalConfig": {
+		"tableOfElevationRadius": 3
 	}
 }

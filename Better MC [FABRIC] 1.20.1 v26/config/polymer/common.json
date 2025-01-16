@@ -1,0 +1,14 @@
+{
+  "_c1": "Keep this one at 0, unless you credit this library in another way",
+  "coreCommandOperatorLevel": 0,
+  "_c2": "Enabled developer utilities",
+  "enableDevTools": false,
+  "_c3": "Uses simpler about display for /polymer command",
+  "minimalisticAbout": false,
+  "_c4": "Logs warnings while creating template/filter entities",
+  "enableTemplateEntityWarnings": true,
+  "_c5": "Enables logging of more exceptions. Useful when debugging",
+  "logAllExceptions": false,
+  "_c6": "Forces all player resource pack checks to always return true (detect resource pack on client)",
+  "force_resource_pack_state_to_enabled": false
+}

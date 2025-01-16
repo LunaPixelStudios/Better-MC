@@ -1,0 +1,10 @@
+#Tridents enchanted with loyalty will return when thrown into the void.
+return_trident_from_void = true
+#Tridents enchanted with loyalty bring drops and xp from the entity they have killed to the player (both melee and ranged combat).
+loyalty_captures_drops = true
+#Makes the impaling enchantment apply to any creature in contact with rain or water.
+boost_impaling = true
+#Tridents can be repaired in an anvil using prismarine shards.
+repair_tridents = true
+#Tridents will be picked up in the slot they were thrown from.
+return_trident_to_slot = true

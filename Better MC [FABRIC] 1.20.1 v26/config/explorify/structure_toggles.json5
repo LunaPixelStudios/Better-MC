@@ -1,0 +1,58 @@
+
+{
+	"dark_forest_settlements": {
+		"dark_forest_settlement": true
+	},
+	"campsites": {
+		"campsite": true
+	},
+	"taverns": {
+		"tavern": true
+	},
+	"desert_shrines": {
+		"desert_shrine": true
+	},
+	"ruins": {
+		"ruins": true
+	},
+	"mausoleums": {
+		"mausoleum": true
+	},
+	"watchtowers": {
+		"watchtower": {
+			"plains": true,
+			"taiga": true,
+			"savanna": true
+		}
+	},
+	"supply_caches": {
+		"supply_cache": {
+			"birch": true,
+			"dark": true,
+			"desert": true,
+			"forest": true,
+			"jungle": true,
+			"mangrove": true,
+			"taiga": true
+		}
+	},
+	"badlands_pyramids": {
+		"badlands_pyramid": true
+	},
+	"black_spirals": {
+		"black_spiral": true
+	},
+	"mangrove_huts": {
+		"mangrove_hut": true
+	},
+	"farmsteads": {
+		"farmstead": true
+	},
+	"guide_posts": {
+		"guide_post_cold": true,
+		"guide_post_warm": true
+	},
+	"end_shipwrecks": {
+		"end_shipwreck": true
+	}
+}

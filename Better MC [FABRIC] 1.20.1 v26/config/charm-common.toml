@@ -1,14 +1,17 @@
 [AerialAffinity]
 	#Aerial Affinity is a boots enchantment that increases mining rate when not on the ground.
 	"AerialAffinity enabled" = true
+
 [AmethystNoteBlock]
 	#Place a block of amethyst under a note block to play its placement sound.
 	"AmethystNoteBlock enabled" = true
+
 [ArcanePurpur]
 	#Arcane Purpur is a decorative block made from Purpur and Endermite Powder.
 	#If the ChorusTeleport feature is enabled, a Chiseled Arcane Purpur block
 	#allows teleportation when a chorus fruit is eaten within range of the block.
 	"ArcanePurpur enabled" = true
+
 [Atlases]
 	#Storage for maps that automatically updates the displayed map as you explore.
 	"Atlases enabled" = true
@@ -16,44 +19,56 @@
 	"Open in off hand" = false
 	#Map scale used in atlases by default.
 	"Map scale" = 0
+
 [AutoRecipeUnlock]
 	#Unlocks all vanilla recipes.
 	#This opinionated feature is disabled by default.
 	"AutoRecipeUnlock enabled" = false
+
 [AutoRestock]
 	#Refills hotbar from your inventory.
 	"AutoRestock enabled" = true
+
 [AzaleaWood]
 	#Azalea wood is obtainable from naturally occurring azalea trees or by growing azalea saplings.
 	"AzaleaWood enabled" = true
+
 [BatBuckets]
 	#Right-click a bat with a bucket to capture it.
 	#Right-click again to release it and locate entities around you.
 	"BatBuckets enabled" = true
+
 [BeaconsHealMobs]
 	#Passive and friendly mobs will heal themselves within range of a beacon with the regeneration effect.
 	"BeaconsHealMobs enabled" = true
+
 [Beekeepers]
 	#Beekeepers are villagers that trade beekeeping items. Their job site is the beehive.
 	"Beekeepers enabled" = true
+
 [CampfiresBoostHealth]
 	#Standing within range and sight of a lit campfire provides a small regeneration boost.
 	#It does not work if there are enemies nearby.
 	"CampfiresBoostHealth enabled" = true
+
 [Chairs]
 	#Right-click (with empty hand) on any stairs block to sit down.
 	"Chairs enabled" = true
+
 [ChorusTeleport]
 	#Eating a chorus fruit within range of a chiseled arcane purpur block teleports the player to the block.
 	"ChorusTeleport enabled" = true
 	#Range (in blocks) in which a player will be teleported.
 	Range = 8
+
 [ClearItemFrames]
 	#Add amethyst shards to item frames to make them invisible.
 	"ClearItemFrames enabled" = true
+
 [Collection]
 	#Tools with the Collection enchantment automatically pick up drops.
 	"Collection enabled" = true
+
 [ColoredGlintSmithingTemplates]
 	#Smithing template that changes the glint color of any enchanted item.
 	"ColoredGlintSmithingTemplates enabled" = true
@@ -61,28 +76,35 @@
 	"Loot table" = "minecraft:chests/stronghold_library"
 	#Chance (out of 1.0) of a colored glint smithing template appearing in loot.
 	"Loot chance" = 1.0
+
 [CopperPistons]
 	#Copper Pistons do not have quasi-connectivity.
 	"CopperPistons enabled" = true
+
 [CoralSeaLanterns]
 	#Coral can be combined with sea lanterns to make colored variants.
 	"CoralSeaLanterns enabled" = true
+
 [CoralSquids]
 	#Coral Squids spawn near coral in warm oceans.
 	"CoralSquids enabled" = true
 	#Chance (out of 1.0) of a coral squid dropping coral when killed.
 	"Drop chance" = 0.2
+
 [DeepslateDungeons]
 	#Dungeons in the deepslate layer will be constructed of deepslate bricks and cobbled deepslate.
 	"DeepslateDungeons enabled" = true
+
 [EnchantableHorseArmor]
 	#Horse armor can be enchanted.
 	"EnchantableHorseArmor enabled" = true
 	#Enchantments that will function on horse armor.
 	Enchantments = ["minecraft:protection", "minecraft:fire_protection", "minecraft:blast_protection", "minecraft:projectile_protection", "minecraft:thorns", "minecraft:frost_walker", "minecraft:feather_falling", "minecraft:respiration", "minecraft:soul_speed"]
+
 [EndermitePowder]
 	#Endermites drop endermite powder that can be used to locate an End City.
 	"EndermitePowder enabled" = true
+
 [ExtraMobDrops]
 	#Some mobs have a chance to drop additional items.
 	"ExtraMobDrops enabled" = true
@@ -96,10 +118,12 @@
 	"Luck drop chance" = 0.05
 	#Chance (out of 1.0) of a chicken dropping a feather at the same time as an egg.
 	"Feather drop chance" = 0.33
+
 [ExtraPortalFrames]
 	#Adds more blocks that can be used to build nether portal frames.
 	#By default this adds Crying Obsidian.
 	"ExtraPortalFrames enabled" = true
+
 [ExtraRecipes]
 	#More ways to craft items using different materials.
 	"ExtraRecipes enabled" = true
@@ -127,6 +151,7 @@
 	"TNT from gunpowder block and sand" = true
 	#If true, adds a recipe for crafting bundles from leather.
 	"Bundle from leather" = true
+
 [ExtraRepairs]
 	#More ways to repair items using different materials.
 	"ExtraRepairs enabled" = true
@@ -136,6 +161,7 @@
 	"Repair elytra using leather" = true
 	#Use netherite scrap to repair netherite item damage.
 	"Repair netherite using scrap" = true
+
 [ExtraStackables]
 	#Allows some unstackable items to stack.
 	"ExtraStackables enabled" = true
@@ -151,6 +177,7 @@
 	Stew = 16
 	#Suspicious stew maximum stack size.
 	"Suspicious stew" = 1
+
 [ExtraStews]
 	#Suspicious stews can be crafted from pitcher plants and sunflowers.
 	"ExtraStews enabled" = true
@@ -158,6 +185,7 @@
 	"Pitcher plant effect duration" = 8
 	#Number of seconds of health boost from a sunflower.
 	"Sunflower effect duration" = 8
+
 [ExtraTrades]
 	#Adds more villager trades.
 	"ExtraTrades enabled" = true
@@ -175,6 +203,7 @@
 	"Phantom membrane" = true
 	#If true, wandering traders have a chance to sell various items from Charm mods.
 	"Charm mod items" = true
+
 [ExtractableEnchantments]
 	#Extract enchantments from any enchanted item onto an empty book using the grindstone.
 	"ExtractableEnchantments enabled" = true
@@ -184,12 +213,15 @@
 	"Treasure cost" = 5
 	#If true, the item's repair cost will be added to the cost of extraction.
 	"Add item repair cost" = true
+
 [GrindableHorseArmor]
 	#Horse armor returns a single ingot, leather or diamond when used on the grindstone.
 	"GrindableHorseArmor enabled" = true
+
 [HoverSorting]
 	#Scroll the mouse while hovering over a bundle or shulker box to cycle the order of its contents.
 	"HoverSorting enabled" = true
+
 [ImprovedMineshafts]
 	#Adds decoration and more ores to mineshafts.
 	"ImprovedMineshafts enabled" = true
@@ -203,47 +235,60 @@
 	"Room blocks" = 0.25
 	#Chance (out of 1.0) for a minecart to spawn in a corridor. Minecart loot is chosen from the 'Minecart loot tables'.
 	"Extra minecarts" = 0.2
+
 [InventoryTidying]
 	#Button to automatically tidy inventories.
 	"InventoryTidying enabled" = false
+
 [Kilns]
 	#A functional block that speeds up cooking of clay, glass, bricks and terracotta.
 	"Kilns enabled" = true
+
 [LongerSuspiciousEffects]
 	#Beneficial suspicious stew effects last longer.
 	"LongerSuspiciousEffects enabled" = true
 	#Beneficial suspicious effect duration will be multiplied by this number.
 	"Effect multiplier" = 4
+
 [LowerNoteblockPitch]
 	#Use a noteblock while sneaking to lower its pitch by one semitone.
 	"LowerNoteblockPitch enabled" = true
+
 [Lumberjacks]
 	#Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
 	"Lumberjacks enabled" = true
+
 [MakeSuspiciousBlocks]
 	#Use a piston to push an item into sand or gravel, making it suspicious.
 	"MakeSuspiciousBlocks enabled" = true
+
 [Mooblooms]
 	#Mooblooms are cow-like mobs that come in a variety of flower types.
 	#They spawn flowers where they walk and can be milked for suspicious stew.
 	"Mooblooms enabled" = true
+
 [NearbyWorkstations]
 	#Use workstations such as crafting tables when in range of the block.
 	"NearbyWorkstations enabled" = true
 	#Range from which player can access a workstation.
 	Distance = 16
+
 [NoCropTrampling]
 	#Prevents crop trampling when wearing boots enchanted with Feather Falling.
 	"NoCropTrampling enabled" = true
+
 [NoPetDamage]
 	#Tamed animals do not take direct damage from players.
 	"NoPetDamage enabled" = true
+
 [OpenBothDoors]
 	#Automatically opens double doors.
 	"OpenBothDoors enabled" = true
+
 [ParrotsStayOnShoulder]
 	#Parrots stay on player's shoulder when jumping and falling. Crouch to make them dismount.
 	"ParrotsStayOnShoulder enabled" = true
+
 [PathConversion]
 	#Use a shovel or hoe to convert dirt and path blocks.
 	"PathConversion enabled" = true
@@ -251,9 +296,11 @@
 	"Convert dirt to path" = true
 	#If true, a hoe can be used to convert a path block to a dirt block.
 	"Convert path to dirt" = true
+
 [PiglinsFollowGoldBlocks]
 	#Piglins are attracted when the player holds a block of gold.
 	"PiglinsFollowGoldBlocks enabled" = true
+
 [PigsFindMushrooms]
 	#Pigs have a chance to find mushrooms from mycelium and podzol blocks.
 	"PigsFindMushrooms enabled" = true
@@ -261,33 +308,42 @@
 	"Chance to find mushroom" = 1000
 	#Chance (out of 1.0) of a block being converted to dirt when a pig finds a mushroom.
 	"Chance to erode block" = 0.25
+
 [PlayerPressurePlates]
 	#Player-only pressure plates crafted using smooth basalt.
 	"PlayerPressurePlates enabled" = true
+
 [PotionOfRadiance]
 	#Potion of Radiance gives the glowing effect. It is brewed using a torchflower.
 	"PotionOfRadiance enabled" = true
+
 [QuickReplant]
 	#Right-click with a hoe to quickly harvest and replant a fully-grown crop.
 	"QuickReplant enabled" = false
+
 [RedstoneSand]
 	#A block that acts like sand but is powered like a block of redstone.
 	"RedstoneSand enabled" = true
+
 [RevivePets]
 	#A named pet drops its name tag on death.
 	#Right-click (use) the name tag while holding a Totem of Undying to revive the pet and consume the totem.
 	"RevivePets enabled" = true
+
 [ShulkerBoxDragDrop]
 	#Drag and drop items into a shulkerbox from within your inventory.
 	"ShulkerBoxDragDrop enabled" = true
+
 [SmoothGlowstone]
 	#Smooth glowstone.
 	"SmoothGlowstone enabled" = true
+
 [SpawnerDrops]
 	#Spawners drop mob-related items when broken.
 	"SpawnerDrops enabled" = true
 	#Spawners only drop items when the game difficulty is set to peaceful.
 	"Peaceful only" = true
+
 [StorageBlocks]
 	#More item blocks.
 	"StorageBlocks enabled" = true
@@ -299,14 +355,17 @@
 	Sugar = true
 	#If true, ender pearl blocks will convert silverfish to endermites.
 	"Ender pearl block converts silverfish" = true
+
 [StrongerAnvils]
 	#Anvils are 50% less likely to take damage when used.
 	"StrongerAnvils enabled" = true
+
 [TorchflowersEmitLight]
 	#Torchflowers emit ambient light.
 	"TorchflowersEmitLight enabled" = true
 	#Amount of light emitted by a Torchflower. Valid values between 0-15.
 	"Light level" = 8
+
 [TotemOfPreserving]
 	#Preserves your items on death.
 	"TotemOfPreserving enabled" = false
@@ -322,19 +381,24 @@
 	"Owner only" = false
 	#If true, the coordinates where you died will be added to the player's chat screen.
 	"Show death position" = false
+
 [TotemsWorkFromInventory]
 	#A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
 	#This includes the Totem of Preserving, if enabled.
 	"TotemsWorkFromInventory enabled" = true
+
 [UnlimitedRepairCost]
 	#Allows anvil repair of items with repair cost 39 or more.
 	"UnlimitedRepairCost enabled" = true
+
 [VanillaWoodVariants]
 	#Barrels, bookcases, chests and ladders in all vanilla wood types.
 	"VanillaWoodVariants enabled" = true
+
 [VillagersFollowEmeraldBlocks]
 	#Villagers are attracted when the player holds a block of emeralds.
 	"VillagersFollowEmeraldBlocks enabled" = true
+
 [Woodcutters]
 	#A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
 	"Woodcutters enabled" = true

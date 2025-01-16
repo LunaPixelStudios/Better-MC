@@ -1,0 +1,32 @@
+{
+  "terrain": {
+    "layers": {
+      "bigIslands": {
+        "distance[1-8192] [default: 300.0]": 300.0,
+        "scale[0.1-1024] [default: 200.0]": 200.0,
+        "averageHeight[0-255] [default: 128]": 128,
+        "heightVariation[0-255] [default: 20]": 20,
+        "coverage[0-1] [default: 0.5]": 0.5
+      },
+      "mediumIslands": {
+        "distance[1-8192] [default: 150.0]": 150.0,
+        "scale[0.1-1024] [default: 100.0]": 100.0,
+        "averageHeight[0-255] [default: 128]": 128,
+        "heightVariation[0-255] [default: 40]": 40,
+        "coverage[0-1] [default: 0.5]": 0.5
+      },
+      "smallIslands": {
+        "distance[1-8192] [default: 60.0]": 60.0,
+        "scale[0.1-1024] [default: 50.0]": 50.0,
+        "averageHeight[0-255] [default: 128]": 128,
+        "heightVariation[0-255] [default: 60]": 60,
+        "coverage[0-1] [default: 0.5]": 0.5
+      }
+    }
+  },
+  "biomes": {
+    "landBiomeSize [default: 256]": 256,
+    "voidBiomeSize [default: 256]": 256,
+    "caveBiomeSize [default: 128]": 128
+  }
+}

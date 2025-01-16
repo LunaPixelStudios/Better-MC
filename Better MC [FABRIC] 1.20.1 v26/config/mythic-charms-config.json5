@@ -1,0 +1,43 @@
+{
+	"giveCharmiconOnSpawn": false,
+	"requirePatternToCraftCharm": true,
+	"charmsEnabled": {
+		"CharmFeatheredGraceEnabled": true,
+		"CharmBlazingEmbraceEnabled": true,
+		"CharmEarthsOrderEnabled": true,
+		"CharmGazeSerenityEnabled": true,
+		"CharmBotanicBlessingEnabled": true,
+		"CharmFleetingStridesEnabled": true,
+		"CharmNightsGuardianEnabled": true,
+		"CharmHighBoundsEnabled": true,
+		"CharmDrownedFreedomEnabled": true,
+		"CharmWeightlessFlowEnabled": true,
+		"CharmCollectorsGiftEnabled": true,
+		"CharmClimbersPathEnabled": true,
+		"CharmNaturesCallEnabled": true,
+		"CharmBartersPactEnabled": true,
+		"CharmBattleFuryEnabled": true,
+		"CharmEchoingWrathEnabled": true,
+		"CharmEnchantedWhispersEnabled": true,
+		"CharmArrowDanceEnabled": true,
+		"CharmMountainsStrengthEnabled": true,
+		"CharmSafeTerritoryEnabled": true,
+		"CharmQuietPresenceEnabled": true
+	},
+	"charmCombinationsEnabled": {
+		"CharmCombinationFeatheredGraceAndHighBoundsEnabled": true,
+		"CharmCombinationBlazingEmbraceAndBattleFuryEnabled": true,
+		"CharmCombinationEarthsOrderAndBlazingEmbraceEnabled": true,
+		"CharmCombinationEarthsOrderAndDrownedFreedomEnabled": true,
+		"CharmCombinationEarthsOrderAndWeightlessFlowEnabled": true,
+		"CharmCombinationEarthsOrderAndBattleFuryEnabled": true,
+		"CharmCombinationBotanicBlessingAndFeatheredGraceEnabled": true,
+		"CharmCombinationFleetingStridesAndHighBoundsEnabled": true,
+		"CharmCombinationFleetingStridesAndBattleFuryEnabled": true,
+		"CharmCombinationWeightlessFlowAndFeatheredGraceEnabled": true,
+		"CharmCombinationClimbersPathAndHighBoundsEnabled": true,
+		"CharmCombinationEchoingWrathAndBlazingEmbraceEnabled": true,
+		"CharmCombinationEchoingWrathAndBattleFuryEnabled": true,
+		"CharmCombinationQuietPresenceAndFeatheredGraceEnabled": true
+	}
+}
