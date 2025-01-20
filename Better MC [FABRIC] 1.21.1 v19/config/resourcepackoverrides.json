@@ -2,15 +2,16 @@
   "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
+    "fabric",
     "moonlight:mods_dynamic_assets",
     "file/Stay_True_1.21.zip",
     "file/MandalasGUI+Dakmode_1.20.5.zip",
     "file/Mandala's GUI - Dark Mode Compat 0.3.zip",
     "file/Mandela's GUI Vanilla Crosshair 1.21.zip",
     "file/Re-Simple-Storage.zip",
+    "file/NoBushyLeaves.zip",
     "seasons:seasonal_lush_caves",
-    "file/Better_MC.zip",
-    "file/NoBushyLeaves.zip"
+    "file/Better_MC.zip"
   ],
   "default_overrides": {
     "force_compatible": true
