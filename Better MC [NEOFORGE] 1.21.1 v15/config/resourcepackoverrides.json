@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
     "vanilla",
@@ -23,7 +23,7 @@
     "ffile/WDA-NoFlyingStructures-1.18.2-1.19.2.zip": {
       "hidden": true 
     },
-    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
+    "file/WhenDungeonsArise-LootTweaks-1.21.1-2.1.64.zip": {
       "hidden": true
     },
     "file/Repurposed_Structures-Friends_And_Foes_v3.zip": {
@@ -123,6 +123,9 @@
       "hidden": true
     },
     "high_contrast": {
+      "hidden": true
+    },
+    "file/WDA-NoFlyingStructures-1.18.2-1.19.2.zip": {
       "hidden": true
     }
   }
