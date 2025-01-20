@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
     "moonlight:mods_dynamic_assets",
