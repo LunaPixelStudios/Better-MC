@@ -24,3 +24,11 @@ earlyWindowSkipGLVersions = []
 maxThreads = -1
 #Squir?
 earlyWindowSquir = false
+
+#Define dependency overrides below
+#Dependency overrides can be used to forcibly remove a dependency constraint from a mod or to force a mod to load AFTER another mod
+#Using dependency overrides can cause issues. Use at your own risk.
+#Example dependency override for the mod with the id 'targetMod': dependency constraints (incompatibility clauses or restrictive version ranges) against mod 'dep1' are removed, and the mod will now load after the mod 'dep2'
+#dependencyOverrides.targetMod = ["-dep1", "+dep2"]
+[dependencyOverrides]
+	cataclysm = ["-curios"]

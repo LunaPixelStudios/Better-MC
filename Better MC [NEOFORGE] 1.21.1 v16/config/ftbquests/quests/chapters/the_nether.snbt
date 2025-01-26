@@ -60,5 +60,79 @@
 			x: 3.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			icon: {
+				id: "cataclysm:burning_ashes"
+			}
+			id: "422A0D875C50478F"
+			rewards: [
+				{
+					id: "06A8FDB259669FB9"
+					item: {
+						count: 1
+						id: "cataclysm:burning_ashes"
+					}
+					type: "item"
+				}
+				{
+					id: "694D42698DF2D903"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "563B156CBD2C299A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "1C4F04EF71998F25"
+			rewards: [{
+				id: "78B3DE0A01F658B3"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "7872B86CC7B755E6"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "4D375B53C3F5B62C"
+			rewards: [
+				{
+					id: "21733A7804C9799C"
+					item: {
+						count: 1
+						id: "cataclysm:bulwark_of_the_flame"
+					}
+					type: "item"
+				}
+				{
+					id: "53F9ED5890F67314"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "4B1BD254652B7C59"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
 	]
 }

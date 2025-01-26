@@ -36,23 +36,66 @@
 			dependency_requirement: "all_started"
 			id: "2A51F2BA00FCA9DF"
 			rewards: [{
-				count: 6
-				id: "388140BF40C4E69E"
-				item: {
-					count: 1
-					id: "minecraft:netherite_scrap"
-				}
-				random_bonus: 6
-				type: "item"
+				exclude_from_claim_all: true
+				id: "26F841954CF41285"
+				table_id: 6330018620440794907L
+				type: "random"
 			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
 				id: "412B85684482E982"
 				type: "kill"
 				value: 1L
 			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "70F040BDF969A5F8"
+			rewards: [
+				{
+					id: "535721F467914FFC"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ender_guardian"
+					}
+					type: "item"
+				}
+				{
+					id: "49A09A05A9F8170D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:kill_ender_golem"
+				criterion: ""
+				id: "5BA707A8B29318EB"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "2C899C71B8C007AC"
+			rewards: [{
+				id: "141797FB3403CD39"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "481106E98CF86EC3"
+				type: "advancement"
+			}]
 			x: 4.0d
-			y: 0.0d
+			y: 4.0d
 		}
 	]
 }
