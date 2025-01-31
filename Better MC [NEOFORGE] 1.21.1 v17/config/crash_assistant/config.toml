@@ -32,12 +32,7 @@
 	#$CONFIG.text.modpack_name$ in lang files will be replaced with this value.
 	#For example this placeHolder used in: "Oops, $CONFIG.text.modpack_name$ crashed!"
 	#Supports Better Compatibility Checker integration. You can use $BCC.modpackName$, $BCC.modpackVersion$, etc and it will be replaced with value from BCC config.
-	modpack_name = "Better MC 5 - $BCC.modpackVersion$"
-	#With this you can change formulation of first sentence of comment under title.
-	#CANT_RESOLVE - "If you can't resolve the problem by reading logs, join the $CONFIG.text.support_name$."
-	#PLS_REPORT - "If you want to report the problem or need help, join the $CONFIG.text.support_name$."
-	#For modpacks, the second option is recommended; the first is intended for individual mod downloads.
-	comment_start_formulation = "CANT_RESOLVE"
+	modpack_name = "Better MC 3 - $BCC.modpackVersion$"
 
 #Settings of modlist feature.
 #Adds in generated msg block about which mods modpack user added/removed/updated.
@@ -72,12 +67,12 @@
 	#You can include:
 	#   * some form, which users should fill out.
 	#   * additional information like Minecraft version, etc.
-	text_under_crashed = "1. 1.21.1 [NEOFORGE]\n2. What launcher did you run Minecraft with? (e.g. CurseForge, ATLauncher, MultiMC, ...)\n3. Have you changed the modpack in any way except mods?\n4. $BCC.modpackVersion$\n5. Have you ever gotten past the crash condition without crashing, or does the game always crash?\n6. What steps cause the crash?"
+	text_under_crashed = "1. 1.21.1 [FABRIC]\n2. What launcher did you run Minecraft with? (e.g. CurseForge, ATLauncher, MultiMC, ...)\n3. Have you changed the modpack in any way except mods?\n4. $BCC.modpackVersion$\n5. Have you ever gotten past the crash condition without crashing, or does the game always crash?\n6. What steps cause the crash?"
 	#With this option you can notify user about something related with posting generated message.
 	#For example if they need to fill some option from "text_under_crashed", etc.
 	#Supports html formatting, placeholders.
 	#Leave empty to prevent showing this warning message.
-	warning_after_upload_all_button_press = "Please fill form on the top of generated message."
+	warning_after_upload_all_button_press = "<strong style=\"color: green;\">Uploaded and copied successfully.</br></strong>  <strong>Now paste it into the chat.</strong>  <strong style=\"color: red;\">Please fill out the form at the head of the pasted message.</strong>"
 	#If the modpack is created for a non-English-speaking audience, сhange this to the language the modpack is designed for.
 	#This lang will be used only for generating message by "Upload all..." button.Do not modify this value if there's a chance that the generated message will be sent to English-speaking communities.
 	generated_msg_lang = "en_us"
