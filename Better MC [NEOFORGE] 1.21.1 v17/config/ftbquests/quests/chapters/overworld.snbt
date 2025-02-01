@@ -35,7 +35,7 @@
 				id: "7362BF4629FAD929"
 				type: "advancement"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
@@ -76,127 +76,133 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.535714285714285d
-			y: 0.3214285714285694d
+			x: 14.535714285714278d
+			y: 0.2678571428571459d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]
-			id: "1080AF8822FEF6E2"
-			rewards: [
-				{
-					id: "31E4737CE2962583"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					id: "0FD621105FEE9ACC"
-					item: {
-						components: {
-							"minecraft:custom_data": {
-								armor_type: "leather"
-							}
-						}
-						count: 1
-						id: "dmr:dragon_armor"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "1FA954B104410E7C"
-					item: { components: { "minecraft:custom_data": { breed: "end" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "73110E1E490DCB38"
-					item: { components: { "minecraft:custom_data": { breed: "fire" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "242BAC215A5E502C"
-					item: { components: { "minecraft:custom_data": { breed: "aether" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "12E49D1F0036D17B"
-					item: { components: { "minecraft:custom_data": { breed: "nether" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "056495E468EB6508"
-					item: { components: { "minecraft:custom_data": { breed: "forest" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "3775FBE22C220EB9"
-					item: { components: { "minecraft:custom_data": { breed: "ghost" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "359B12542CD94577"
-					item: { components: { "minecraft:custom_data": { breed: "ice" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "20B80E059EDC584C"
-					item: { components: { "minecraft:custom_data": { breed: "lush" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "16B757907609FF5F"
-					item: { components: { "minecraft:custom_data": { breed: "water" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "265629C15613F7A2"
-					item: { components: { "minecraft:custom_data": { breed: "amethyst" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-				{
-					id: "3E6D6A5F22D7CB19"
-					item: { components: { "minecraft:custom_data": { breed: "sculk" } }, count: 1, id: "dmr:dragon_egg" }
-					type: "item"
-				}
-			]
-			x: 13.035714285714285d
-			y: 2.0357142857142847d
-		}
-		{
-			dependencies: ["1080AF8822FEF6E2"]
-			id: "74C3F6F402BDAC37"
+			id: "57AD71A395C01661"
 			rewards: [{
-				id: "132E8021451463CF"
+				id: "223982394AAEBC90"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 5
 			}]
 			tasks: [{
-				id: "5596AC16C2AEAD98"
-				item: { count: 1, id: "minecraft:saddle" }
+				id: "1E1DEB3C14B93BAC"
+				item: { count: 1, id: "backpacked:backpack" }
 				type: "item"
 			}]
-			x: 13.035714285714285d
-			y: 3.4642857142857153d
+			x: 14.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["74C3F6F402BDAC37"]
-			id: "2CAD861D2E1A46D9"
+			dependencies: ["2574E7CF699D5B45"]
+			id: "1D931A64546B3449"
 			rewards: [{
-				id: "201F2F01F910EEB3"
+				id: "3C7EF13E6F83D8F2"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:luck"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "300BEA8851E4D754"
+				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D931A64546B3449"]
+			id: "457D0E46B34FB0B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14CAF5DF01457DD7"
+				table_id: 6330018620440794907L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "33F023F0364F6F32"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "463F11B6EE597F5F"
+			rewards: [{
+				id: "025FB35D10FCD112"
 				item: {
 					count: 1
-					id: "minecraft:netherite_scrap"
+					id: "cataclysm:ignitium_ingot"
 				}
-				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
-				id: "2AA87B4EFE3BA94C"
-				item: { components: { "minecraft:custom_data": { armor_type: "netherite" } }, count: 1, id: "dmr:dragon_armor" }
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					id: "cataclysm:abyss_eye"
+				}
+				id: "7A8D8159E6E782EC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "204EEC01F998DDB6"
+			rewards: [{
+				id: "496592A50A97D68B"
+				item: {
+					count: 1
+					id: "cataclysm:ignitium_ingot"
+				}
 				type: "item"
 			}]
-			x: 13.035714285714285d
-			y: 4.892857142857146d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					id: "cataclysm:mech_eye"
+				}
+				id: "185B90A46DA88824"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2574E7CF699D5B45"]
+			id: "39EE689C792C5E62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "688060C033C6EDBF"
+				table_id: 6330018620440794907L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					id: "cataclysm:cursed_eye"
+				}
+				id: "38FCC3D73DBE7CA4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: 2.0d
 		}
 	]
 }

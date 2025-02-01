@@ -1,0 +1,24 @@
+{
+	id: "12EEA057C51B1D44"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			id: "3D905ABB20AEFA27"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{ id: "745064312FD11CCA", item: { count: 1, id: "minecraft:diamond" } }
+		{
+			count: 3
+			id: "607F25C6F629F86A"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+		}
+	]
+}

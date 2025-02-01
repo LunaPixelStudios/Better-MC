@@ -99,10 +99,13 @@
 				xp_levels: 15
 			}]
 			tasks: [{
-				advancement: "cataclysm:kill_monstrosity"
-				criterion: ""
-				id: "7872B86CC7B755E6"
-				type: "advancement"
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					id: "cataclysm:infernal_forge"
+				}
+				id: "6CD425E714B2FC9D"
+				type: "kill"
+				value: 1L
 			}]
 			x: 3.0d
 			y: 2.0d
@@ -126,10 +129,13 @@
 				}
 			]
 			tasks: [{
-				advancement: "cataclysm:kill_ignis"
-				criterion: ""
-				id: "4B1BD254652B7C59"
-				type: "advancement"
+				entity: "cataclysm:ignis"
+				icon: {
+					id: "cataclysm:bulwark_of_the_flame"
+				}
+				id: "1360AB4597531194"
+				type: "kill"
+				value: 1L
 			}]
 			x: 1.0d
 			y: 0.0d
