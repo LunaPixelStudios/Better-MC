@@ -72,7 +72,7 @@
 	#For example if they need to fill some option from "text_under_crashed", etc.
 	#Supports html formatting, placeholders.
 	#Leave empty to prevent showing this warning message.
-	warning_after_upload_all_button_press = "Please fill form on the top of generated message."
+	warning_after_upload_all_button_press = "<strong style=\"color: green;\">Uploaded and copied successfully.</br></strong>  <strong>Now paste it into the chat.</strong>  <strong style=\"color: red;\">Please fill out the form at the head of the pasted message.</strong>"
 	#If the modpack is created for a non-English-speaking audience, сhange this to the language the modpack is designed for.
 	#This lang will be used only for generating message by "Upload all..." button.Do not modify this value if there's a chance that the generated message will be sent to English-speaking communities.
 	generated_msg_lang = "en_us"
