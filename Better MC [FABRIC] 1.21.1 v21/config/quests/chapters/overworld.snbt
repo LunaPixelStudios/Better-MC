@@ -109,15 +109,26 @@
 				random_bonus: 10
 				type: "item"
 			}]
-			tasks: [{
-				advancement: "friendsandfoes:adventure/the_magicians"
-				criterion: ""
-				icon: {
-					id: "friendsandfoes:totem_of_illusion"
+			tasks: [
+				{
+					entity: "minecraft:evoker"
+					id: "7FD8AFB6CA8BC384"
+					type: "kill"
+					value: 1L
 				}
-				id: "15D53F3294C6D247"
-				type: "advancement"
-			}]
+				{
+					entity: "minecraft:illusioner"
+					id: "163DA114132CDFFC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "frostiful:frostologer"
+					id: "5983C9B6A3CEB62A"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 2.5d
 			y: 1.0d
 		}

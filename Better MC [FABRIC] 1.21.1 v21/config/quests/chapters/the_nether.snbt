@@ -129,10 +129,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
-				criterion: ""
-				id: "6FA5784F6709E41C"
-				type: "advancement"
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "5AD258F70B434CD6"
+				type: "kill"
+				value: 1L
 			}]
 			x: 7.0d
 			y: 0.5d
@@ -160,10 +160,10 @@
 				}
 			]
 			tasks: [{
-				advancement: "adventurez:blackstone_golem_advancement"
-				criterion: ""
-				id: "0B635EF147B34BE5"
-				type: "advancement"
+				entity: "adventurez:blackstone_golem"
+				id: "4C29B6CDFB7465C1"
+				type: "kill"
+				value: 1L
 			}]
 			x: 4.0d
 			y: 0.5d
@@ -202,13 +202,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				advancement: "friendsandfoes:nether/kill_wildfire"
-				criterion: ""
-				icon: {
-					id: "friendsandfoes:wildfire_crown"
-				}
-				id: "425A2EC68CC1B882"
-				type: "advancement"
+				entity: "friendsandfoes:wildfire"
+				id: "30AD9CC605B4F2B1"
+				type: "kill"
+				value: 1L
 			}]
 			x: 7.0d
 			y: 3.5d
