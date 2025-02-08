@@ -16,7 +16,8 @@
         "does not belong to a known attribute. This entry will be ignored", 
         "Detected setBlock in a far chunk",
         "unable to apply palette",
-        "Failed to load palette"
+        "Failed to load palette",
+        "Couldn't find template pool reference"
       ],
       "regex": [
         ".*(Unknown block '.*' in '.*' element '.*' at index).*", 

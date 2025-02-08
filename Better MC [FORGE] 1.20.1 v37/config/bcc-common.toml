@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Better MC [FORGE] 1.20.1"
 	#The version of the modpack
-	modpackVersion = "v36"
+	modpackVersion = "v37"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
