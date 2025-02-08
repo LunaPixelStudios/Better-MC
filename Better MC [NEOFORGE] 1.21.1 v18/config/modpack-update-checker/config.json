@@ -1,9 +1,9 @@
 {
   "schemaVersion": 4,
   "currentVersion": "v6",
-  "modpackName": "BMC3 Fabric",
+  "modpackName": "BMC5 Neoforge",
   "modpackAuthor": "Luna Pixel Studios",
-  "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/bmc3-fabric/",
+  "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/bmc5-neoforge/",
   "advanced": {
     "bccEnabled": true,
     "expandButton": false,
