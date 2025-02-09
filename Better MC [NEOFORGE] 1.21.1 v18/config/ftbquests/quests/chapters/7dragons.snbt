@@ -7,7 +7,7 @@
 		id: "minecraft:dragon_egg"
 	}
 	id: "511D73FD41D418AB"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

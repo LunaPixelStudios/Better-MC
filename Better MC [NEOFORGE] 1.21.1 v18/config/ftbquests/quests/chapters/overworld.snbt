@@ -180,8 +180,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: 11.499999999999993d
+			y: 0.25d
 		}
 		{
 			dependencies: ["2574E7CF699D5B45"]

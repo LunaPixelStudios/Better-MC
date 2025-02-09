@@ -2,7 +2,7 @@
   "patches": {
     "applyPatches [default: true]": false,
     "repairBiomesOnLoad [default: false]": false,
-    "apply_patches": true
+    "apply_patches": false
   },
   "infos": {
     "verbose [default: true]": true

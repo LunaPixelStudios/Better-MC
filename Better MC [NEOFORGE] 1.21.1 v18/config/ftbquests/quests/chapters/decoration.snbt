@@ -1,0 +1,242 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decoration"
+	group: "5EC606153AA8CA77"
+	icon: {
+		id: "handcrafted:hammer"
+	}
+	id: "4A6944EF3E0DB874"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "76968FA917BBA6E0"
+			rewards: [{
+				id: "7946FF8572D283A5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4FC66D38A720AACA"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:drawers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "13B914EA3AE61CFA"
+			rewards: [{
+				id: "1E3B777119262428"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "309C3B0F0B50666B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:shelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "2802A4603874C24B"
+			rewards: [{
+				id: "2F8A653EF9FCCD8D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "321CF5219DF6D9E2"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:desks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "77BC75BC0328D7A5"
+			rewards: [{
+				id: "6DC5C7C7CE6B7A80"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6C32F0A499E4F9CB"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:nightstands)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "57F291A269AA620E"
+			rewards: [{
+				id: "48A9522F753389E6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "41BC87597421EA06"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:counters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "01D0C8DB2646FFC9"
+			rewards: [{
+				id: "0222EAEEC6069C70"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5720992B04472B2B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:cupboards)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "0172BB881A7259C8"
+			rewards: [{
+				id: "724C875326CA9B86"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0FCD20CBB1AC3395"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:benches)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "534A26E3F639437B"
+			rewards: [{
+				id: "52883F2EC060A10D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "355088417043B6EF"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:chairs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "30F40E4353F528FB"
+			rewards: [{
+				id: "013F647C56A44677"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "04EFBCE7B68CE2FA"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:fancy_beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "7F00DE181AA0C9C0"
+			rewards: [{
+				id: "3DFBD28B1BB16B22"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0230C38ADBE4C759"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:couches)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "36171301E4641F91"
+			rewards: [{
+				id: "31E9C7505579AE8F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1904BA5731935353"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "5835B89CD2B85989"
+			rewards: [{
+				id: "21BC4F5AB27A3D50"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "67DB0664BAEE34C9"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:side_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "46C44C6856C3C97B"
+			rewards: [{
+				id: "4B358A2DEDDBF795"
+				item: {
+					count: 1
+					id: "handcrafted:hammer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "262F3D10861D09F0"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:cushions)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "5C7D3880C410D7DB"
+			rewards: [
+				{
+					id: "2F68C42DF40E4C01"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "40C929DD6FFE85B1"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5627118AF3DB710B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(comforts:hammocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+	]
+}
