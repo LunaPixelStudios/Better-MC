@@ -1,0 +1,273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7dragons"
+	group: "5EC606153AA8CA77"
+	icon: {
+		id: "minecraft:dragon_egg"
+	}
+	id: "511D73FD41D418AB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"dmr:dragon_breed": "aether"
+				}
+				id: "dmr:dragon_egg"
+			}
+			id: "29B8A7C58BE20CB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51CE435D9A223890"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D7A066E3367274B"
+				item: { components: { "dmr:dragon_breed": "aether" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "00989B14B024EF72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72C67654020DAFC2"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "464FEEAA6E68652D"
+				item: { components: { "dmr:dragon_breed": "fire" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "112944D3A2A1F3C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F88CB06B38E3AE3"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "437747083BEC0745"
+				item: { components: { "dmr:dragon_breed": "nether" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "63B9268E2F6E9AC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "190BCE771007F00E"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52CAA26BE6721F31"
+				item: { components: { "dmr:dragon_breed": "forest" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "0DBCB8228E7CF7E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18EECF98F96213B9"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F62AF5D4CC3E778"
+				item: { components: { "dmr:dragon_breed": "ghost" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "7EFB7E2B9CD5A0C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "448172969A94A2F8"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BD452C1DCC3F2C8"
+				item: { components: { "dmr:dragon_breed": "ice" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "452F34517A2A1987"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08D22E2E9ABC0B3C"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7803BF1AB267355C"
+				item: { components: { "dmr:dragon_breed": "lush" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "33F9BA0C8E58B2EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41DFB38395FA60AD"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D2F02732D5619D6"
+				item: { components: { "dmr:dragon_breed": "water" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "450FF38CD6EE4608"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5337C15F749590BD"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DBE871A7F5EDF43"
+				item: { components: { "dmr:dragon_breed": "amethyst" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "3023582829A243F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4293E890BD7505A4"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6111E3085967A279"
+				item: { components: { "dmr:dragon_breed": "end" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "1BAE5BEC4335F976"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40756CD974D0878C"
+				table_id: 1364204035969326404L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EDAAC2A24F599FF"
+				item: { components: { "dmr:dragon_breed": "sculk" }, count: 1, id: "dmr:dragon_egg" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"00989B14B024EF72"
+				"63B9268E2F6E9AC7"
+				"0DBCB8228E7CF7E1"
+				"452F34517A2A1987"
+				"112944D3A2A1F3C0"
+				"1BAE5BEC4335F976"
+				"33F9BA0C8E58B2EC"
+				"29B8A7C58BE20CB8"
+				"450FF38CD6EE4608"
+				"3023582829A243F8"
+				"7EFB7E2B9CD5A0C2"
+			]
+			id: "2D7E3919B828F2FD"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					count: 8
+					id: "65846D33F292233C"
+					item: {
+						count: 1
+						id: "minecraft:cod"
+					}
+					type: "item"
+				}
+				{
+					id: "3A51C68B4AA8D692"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dmr:tame_dragon"
+				criterion: ""
+				id: "2B0C8C789654A3F5"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D7E3919B828F2FD"]
+			id: "0D8D493B7118A9BA"
+			rewards: [{
+				id: "32673429FD2D8D72"
+				item: {
+					components: {
+						"dmr:armor_type": "emerald"
+					}
+					count: 1
+					id: "dmr:dragon_armor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EC982639232E41C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(dmr:dragon_whistle.white)item(dmr:dragon_whistle.orange)item(dmr:dragon_whistle.magenta)item(dmr:dragon_whistle.light_blue)item(dmr:dragon_whistle.yellow)item(dmr:dragon_whistle.lime)item(dmr:dragon_whistle.pink)item(dmr:dragon_whistle.gray)item(dmr:dragon_whistle.light_gray)item(dmr:dragon_whistle.cyan)item(dmr:dragon_whistle.purple)item(dmr:dragon_whistle.blue)item(dmr:dragon_whistle.brown)item(dmr:dragon_whistle.green)item(dmr:dragon_whistle.black)item(dmr:dragon_whistle.red))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+}

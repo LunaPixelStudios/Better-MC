@@ -1,10 +1,10 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "welcome_to_bmc_fabric_1192"
+	filename: "welcome_to_bmc_forge_1192"
 	group: ""
 	icon: {
-		id: "minecraft:book"
+		id: "minecraft:spyglass"
 	}
 	id: "3E34934F09B08365"
 	order_index: 0
@@ -17,7 +17,7 @@
 			id: "6A52090D6BC064D7"
 			rewards: [{
 				count: 3
-				id: "1A180E722E29CBCA"
+				id: "0D6CD7B1AAA0BFAD"
 				item: {
 					count: 1
 					id: "minecraft:bread"
@@ -26,7 +26,7 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "1B0800437C68C43A"
+				id: "7958828E29C1C167"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -34,6 +34,8 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
 			icon: {
 				components: {
 					"ftbquests:icon": "ftbteams:textures/teams.png"
@@ -41,10 +43,9 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2958CA7FA6FD3E4F"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "48EE3EE04EC87E0D"
+				id: "1FEF2938BF851DAB"
 				item: {
 					count: 1
 					id: "minecraft:lantern"
@@ -57,7 +58,7 @@
 					type: "checkmark"
 				}
 				{
-					id: "56AE704F746F5FB1"
+					id: "446959F6558CBAA2"
 					item: { count: 1, id: "minecraft:bread" }
 					type: "item"
 				}
@@ -67,15 +68,15 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
+			hide_until_deps_visible: true
 			icon: {
 				id: "ftbquests:book"
 			}
 			id: "175099CF5696829E"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
 				count: 3
-				id: "090A9EB9478112B7"
+				id: "12CB6C264E6C4DD9"
 				item: {
 					count: 1
 					id: "minecraft:torch"
@@ -88,7 +89,7 @@
 					type: "checkmark"
 				}
 				{
-					id: "7E6A8349C7328D58"
+					id: "7B808CD291C51597"
 					item: { count: 1, id: "minecraft:bread" }
 					type: "item"
 				}
@@ -98,6 +99,7 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
+			hide_until_deps_visible: true
 			icon: {
 				components: {
 					"ftbquests:icon": "ftblibrary:icons/player"
@@ -105,13 +107,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2165E80C52C79992"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "59902248705592E1"
+				id: "2B181F0A9F987A40"
 				item: {
 					count: 1
-					id: "biomesoplenty:rainbow_birch_sapling"
+					id: "minecraft:cherry_sapling"
 				}
 				type: "item"
 			}]
@@ -121,7 +122,7 @@
 					type: "checkmark"
 				}
 				{
-					id: "1B0D02FFC41A9050"
+					id: "7A1A69FD0055B71E"
 					item: { count: 1, id: "minecraft:bread" }
 					type: "item"
 				}
@@ -133,14 +134,11 @@
 			dependencies: ["2958CA7FA6FD3E4F"]
 			hide_until_deps_visible: true
 			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/search.png"
-				}
-				id: "ftbquests:custom_icon"
+				id: "minecraft:spyglass"
 			}
 			id: "139DAA6E8CF4267A"
 			rewards: [{
-				id: "0094E694BCFF6481"
+				id: "1AE5746200C26691"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -153,20 +151,24 @@
 		}
 		{
 			dependencies: ["139DAA6E8CF4267A"]
+			hide_until_deps_visible: true
 			icon: {
 				components: {
 					"ftbquests:icon": "ftblibrary:icons/check"
 				}
 				id: "ftbquests:custom_icon"
 			}
-			id: "580EC3AF4A150A98"
+			id: "6A4CB4700F0082C6"
 			rewards: [{
-				id: "6CBA4CB1F14AF624"
-				type: "xp_levels"
-				xp_levels: 2
+				id: "0601437949A9B1AF"
+				item: {
+					count: 1
+					id: "farmersdelight:sweet_berry_cookie"
+				}
+				type: "item"
 			}]
 			tasks: [{
-				id: "5372E5D8527E4994"
+				id: "3B2CC7DEE30E3AB8"
 				type: "checkmark"
 			}]
 			x: 1.5d

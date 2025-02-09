@@ -1,0 +1,23 @@
+{
+	id: "60406D60038871E3"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 6
+			id: "7D89EE611205A45A"
+			item: {
+				count: 1
+				id: "minecraft:spectral_arrow"
+			}
+		}
+		{
+			count: 2
+			id: "384DB57BF0B7F463"
+			item: {
+				count: 1
+				id: "minecraft:red_bed"
+			}
+		}
+	]
+}

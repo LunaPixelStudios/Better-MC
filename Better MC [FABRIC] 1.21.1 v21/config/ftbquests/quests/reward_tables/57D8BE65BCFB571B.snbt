@@ -1,0 +1,12 @@
+{
+	id: "57D8BE65BCFB571B"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "2D9C507DD1CFE3FA", item: { count: 1, id: "advancednetherite:netherite_iron_ingot" } }
+		{ id: "1FE09131B031275A", item: { count: 1, id: "advancednetherite:netherite_gold_ingot" } }
+		{ id: "237F5F28CA0AEDD5", item: { count: 1, id: "advancednetherite:netherite_emerald_ingot" } }
+		{ id: "6A9919A81F06EECF", item: { count: 1, id: "advancednetherite:netherite_diamond_ingot" } }
+		{ id: "13DD75F26F5AA29C", item: { count: 1, id: "minecraft:enchanted_golden_apple" } }
+	]
+}

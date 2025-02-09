@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "storage"
-	group: "799D8360B26E9792"
+	group: "5EC606153AA8CA77"
 	icon: {
 		id: "minecraft:chest"
 	}
 	id: "791A53DBEED81142"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -35,7 +35,7 @@
 				item: { count: 1, id: "toms_storage:storage_terminal" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -11.0d
 		}
 		{
@@ -50,7 +50,7 @@
 				item: { count: 1, id: "toms_storage:inventory_connector" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -11.0d
 		}
 		{
@@ -69,7 +69,7 @@
 				item: { count: 1, id: "toms_storage:inventory_cable" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -9.5d
 		}
 		{
@@ -96,7 +96,7 @@
 				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -123,7 +123,7 @@
 				item: { count: 1, id: "toms_storage:crafting_terminal" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -9.5d
 		}
 		{
@@ -177,6 +177,26 @@
 			}]
 			x: -2.0d
 			y: -8.0d
+		}
+		{
+			id: "527A2B3538BBEA71"
+			rewards: [{
+				count: 6
+				id: "348ED20A3E4993D2"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "111A3E01D34A4C42"
+				item: { count: 1, id: "netherchested:nether_chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
 		}
 	]
 }
