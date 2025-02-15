@@ -1,15 +1,15 @@
 {
-  "accessories-neoforge-1.1.0-beta.27+1.21.1.jar": {
+  "accessories-neoforge-1.1.0-beta.28+1.21.1.jar": {
     "modId": "accessories",
-    "version": "1.1.0-beta.27+1.21.1"
+    "version": "1.1.0-beta.28+1.21.1"
   },
   "accessories_cclayer-9.2.2-beta.23+1.21.1-neoforge.jar": {
     "modId": "cc_layer_mod_id",
     "version": "0.beta.23"
   },
-  "accessorify-1.2.0+1.21.1.jar": {
+  "accessorify-1.3.0+1.21.1.jar": {
     "modId": "accessorify",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "adorabuild-structures-2.8.0-neoforge-1.21.3.jar": {
     "modId": "adorabuild_structures",
@@ -91,9 +91,9 @@
     "modId": "badoptimizations",
     "version": "2.2.1"
   },
-  "balm-neoforge-1.21.1-21.0.26.jar": {
+  "balm-neoforge-1.21.1-21.0.27.jar": {
     "modId": "balm",
-    "version": "21.0.26"
+    "version": "21.0.27"
   },
   "BarteringStation-v21.1.0-1.21.1-NeoForge.jar": {
     "modId": "barteringstation",
@@ -119,9 +119,9 @@
     "modId": "bhmenu",
     "version": "2.4.3"
   },
-  "biomemusic-1.21-3.1.jar": {
+  "biomemusic-1.21-3.3.jar": {
     "modId": "biomemusic",
-    "version": "3.1"
+    "version": "3.3"
   },
   "blended-compat-1.1.0.jar": {
     "modId": "blended_compat",
@@ -171,9 +171,9 @@
     "modId": "clumps",
     "version": "19.0.0.1"
   },
-  "collective-1.21.1-7.87.jar": {
+  "collective-1.21.1-7.91.jar": {
     "modId": "collective",
-    "version": "7.87"
+    "version": "7.91"
   },
   "comforts-neoforge-9.0.3+1.21.1.jar": {
     "modId": "comforts",
@@ -187,9 +187,9 @@
     "modId": "configureddefaults",
     "version": "21.1.3"
   },
-  "connectivity-1.21.1-6.8.jar": {
+  "connectivity-1.21.1-6.9.jar": {
     "modId": "connectivity",
-    "version": "6.8"
+    "version": "6.9"
   },
   "Controlling-neoforge-1.21.1-19.0.4.jar": {
     "modId": "controlling",
@@ -222,6 +222,9 @@
   "deep_aether-1.21.1-1.1.1.jar": {
     "modId": "deep_aether",
     "version": "1.1.1"
+  },
+  "deeper_additional_structures.jar": {
+    "modId": "deeper_additional_structures"
   },
   "deeperdarker-neoforge-1.21-1.3.4.jar": {
     "modId": "deeperdarker",
@@ -267,13 +270,13 @@
     "modId": "does_it_tick",
     "version": "1.1.0"
   },
-  "doubledoors-1.21.1-5.9.jar": {
+  "doubledoors-1.21.1-6.1.jar": {
     "modId": "doubledoors",
-    "version": "5.9"
+    "version": "6.1"
   },
-  "Dragon Mounts Remastered-1.21.1-1.5.10.jar": {
+  "Dragon Mounts Remastered-1.21.1-1.5.11.jar": {
     "modId": "dmr",
-    "version": "1.5.10"
+    "version": "1.5.11"
   },
   "drippyloadingscreen_neoforge_3.0.8_MC_1.21.1.jar": {
     "modId": "drippyloadingscreen",
@@ -327,9 +330,9 @@
     "modId": "explorify",
     "version": "1.6.2"
   },
-  "FallingTree-1.21.1-1.21.1.3.jar": {
+  "FallingTree-1.21.1-1.21.1.4.jar": {
     "modId": "fallingtree",
-    "version": "1.21.1.3"
+    "version": "1.21.1.4"
   },
   "fancymenu_neoforge_3.3.2_MC_1.21.1.jar": {
     "modId": "fancymenu",
@@ -451,9 +454,9 @@
     "modId": "iceberg",
     "version": "1.2.9.2"
   },
-  "IllagerInvasion-v21.1.2-1.21.1-NeoForge.jar": {
+  "IllagerInvasion-v21.1.3-1.21.1-NeoForge.jar": {
     "modId": "illagerinvasion",
-    "version": "21.1.2"
+    "version": "21.1.3"
   },
   "ImmediatelyFast-NeoForge-1.3.4+1.21.1.jar": {
     "modId": "immediatelyfast",
@@ -540,7 +543,7 @@
     "modId": "lithium",
     "version": "0.14.7+mc1.21.1"
   },
-  "lithostitched-neoforge-1.21.1-1.4.2.jar": {
+  "lithostitched-neoforge-1.21.1-1.4.4.jar": {
     "modId": "lithostitched",
     "version": "1.4.2"
   },
@@ -556,7 +559,7 @@
     "modId": "longnbtkiller",
     "version": "1.0.0"
   },
-  "lootintegration_wda-1.5.jar": {
+  "lootintegration_wda-1.6.jar": {
     "modId": "lootintegration_wda",
     "version": "1"
   },
@@ -576,7 +579,7 @@
     "modId": "lootintegrations_moog",
     "version": "1"
   },
-  "lootintegrations_yungs-1.2.jar": {
+  "lootintegrations_yungs-1.3.jar": {
     "modId": "lootintegrations_yungs",
     "version": "1"
   },
@@ -620,9 +623,9 @@
     "modId": "modpackupdatechecker",
     "version": "0.15.4"
   },
-  "moonlight-1.21-2.17.21-neoforge.jar": {
+  "moonlight-1.21-2.17.26-neoforge.jar": {
     "modId": "moonlight",
-    "version": "1.21-2.17.21"
+    "version": "1.21-2.17.26"
   },
   "morevillagers-re-1.21.x-neoforge-5.1.0.jar": {
     "modId": "morevillagers",
@@ -639,6 +642,10 @@
   "MyNethersDelight-1.21-1.7.8.jar": {
     "modId": "mynethersdelight",
     "version": "1.7.8"
+  },
+  "NaNny-1.21.1-1.0.1.jar": {
+    "modId": "nanny",
+    "version": "1.0.1"
   },
   "NaturesCompass-1.21.1-3.0.3-neoforge.jar": {
     "modId": "naturescompass",
@@ -668,17 +675,17 @@
     "modId": "noisium",
     "version": "2.3.0+mc1.21-1.21.1"
   },
-  "notenoughanimations-neoforge-1.9.1-mc1.21.jar": {
+  "notenoughanimations-neoforge-1.9.2-mc1.21.jar": {
     "modId": "notenoughanimations",
-    "version": "1.9.1"
+    "version": "1.9.2"
   },
   "oceansdelight-neoforge-1.0.3-1.21.jar": {
     "modId": "oceansdelight",
     "version": "1.0.3"
   },
-  "Oh-The-Biomes-Weve-Gone-NeoForge-2.3.4.jar": {
+  "Oh-The-Biomes-Weve-Gone-NeoForge-2.3.5.jar": {
     "modId": "biomeswevegone",
-    "version": "2.3.4"
+    "version": "2.3.5"
   },
   "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.6.jar": {
     "modId": "ohthetreesyoullgrow",
@@ -708,9 +715,9 @@
     "modId": "packanalytics",
     "version": "1.0.2"
   },
-  "packetfixer-neoforge-1.4.3-1.21-to-1.21.3.jar": {
+  "packetfixer-neoforge-2.0.2-1.21-to-1.21.3.jar": {
     "modId": "packetfixer",
-    "version": "1.4.3"
+    "version": "2.0.2"
   },
   "Patchouli-1.21-88-NEOFORGE.jar": {
     "modId": "patchouli",
@@ -808,9 +815,9 @@
     "modId": "searchables",
     "version": "1.0.2"
   },
-  "SereneSeasons-neoforge-1.21.1-10.1.0.1.jar": {
+  "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar": {
     "modId": "sereneseasons",
-    "version": "10.1.0.1"
+    "version": "10.1.0.3"
   },
   "SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar": {
     "modId": "sdrp",
@@ -820,9 +827,9 @@
     "modId": "skinlayers3d",
     "version": "1.7.4"
   },
-  "smarterfarmers-1.21-2.2.1-neoforge.jar": {
+  "smarterfarmers-1.21-2.2.2-neoforge.jar": {
     "modId": "smarterfarmers",
-    "version": "1.21-2.2.1"
+    "version": "1.21-2.2.2"
   },
   "smoothchunk-1.21-4.0.jar": {
     "modId": "smoothchunk",
@@ -892,6 +899,10 @@
     "modId": "structureessentials",
     "version": "4.2"
   },
+  "structures_tweaker-1.21.1-NeoForge-1.0.5.jar": {
+    "modId": "structures_tweaker",
+    "version": "1.0.5"
+  },
   "supplementaries-1.21-3.0.35-beta-neoforge.jar": {
     "modId": "supplementaries",
     "version": "1.21-3.0.35-beta"
@@ -936,9 +947,9 @@
     "modId": "veinmining",
     "version": "5.0.0-beta.2+1.21"
   },
-  "villagernames-1.21.1-8.1.jar": {
+  "villagernames-1.21.1-8.2.jar": {
     "modId": "villagernames",
-    "version": "8.1"
+    "version": "8.2"
   },
   "villagesandpillages-neoforge-mc1.21.1-1.0.2.jar": {
     "modId": "villagesandpillages",
@@ -960,13 +971,13 @@
     "modId": "waystones",
     "version": "21.1.10"
   },
-  "XaeroPlus-2.26.1+neoforge-1.21.1-WM1.39.2-MM25.0.0.jar": {
+  "XaeroPlus-2.26.2+neoforge-1.21.1-WM1.39.2-MM25.1.0.jar": {
     "modId": "xaeroplus",
-    "version": "2.26.1"
+    "version": "2.26.2"
   },
-  "Xaeros_Minimap_25.0.0_NeoForge_1.21.jar": {
+  "Xaeros_Minimap_25.1.0_NeoForge_1.21.jar": {
     "modId": "xaerominimap",
-    "version": "25.0.0"
+    "version": "25.1.0"
   },
   "XaerosWorldMap_1.39.2_NeoForge_1.21.jar": {
     "modId": "xaeroworldmap",
