@@ -2,18 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_nether"
-	group: "5BBB507BE497896B"
+	group: "59C90AA1B128306B"
 	icon: {
 		id: "minecraft:obsidian"
 	}
-	id: "0D7FF8F037EFF568"
-	order_index: 1
+	id: "0A66E12D4EA3FCDB"
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "46D0AAEEB69E28B3"
+			id: "50F23C5899469ADB"
 			rewards: [{
-				id: "07A6631C73901A4C"
+				id: "70CAE216D3839FF9"
 				item: {
 					components: {
 						"minecraft:potion_contents": {
@@ -31,21 +31,154 @@
 				icon: {
 					id: "minecraft:netherrack"
 				}
-				id: "7FC5892104C0744C"
+				id: "752BA7ABF06D8B61"
 				type: "dimension"
 			}]
-			x: 3.0d
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50F23C5899469ADB"]
+			id: "2B6FB2B31688349C"
+			rewards: [
+				{
+					id: "6D56B899607114F7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "449D2D0B999E6420"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:brimstone_nectar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				icon: {
+					id: "minecraft:blaze_rod"
+				}
+				id: "7029153A709704A5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50F23C5899469ADB"]
+			id: "3C6AC5C1F553653F"
+			rewards: [{
+				id: "280091B4948F14F4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "239DC09AF0907ECC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "0BFD8ED8A0E3AE60"
+			dependencies: ["50F23C5899469ADB"]
+			id: "6228AC7FFB8B4C6A"
+			rewards: [
+				{
+					id: "1AB1AAA655F7CCF9"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "237D8F2CC2753392"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:piglin_beast"
+				id: "60C901C781840EE6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50F23C5899469ADB"]
+			id: "6FE3E409F3305431"
 			rewards: [{
-				id: "6E0CF26350E2D75F"
+				id: "14B8B29FC912B931"
 				item: {
 					count: 1
-					id: "minecraft:enchanted_golden_apple"
+					id: "bosses_of_mass_destruction:blazing_eye"
 				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "5AD258F70B434CD6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50F23C5899469ADB"]
+			id: "2778DD9736386DA3"
+			rewards: [
+				{
+					count: 6
+					id: "39BA7BE94D36E782"
+					item: {
+						count: 1
+						id: "adventurez:gilded_netherite_fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "7FE6CDFAD5A51C18"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				id: "4C29B6CDFB7465C1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50F23C5899469ADB"]
+			id: "0DFA02E6F9FF12EF"
+			rewards: [{
+				count: 3
+				id: "622E126D2CA9AEFB"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -53,92 +186,29 @@
 				icon: {
 					id: "minecraft:wither_skeleton_skull"
 				}
-				id: "575C8BC94DAC2B05"
+				id: "208565526736BA1A"
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			icon: {
-				id: "cataclysm:burning_ashes"
-			}
-			id: "422A0D875C50478F"
-			rewards: [
-				{
-					id: "06A8FDB259669FB9"
-					item: {
-						count: 1
-						id: "cataclysm:burning_ashes"
-					}
-					type: "item"
-				}
-				{
-					id: "694D42698DF2D903"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [{
-				entity: "cataclysm:ignited_revenant"
-				id: "563B156CBD2C299A"
-				type: "kill"
-				value: 1L
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "1C4F04EF71998F25"
-			rewards: [{
-				id: "78B3DE0A01F658B3"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
-			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				icon: {
-					id: "cataclysm:infernal_forge"
-				}
-				id: "6CD425E714B2FC9D"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "4D375B53C3F5B62C"
-			rewards: [
-				{
-					id: "21733A7804C9799C"
-					item: {
-						count: 1
-						id: "cataclysm:bulwark_of_the_flame"
-					}
-					type: "item"
-				}
-				{
-					id: "53F9ED5890F67314"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			dependencies: ["50F23C5899469ADB"]
+			id: "277A0F5BB5027FA5"
+			rewards: [{
+				id: "6197D5559D7F9FB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
-				entity: "cataclysm:ignis"
-				icon: {
-					id: "cataclysm:bulwark_of_the_flame"
-				}
-				id: "1360AB4597531194"
+				entity: "friendsandfoes:wildfire"
+				id: "30AD9CC605B4F2B1"
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 7.0d
+			y: 3.5d
 		}
 	]
 }

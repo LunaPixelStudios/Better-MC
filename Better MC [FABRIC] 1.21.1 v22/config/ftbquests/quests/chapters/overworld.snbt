@@ -2,207 +2,135 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "overworld"
-	group: "5BBB507BE497896B"
+	group: "59C90AA1B128306B"
 	icon: {
 		id: "minecraft:grass_block"
 	}
-	id: "1D4E5CDD59FFB7A0"
+	id: "51FE38DFB14D1D53"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2574E7CF699D5B45"]
-			id: "26EA75D177BC496B"
+			id: "405691D08E18B243"
+			rewards: [{
+				id: "2277B0E27893A120"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "adventurez:mammoth"
+				icon: {
+					id: "adventurez:mammoth_tusk"
+				}
+				id: "1A8A7046D01BC519"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "0CCC9DED48871D47"
+			rewards: [{
+				id: "64A97D9F4C655275"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "adventurez:amethyst_golem"
+				icon: {
+					id: "minecraft:amethyst_cluster"
+				}
+				id: "5007F18A98D1F2B2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "6F0A8B6DD645FE7C"
+			rewards: [{
+				id: "24ED0226D837A7F2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "adventurez:desert_rhino"
+				icon: {
+					id: "adventurez:rhino_leather"
+				}
+				id: "283043A7E0180FCB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "7D6D7B7DD55F344D"
 			rewards: [
 				{
-					id: "6DA1A2B30558A913"
+					id: "3B788C347294148B"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "179403DCA4952211"
+					id: "45DAFCDEB2EA6474"
 					item: {
 						count: 1
-						id: "minecraft:netherite_scrap"
+						id: "bosses_of_mass_destruction:soul_star"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				advancement: "minecraft:adventure/hero_of_the_village"
-				criterion: ""
-				id: "7362BF4629FAD929"
-				type: "advancement"
+				entity: "adventurez:summoner"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "354A89017B6C62D7"
+				type: "kill"
+				value: 1L
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
-			id: "2574E7CF699D5B45"
+			id: "21BBC2B36580E236"
 			rewards: [{
-				count: 2
-				id: "02BE6238FEE1686D"
+				count: 20
+				id: "41F9D7E4490E062F"
 				item: {
 					count: 1
-					id: "minecraft:oak_log"
+					id: "minecraft:emerald"
 				}
-				random_bonus: 2
+				random_bonus: 10
 				type: "item"
 			}]
-			size: 1.5d
-			tasks: [{
-				id: "4145F5BE1E32262B"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 13.035714285714278d
-			y: 0.3571428571428541d
-		}
-		{
-			dependencies: ["2574E7CF699D5B45"]
-			id: "3F022B30806D39BF"
-			rewards: [{
-				id: "6772824068CD1D97"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			tasks: [{
-				entity: "minecraft:illusioner"
-				icon: {
-					id: "illagerinvasion:illusionary_dust"
+			tasks: [
+				{
+					entity: "minecraft:evoker"
+					id: "7FD8AFB6CA8BC384"
+					type: "kill"
+					value: 1L
 				}
-				id: "4049800F01B34484"
-				type: "kill"
-				value: 1L
-			}]
-			x: 14.535714285714278d
-			y: 0.2678571428571459d
-		}
-		{
-			dependencies: ["2574E7CF699D5B45"]
-			id: "57AD71A395C01661"
-			rewards: [{
-				id: "223982394AAEBC90"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "1E1DEB3C14B93BAC"
-				item: { count: 1, id: "backpacked:backpack" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2574E7CF699D5B45"]
-			id: "1D931A64546B3449"
-			rewards: [{
-				id: "3C7EF13E6F83D8F2"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:luck"
-						}
-					}
-					count: 1
-					id: "minecraft:splash_potion"
+				{
+					entity: "minecraft:illusioner"
+					id: "163DA114132CDFFC"
+					type: "kill"
+					value: 1L
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "300BEA8851E4D754"
-				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1D931A64546B3449"]
-			id: "457D0E46B34FB0B4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "14CAF5DF01457DD7"
-				table_id: 6330018620440794907L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "cataclysm:ancient_remnant"
-				id: "33F023F0364F6F32"
-				type: "kill"
-				value: 1L
-			}]
-			x: 13.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2574E7CF699D5B45"]
-			id: "463F11B6EE597F5F"
-			rewards: [{
-				id: "025FB35D10FCD112"
-				item: {
-					count: 1
-					id: "cataclysm:ignitium_ingot"
+				{
+					entity: "frostiful:frostologer"
+					id: "5983C9B6A3CEB62A"
+					type: "kill"
+					value: 1L
 				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				icon: {
-					id: "cataclysm:abyss_eye"
-				}
-				id: "7A8D8159E6E782EC"
-				type: "kill"
-				value: 1L
-			}]
-			x: 14.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2574E7CF699D5B45"]
-			id: "204EEC01F998DDB6"
-			rewards: [{
-				id: "496592A50A97D68B"
-				item: {
-					count: 1
-					id: "cataclysm:ignitium_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "cataclysm:the_harbinger"
-				icon: {
-					id: "cataclysm:mech_eye"
-				}
-				id: "185B90A46DA88824"
-				type: "kill"
-				value: 1L
-			}]
-			x: 11.499999999999993d
-			y: 0.25d
-		}
-		{
-			dependencies: ["2574E7CF699D5B45"]
-			id: "39EE689C792C5E62"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "688060C033C6EDBF"
-				table_id: 6330018620440794907L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "cataclysm:maledictus"
-				icon: {
-					id: "cataclysm:cursed_eye"
-				}
-				id: "38FCC3D73DBE7CA4"
-				type: "kill"
-				value: 1L
-			}]
-			x: 11.5d
-			y: 2.0d
+			]
+			x: 2.5d
+			y: 1.0d
 		}
 	]
 }

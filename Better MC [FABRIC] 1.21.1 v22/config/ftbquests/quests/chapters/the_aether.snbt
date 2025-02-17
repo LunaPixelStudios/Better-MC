@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_aether"
-	group: "5BBB507BE497896B"
+	group: "59C90AA1B128306B"
 	icon: {
 		id: "aether:holystone"
 	}
 	id: "566DC2763E60ED8A"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -23,7 +23,7 @@
 				icon: {
 					id: "aether:aether_portal_frame"
 				}
-				id: "1A6561D8DE5A63CE"
+				id: "31FCF5CABCAD832D"
 				type: "dimension"
 			}]
 			x: 0.0d
@@ -34,7 +34,7 @@
 			id: "0A99C7852725BFC2"
 			rewards: [{
 				count: 8
-				id: "538DEDD927846BA3"
+				id: "0E0382863EC71948"
 				item: {
 					count: 1
 					id: "aether:blue_aercloud"
@@ -63,7 +63,7 @@
 			id: "0E349CAEF1D249B6"
 			rewards: [{
 				count: 4
-				id: "7D31249AEDBC79E4"
+				id: "49774BB966DB2252"
 				item: {
 					count: 1
 					id: "aether:zanite_gemstone"
@@ -127,7 +127,7 @@
 			dependencies: ["79A852D2B339DF57"]
 			id: "038B71E71E3C8213"
 			rewards: [{
-				id: "3EA65128F6327A0C"
+				id: "7BD57D475873DA89"
 				item: {
 					count: 1
 					id: "aether:golden_gummy_swet"
@@ -148,7 +148,7 @@
 			dependencies: ["038B71E71E3C8213"]
 			id: "68BF5A98532CD5C3"
 			rewards: [{
-				id: "320ADF0FECA7F331"
+				id: "59C25E04F824F10E"
 				item: {
 					count: 1
 					id: "aether:iron_gloves"
@@ -204,7 +204,7 @@
 			dependencies: ["7149B8FB49671630"]
 			id: "221923EEDAEE1BEE"
 			rewards: [{
-				id: "3C60679D219706FB"
+				id: "24EDB2BA1FCB3470"
 				item: {
 					count: 1
 					id: "aether:golden_ring"
