@@ -11,7 +11,7 @@
     "notTheDonorType [default: true]": true
   },
   "auto_sync": {
-    "enabled [default: true]": true,
+    "enabled [default: true]": false,
     "acceptConfigs [default: true]": true,
     "acceptFiles [default: true]": true,
     "acceptMods [default: true]": true,
