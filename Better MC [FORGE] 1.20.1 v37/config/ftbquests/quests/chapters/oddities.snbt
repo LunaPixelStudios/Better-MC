@@ -661,6 +661,7 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
+			title: "Craft a &6Cog Block"
 			x: -4.0d
 			y: 1.5d
 		}

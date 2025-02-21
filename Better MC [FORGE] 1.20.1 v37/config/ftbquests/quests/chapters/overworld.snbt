@@ -438,7 +438,7 @@
 				""
 				"&4&lNether Dragon&r - To transform a &ddragon egg&r into this type, place the &ddragon egg&r in The Nether, while nearby netherrack, nether quartz ore, or nether gold ore."
 				""
-				"&1Water Dragon&r - This dragon has the special trait of making farmland moist, turning sponges into wet sponges, extinguishing fires, turning magma blocks into blackstone, and rusting copper quicker. To transform a &ddragon egg&r into this type, place the &ddragon egg&r in water, while near coral, seagrass, kelp, or sea lanterns."
+				"&1Water Dragon&r - This dragon has the special trait of making farmland moist, turning sponges into wet sponges, extinguishing fires, turning magma blocks into blackstone, and rusting copper quicker."
 			]
 			id: "43434D70D90B74D6"
 			rewards: [{
