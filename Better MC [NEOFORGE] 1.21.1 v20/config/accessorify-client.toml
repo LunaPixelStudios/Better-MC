@@ -37,3 +37,5 @@ autumn = 16086338
 # Default: 4388341
 # Range: > 0
 winter = 4388341
+scrollableZoom = true
+rememberZoomLevel = true

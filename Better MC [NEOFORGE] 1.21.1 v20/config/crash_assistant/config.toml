@@ -76,9 +76,6 @@
 	#If the modpack is created for a non-English-speaking audience, сhange this to the language the modpack is designed for.
 	#This lang will be used only for generating message by "Upload all..." button.Do not modify this value if there's a chance that the generated message will be sent to English-speaking communities.
 	generated_msg_lang = "en_us"
-	#Add ### prefix before filename.
-	#This can prevent too small, hard to hit on mobile links.
-	h3_prefix = true
 
 [greeting]
 	#You don't need to touch this option.
