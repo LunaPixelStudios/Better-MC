@@ -116,6 +116,8 @@
 		"Press &bC&r to Zoom"
 		""
 		"Press &bR&r to Ping"
+		""
+		"Press &bMiddle Mouse Button&r to Sort (Inventories, Chests, etc.)"
 	]
 	quest.2165E80C52C79992.quest_subtitle: "Read my description! Make sure to scroll down."
 	quest.2165E80C52C79992.title: "&9Important Controls"

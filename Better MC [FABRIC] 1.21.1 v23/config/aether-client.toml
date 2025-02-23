@@ -7,6 +7,8 @@
 	"Makes lightmap colder" = false
 	#Enables a green-tinted sunrise and sunset in the Aether, similar to the original mod
 	"Enables green sunrise/sunset" = false
+	#Disables the cloud rendering in the Aether
+	"Disables Aether's clouds" = false
 
 [Gui]
 	#Adds a button to the top right of the main menu screen to allow quick loading into a world if the world preview is enabled
@@ -18,7 +20,7 @@
 	#Determines the default Minecraft menu style to switch to with the menu theme button
 	"Default Minecraft menu style" = "cumulus_menus:minecraft"
 	#Adds random trivia and tips to the bottom of loading screens
-	"Enables random trivia" = true
+	"Enables random trivia" = false
 	#Makes the extra hearts given by life shards display as silver colored
 	"Enables silver life shard hearts" = true
 	#Disables the Aether's accessories button from appearing in GUIs
@@ -37,12 +39,14 @@
 	"Button x-coordinate in accessories menu" = 9
 	#The y-coordinate of the accessories button in the accessories menu
 	"Button y-coordinate in accessories menu" = 68
-	#The x-coordinate of the perks button layout when in the pause menu
-	"Layout x-coordinate in pause menu" = -116
-	#The y-coordinate of the perks button layout when in the pause menu
-	"Layout y-coordinate in pause menu" = 0
 	#Enables the overlay at the top of the screen for the Hammer of Kingbdogz' cooldown
 	"Enables Hammer of Kingbdogz' cooldown overlay" = true
+	#Disables the Aether's Moa Skins button from appearing in GUIs
+	"Disables the Moa Skins button" = false
+	#The x-coordinate of the layout of perks buttons when in the pause menu
+	"Perks layout x-coordinate in pause menu" = -116
+	#The y-coordinate of the layout of perks buttons when in the pause menu
+	"Perks layout y-coordinate in pause menu" = 0
 
 [Audio]
 	#Makes Blue Aerclouds have their wobbly sounds that play when bouncing on them
