@@ -178,5 +178,25 @@
 			x: -2.0d
 			y: -8.0d
 		}
+		{
+			id: "55949A5DC9264888"
+			rewards: [{
+				count: 6
+				id: "22D2B94CF073F6B0"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "75281281A477293E"
+				item: { count: 1, id: "netherchested:nether_chest" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
 	]
 }

@@ -1,0 +1,10 @@
+{
+	"example_modid": {
+		"msg": "Custom msg on crash for this mod id. You can use $JAR_NAME$ placeholder, which will be replaced with jar name. You can use HTML here, it will work.",
+		"should_crash_on_startup": true
+	},
+	"essential-container": {
+		"should_crash_on_startup": true,
+		"msg": "The Essential mod(<strong>$JAR_NAME$</strong>) is completely incompatible with all of our modpacks, and there's no reason to use it.\nAll of our modpacks already come with built-in, free world hosting, by clicking the <strong>Share World</strong> button in the <strong>Open to LAN</strong> menu."
+	}
+}

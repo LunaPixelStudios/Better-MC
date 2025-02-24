@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1736163868932
+  last_edited_time = 1740366538766
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:350ab81f-e574-4de1-9a46-385d05056707-1736163757167] = [groups:error;][instances:]
+  [loading_requirement_container_meta:5d7b7242-e806-47ff-ac4a-673f14a94219-1740365877799] = [groups:error;][instances:]
   [loading_requirement_group:error] = [group_mode:or]
   [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if][group:error][req_id:d6b40eca-0d58-4be2-9668-0d47621754d41689477508732] = optifine
   [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if][group:error][req_id:cf9abb3d-7aec-439b-87b9-fd107cd955c11689477524834] = tlskincape
@@ -30,6 +30,9 @@ scroll_list_customization {
   repeat_scroll_list_footer_texture = false
   show_screen_background_overlay_on_custom_background = false
   apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
 }
 
 element {
