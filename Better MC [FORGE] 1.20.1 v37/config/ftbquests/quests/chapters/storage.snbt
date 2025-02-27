@@ -5,7 +5,7 @@
 	group: "5EC606153AA8CA77"
 	icon: "minecraft:chest"
 	id: "057A5A3DCD793460"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -180,5 +180,5 @@
 			y: -1.0d
 		}
 	]
-	title: " Storage"
+	title: " &3Storage"
 }

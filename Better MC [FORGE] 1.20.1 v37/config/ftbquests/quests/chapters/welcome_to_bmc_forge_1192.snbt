@@ -167,7 +167,7 @@
 				item: "biomesoplenty:rainbow_birch_sapling"
 				type: "item"
 			}]
-			subtitle: "Read my description! Make sure to scroll down."
+			subtitle: "Read my description!"
 			tasks: [
 				{
 					id: "6A64112F92690241"

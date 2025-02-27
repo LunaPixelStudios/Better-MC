@@ -8,6 +8,7 @@
     "bccEnabled": true,
     "expandButton": true,
     "updateCheckerType": 2,
-    "showAllChangelogsIfUpToDate": false
+    "showAllChangelogsIfUpToDate": false,
+    "markdownRenderer": "builtin:basic"
   }
 }
