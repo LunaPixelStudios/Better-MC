@@ -1,9 +1,0 @@
-{
-  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
-  "general": {
-    "pickup_food_override": true,
-    "eat_food": true,
-    "time_to_harvest": 40,
-    "debug_renderer": false
-  }
-}

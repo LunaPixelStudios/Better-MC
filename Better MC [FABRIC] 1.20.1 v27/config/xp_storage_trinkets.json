@@ -1,8 +1,0 @@
-{
-  "xpConduitAllowed": true,
-  "xpConduitMaxDamage": 1000,
-  "xpConduitTransfer": 75,
-  "xpSaverAllowed": true,
-  "xpSaverMaxDamage": 1,
-  "xpSaverTransfer": 50
-}
