@@ -1,4 +1,0 @@
-#Disables File Watcher. Used to automatically update config if its file has been modified.
-disableConfigWatcher = false
-#Default config path for servers
-defaultConfigPath = "defaultconfigs"

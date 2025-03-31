@@ -1,4 +1,0 @@
-#Collect partial pick-up entries (when there isn't enough room in your inventory) in the log.
-#Might accidentally log items that have not been picked up, therefore it can be disabled.
-#Default Value: true
-partial_pick_ups = true
