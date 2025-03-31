@@ -1,6 +1,0 @@
-{
-  "__comment": "This is an ignore list for the target of Jade. You can add registry ids to the \"values\" list.",
-  "values": [
-    "barrier"
-  ]
-}

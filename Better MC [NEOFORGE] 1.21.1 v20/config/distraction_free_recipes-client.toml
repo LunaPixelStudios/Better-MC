@@ -1,9 +1,0 @@
-#.
-#Turns the mod's effects on/off.
-"Enable Distraction-Free Mode" = true
-#.
-#Lowers the opacity of the search bar to make it blend in more.
-"Lower Opacity ?" = false
-#.
-#Show a message prompting the user to search to view recipes.
-"Show Help Text" = true

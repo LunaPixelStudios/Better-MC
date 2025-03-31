@@ -1,8 +1,0 @@
-	###########################################################################################################
-	## General settings.
-	###########################################################################################################
-	["YUNG's Better Nether Fortresses".General]
-		# Whether or not vanilla Nether Fortresses should be disabled.
-		# Default: true
-		#
-		"Disable Vanilla Nether Fortresses" = true

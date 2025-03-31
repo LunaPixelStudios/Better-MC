@@ -1,6 +1,0 @@
-#Render food bar when riding a mount.
-#Default Value: true
-food_bar = true
-#Render experience bar when not jumping with a mount.
-#Default Value: true
-experience_bar = true

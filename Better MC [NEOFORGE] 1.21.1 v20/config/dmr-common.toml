@@ -1,3 +1,0 @@
-#Allow the vanilla ender egg to be interacted with? (Hatchable)
-#Useful to help with mod compatability
-allow_egg_override = true

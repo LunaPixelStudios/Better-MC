@@ -1,6 +1,0 @@
-#Render inventory contents of an anvil.
-#Default Value: true
-render_anvil_contents = true
-#Add a tooltip to name tag items explaining how the change the name on the fly.
-#Default Value: true
-name_tag_tooltip = true
