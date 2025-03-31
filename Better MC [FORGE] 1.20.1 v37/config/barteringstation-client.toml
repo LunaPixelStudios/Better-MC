@@ -1,4 +1,0 @@
-#Way of showing current cooldown of a bartering station.
-#Allowed Values: NONE, OVERLAY, ARROWS, BOTH
-cooldown_render_type = "ARROWS"
-

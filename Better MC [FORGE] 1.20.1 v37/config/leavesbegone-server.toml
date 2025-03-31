@@ -1,7 +1,0 @@
-#Maximum ticks it takes for leaves to decay.
-#Range: > 0
-maximum_decay_ticks = 20
-#Minimum ticks after which leaves will start to decay.
-#Range: > 0
-minimum_decay_ticks = 5
-
