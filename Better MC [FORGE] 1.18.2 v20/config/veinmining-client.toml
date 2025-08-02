@@ -1,9 +1,0 @@
-
-["vein mining"]
-	#Whether to activate vein mining (if using with the enchantment) by standing, crouching, or holding down the keybind
-	#Allowed Values: STANDING, CROUCHING, KEYBINDING
-	activationState = "KEYBINDING"
-	#Whether to activate vein mining (if using without the enchantment) by standing, crouching, or holding down the keybind
-	#Allowed Values: STANDING, CROUCHING, KEYBINDING
-	activationStateWithoutEnchantment = "KEYBINDING"
-
