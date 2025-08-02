@@ -1,6 +1,0 @@
-
-[easy_enchanting]
-	#Render inventory contents of an enchanting table.
-	#Allowed Values: NONE, FLAT, FLOATING, FANCY_FLOATING
-	"Render Enchanting Table Contents" = "FANCY_FLOATING"
-

@@ -1,5 +1,0 @@
-
-[Slots]
-	#The slot identifier for the valid slot in which Twilight Forest charms can be equipped (E.G. 'Charm', 'Necklace', etc.). Case does not matter.
-	"Valid Curios Equipment Slot" = "Charm"
-
